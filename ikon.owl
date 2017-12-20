@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://kerndatensatz-forschung.de/owl/Basis#"
      xml:base="http://kerndatensatz-forschung.de/owl/Basis"
+     xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:Meta2="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Meta#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
