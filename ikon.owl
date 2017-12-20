@@ -831,9 +831,9 @@
     
 
 
-    <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssume -->
+    <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme -->
 
-    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssume">
+    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
