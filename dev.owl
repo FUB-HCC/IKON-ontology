@@ -572,6 +572,18 @@
     
 
 
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isPartOf">
+        <dcterms:hasVersion>http://dublincore.org/usage/terms/history/#isPartOf-003</dcterms:hasVersion>
+        <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.org/dc/terms/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
+        <rdfs:label xml:lang="de">ist Teil von</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1378,6 +1390,20 @@
         <rdfs:comment xml:lang="en">A data property linking an entity to an acronym used to identify it, based on its full name or title.  For example, this ontology has the full name &apos;Funding, Research Administration and Projects Ontology&apos; and the acronym &apos;FRAPO&apos;.</rdfs:comment>
         <rdfs:label xml:lang="de">Akronym</rdfs:label>
         <rdfs:label xml:lang="en">has acronym</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description">
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#descriptionT-001"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:modified>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="de">Beschreibung</rdfs:label>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
     </owl:DatatypeProperty>
     
 
