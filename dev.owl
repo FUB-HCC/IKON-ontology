@@ -2,11 +2,13 @@
 <rdf:RDF xmlns="http://ontologies.mfn-berlin.de/ikon#"
      xml:base="http://ontologies.mfn-berlin.de/ikon"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
+     xmlns:Basis="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:frapo="http://purl.org/cerif/frapo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1"/>
@@ -37,6 +39,41 @@
     <!-- http://kerndatensatz-forschung.de/owl/Meta#pgbid -->
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#pgbid"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
     
 
 
@@ -1341,6 +1378,20 @@
         <rdfs:comment xml:lang="en">A data property linking an entity to an acronym used to identify it, based on its full name or title.  For example, this ontology has the full name &apos;Funding, Research Administration and Projects Ontology&apos; and the acronym &apos;FRAPO&apos;.</rdfs:comment>
         <rdfs:label xml:lang="de">Akronym</rdfs:label>
         <rdfs:label xml:lang="en">has acronym</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#identifierT-001"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:modified>
+        <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:DatatypeProperty>
     
 
