@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://kerndatensatz-forschung.de/owl/Basis#"
-     xml:base="http://kerndatensatz-forschung.de/owl/Basis"
-     xmlns:Meta1="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Meta#"
+<rdf:RDF xmlns="http://ontologies.mfn-berlin.de/ikon#"
+     xml:base="http://ontologies.mfn-berlin.de/ikon"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:frapo="http://purl.org/cerif/frapo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:kdsf="http://kerndatensatz-forschung.de/owl/Basis#">
-    <owl:Ontology rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis">
-        <owl:versionIRI rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1"/>
-        <owl:imports rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Meta/version1"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
+        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1"/>
+        <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
+        <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -513,6 +514,23 @@
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart"/>
         <Meta:inhaltlicheDefinition>Fi6</Meta:inhaltlicheDefinition>
         <rdfs:label xml:lang="de">hat Zugangsart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#hatLeitthema -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#hatLeitthema">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+                    <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://ontologies.mfn-berlin.de/ikon#Leitthema"/>
+        <rdfs:label xml:lang="de">hat Leitthema</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1291,6 +1309,38 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <Meta:inhaltlicheDefinition>Na95</Meta:inhaltlicheDefinition>
         <rdfs:label xml:lang="de">hat Promotionsberechtigung aus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="de">redaktioneller Titel</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/cerif/frapo/hasAcronym -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/cerif/frapo/hasAcronym">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment xml:lang="en">A data property linking an entity to an acronym used to identify it, based on its full name or title.  For example, this ontology has the full name &apos;Funding, Research Administration and Projects Ontology&apos; and the acronym &apos;FRAPO&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="de">Akronym</rdfs:label>
+        <rdfs:label xml:lang="en">has acronym</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2530,6 +2580,14 @@
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel"/>
         <Meta:inhaltlicheDefinition>Pu29</Meta:inhaltlicheDefinition>
         <rdfs:label xml:lang="de">ePaper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#Leitthema -->
+
+    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Leitthema">
+        <rdfs:label xml:lang="de">Leitthema</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
