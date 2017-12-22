@@ -858,6 +858,974 @@
     
 
 
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">201</FK-Nr>
+        <rdfs:label xml:lang="de">Grundlagen der Biologie und Medizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Biochemie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Biophysik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Zellbiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Strukturbiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Allgemeine Genetik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Entwicklungsbiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-07">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-07</Fach-Nr>
+        <rdfs:label xml:lang="de">Bioinformatik und Theoretische Biologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-08">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201-08</Fach-Nr>
+        <rdfs:label xml:lang="de">Anatomie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</FK-Nr>
+        <rdfs:label xml:lang="de">Pflanzenwissenschaften</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Evolution und Systematik der Pflanzen und Pilze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Pflanzenökologie und Ökosystemforschung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Organismische Interaktionen und chemische Ökologie pflanzlicher Systeme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Pflanzenphysiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Biochemie und Biophysik der Pflanzen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Zell- und Entwicklungsbiologie der Pflanzen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-07">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202-07</Fach-Nr>
+        <rdfs:label xml:lang="de">Genetik der Pflanzen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</FK-Nr>
+        <rdfs:label xml:lang="de">Zoologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Systematik und Morphologie der Tiere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Evolution, Anthropologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Ökologie der Tiere, Biodiversität und Ökosystemforschung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Biologie des Verhaltens und der Sinne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Biochemie und Physiologie der Tiere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Evolutionäre Zell- und Entwicklungsbiologie der Tiere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</FK-Nr>
+        <rdfs:label xml:lang="de">Mikrobiologie, Virologie und Immunologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Stoffwechselphysiologie, Biochemie und Genetik der Mikroorganismen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Mikrobielle Ökologie und Angewandte Mikrobiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Medizinische Mikrobiologie, Parasitologie, medizinische Mykologie und Hygiene, Molekulare Infektionsbiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Virologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Immunologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">205</FK-Nr>
+        <rdfs:label xml:lang="de">Medizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Epidemiologie, Medizinische Biometrie, Medizinische Informatik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Public Health, medizinische Versorgungsforschung, Sozialmedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Humangenetik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Physiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Ernährungswissenschaften</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Pathologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-07">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-07</Fach-Nr>
+        <rdfs:label xml:lang="de">Klinische Chemie und Pathobiochemie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-08">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-08</Fach-Nr>
+        <rdfs:label xml:lang="de">Pharmazie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-09">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-09</Fach-Nr>
+        <rdfs:label xml:lang="de">Pharmakologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-10">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-10</Fach-Nr>
+        <rdfs:label xml:lang="de">Toxikologie, Arbeitsmedizin und Rechtsmedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-11">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-11</Fach-Nr>
+        <rdfs:label xml:lang="de">Anästhesiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-12">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-12</Fach-Nr>
+        <rdfs:label xml:lang="de">Kardiologie, Angiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-13">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-13</Fach-Nr>
+        <rdfs:label xml:lang="de">Pneumologie, Klinische Infektiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-14">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-14</Fach-Nr>
+        <rdfs:label xml:lang="de">Hämatologie, Onkologie, Transfusionsmedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-15">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-15</Fach-Nr>
+        <rdfs:label xml:lang="de">Gastroenterologie, Stoffwechsel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-16">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-16</Fach-Nr>
+        <rdfs:label xml:lang="de">Nephrologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-17">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-17</Fach-Nr>
+        <rdfs:label xml:lang="de">Endokrinologie, Diabetologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-18">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-18</Fach-Nr>
+        <rdfs:label xml:lang="de">Rheumatologie, Klinische Immunologie, Allergologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-19">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-19</Fach-Nr>
+        <rdfs:label xml:lang="de">Dermatologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-20">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-20</Fach-Nr>
+        <rdfs:label xml:lang="de">Kinder- und Jugendmedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-21">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-21</Fach-Nr>
+        <rdfs:label xml:lang="de">Frauenheilkunde und Geburtshilfe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-22">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-22</Fach-Nr>
+        <rdfs:label xml:lang="de">Reproduktionsmedizin/ -biologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-23">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-23</Fach-Nr>
+        <rdfs:label xml:lang="de">Urologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-24">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-24</Fach-Nr>
+        <rdfs:label xml:lang="de">Biogerontologie und Geriatrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-25">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-25</Fach-Nr>
+        <rdfs:label xml:lang="de">Allgemein- und Viszeralchirurgie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-26">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-26</Fach-Nr>
+        <rdfs:label xml:lang="de">Herz-, Thorax-, Gefäßchirurgie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-27">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-27</Fach-Nr>
+        <rdfs:label xml:lang="de">Unfallchirurgie und Orthopädie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-28">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-28</Fach-Nr>
+        <rdfs:label xml:lang="de">Zahnheilkunde; Mund-, Kiefer- und Gesichtschirurgie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-29">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-29</Fach-Nr>
+        <rdfs:label xml:lang="de">Hals-Nasen-Ohrenheilkunde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-30">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-30</Fach-Nr>
+        <rdfs:label xml:lang="de">Radiologie und Nuklearmedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-31">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-31</Fach-Nr>
+        <rdfs:label xml:lang="de">Radioonkologie und Strahlenbiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-32">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205-32</Fach-Nr>
+        <rdfs:label xml:lang="de">Biomedizinische Technik und Medizinische Physik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">206</FK-Nr>
+        <rdfs:label xml:lang="de">Neurowissenschaft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Molekulare Neurowissenschaft und Neurogenetik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Zelluläre Neurowissenschaft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Entwicklungsneurobiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Systemische Neurowissenschaft, Computational Neuroscience, Verhalten</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Organismische Neurobiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Kognitive Neurowissenschaft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-07">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-07</Fach-Nr>
+        <rdfs:label xml:lang="de">Molekulare und Zelluläre Neurologie, Neuropathologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-08">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-08</Fach-Nr>
+        <rdfs:label xml:lang="de">Klinische Neurowissenschaften I - Neurologie, Neurochirurgie, Neuroradiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-09">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-09</Fach-Nr>
+        <rdfs:label xml:lang="de">Biologische und molekulare Psychiatrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-10">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-10</Fach-Nr>
+        <rdfs:label xml:lang="de">Klinische Neurowissenschaften II - Psychiatrie, Psychotherapie, Kinder- und Jugendspychiatrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-11">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206-11</Fach-Nr>
+        <rdfs:label xml:lang="de">Klinische Neurowissenschaften III - Augenheilkunde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fachkollegium"/>
+        <terms:isPartOf rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Lebenswissenschaften"/>
+        <FK-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">207</FK-Nr>
+        <rdfs:label xml:lang="de">Agrar-, Forstwissenschaften und Tiermedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-01">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-01</Fach-Nr>
+        <rdfs:label xml:lang="de">Bodenwissenschaften</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-02">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-02</Fach-Nr>
+        <rdfs:label xml:lang="de">Pflanzenbau und Agrartechnik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-03">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-03</Fach-Nr>
+        <rdfs:label xml:lang="de">Pflanzenernährung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-04">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-04</Fach-Nr>
+        <rdfs:label xml:lang="de">Ökologie von Agrarlandschaften</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-05">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-05</Fach-Nr>
+        <rdfs:label xml:lang="de">Pflanzenzüchtung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-06">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-06</Fach-Nr>
+        <rdfs:label xml:lang="de">Phytomedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-07">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-07</Fach-Nr>
+        <rdfs:label xml:lang="de">Agrarökonomie und -soziologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-08">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-08</Fach-Nr>
+        <rdfs:label xml:lang="de">Forstwissenschaften</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-09">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-09</Fach-Nr>
+        <rdfs:label xml:lang="de">Tierzucht, Tierhaltung und Tierhygiene</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-10">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-10</Fach-Nr>
+        <rdfs:label xml:lang="de">Tierernährung und Tierernährungsphysiologie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-11">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-11</Fach-Nr>
+        <rdfs:label xml:lang="de">Grundlagen der Tiermedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-12">
+        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik#Fach"/>
+        <terms:isPartOf rdf:resource="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+        <Fach-Nr rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207-12</Fach-Nr>
+        <rdfs:label xml:lang="de">Grundlagen von Pathogenese, Diagnostik, Therapie und Klinische Tiermedizin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -946,6 +1914,94 @@
             <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=113#113-03"/>
             <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=113#113-04"/>
             <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=113#113-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-07"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=201#201-08"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=202#202-07"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=204#204-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-07"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-08"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-09"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-10"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-11"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-12"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-13"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-14"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-15"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-16"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-17"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-18"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-19"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-20"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-21"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-22"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-23"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-24"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-25"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-26"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-27"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-28"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-29"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-30"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-31"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=205#205-32"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-07"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-08"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-09"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-10"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=206#206-11"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-01"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-02"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-03"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-04"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-05"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-06"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-07"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-08"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-09"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-10"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-11"/>
+            <rdf:Description rdf:about="http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=207#207-12"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
