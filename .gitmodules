@@ -1,0 +1,3 @@
+[submodule "imports/dfg-fachsystematik"]
+	path = imports/dfg-fachsystematik
+	url = git@github.com:joetm/dfg-fachsystematik.git
