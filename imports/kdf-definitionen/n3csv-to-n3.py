@@ -14,6 +14,7 @@ n3writer = csv.writer(outfile,
 with open('kdf-definitionen-n3.csv', 'rb') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=' ', quotechar='"')
     for row in csvreader:
+        row.append("@de")
         row.append(".")
         n3writer.writerow(row)
 
