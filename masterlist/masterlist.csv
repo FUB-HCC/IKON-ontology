@@ -1,0 +1,1076 @@
+"Subject","Type","Parent","Version","Description","Domain","Range","Status","Notizen"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzungszugriffe","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlNutzungszugriffe-001","Beispielsweise Zugriffe auf Online-Systeme ohne identifizierbare
+individuelle Nutzer oder Ausleihvorgänge.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung","http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+"N5402a6fb7f9949598f82323b15fe842a","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerProfessur","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BezeichnungDerProfessur-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelertraege","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmittelertraege-001","Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
+von Destatis (H203/32137100-5) zu erfassen durch Forschungseinrichtungen
+mit kaufmännischem Rechnungswesen:
+
+Drittmittelerträge sind Erträge, die zur Förderung von Forschung und
+Entwicklung sowie des wissenschaftlichen Nachwuchses und der Lehre
+zusätzlich zum regulären Forschungseinrichtungshaushalt (Grundausstattung)
+von öffentlichen oder privaten Stellen eingeworben werden. Drittmittel
+können der Forschungseinrichtung selbst, einer ihrer Untereinrichtungen
+(z.B. Fakultäten, Fachbereiche, Institute) oder einzelnen Wissenschaftlern
+zur Verfügung gestellt werden.
+
+Es werden grundsätzlich nur solche Mittel erfasst, die in die
+Forschungseinrichtungshaushalte eingestellt bzw. die von der
+Forschungseinrichtung auf Verwahrkonten verwaltet werden.
+
+Drittmittel werden ohne Umsatzsteuer erfasst. Bei einer Mischfinanzierung
+in Kooperationen werden die an der jeweiligen Einrichtung eingeworbenen
+Mittel prozentual zugeordnet. Im Sinne einer dopplungsfreien Erhebung sind
+weitergereichte Mittel nicht mitzuzählen.
+
+Drittmittelerträge werden einschließlich Programmpauschalen / Overheads
+ausgewiesen.
+
+Diese Angabe versteht sich als Alternative zu Dr1a. Nur eines der beiden
+Kerndaten ist zu erfassen.
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#float"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dissertation","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift","None","None","None","None"
+"N5fc8e7e7e9e14fa6a4a6475b6ba3d58b","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektbeginn-001","Als Projektbeginn zählt das Jahr des Projektbeginns laut
+Bewilligungsbescheid bzw. Vereinbarung mit dem Förderer. Liegt kein
+Startdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#dateTime"
+"Ne00fbc36834c40ef8a8e0e60c8cf9e64","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Geschlecht-001","Das Geschlecht ist als ""männlich"", ""weiblich"" oder ""ohne Angabe"" anzugeben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","N5e2d9c9fba124ec080cf825ebf1530e0"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatQualifizierungsverfahren-001","Anzahl an Qualifizierungsverfahren, die der meldenden Hochschule
+erfolgreich abgelegt wurden.
+
+Im Sinne des Kerndatensatz Forschung werden die Abschlüsse Promotion und
+Habilitation erfasst.
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag-001","Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der
+Betreuungsvereinbarung oder des Arbeitsvertrages zu bestimmen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://purl.org/dc/terms/modified","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"Nb60f0418f69b4f889919698c1f0a6516","http://www.w3.org/2000/01/rdf-schema#Datatype","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheVortragsfolien","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPatent-001","Der Titel des Patentes aus der Anmeldung.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://purl.org/dc/elements/1.1/description","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"Nefb30d94a547423fbdaf49767850dbc7","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#KoordinatorEinrichtung-001","Zu erfassen sind Einrichtungen.
+
+Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
+Für ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC
+Berkeley).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKoordinator","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatKoordinator-001","Im Sinne der Dokumentation von Verbünden oder vergleichbaren Strukturen. Zu
+erfassen sind Einrichtungen.
+
+Bei verteilten Forschungsinfrastrukturen sollte die Gesamtmeldung durch den
+Koordinator erfolgen, der selbst eine Aggregation aus den Meldungen der
+dezentralen Betreiber vollzieht. Im einfachsten Fall ist der Betreiber
+gleich dem Koordinator.
+
+Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
+Für ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC
+Berkeley).
+
+Hinweis: Die Koordination ist nicht optional, wenn eine
+Forschungsinfrastruktur eingetragen wird.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmitteleinnahmen-001","Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
+von Destatis (H203/32137100-5) zu erfassen durch Forschungseinrichtungen
+mit kameralistischem Rechnungswesen:
+
+Drittmitteleinnahmen sind Einnahmen, die zur Förderung von Forschung und
+Entwicklung sowie des wissenschaftlichen Nachwuchses und der Lehre
+zusätzlich zum regulären Forschungseinrichtungshaushalt (Grundausstattung)
+von öffentlichen oder privaten Stellen eingeworben werden. Drittmittel
+können der Forschungseinrichtung selbst, einer ihrer Untereinrichtungen
+(z.B. Fakultäten, Fachbereiche, Institute) oder einzelnen Wissenschaftlern
+zur Verfügung gestellt werden.
+
+Es werden grundsätzlich nur solche Mittel erfasst, die in die
+Forschungseinrichtungshaushalte eingestellt bzw. die von der
+Forschungseinrichtung auf Verwahrkonten verwaltet werden.
+
+Drittmittel werden ohne Umsatzsteuer erfasst. Bei einer Mischfinanzierung
+in Kooperationen werden die an der jeweiligen Einrichtung eingeworbenen
+Mittel prozentual zugeordnet. Im Sinne einer dopplungsfreien Erhebung sind
+weitergereichte Mittel nicht mitzuzählen.
+
+Drittmitteleinnahmen werden einschließlich Programmpauschalen / Overheads
+ausgewiesen.
+
+Diese Angabe versteht sich als Alternative zu Dr1b. Nur eines der beiden
+Kerndaten ist zu erfassen.
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#float"
+"N5e2d9c9fba124ec080cf825ebf1530e0","http://www.w3.org/2000/01/rdf-schema#Datatype","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikation","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPublikation-001","Publikationen, die nachweislich unter Nutzung der benannten
+Forschungsinfrastruktur entstanden sind. Der Nachweis kann erfolgen durch:
+(a) Autoren oder Co-Autorenschaft einer der MitarbeiterInnen der FI oder
+(b) durch eine Nennung der FI im Text (z.B. in Material & Methoden,
+Quellen) oder in der Danksagung. Möglichkeiten der Erfassung können z.B.
+durch die Nutzungsbedingungen, die eine Co-Autorenschaft oder Hinweise in
+der Danksagung erbitten, geregelt werden. Es können Publikationen von
+Instituts- und nicht Instituts-Mitarbeitern gelistet werden.
+Die Metadaten sind entsprechend der Definitionen des Bereichs Publikationen
+des Kerndatensatz Forschung zu erfassen.
+
+Den Betreibern wird dringend empfohlen, in ihren Nutzungsbedingungen
+festzuschreiben, die Nutzung ihrer Forschungsinfrastruktur an eine
+bibliometrisch nachvollziehbare Zitation zu binden. Dies kann
+beispielsweise über die Zitation des jeweiligen Übersichtsartikels einer
+Forschungsinfrastruktur im Journal of largescale research facilities
+(JLSRF) *http://www.jlsrf.org/index.php/lsf* erfolgen. Auf diese Weise
+lässt sich eine nachvollziehbare Dokumentation der Nutzung von
+Forschungsinfrastrukturen erreichen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitation","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Unbefristet","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung","None","None","None","None"
+"N6c1af3ff13cd46709edd5923ebd551f3","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Review","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://ontologies.mfn-berlin.de/ikon#Leitthema","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"N20d821869b62478ab1e07169d811d06c","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitHerausgeberfunktion","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Na041ce0115b54d00adb32b8f226f120a","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBefristung-001","Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
+Arbeitsvertragsverhältnis zur berichtenden Einrichtung steht.
+
+Für das Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des
+Beschäftigten bei mehreren Arbeitsverträgen nach Arbeitsvertrag. Bsp: Hat
+eine Person einen befristeten und einen unbefristeten Arbeitsvertrag mit
+einem Beschäftigungsanteil von jeweils 50%, geht dies anteilig in die
+Ausdifferenzierung des Kerndatums Vollzeitäquivalente ein.
+
+Für das Kerndatum Kopfzahlen wird eine Person als unbefristet geführt,
+sobald ein Vertrag unbefristet ist.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatQualifikation-001","Die Qualifikation der Beschäftigten wird aufgeschlüsselt nach Habilitation
+und Promotion. Gezählt wird jeweils der höchste Abschluss.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GewerblicheWirtschaftUndSonstigePrivateBereiche","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFormat","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFormat-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikationstyp","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPublikationstyp-001","Kategorisierung aller Publikationsformate anhand von Eigenschaften wie
+Erscheinungsweise und Quelle, z.B. in Journalartikel, Sammelbandbeitrag,
+Monographie u.a..
+
+Englisch:
+Categorization of all publishing formats based on criteria such as
+publication and source, e.g. in journal articles, book chapters, monographs.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeInternationaleOrganisationen","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographiePublikationstyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitiert","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatZugangsart","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatZugangsart-001","Mehrfachnennungen möglich:
+A) User Access (z.B. über wissenschaftliches Antragsverfahren für externe
+Nutzer)
+B) Shared Access (z.B. über wissenschaftliche Kollaborationen mit der
+Betreibereinrichtung)
+C) Open Access (Freier Zugang zu bspw. Wissensressourcen)
+
+Wird eine FI auf verschiedenen Wegen zur Nutzung angeboten (bspw. lokal und
+virtuell) so sind zwei Meldungen erforderlich. So kann z.B. eine physische
+Sammlung 'lokal' und ihr Digitalisat in Form einer Datenbank 'virtuell'
+genutzt werden. Weiterhin sind je nach Verortung einer FI in der verlinkten
+Matrix unterschiedliche Angaben zu Nutzung/Auslastung sinnvoll (bspw.
+Unterscheidung der Angaben für lokal + User Access und virtuellen + open
+access).
+
+Hinweis: Die Art des Zugangs ist nicht optional, wenn eine
+Forschungsinfrastruktur eingetragen wird.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart"
+"N0cd0122625a345e485a0accb5373ada4","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatAnmelder","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DFG","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Journalartikel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promoviert","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Datensammlung","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgeberschaftEinesSonderheftsEinerZeitschrift","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Kooperationspartner","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Kooperationspartner-001","Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+Hochschule und einer außeruniversitären Forschungseinrichtung, einer
+Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
+(z.B. aus der Wirtschaft) oder eines Arbeitsvertrags bei einer
+außeruniversitären Forschungseinrichtung, einer Fachhochschule, einer
+anderen Universität oder einer sonstigen Einrichtung promoviert wurden oder
+promovieren.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatGemeinsameBerufung","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatGemeinsameBerufung-001","Gemeinsame Berufungen setzen ein gemeinsames Berufungsverfahren einer
+Hochschule und einer Forschungseinrichtung voraus (näher erläutert in
+""Gemeinsame Berufungen von leitenden Wissenschaftlerinnen und
+Wissenschaftlern durch Hochschulen und außerhochschulische
+Forschungseinrichtungen"" der Gemeinsamen Wissenschaftskonferenz
+*http://www.gwk-bonn.de/fileadmin/Papers/GWK-Heft-37-Gemeinsame-Berufungen.pdf*
+).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektbeginn-001","Als Projektbeginn zählt das Jahr des Projektbeginns laut
+Bewilligungsbescheid bzw. Vereinbarung mit dem Förderer. Liegt kein
+Startdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://ontologies.mfn-berlin.de/ikon#hatLeitthema","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Geschlecht-001","Das Geschlecht ist als ""männlich"", ""weiblich"" oder ""ohne Angabe"" anzugeben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","N5e2d9c9fba124ec080cf825ebf1530e0"
+"Nf98e198962fe4aa5b4cf198537e25603","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vertretungsprofessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://ontologies.mfn-berlin.de/ikon#mapping","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlagsort","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verlagsort-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelProjekt-001","Anzugeben ist der Titel zum Zeitpunkt der Bewilligung.
+
+Sofern ein Projekt vertraulich bleiben muss, ist es dem ""Mittelgeber""
+""Nicht erklärt"" zuzuordnen. In diesem Fall kann auch der Titel des Projekts
+frei bleiben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#string"
+"N0f7ab1ef3fc44e06a7e7d4ff0e1db3d1","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FoerderkennzeichenPublikation-001","Das Förderkennzeichen des Mittelgebers, sofern in der Publikation angegeben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verwaltungspersonal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie","None","None","None","None"
+"http://purl.org/dc/terms/hasVersion","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Altersgruppe","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Altersgruppe-001","Altersgruppe der Beschäftigten zum Erfassungsstichtag. Zu berichten in
+Fünf-Jahres-Gruppen analog zu Destatis, Fachserie 11, Reihe 4.4: unter 25
+Jahren, 25 bis unter 30, 30 bis unter 35, 35 bis unter 40, 40 bis unter 45,
+45 bis unter 50, 50 bis unter 55, 55 bis unter 60, 60 bis unter 65, 65 und
+älter.
+
+Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten
+zu berechnen, sofern eine Einrichtung diese intern vorhält.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Monographie","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LetterToTheEditor","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#DatumDerPrioritaetsbegruendendenErstanmeldung-001","Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des
+Anmeldetages.
+
+Jede Erstanmeldung wird nur einfach gezählt, unabhängig davon, für welche
+und in wie vielen Ländern die Erstanmeldung einer bestimmten Erfindung
+erfolgt.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeitraegeInterviewsInNicht-wissenschaftlichenMedien","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenDrittmittelprojekt","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FoerderkennzeichenDrittmittelprojekt-001","Das Förderkennzeichen des Mittelgebers, sofern vorhanden. Das
+Förderkennzeichen dient wesentlich der Vereinfachung der Datenerhebung, da
+somit Angaben der Förderer verknüpft werden können.
+
+Sofern ein Projekt vertraulich bleiben muss, ist es dem ""Mittelgeber""
+""Nicht erklärt"" zuzuordnen. In diesem Fall kann auch das Förderkennzeichen
+frei bleiben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ArbeitspapierForschungsbericht","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatOrganisationseinheit-001","Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende
+organisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird
+empfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen
+des DFG-Research Explorers zu verwenden. Davon abweichende, in
+Einrichtungen etablierte, Bezeichnungen sind ebenfalls zulässig. Sie
+sollten im Sinne einer einheitlichen Benennung der DFG gemeldet werden.
+
+Objekte werden der Organisationseinheit zugeordnet mit der sie verbunden
+sind.
+
+Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
+überschneidungsfrei ab.
+
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3","Ne252f9305b2d47f3bd68c0b6aa2d291f","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPersonalkategorie-001","Gliederung der Beschäftigten in vier Gruppen:
+- Wissenschaftliches und künstlerisches Personal
+- Wissenschaftsunterstützendes Personal
+- Verwaltungspersonal
+- Sonstiges Personal
+
+Für das Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des
+Beschäftigten in eine der Gruppen nach Arbeitsvertrag. Bsp: Hat eine Person
+einen Arbeitsvertrag mit 50% als wissenschaftliches und künstlerisches
+Personal und zu 50% Verwaltungspersonal geht dies anteilig in die
+Ausdifferenzierung des Kerndatums Vollzeitäquivalente ein.
+
+Für das Kerndatum Kopfzahlen erfolgt die Zuordnung des Beschäftigten nach
+dem Arbeitsvertrag mit dem höchsten Anteil. Bei mehreren Arbeitsverträgen
+gleichen Umfangs erfolgt eine individuelle Zuordnung. Diese Zuordnungsregel
+gelten auch für die Ausdifferenzierungen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Eine Übersicht der Zuordnungen ist unter
+*http://www.kerndatensatz-forschung.de/version1/Konkordanz_Personalkategorie.pdf*
+einsehbar.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Virtuell","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBetreiber-001","Affiliation aller am Betrieb der Forschungsinfrastrukur beteiligten
+Partner. Bei mehreren Partnern Hervorhebung des koordinierenden Partners.
+
+Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
+Wenn nicht möglich, sowie für ausländische Einrichtungen ISO-Landescode
+(z.B. USA) und Name (z.B. UC Berkeley).
+
+Hinweis: Der Betreiber ist nicht optional, wenn eine
+Forschungsinfrastruktur eingetragen wird.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTaetigkeitsart","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatTaetigkeitsart-001","Nicht erhoben werden geringfügig Beschäftigte mit weniger als 20 Stunden
+Arbeitszeit (Kurse, Einzelvorträge) im gesamten Berichtsjahr.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OpenAccess","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#VertragslaufzeitInMonaten-001","Angabe von Vertragsmonaten des aktuellen Vertrages.
+
+Bei Kopfzählung ist die Laufzeit des Vertrages mit dem größten
+Arbeitszeitanteil anzugeben. Bei gleichem Arbeitszeitanteil wird die
+Vertragslaufzeit des Vertrages mit der längeren Laufzeit angegeben. Für das
+Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des Beschäftigten bei
+mehreren Arbeitsverträgen nach Arbeitsvertrag.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet","http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Wissensressourcen","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp","None","None","None","None"
+"http://ontologies.mfn-berlin.de/ikon","http://www.w3.org/2002/07/owl#Ontology","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#DatumDerPrioritaetsbegruendendenErstanmeldung-001","Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des
+Anmeldetages.
+
+Jede Erstanmeldung wird nur einfach gezählt, unabhängig davon, für welche
+und in wie vielen Ländern die Erstanmeldung einer bestimmten Erfindung
+erfolgt.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Nc27d42005281449a9260141667261599","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Besoldung-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","N0f64cd6a793a40f293fa668dd8038c66"
+"N3a3b5bba55ce4506b1158610a53c4805","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#UserAccess","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertOeffentlicheMittelgeber","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://www.w3.org/2003/06/sw-vocab-status/ns#term_status","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitAutorenfunktion","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet-001","Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der Annahme
+als Doktorand am Fachbereich / an der Fakultät zu bestimmen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://purl.org/dc/terms/issued","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Abschlusszeitpunkt-001","Im Sinne des Kerndatensatz Forschung zählen als Zeitpunkt des Abschlusses
+das Kalenderjahr und optional der Monat der letzten Prüfungsleistung.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Foerderer-001","Eine Institution, die für die Publikation erbrachte Forschung
+(mit-)finanziert hat. Falls vorhanden, sollen hier importierte
+Förderinformationen aus Publikationsdatenbanken angegeben werden.
+Nach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen
+wird die Erfassung nach Fundref (
+*http://www.crossref.org/services/funder-registry/*) und/oder ISNI-Standard
+(im letzten Fall gemeinsam mit der ISNI-ID).
+
+Englisch: An Institution, which has financially supported the research
+underlying this publication. If available, funding information from
+bibliometric databases shall be imported and inserted here.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetriebspersonal","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBetriebspersonal-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EU","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#InformationsUndKommunikationsinfrastrukturen","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgegebenesBuch","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","None","None","None","None"
+"N1dbdb14c37554a93a12d50aaeeb8d5ff","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertPrivateMittelgeber","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsnummer","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Veroeffentlichungsnummer-001","Die Veröffentlichungsnummer dient zur Recherche weiterer Informationen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2001/XMLSchema#string"
+"N3d64b2c1a5f146f0968596e9549b79f7","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"N0f64cd6a793a40f293fa668dd8038c66","http://www.w3.org/2000/01/rdf-schema#Datatype","None","None","None","None","None"
+"http://purl.org/dc/terms/identifier","http://www.w3.org/2002/07/owl#FunctionalProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bundeslaender","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://purl.org/cerif/frapo/isFundingAgencyFor","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://xmlns.com/foaf/0.1/Organization","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"N5e51844566e24ab98a7ac42734ee71c2","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugriffsrechte","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Zugriffsrechte-001","Die Beschreibung der Zugangsrechte erfolgt entlang des „Access Rights
+Vocabulary“ der Confederation of Open Access Repositorires (COAR):
+*https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/access-rights-vocabulary/*
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mischfinanzierung","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFach","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFach-001","Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine
+Organisationseinheit. Alle zu ihr gehörenden Objekte ‚erben‘ die
+Fachzuordnung der Organisationseinheit. Grundlage für die Fachzuordnung
+sind die Fächersystematiken des Statistischen Bundesamtes. Die Zuordnung
+der Organisationseinheiten erfolgt in höchstmöglicher Detaillierung. Diese
+sollte dem Fachgebiet („Viersteller“ gemäß Destatis, z. B. 3710 –
+Anorganische Chemie) für Hochschulen, in jedem Fall jedoch mindestens der
+Fächergruppe („Zweisteller“) entsprechen.
+Sofern eine Aggregation nach Fächern inhaltlich nicht sinnvoll ist, reicht
+es aus, Kerndaten nach Organisationseinheiten aggregiert bereit zu halten.
+Eine Konkordanz zur DFG-Systematik findet sich auf der Website der DFG (
+*http://www.dfg.de/dfg_profil/zahlen_fakten/*).
+
+Die Zuordnung erfolgt per Festschreibung, d.h. eine nachträgliche
+Aktualisierung der Daten im Kerndatensatz ist nicht vorgesehen.
+
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3","Nc27d42005281449a9260141667261599","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach"
+"http://purl.org/dc/terms/isPartOf","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Neef3f7f8b9a6436ab7bf7f361e8e11f2","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://purl.org/cerif/frapo/hasAcronym","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Schoepfername-001","Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
+mehrere Schöpfer, z.B. Autoren, haben, die alle aufzulisten sind.
+
+First and last name of the creator. A work may have two or more joint
+creators, e.g. authors, which have to be all listed.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FoerderkennzeichenPublikation-001","Das Förderkennzeichen des Mittelgebers, sofern in der Publikation angegeben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"N0cea4e10c1ae4bd38082029ae528d681","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatVerlag-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Juniorprofessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Teilzeit","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionDokumenttyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"N47a0d35556be48018b36b3100d284a5f","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrossgeraeteUndInstrumente","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OrdentlicheProfessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Lokal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftsunterstuetzendesPersonal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPromotionsprogramm","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPromotionsprogramm-001","Anzugeben ist der Titel des strukturierten Promotionsprogrammes.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatNutzung-001","Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die
+Entscheidung über die jeweils anzugebeneden Daten liegt beim
+Betreiber/Koordinator.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelband","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatMittelgeber-001","Für die Erhebung im Kerndatensatz werden keine einzelnen Mittelgeber
+aufgelistet, sondern die Drittmittel nach den angeführten
+Mittelgeberkategorien zusammengefasst.
+Erfolgt eine Förderung z.B. durch einen Projektträger des Bundes ist der
+Drittmittelgeber als 'Bund' zu erfassen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Eine Übersicht der Zuordnungen ist unter
+*http://www.kerndatensatz-forschung.de/version1/Konkordanz_Drittmittelgeber.pdf*
+einsehbar.
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber"
+"http://purl.org/cerif/frapo/hasFundingAgency","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"Nfecf63749df44a409740e5d7638bc78a","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSprecher","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSprecher-001","Name der Person mit Sprecherrolle für das strukturierte Promotionsprogramm.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFinanzierungsform","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFinanzierungsform-001","Art der Einnahme, aus der der Beschäftigte finanziert wird. Bei mehreren
+Finanzierungsarten erfolgt die Zuordnung gemäß dem höchsten
+Finanzierungsanteil. Bei gleichen Anteilen erfolgt die Zuordnung aufgrund
+einer inhaltlich begründeten Entscheidung. Sofern sich keine klare
+Festlegung treffen lässt, ist die Kategorie Mischfinanzierung zu wählen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","Nf98e198962fe4aa5b4cf198537e25603","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprachcode","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sprachcode-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfer","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSchoepfer-001","Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
+mehrere Schöpfer, z.B. Autoren, haben, die alle aufzulisten sind.
+
+First and last name of the creator. A work may have two or more joint
+creators, e.g. authors, which have to be all listed.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#VertragslaufzeitInMonaten-001","Angabe von Vertragsmonaten des aktuellen Vertrages.
+
+Bei Kopfzählung ist die Laufzeit des Vertrages mit dem größten
+Arbeitszeitanteil anzugeben. Bei gleichem Arbeitszeitanteil wird die
+Vertragslaufzeit des Vertrages mit der längeren Laufzeit angegeben. Für das
+Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des Beschäftigten bei
+mehreren Arbeitsverträgen nach Arbeitsvertrag.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet","http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlGenutzteStunden","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlGenutzteStunden-001","Beispielsweise für (Labor-)Geräte, etc.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung","http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigerTyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Besoldung-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","N0f64cd6a793a40f293fa668dd8038c66"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seitenbereich","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Seitenbereich-001","Angabe der Anfangs- und Endseite der Publikation.
+
+The first and last page of a publication.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUebergeordnetesProjekt-001","Die Angabe des Titels des übergeordneten Projektes dient der Abbildung der
+logischen Struktur. Ein Teilprojekt liegt dann vor, wenn z.B. ein eigenes
+Förderkennzeichen vergeben wurde. Der Detailgrad der Ausweisung von
+Teilprojekten bleibt der Einrichtung überlassen.
+
+Sofern ein Projekt vertraulich bleiben muss, ist es dem ""Mittelgeber""
+""Nicht erklärt"" zuzuordnen. In diesem Fall kann auch der Titel des
+übergeordneten Projektes frei bleiben.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheUndKuenstlerischeMitarbeiter","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LaenderDerBeteiligtenInstitutionen","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#LaenderDerBeteiligtenInstitutionen-001","Anzugeben ist das Land der beteiligten ausländischen Institution (nicht das
+Bundesland bei inländischen beteiligten Institutionen).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Autor","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verteilt","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bund","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"N16fd5ae6fd4a435a98f049ef94be10d8","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionPublikationstyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektende-001","Als Projektende zählt das Jahr des Projektendes laut Bewilligungsbescheid
+bzw. Vereinbarung mit dem Förderer. Liegt kein Enddatum vor, kann das Jahr
+des letzten Mittelabrufs eingesetzt werden.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitAutorenfunktion","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Konferenzname-001","Titel des wissenschaftlichen Treffens; ein Sammelband sowie
+Sammelbandbeitrag wird durch diesen Eintrag als Konferenzband bzw.
+Konferenzartikel erkennbar.
+
+Title of a scientific meeting; An edited book (Sammelband) or inbook with
+this attached to it is a proceedings and proceedings article, respectively.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/owl/Meta#pgbid","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBefristung-001","Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
+Arbeitsvertragsverhältnis zur berichtenden Einrichtung steht.
+
+Für das Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des
+Beschäftigten bei mehreren Arbeitsverträgen nach Arbeitsvertrag. Bsp: Hat
+eine Person einen befristeten und einen unbefristeten Arbeitsvertrag mit
+einem Beschäftigungsanteil von jeweils 50%, geht dies anteilig in die
+Ausdifferenzierung des Kerndatums Vollzeitäquivalente ein.
+
+Für das Kerndatum Kopfzahlen wird eine Person als unbefristet geführt,
+sobald ein Vertrag unbefristet ist.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform","None","None","None","None"
+"http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Heft","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Heft-001","Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.
+
+Englisch:
+A single instance of periodical literature such as a journal, e.g. Volume
+103, Issue 2.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://purl.org/cerif/frapo/supports","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitationsschrift","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift","None","None","None","None"
+"http://purl.org/dc/terms/identifier","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErstbetreuer","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatErstbetreuer-001","Anzugeben ist, ob der Erstbetreuer an der berichtenden Einrichtung tätig
+ist (ja / nein).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatKooperationspartner-001","Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+Hochschule und einer außeruniversitären Forschungseinrichtung, einer
+Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
+(z.B. aus der Wirtschaft) oder eines Arbeitsvertrags bei einer
+außeruniversitären Forschungseinrichtung, einer Fachhochschule, einer
+anderen Universität oder einer sonstigen Einrichtung promoviert wurden oder
+promovieren.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","N1dbdb14c37554a93a12d50aaeeb8d5ff"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#MeetingAbstract","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sondermittel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Nc4ef57b035bd47c599c308b73db1c54f","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Universitaet","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner","None","None","None","None"
+"http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition","http://www.w3.org/2002/07/owl#AnnotationProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vollzeit","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsjahr","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Veroeffentlichungsjahr-001","Das Veröffentlichungsjahr bezieht sich bei Artikeln i.d.R. auf das Datum
+der Paginierung; bei e-only-Veröffentlichungen auf das Datum der
+Online-Veröffentlichung mit einem Persistent Identifier. Bei allen anderen
+Formaten wird es anhand der Vorlage angegeben. Bei Publikationen, die
+mehrere Auflagen aufweisen, wird das Datum der Erstveröffentlichung
+angegeben.
+Das Veröffentlichungsjahr soll (für Gruppierungsfunktionen) immer
+ausgefüllt sein; bei parallelen Print- und Online-Veröffentlichungen
+sollten beide Daten ausgefüllt sein und können voneinander abweichen.
+
+RDA-Bezeichnung: Erscheinungsdatum
+
+Englisch:
+The publication year refers usually to the date of pagination in case of
+articles; in case of e-only articles it refers to the time an article is
+published online with a persistent identifier. In case of all other formats
+it is specified as in the original. For publications that have multiple
+editions the date of the first publication is specified. The publication
+year should always be indicated (for grouping functions); in case of
+parallel print and online publications, both data should be filled out and
+may differ.
+
+RDA name: Date of publication
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"N6382d876544f4d41ad08c7d216a7111a","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTyp","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatTyp-001","A) Großgeräte und Instrumente
+B) Wissensressourcen
+C) Informations- und Kommunikationsinfrastrukturen
+D) Sonstige
+
+Wird eine FI auf verschiedenen Wegen zur Nutzung angeboten (bspw. lokal und
+virtuell) so sind zwei Meldungen erforderlich. So kann z.B. eine physische
+Sammlung 'lokal' und ihr Digitalisat in Form einer Datenbank 'virtuell'
+genutzt werden. Weiterhin sind je nach Verortung einer FI in der verlinkten
+Matrix unterschiedliche Angaben zu Nutzung/Auslastung sinnvoll (bspw.
+Unterscheidung der Angaben für lokal + User Access und virtuellen + open
+access).
+
+Hinweis: Der Typ der Infrastruktur ist nicht optional, wenn eine
+Forschungsinfrastruktur eingetragen wird.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Eine Übersicht von Beispielen für die einzelnen Typen ist unter
+*http://www.kerndatensatz-forschung.de/version1/Typen_Forschungsinfrastrukturen.pdf*
+einsehbar.
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp"
+"http://purl.org/cerif/frapo/FundingAgency","http://www.w3.org/2002/07/owl#Class","http://xmlns.com/foaf/0.1/Organization","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit","http://www.w3.org/2002/07/owl#FunctionalProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPatent-001","Der Titel des Patentes aus der Anmeldung.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzposter","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerForschungsinfrastruktur","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BezeichnungDerForschungsinfrastruktur-001","Bezeichnung der wissenschaftlichen Forschungsinfrastruktur. Sofern
+zutreffend sollte die Bezeichnung derjenigen aus der Risources-Datenbank
+der DFG entsprechen und ggf. durch die dort verwendete ID ergänzt werden (
+*http://risources.dfg.de*).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprache","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sprache-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Software","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesWissenschaftlichesUndKuenstlerischesPersonal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeKooperationspartner","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitHerausgeberfunktion","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AusserplanmaessigeProfessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#PeerReviewed-001","Anzugeben ist, ob die Publikation durch ein Redaktionskomitee oder im
+Auftrag eines Redakteurs durch externe Fachkollegen inhaltlich begutachtet
+worden ist.
+
+Anzugeben für Artikel und Buchbeiträge.
+
+Englisch:
+It is to be specified, if a publication has been reviewed by members of an
+editorial board of a scientific journal of book series or by external peers
+on request of an editor.
+
+Hinweis: In Abwesenheit eindeutiger Quellen für das Begutachtungsverfahren
+von Publikationen müssen Publikationslisten unter Einbeziehung der
+Autorinnnen und Autoren qualitätsgesichert werden. Damit besteht eine
+Grundlage für die Erfassung des Begutachtungswesens.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#boolean"
+"http://ontologies.mfn-berlin.de/ikon#Kooperationspartner","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NeuerPublikationstyp","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSchoepfertyp-001","Im Sinne des Kerndatensatz Forschung wird die Autorrolle mit dem
+Schöpfertyp spezifiziert. Standard-Eintrag ist Autor (Pu52).
+
+RDA-Bezeichnung: Beziehungskennzeichnung
+
+Englisch:
+For the purposes of the core research data set the author role is to be
+specified with the metadatum creator type. Standard entry is Author (Pu52).
+
+RDA name: Relationship designator
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp"
+"N2a2ef1a6316a4150a2d3dd8447f757da","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AltersgruppeBeiAbschluss-001","Zu berichten in Fünf-Jahres-Gruppen analog zu Destatis, Fachserie 11, Reihe
+4.4: unter 25 Jahren, 25 bis unter 30, 30 bis unter 35, 35 bis unter 40, 40
+bis unter 45, 45 bis unter 50, 50 bis unter 55, 55 bis unter 60, 60 bis
+unter 65, 65 und älter.
+Nur zu erfassen durch titelverleihende Einrichtung.
+
+Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten
+zu berechnen, sofern eine Einrichtung diese intern vorhält.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ePaper","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel","None","None","None","None"
+"N5d9cc74599ef4608bec06359056291cf","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicherArtikel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektende-001","Als Projektende zählt das Jahr des Projektendes laut Bewilligungsbescheid
+bzw. Vereinbarung mit dem Förderer. Liegt kein Enddatum vor, kann das Jahr
+des letzten Mittelabrufs eingesetzt werden.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#dateTime"
+"http://purl.org/cerif/frapo/isSupportedBy","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeteiligteInstitutionen","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BeteiligteInstitutionen-001","Umfasst nationale und internationale Institutionen. Die Angabe erfolgt nach
+Schlüsselliste (wenn verfügbar).
+Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
+Für ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC
+Berkeley).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatForschungsfeld","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatForschungsfeld-001","Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
+problemorientiert mit einem thematisch abgrenzbaren Gegenstandsbereich, der
+quer zu Disziplinen liegt, beschreiben lassen. Ein Forschungsfeld sollte
+auf einem Abstraktionsgrad definiert sein, der den Berichtszwecken des
+Kerndatensatzes entspricht.
+
+Zu befüllen anhand einer geschlossenen Liste mit Forschungsfeldern (Vgl.
+Spezifikation).
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","Nf6b2813e870b496d822a91cc47848f77","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatErfinder-001","Der Vorname und Name der erfindenden Person. Einrichtungsinterne Erfinder
+werden über die Personaldaten erfasst, einrichtungsexterne Erfinder als
+Freitextfeld.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name","http://www.w3.org/2002/07/owl#DatatypeProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatArt","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatArt-001","A) Lokal
+B) Verteilt
+C) Virtuell
+
+Wird eine FI auf verschiedenen Wegen zur Nutzung angeboten (bspw. lokal und
+virtuell) so sind zwei Meldungen erforderlich. So kann z.B. eine physische
+Sammlung 'lokal' und ihr Digitalisat in Form einer Datenbank 'virtuell'
+genutzt werden. Weiterhin sind je nach Verortung einer FI in der verlinkten
+Matrix unterschiedliche Angaben zu Nutzung/Auslastung sinnvoll (bspw.
+Unterscheidung der Angaben für lokal + User Access und virtuellen + open
+access).
+
+Hinweis: Die Art der Infrastruktur ist nicht optional, wenn eine
+Forschungsinfrastruktur eingetragen wird.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Staatsangehoerigkeit","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Staatsangehoerigkeit-001","Es wird unterschieden zwischen Inland und Ausland. Personen mit mehreren
+Staatsangehörigkeiten, die sowohl dem deutschen als auch weiteren Staaten
+angehören, werden nur der Kategorie Inland zugeordnet.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der ""Abnahmesitzung"" des Beirates
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPromotionsberechtigungAus","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPromotionsberechtigungAus-001","Es wird unterschieden zwischen Inland und Ausland. Personen mit
+Promotionsberechtigungen aus mehreren Ländern, die sowohl in Deutschland
+als auch weiteren Ländern erworben wurden, werden nur der Kategorie Inland
+zugeordnet.
+
+Durch titelverleihende Einrichtung zu erfassen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeDrittmittelgeber","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerQuelle-001","Name des Journals, der Reihe oder des Sammelbandes.
+Der Name des Journals, der zeitschriftenähnlichen Reihe oder des
+Sammelbandes wird als Metadatum des Journalartikels bzw. des
+Sammelbandbeitrags angegeben. Fakultativ können Journalnamen und
+-identifier zentral vorgehalten werden. Ein Sammelband ist außerdem in dem
+Fall, in dem die Herausgeberschaft eines Sammelbandes als Publikation
+eingegeben wird, als separater Eintrag vorzunehmen.
+
+Englisch:
+Name of journal, series or edited Book which is to be entered as metadatum
+of the journal article or inbook, respectively. Journal names and journal
+identifier optionally may be stored centrally. Edited books are to be
+entered as separate entries as well in the case that the edition of the
+edited book shall be entered as publication.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SharedAccess","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Bewilligungssumme-001","Bewilligungssumme laut Bewilligungsbescheid (inkl. ggf. Programmpauschale
+und Umsatzsteuer).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#integer"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp","None","None","None","None"
+"Nca1f4aa34a1c4d5696b5da865edd2f7a","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Koordinationsrolle-001","Es wird angegeben (ja/nein), ob die berichtende Einrichtung ein Projekt
+unter Beteiligung mehrerer selbständiger Einrichtungen, bspw. ein
+Konsortialprojekt, koordiniert.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#boolean"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzer","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlNutzer-001","Für lokalen User- oder Shared Access mit Zugangskontrolle, hier
+unterschieden in interne, (auch) externe nationale oder (auch) externe
+internationale Nutzer bzw. Nutzergruppen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung","http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUnterstuetzungDurch-001","Eine Institution, die für die Publikation erbrachte Forschung
+(mit-)finanziert hat. Falls vorhanden, sollen hier importierte
+Förderinformationen aus Publikationsdatenbanken angegeben werden.
+Nach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen
+wird die Erfassung nach Fundref (
+*http://www.crossref.org/services/funder-registry/*) und/oder ISNI-Standard
+(im letzten Fall gemeinsam mit der ISNI-ID).
+
+Englisch: An Institution, which has financially supported the research
+underlying this publication. If available, funding information from
+bibliometric databases shall be imported and inserted here.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","N5fc8e7e7e9e14fa6a4a6475b6ba3d58b"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nebenberuflich","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Editorial","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrundmittelUndInstitutionelleMittel","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform","None","None","None","None"
+"http://purl.org/dc/terms/hasPart","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerWeiterenEinrichtung","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerWeiterenEinrichtung-001","Sofern möglich: Aufschlüsselung für inländische Einrichtungen gemäß
+DFG-Research Explorer. Für ausländische Einrichtungen ISO-Landescode (z.B.
+USA) und Name (z.B. UC Berkeley).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung","http://www.w3.org/2001/XMLSchema#string"
+"http://www.w3.org/2001/XMLSchema#date","http://www.w3.org/2000/01/rdf-schema#Datatype","None","None","None","None","None"
+"N4d9242005ae84a9bbba4c75309e39d29","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Ne252f9305b2d47f3bd68c0b6aa2d291f","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPublikation-001","RDA-Bezeichnung: Haupttitel
+
+RDA name: Title proper
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBezeichnung-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BeschreibungDerForschungsinfrastruktur-001","Freitext zur Beschreibung der Ressourcen / Beschreibung der
+Dienstleistungen.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
+angepasst.","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme","http://www.w3.org/2002/07/owl#FunctionalProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Bewilligungssumme-001","Bewilligungssumme laut Bewilligungsbescheid (inkl. ggf. Programmpauschale
+und Umsatzsteuer).
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt","http://www.w3.org/2001/XMLSchema#integer"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Stiftungsprofessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HauptberuflicheGastprofessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Rezension","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPublikation-001","RDA-Bezeichnung: Haupttitel
+
+RDA name: Title proper
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://www.w3.org/2001/XMLSchema#string"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelbandbeitrag","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatDokumenttyp","http://www.w3.org/2002/07/owl#ObjectProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatDokumenttyp-001","Unterkategorisierung von unselbstständigen Werken (Artikeln) nach
+vorwiegend inhaltlichen Kriterien in die folgenden Formate: Editorial,
+Letter to the Editor, Forschungsartikel, Review, Bibliographie, Rezension,
+Quellenedition und Meeting Abstract.
+RDA-Bezeichnung: Art des Inhalts
+
+Englisch:
+Subcategorization of articles predominantly with regard to content:
+Editorial, letter to the editor, research article, review, bibliography,
+review, source edition and meeting abstract.
+RDA name: Nature of the content
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Band","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Band-001","Ein Identifier für eine Reihe von zusammengehörigen Bestandteiles eines
+Periodikas, z.B. Volume 103, Issue 2.
+
+Englisch:
+A bibliographic identifier for a sequence of periodicals, e.g. Volume 103,
+Issue 2.
+[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format","http://www.w3.org/2001/XMLSchema#string"
+"N6367fd2fdfeb4d1c82be65ed5292e599","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung","http://www.w3.org/2002/07/owl#ObjectProperty","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesPersonal","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"N3164cd22c32f484cb158966616aa4ec5","http://www.w3.org/1999/02/22-rdf-syntax-ns#List","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ressource","http://www.w3.org/2002/07/owl#DatatypeProperty","None","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Ressource-001","[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation","Nb60f0418f69b4f889919698c1f0a6516"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"Nf6b2813e870b496d822a91cc47848f77","http://www.w3.org/2002/07/owl#Class","None","None","None","None","None"
+"http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Herausgeber","http://www.w3.org/2002/07/owl#Class","http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp","None","None","None","None"
