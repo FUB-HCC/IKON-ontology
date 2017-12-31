@@ -10,6 +10,6 @@ IKON Ontology
 Viewing the Documentation
 -------------------------
 
-cd ./docs/
+`cd ./docs/
 php -S localhost:8080
-Go to http://localhost:8080/index-en.html
+Go to http://localhost:8080/index-en.html`
