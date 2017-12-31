@@ -1,8 +1,8 @@
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt> <http://purl.org/dc/terms/description> "Im Sinne des Kerndatensatz Forschung zählen als Zeitpunkt des Abschlusses
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Sinne des Kerndatensatz Forschung zählen als Zeitpunkt des Abschlusses
 das Kalenderjahr und optional der Monat der letzten Prüfungsleistung.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Altersgruppe> <http://purl.org/dc/terms/description> "Altersgruppe der Beschäftigten zum Erfassungsstichtag. Zu berichten in
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Altersgruppe> <http://www.w3.org/2000/01/rdf-schema#comment> "Altersgruppe der Beschäftigten zum Erfassungsstichtag. Zu berichten in
 Fünf-Jahres-Gruppen analog zu Destatis, Fachserie 11, Reihe 4.4: unter 25
 Jahren, 25 bis unter 30, 30 bis unter 35, 35 bis unter 40, 40 bis unter 45,
 45 bis unter 50, 50 bis unter 55, 55 bis unter 60, 60 bis unter 65, 65 und
@@ -14,8 +14,8 @@ zu berechnen, sofern eine Einrichtung diese intern vorhält.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss> <http://purl.org/dc/terms/description> "Zu berichten in Fünf-Jahres-Gruppen analog zu Destatis, Fachserie 11, Reihe
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Zu berichten in Fünf-Jahres-Gruppen analog zu Destatis, Fachserie 11, Reihe
 4.4: unter 25 Jahren, 25 bis unter 30, 30 bis unter 35, 35 bis unter 40, 40
 bis unter 45, 45 bis unter 50, 50 bis unter 55, 55 bis unter 60, 60 bis
 unter 65, 65 und älter.
@@ -27,29 +27,29 @@ zu berechnen, sofern eine Einrichtung diese intern vorhält.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlGenutzteStunden> <http://purl.org/dc/terms/description> "Beispielsweise für (Labor-)Geräte, etc.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlGenutzteStunden> <http://www.w3.org/2000/01/rdf-schema#comment> "Beispielsweise für (Labor-)Geräte, etc.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzer> <http://purl.org/dc/terms/description> "Für lokalen User- oder Shared Access mit Zugangskontrolle, hier
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzer> <http://www.w3.org/2000/01/rdf-schema#comment> "Für lokalen User- oder Shared Access mit Zugangskontrolle, hier
 unterschieden in interne, (auch) externe nationale oder (auch) externe
 internationale Nutzer bzw. Nutzergruppen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzungszugriffe> <http://purl.org/dc/terms/description> "Beispielsweise Zugriffe auf Online-Systeme ohne identifizierbare
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzungszugriffe> <http://www.w3.org/2000/01/rdf-schema#comment> "Beispielsweise Zugriffe auf Online-Systeme ohne identifizierbare
 individuelle Nutzer oder Ausleihvorgänge.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ArbeitspapierForschungsbericht> <http://purl.org/dc/terms/description> "Ein Arbeitspapier ist eine öffentliche wissenschaftliche Publikation, die
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ArbeitspapierForschungsbericht> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Arbeitspapier ist eine öffentliche wissenschaftliche Publikation, die
 entweder von der Institution herausgegeben wird, in der die Forschung
 stattfindet, oder im Auftrag einer Institution angefertigt wurde. Dieser
 Publikationstyp enthält auch: Gutachten, Forschungs- und Abschlussberichte
@@ -61,8 +61,8 @@ the institution where the research takes place, or was made on behalf of an
 institution. This publication type also contains: appraisals, research and
 final reports of public institutions, scientific expertise and resources].
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel> <http://purl.org/dc/terms/description> "Ein Artikel ist ein abgeschlossener unselbstständiger Beitrag zu einem
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Artikel ist ein abgeschlossener unselbstständiger Beitrag zu einem
 abgegrenzten Thema / einer Fragestellung, erstellt durch ein oder mehrere
 Autoren, der zusammen mit anderen Beiträgen z.B. in einem Buch oder einer
 Zeitschrift veröffentlicht wurde.
@@ -72,8 +72,8 @@ An article is a self-contained contribution to a defined theme / one
 question, created by one or more authors, along with other contributions
 published in a book or journal.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF> <http://purl.org/dc/terms/description> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
 Hochschule und der außeruniversitären Forschungseinrichtung oder eines
 Arbeitsvertrags bei einer außeruniversitären Forschungseinrichtung
 promoviert haben oder promovieren.
@@ -81,20 +81,20 @@ promoviert haben oder promovieren.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung> <http://purl.org/dc/terms/description> "Anzahl der erfolgten Ausgründungen, die zur Verwertung von geistigem
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzahl der erfolgten Ausgründungen, die zur Verwertung von geistigem
 Eigentum oder Know-how der Einrichtung unter Abschluss einer formalen
 Vereinbarung gegründet wurden (Nutzungs-, Lizenz- und/oder
 Beteiligungsvertrag).
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AusserplanmaessigeProfessoren> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AusserplanmaessigeProfessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Autor> <http://purl.org/dc/terms/description> "Ein Autor ist eine Person, die für die Produktion eines geschriebenen
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Autor> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Autor ist eine Person, die für die Produktion eines geschriebenen
 Werkes verantwortlich ist. Für andere Forschungsprodukte soll der
 Autorenbegriff breit benutzt werden können, und also auch Programmierer,
 Komponist, Schöpfer etc. beinhalten.
@@ -111,23 +111,23 @@ RDA name: Creator (Person)
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Band> <http://purl.org/dc/terms/description> "Ein Identifier für eine Reihe von zusammengehörigen Bestandteiles eines
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Band> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Identifier für eine Reihe von zusammengehörigen Bestandteiles eines
 Periodikas, z.B. Volume 103, Issue 2.
 
 Englisch:
 A bibliographic identifier for a sequence of periodicals, e.g. Volume 103,
 Issue 2.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet> <http://purl.org/dc/terms/description> "Eine befristeter Vertrag liegt vor, wenn die Vertragslaufzeit in Monaten
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine befristeter Vertrag liegt vor, wenn die Vertragslaufzeit in Monaten
 (Be39) einen Wert größer oder gleich 1 aufweist.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung> <http://purl.org/dc/terms/description> "Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung> <http://www.w3.org/2000/01/rdf-schema#comment> "Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
 Arbeitsvertragsverhältnis zur berichtenden Einrichtung steht.
 
 Für das Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des
@@ -142,8 +142,8 @@ sobald ein Vertrag unbefristet ist.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeitraegeInterviewsInNicht-wissenschaftlichenMedien> <http://purl.org/dc/terms/description> "Beitrag/Interview mit Bezug auf wissenschaftliche Tätigkeiten,
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeitraegeInterviewsInNicht-wissenschaftlichenMedien> <http://www.w3.org/2000/01/rdf-schema#comment> "Beitrag/Interview mit Bezug auf wissenschaftliche Tätigkeiten,
 veröffentlicht in Massenmedien (z.B. Zeitungen, nicht-wissenschaftliche
 Zeitschriften, Blogs, Rundfunk oder Fernsehen).
 
@@ -155,20 +155,20 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
 
 [This publication type also includes virtual exhibitions and films]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur> <http://purl.org/dc/terms/description> "Freitext zur Beschreibung der Ressourcen / Beschreibung der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur> <http://www.w3.org/2000/01/rdf-schema#comment> "Freitext zur Beschreibung der Ressourcen / Beschreibung der
 Dienstleistungen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeteiligteInstitutionen> <http://purl.org/dc/terms/description> "Umfasst nationale und internationale Institutionen. Die Angabe erfolgt nach
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeteiligteInstitutionen> <http://www.w3.org/2000/01/rdf-schema#comment> "Umfasst nationale und internationale Institutionen. Die Angabe erfolgt nach
 Schlüsselliste (wenn verfügbar).
 Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
 Für ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC
@@ -177,12 +177,12 @@ Berkeley).
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme> <http://purl.org/dc/terms/description> "Bewilligungssumme laut Bewilligungsbescheid (inkl. ggf. Programmpauschale
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme> <http://www.w3.org/2000/01/rdf-schema#comment> "Bewilligungssumme laut Bewilligungsbescheid (inkl. ggf. Programmpauschale
 und Umsatzsteuer).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerForschungsinfrastruktur> <http://purl.org/dc/terms/description> "Bezeichnung der wissenschaftlichen Forschungsinfrastruktur. Sofern
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerForschungsinfrastruktur> <http://www.w3.org/2000/01/rdf-schema#comment> "Bezeichnung der wissenschaftlichen Forschungsinfrastruktur. Sofern
 zutreffend sollte die Bezeichnung derjenigen aus der Risources-Datenbank
 der DFG entsprechen und ggf. durch die dort verwendete ID ergänzt werden (
 *http://risources.dfg.de*).
@@ -190,10 +190,10 @@ der DFG entsprechen und ggf. durch die dort verwendete ID ergänzt werden (
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerProfessur> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp> <http://purl.org/dc/terms/description> "Eine Bibliographie ist ein systematisches Verzeichnis von
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerProfessur> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Bibliographie ist ein systematisches Verzeichnis von
 Literaturnachweisen in Form eines Artikels. Sie kann Kommentare /
 Annotationen enthalten.
 
@@ -201,8 +201,8 @@ Englisch:
 A bibliography is a systematic list of publications, published as an
 article. It may contain commentaries / annotations.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographiePublikationstyp> <http://purl.org/dc/terms/description> "Eine Bibliographie ist ein systematisches Verzeichnis von
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographiePublikationstyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Bibliographie ist ein systematisches Verzeichnis von
 Literaturnachweisen in Form eines Buches. Sie kann Kommentare/Annotationen
 enthalten.
 
@@ -210,20 +210,20 @@ Englisch:
 A bibliography is a systematic list of publications published as a book.
 The entries may be commented /annotated.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bund> <http://purl.org/dc/terms/description> "Mittel des Bundes, d. h. der Bundesministerien und deren nachgeordneten
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bund> <http://www.w3.org/2000/01/rdf-schema#comment> "Mittel des Bundes, d. h. der Bundesministerien und deren nachgeordneten
 Behörden (ohne Überlastprogramm, dem Graduierten- und
 Bundesausbildungsförderungsgesetz sowie für die sonstige Förderung von
 Studenten).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bundeslaender> <http://purl.org/dc/terms/description> "von Ländern (ohne Mittel vom Träger der Hochschule, d. h. Landesministerien
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bundeslaender> <http://www.w3.org/2000/01/rdf-schema#comment> "von Ländern (ohne Mittel vom Träger der Hochschule, d. h. Landesministerien
 von anderen Bundesländern und deren nachgeordneten Behörden).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Datensammlung> <http://purl.org/dc/terms/description> "Ein öffentlich zugängliches Set von strukturierten Beobachtungen, Messungen
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Datensammlung> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein öffentlich zugängliches Set von strukturierten Beobachtungen, Messungen
 oder Fakten, die in einem Forschungsprojekt erfasst oder zu
 wissenschaftlichen Zwecken aufbereitet wurden (Scientific Use Files). Eine
 Dokumentation dazu muss zugänglich sein.
@@ -243,8 +243,8 @@ material, virtual exhibition]
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung> <http://purl.org/dc/terms/description> "Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des
 Anmeldetages.
 
 Jede Erstanmeldung wird nur einfach gezählt, unabhängig davon, für welche
@@ -254,23 +254,23 @@ erfolgt.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DFG> <http://purl.org/dc/terms/description> "Umfasst Mittel, die die DFG direkt und indirekt vergibt (inkl.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DFG> <http://www.w3.org/2000/01/rdf-schema#comment> "Umfasst Mittel, die die DFG direkt und indirekt vergibt (inkl.
 Leibniz-Preis).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dissertation> <http://purl.org/dc/terms/description> "Eine Dissertation ist eine wissenschaftliche Arbeit für den Erwerb des
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dissertation> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Dissertation ist eine wissenschaftliche Arbeit für den Erwerb des
 Doktorgrades.
 
 Englisch:
 A dissertation is a scientific work needed for the completion of a
 doctorate (PhD) degree.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp> <http://purl.org/dc/terms/description> "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach
 vorwiegend inhaltlichen Kriterien in die folgenden Formate: Editorial,
 Letter to the Editor, Forschungsartikel, Review, Bibliographie, Rezension,
 Quellenedition und Meeting Abstract.
@@ -282,8 +282,8 @@ Editorial, letter to the editor, research article, review, bibliography,
 review, source edition and meeting abstract.
 RDA name: Nature of the content
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittel> <http://purl.org/dc/terms/description> "Drittmittel sind Mittel, die zur Förderung von Forschung und Entwicklung
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittel> <http://www.w3.org/2000/01/rdf-schema#comment> "Drittmittel sind Mittel, die zur Förderung von Forschung und Entwicklung
 sowie des wissenschaftlichen Nachwuchses und der Lehre zusätzlich zum
 regulären Forschungseinrichtungshaushalt (Grundausstattung) von
 öffentlichen oder privaten Stellen eingeworben werden. Drittmittel können
@@ -306,8 +306,8 @@ finanzierten Personen nicht in die Erhebung einbezogen.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen> <http://purl.org/dc/terms/description> "Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen> <http://www.w3.org/2000/01/rdf-schema#comment> "Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
 von Destatis (H203/32137100-5) zu erfassen durch Forschungseinrichtungen
 mit kameralistischem Rechnungswesen:
 
@@ -335,8 +335,8 @@ Diese Angabe versteht sich als Alternative zu Dr1b. Nur eines der beiden
 Kerndaten ist zu erfassen.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelertraege> <http://purl.org/dc/terms/description> "Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelertraege> <http://www.w3.org/2000/01/rdf-schema#comment> "Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik
 von Destatis (H203/32137100-5) zu erfassen durch Forschungseinrichtungen
 mit kaufmännischem Rechnungswesen:
 
@@ -364,17 +364,17 @@ Diese Angabe versteht sich als Alternative zu Dr1a. Nur eines der beiden
 Kerndaten ist zu erfassen.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt> <http://purl.org/dc/terms/description> "Aggregation über den Titel des Projektes." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Editorial> <http://purl.org/dc/terms/description> "Durch den Herausgeber oder im Auftrag des Herausgebers verfasster Text, der
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt> <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregation über den Titel des Projektes."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Editorial> <http://www.w3.org/2000/01/rdf-schema#comment> "Durch den Herausgeber oder im Auftrag des Herausgebers verfasster Text, der
 die Meinung der Redaktion /des Herausgebergremiums widergibt.
 
 Englisch:
 A text which is written by or on behalf of the editor or publisher, which
 represents the opinion of the editor / editorial board.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ePaper> <http://purl.org/dc/terms/description> "Ein ePaper ist ein wissenschaftlicher Artikel, der in einem
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ePaper> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein ePaper ist ein wissenschaftlicher Artikel, der in einem
 wissenschaftlichen Repositorium, z.B. arXiv.org, oder einer Datenbank
 veröffentlicht wird. Die Kategorie schließt auch Preprints ein.
 
@@ -383,8 +383,8 @@ An ePaper is a scientific article that is published in a scientific
 repository or database e.g. arXiv.org. This category also includes
 preprints.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EU> <http://purl.org/dc/terms/description> "Mittel, die von der Europäischen Kommission für die Forschung zur Verfügung
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EU> <http://www.w3.org/2000/01/rdf-schema#comment> "Mittel, die von der Europäischen Kommission für die Forschung zur Verfügung
 gestellt werden. Hierzu zählen Mittel des Rahmenprogramms und z.B. der
 Programme des European Research Council (ERC) oder des Europäischen Fonds
 für regionale Entwicklung (EFRE).
@@ -392,13 +392,13 @@ für regionale Entwicklung (EFRE).
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach> <http://purl.org/dc/terms/description> "Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine
 Organisationseinheit. Alle zu ihr gehörenden Objekte ‚erben‘ die
 Fachzuordnung der Organisationseinheit. Grundlage für die Fachzuordnung
 sind die Fächersystematiken des Statistischen Bundesamtes. Die Zuordnung
@@ -414,15 +414,15 @@ Eine Konkordanz zur DFG-Systematik findet sich auf der Website der DFG (
 Die Zuordnung erfolgt per Festschreibung, d.h. eine nachträgliche
 Aktualisierung der Daten im Kerndatensatz ist nicht vorgesehen.
 
-Vgl. ausführlicher: Spezifikation Kapitel 3.2.3" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH> <http://purl.org/dc/terms/description> "Angabe, ob die Personen ober eine Kooperation mit einer Fachhochschule
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe, ob die Personen ober eine Kooperation mit einer Fachhochschule
 promoviert haben oder promovieren.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform> <http://purl.org/dc/terms/description> "Art der Einnahme, aus der der Beschäftigte finanziert wird. Bei mehreren
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform> <http://www.w3.org/2000/01/rdf-schema#comment> "Art der Einnahme, aus der der Beschäftigte finanziert wird. Bei mehreren
 Finanzierungsarten erfolgt die Zuordnung gemäß dem höchsten
 Finanzierungsanteil. Bei gleichen Anteilen erfolgt die Zuordnung aufgrund
 einer inhaltlich begründeten Entscheidung. Sofern sich keine klare
@@ -431,8 +431,8 @@ Festlegung treffen lässt, ist die Kategorie Mischfinanzierung zu wählen.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer> <http://purl.org/dc/terms/description> "Eine Institution, die für die Publikation erbrachte Forschung
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Institution, die für die Publikation erbrachte Forschung
 (mit-)finanziert hat. Falls vorhanden, sollen hier importierte
 Förderinformationen aus Publikationsdatenbanken angegeben werden.
 Nach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen
@@ -447,8 +447,8 @@ bibliometric databases shall be imported and inserted here.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenDrittmittelprojekt> <http://purl.org/dc/terms/description> "Das Förderkennzeichen des Mittelgebers, sofern vorhanden. Das
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenDrittmittelprojekt> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Förderkennzeichen des Mittelgebers, sofern vorhanden. Das
 Förderkennzeichen dient wesentlich der Vereinfachung der Datenerhebung, da
 somit Angaben der Förderer verknüpft werden können.
 
@@ -459,16 +459,16 @@ frei bleiben.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation> <http://purl.org/dc/terms/description> "Das Förderkennzeichen des Mittelgebers, sofern in der Publikation angegeben.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Förderkennzeichen des Mittelgebers, sofern in der Publikation angegeben.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld> <http://purl.org/dc/terms/description> "Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
 problemorientiert mit einem thematisch abgrenzbaren Gegenstandsbereich, der
 quer zu Disziplinen liegt, beschreiben lassen. Ein Forschungsfeld sollte
 auf einem Abstraktionsgrad definiert sein, der den Berichtszwecken des
@@ -478,8 +478,8 @@ Zu befüllen anhand einer geschlossenen Liste mit Forschungsfeldern (Vgl.
 Spezifikation).
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur> <http://purl.org/dc/terms/description> "Definitionen im Bereich Forschungsinfrastrukturen durch Arbeitsgruppe der
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur> <http://www.w3.org/2000/01/rdf-schema#comment> "Definitionen im Bereich Forschungsinfrastrukturen durch Arbeitsgruppe der
 außeruniversitären Forschungseinrichtungen erarbeitet:
 
 Forschungsinfrastrukturen im Sinne des Kerndatensatzes sind umfangreiche /
@@ -491,8 +491,8 @@ und für eine externe Nutzung zur Verfügung stehen für die Zugangs- bzw.
 Nutzungsregelungen etabliert sind.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart> <http://purl.org/dc/terms/description> "A) Lokal
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart> <http://www.w3.org/2000/01/rdf-schema#comment> "A) Lokal
 B) Verteilt
 C) Virtuell
 
@@ -510,8 +510,8 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp> <http://purl.org/dc/terms/description> "A) Großgeräte und Instrumente
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp> <http://www.w3.org/2000/01/rdf-schema#comment> "A) Großgeräte und Instrumente
 B) Wissensressourcen
 C) Informations- und Kommunikationsinfrastrukturen
 D) Sonstige
@@ -534,8 +534,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung> <http://purl.org/dc/terms/description> "Gemeinsame Berufungen setzen ein gemeinsames Berufungsverfahren einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung> <http://www.w3.org/2000/01/rdf-schema#comment> "Gemeinsame Berufungen setzen ein gemeinsames Berufungsverfahren einer
 Hochschule und einer Forschungseinrichtung voraus (näher erläutert in
 \"Gemeinsame Berufungen von leitenden Wissenschaftlerinnen und
 Wissenschaftlern durch Hochschulen und außerhochschulische
@@ -543,11 +543,11 @@ Forschungseinrichtungen\" der Gemeinsamen Wissenschaftskonferenz
 *http://www.gwk-bonn.de/fileadmin/Papers/GWK-Heft-37-Gemeinsame-Berufungen.pdf*
 ).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht> <http://purl.org/dc/terms/description> "Das Geschlecht ist als \"männlich\", \"weiblich\" oder \"ohne Angabe\" anzugeben.
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Geschlecht ist als \"männlich\", \"weiblich\" oder \"ohne Angabe\" anzugeben.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GewerblicheWirtschaftUndSonstigePrivateBereiche> <http://purl.org/dc/terms/description> "Von der gewerblichen Wirtschaft und sonstigen privaten Bereichen für
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GewerblicheWirtschaftUndSonstigePrivateBereiche> <http://www.w3.org/2000/01/rdf-schema#comment> "Von der gewerblichen Wirtschaft und sonstigen privaten Bereichen für
 Forschungszwecke (ohne Einnahmen für Materialprüfungen u. dgl., aus
 Veröffentlichungen, Gebühren, aus wirtschaftlicher Tätigkeit und aus
 Vermögensveräußerungen).
@@ -555,8 +555,8 @@ Vermögensveräußerungen).
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrossgeraeteUndInstrumente> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrossgeraeteUndInstrumente> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Eine Übersicht von Beispielen für die einzelnen Typen ist unter
@@ -564,8 +564,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrundmittelUndInstitutionelleMittel> <http://purl.org/dc/terms/description> "Bei den laufenden Grundmitteln für Lehre und Forschung handelt es sich um
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrundmittelUndInstitutionelleMittel> <http://www.w3.org/2000/01/rdf-schema#comment> "Bei den laufenden Grundmitteln für Lehre und Forschung handelt es sich um
 den Teil der Hochschulausgaben, den der Hochschulträger den Hochschulen aus
 eigenen Mitteln für laufende Zwecke zur Verfügung stellt. Sie werden
 ermittelt, indem von den Ausgaben der Hochschulen für laufende Zwecke die
@@ -575,8 +575,8 @@ Laufende Grundmittel enthalten keine Investitionsausgaben.
 Für Außeruniversitäre Forschungseinrichtungen erfolgt hier die Angabe der
 institutionellen Mittel (Bund/Länder).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitAutorenfunktion> <http://purl.org/dc/terms/description> "Eine Gruppe von natürlichen Personen, in der jeder Autor seine
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitAutorenfunktion> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Gruppe von natürlichen Personen, in der jeder Autor seine
 Autorenrechte behält, dadurch unterschieden von Körperschaften.
 
 Englisch:
@@ -586,8 +586,8 @@ copyrights, thereby distinguished from corporations.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitHerausgeberfunktion> <http://purl.org/dc/terms/description> "Eine Gruppe von natürlichen Personen, in der jeder Herausgeber seine
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitHerausgeberfunktion> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Gruppe von natürlichen Personen, in der jeder Herausgeber seine
 Herausgeberrechte behält, dadurch unterschieden von Körperschaften.
 
 RDA-Bezeichnung: MItwirkender
@@ -601,8 +601,8 @@ RDA name: Contributor
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitation> <http://purl.org/dc/terms/description> "Die Habilitation dient als akademisches Examen dem Nachweis der besonderen
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitation> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Habilitation dient als akademisches Examen dem Nachweis der besonderen
 Befähigung für Forschung und Lehre in einem bestimmten Fach oder
 Fachgebiet. Die Zulassung zur Habilitation setzt die Promotion und in der
 Regel eine mehrjährige wissenschaftliche Tätigkeit voraus. Hochschulen mit
@@ -610,15 +610,15 @@ Promotionsrecht haben das Recht zur Habilitation.
 
 Zu erfassen ist, ob sich der Mitarbeiter habilitierte.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitationsschrift> <http://purl.org/dc/terms/description> "Eine Habilitation ist eine
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitationsschrift> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Habilitation ist eine
 wissenschaftliche Arbeit für den Erwerb der universitären Lehrbefähigung.
 
 Englisch:
 A habilitation is a scientific work needed for receiving the Venia legendi.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitiert> <http://purl.org/dc/terms/description> "Die Habilitation dient als akademisches Examen dem Nachweis der besonderen
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitiert> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Habilitation dient als akademisches Examen dem Nachweis der besonderen
 Befähigung für Forschung und Lehre in einem bestimmten Fach oder
 Fachgebiet. Die Zulassung zur Habilitation setzt die Promotion und in der
 Regel eine mehrjährige wissenschaftliche Tätigkeit voraus. Hochschulen mit
@@ -626,8 +626,8 @@ Promotionsrecht haben das Recht zur Habilitation.
 
 Zu erfassen ist, ob sich der Mitarbeiter habilitierte.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatArt> <http://purl.org/dc/terms/description> "A) Lokal
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatArt> <http://www.w3.org/2000/01/rdf-schema#comment> "A) Lokal
 B) Verteilt
 C) Virtuell
 
@@ -645,8 +645,8 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung> <http://purl.org/dc/terms/description> "Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung> <http://www.w3.org/2000/01/rdf-schema#comment> "Als Befristung wird angegeben, ob eine Person in einem zeitlich begrenzten
 Arbeitsvertragsverhältnis zur berichtenden Einrichtung steht.
 
 Für das Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des
@@ -661,8 +661,8 @@ sobald ein Vertrag unbefristet ist.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber> <http://purl.org/dc/terms/description> "Affiliation aller am Betrieb der Forschungsinfrastrukur beteiligten
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber> <http://www.w3.org/2000/01/rdf-schema#comment> "Affiliation aller am Betrieb der Forschungsinfrastrukur beteiligten
 Partner. Bei mehreren Partnern Hervorhebung des koordinierenden Partners.
 
 Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
@@ -675,15 +675,15 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetriebspersonal> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetriebspersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatDokumenttyp> <http://purl.org/dc/terms/description> "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatDokumenttyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach
 vorwiegend inhaltlichen Kriterien in die folgenden Formate: Editorial,
 Letter to the Editor, Forschungsartikel, Review, Bibliographie, Rezension,
 Quellenedition und Meeting Abstract.
@@ -695,20 +695,20 @@ Editorial, letter to the editor, research article, review, bibliography,
 review, source edition and meeting abstract.
 RDA name: Nature of the content
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder> <http://purl.org/dc/terms/description> "Der Vorname und Name der erfindenden Person. Einrichtungsinterne Erfinder
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Vorname und Name der erfindenden Person. Einrichtungsinterne Erfinder
 werden über die Personaldaten erfasst, einrichtungsexterne Erfinder als
 Freitextfeld.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErstbetreuer> <http://purl.org/dc/terms/description> "Anzugeben ist, ob der Erstbetreuer an der berichtenden Einrichtung tätig
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErstbetreuer> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist, ob der Erstbetreuer an der berichtenden Einrichtung tätig
 ist (ja / nein).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFach> <http://purl.org/dc/terms/description> "Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFach> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Zuordnung zu einem Fach oder zu mehreren Fächern erfolgt für eine
 Organisationseinheit. Alle zu ihr gehörenden Objekte ‚erben‘ die
 Fachzuordnung der Organisationseinheit. Grundlage für die Fachzuordnung
 sind die Fächersystematiken des Statistischen Bundesamtes. Die Zuordnung
@@ -724,8 +724,8 @@ Eine Konkordanz zur DFG-Systematik findet sich auf der Website der DFG (
 Die Zuordnung erfolgt per Festschreibung, d.h. eine nachträgliche
 Aktualisierung der Daten im Kerndatensatz ist nicht vorgesehen.
 
-Vgl. ausführlicher: Spezifikation Kapitel 3.2.3" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFinanzierungsform> <http://purl.org/dc/terms/description> "Art der Einnahme, aus der der Beschäftigte finanziert wird. Bei mehreren
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFinanzierungsform> <http://www.w3.org/2000/01/rdf-schema#comment> "Art der Einnahme, aus der der Beschäftigte finanziert wird. Bei mehreren
 Finanzierungsarten erfolgt die Zuordnung gemäß dem höchsten
 Finanzierungsanteil. Bei gleichen Anteilen erfolgt die Zuordnung aufgrund
 einer inhaltlich begründeten Entscheidung. Sofern sich keine klare
@@ -734,10 +734,10 @@ Festlegung treffen lässt, ist die Kategorie Mischfinanzierung zu wählen.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFormat> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatForschungsfeld> <http://purl.org/dc/terms/description> "Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatForschungsfeld> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
 problemorientiert mit einem thematisch abgrenzbaren Gegenstandsbereich, der
 quer zu Disziplinen liegt, beschreiben lassen. Ein Forschungsfeld sollte
 auf einem Abstraktionsgrad definiert sein, der den Berichtszwecken des
@@ -747,8 +747,8 @@ Zu befüllen anhand einer geschlossenen Liste mit Forschungsfeldern (Vgl.
 Spezifikation).
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatGemeinsameBerufung> <http://purl.org/dc/terms/description> "Gemeinsame Berufungen setzen ein gemeinsames Berufungsverfahren einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatGemeinsameBerufung> <http://www.w3.org/2000/01/rdf-schema#comment> "Gemeinsame Berufungen setzen ein gemeinsames Berufungsverfahren einer
 Hochschule und einer Forschungseinrichtung voraus (näher erläutert in
 \"Gemeinsame Berufungen von leitenden Wissenschaftlerinnen und
 Wissenschaftlern durch Hochschulen und außerhochschulische
@@ -756,8 +756,8 @@ Forschungseinrichtungen\" der Gemeinsamen Wissenschaftskonferenz
 *http://www.gwk-bonn.de/fileadmin/Papers/GWK-Heft-37-Gemeinsame-Berufungen.pdf*
 ).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner> <http://purl.org/dc/terms/description> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
 Hochschule und einer außeruniversitären Forschungseinrichtung, einer
 Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
 (z.B. aus der Wirtschaft) oder eines Arbeitsvertrags bei einer
@@ -765,8 +765,8 @@ außeruniversitären Forschungseinrichtung, einer Fachhochschule, einer
 anderen Universität oder einer sonstigen Einrichtung promoviert wurden oder
 promovieren.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKoordinator> <http://purl.org/dc/terms/description> "Im Sinne der Dokumentation von Verbünden oder vergleichbaren Strukturen. Zu
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKoordinator> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Sinne der Dokumentation von Verbünden oder vergleichbaren Strukturen. Zu
 erfassen sind Einrichtungen.
 
 Bei verteilten Forschungsinfrastrukturen sollte die Gesamtmeldung durch den
@@ -784,8 +784,8 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber> <http://purl.org/dc/terms/description> "Für die Erhebung im Kerndatensatz werden keine einzelnen Mittelgeber
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "Für die Erhebung im Kerndatensatz werden keine einzelnen Mittelgeber
 aufgelistet, sondern die Drittmittel nach den angeführten
 Mittelgeberkategorien zusammengefasst.
 Erfolgt eine Förderung z.B. durch einen Projektträger des Bundes ist der
@@ -798,16 +798,16 @@ Eine Übersicht der Zuordnungen ist unter
 einsehbar.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung> <http://purl.org/dc/terms/description> "Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die
 Entscheidung über die jeweils anzugebeneden Daten liegt beim
 Betreiber/Koordinator.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://purl.org/dc/terms/description> "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende
 organisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird
 empfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen
 des DFG-Research Explorers zu verwenden. Davon abweichende, in
@@ -820,8 +820,8 @@ sind.
 Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
 überschneidungsfrei ab.
 
-Vgl. ausführlicher: Spezifikation Kapitel 3.2.3" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie> <http://purl.org/dc/terms/description> "Gliederung der Beschäftigten in vier Gruppen:
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie> <http://www.w3.org/2000/01/rdf-schema#comment> "Gliederung der Beschäftigten in vier Gruppen:
 - Wissenschaftliches und künstlerisches Personal
 - Wissenschaftsunterstützendes Personal
 - Verwaltungspersonal
@@ -842,8 +842,8 @@ gelten auch für die Ausdifferenzierungen.
 
 Eine Übersicht der Zuordnungen ist unter
 *http://www.kerndatensatz-forschung.de/version1/Konkordanz_Personalkategorie.pdf*
-einsehbar." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPromotionsberechtigungAus> <http://purl.org/dc/terms/description> "Es wird unterschieden zwischen Inland und Ausland. Personen mit
+einsehbar."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPromotionsberechtigungAus> <http://www.w3.org/2000/01/rdf-schema#comment> "Es wird unterschieden zwischen Inland und Ausland. Personen mit
 Promotionsberechtigungen aus mehreren Ländern, die sowohl in Deutschland
 als auch weiteren Ländern erworben wurden, werden nur der Kategorie Inland
 zugeordnet.
@@ -853,8 +853,8 @@ Durch titelverleihende Einrichtung zu erfassen.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikation> <http://purl.org/dc/terms/description> "Publikationen, die nachweislich unter Nutzung der benannten
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikation> <http://www.w3.org/2000/01/rdf-schema#comment> "Publikationen, die nachweislich unter Nutzung der benannten
 Forschungsinfrastruktur entstanden sind. Der Nachweis kann erfolgen durch:
 (a) Autoren oder Co-Autorenschaft einer der MitarbeiterInnen der FI oder
 (b) durch eine Nennung der FI im Text (z.B. in Material & Methoden,
@@ -877,8 +877,8 @@ Forschungsinfrastrukturen erreichen.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikationstyp> <http://purl.org/dc/terms/description> "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikationstyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie
 Erscheinungsweise und Quelle, z.B. in Journalartikel, Sammelbandbeitrag,
 Monographie u.a..
 
@@ -886,27 +886,27 @@ Englisch:
 Categorization of all publishing formats based on criteria such as
 publication and source, e.g. in journal articles, book chapters, monographs.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation> <http://purl.org/dc/terms/description> "Die Qualifikation der Beschäftigten wird aufgeschlüsselt nach Habilitation
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Qualifikation der Beschäftigten wird aufgeschlüsselt nach Habilitation
 und Promotion. Gezählt wird jeweils der höchste Abschluss.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren> <http://purl.org/dc/terms/description> "Anzahl an Qualifizierungsverfahren, die der meldenden Hochschule
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzahl an Qualifizierungsverfahren, die der meldenden Hochschule
 erfolgreich abgelegt wurden.
 
 Im Sinne des Kerndatensatz Forschung werden die Abschlüsse Promotion und
 Habilitation erfasst.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfer> <http://purl.org/dc/terms/description> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
 mehrere Schöpfer, z.B. Autoren, haben, die alle aufzulisten sind.
 
 First and last name of the creator. A work may have two or more joint
 creators, e.g. authors, which have to be all listed.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp> <http://purl.org/dc/terms/description> "Im Sinne des Kerndatensatz Forschung wird die Autorrolle mit dem
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Sinne des Kerndatensatz Forschung wird die Autorrolle mit dem
 Schöpfertyp spezifiziert. Standard-Eintrag ist Autor (Pu52).
 
 RDA-Bezeichnung: Beziehungskennzeichnung
@@ -920,21 +920,21 @@ RDA name: Relationship designator
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSprecher> <http://purl.org/dc/terms/description> "Name der Person mit Sprecherrolle für das strukturierte Promotionsprogramm.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSprecher> <http://www.w3.org/2000/01/rdf-schema#comment> "Name der Person mit Sprecherrolle für das strukturierte Promotionsprogramm.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTaetigkeitsart> <http://purl.org/dc/terms/description> "Nicht erhoben werden geringfügig Beschäftigte mit weniger als 20 Stunden
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTaetigkeitsart> <http://www.w3.org/2000/01/rdf-schema#comment> "Nicht erhoben werden geringfügig Beschäftigte mit weniger als 20 Stunden
 Arbeitszeit (Kurse, Einzelvorträge) im gesamten Berichtsjahr.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTyp> <http://purl.org/dc/terms/description> "A) Großgeräte und Instrumente
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTyp> <http://www.w3.org/2000/01/rdf-schema#comment> "A) Großgeräte und Instrumente
 B) Wissensressourcen
 C) Informations- und Kommunikationsinfrastrukturen
 D) Sonstige
@@ -957,8 +957,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt> <http://purl.org/dc/terms/description> "Die Angabe des Titels des übergeordneten Projektes dient der Abbildung der
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Angabe des Titels des übergeordneten Projektes dient der Abbildung der
 logischen Struktur. Ein Teilprojekt liegt dann vor, wenn z.B. ein eigenes
 Förderkennzeichen vergeben wurde. Der Detailgrad der Ausweisung von
 Teilprojekten bleibt der Einrichtung überlassen.
@@ -970,8 +970,8 @@ Sofern ein Projekt vertraulich bleiben muss, ist es dem \"Mittelgeber\"
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://purl.org/dc/terms/description> "Eine Institution, die für die Publikation erbrachte Forschung
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Institution, die für die Publikation erbrachte Forschung
 (mit-)finanziert hat. Falls vorhanden, sollen hier importierte
 Förderinformationen aus Publikationsdatenbanken angegeben werden.
 Nach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen
@@ -986,13 +986,13 @@ bibliometric databases shall be imported and inserted here.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatZugangsart> <http://purl.org/dc/terms/description> "Mehrfachnennungen möglich:
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatZugangsart> <http://www.w3.org/2000/01/rdf-schema#comment> "Mehrfachnennungen möglich:
 A) User Access (z.B. über wissenschaftliches Antragsverfahren für externe
 Nutzer)
 B) Shared Access (z.B. über wissenschaftliche Kollaborationen mit der
@@ -1013,24 +1013,24 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich> <http://purl.org/dc/terms/description> "Ausschließlich oder überwiegende Beschäftigung mit voller wöchentlicher und
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich> <http://www.w3.org/2000/01/rdf-schema#comment> "Ausschließlich oder überwiegende Beschäftigung mit voller wöchentlicher und
 Regelarbeitszeit oder auch Teilzeitbeschäftigung.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HauptberuflicheGastprofessoren> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HauptberuflicheGastprofessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Heft> <http://purl.org/dc/terms/description> "Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Heft> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.
 
 Englisch:
 A single instance of periodical literature such as a journal, e.g. Volume
 103, Issue 2.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Herausgeber> <http://purl.org/dc/terms/description> "Eine Person, die die Veröffentlichung der Arbeit(en) eines oder mehrerer
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Herausgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Person, die die Veröffentlichung der Arbeit(en) eines oder mehrerer
 anderen Autoren erstellt. Ein Editor kann für die Auswahl des Materials für
 einen Sammelband verantwortlich sein oder kann für die Vorbereitung eines
 Manuskripts zum Druck, einschließlich Kommentierung des Textes, Überprüfung
@@ -1050,8 +1050,8 @@ back matter, etc..
 
 RDA name: Contributor
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgeberschaftEinesSonderheftsEinerZeitschrift> <http://purl.org/dc/terms/description> "Ein Sonderheft einer Zeitschrift, das von einer oder mehreren Personen
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgeberschaftEinesSonderheftsEinerZeitschrift> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Sonderheft einer Zeitschrift, das von einer oder mehreren Personen
 herausgegeben wurde. Es enthält Beiträge in Aufsätzen verschiedener Autoren
 zu einem spezifischen Thema oder einer Konferenz.
 
@@ -1059,8 +1059,8 @@ Englisch:
 A special issue of a journal edited by one or more persons. It contains
 contributions from different authors about a specific topic or a conference.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgegebenesBuch> <http://purl.org/dc/terms/description> "Ein Meeting Abstract ist ein kurzer Text, der eine Präsentation an einer
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgegebenesBuch> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Meeting Abstract ist ein kurzer Text, der eine Präsentation an einer
 Konferenz zusammenfasst und entweder in einer wissenschaftlichen
 Zeitschrift oder in einem Konferenzband veröffentlicht wurde.
 
@@ -1069,8 +1069,8 @@ A Meeting Abstract is a short text that summarizes a presentation at a
 conference and was published either in a scientific journal or in a
 conference proceedings.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#InformationsUndKommunikationsinfrastrukturen> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#InformationsUndKommunikationsinfrastrukturen> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Eine Übersicht von Beispielen für die einzelnen Typen ist unter
@@ -1078,8 +1078,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Journalartikel> <http://purl.org/dc/terms/description> "Ein Journalartikel ist ein wissenschaftlicher Artikel, der in einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Journalartikel> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Journalartikel ist ein wissenschaftlicher Artikel, der in einer
 wissenschaftlichen Zeitschrift, einem periodisch oder fortlaufend
 erscheinenden Medium veröffentlicht ist.
 
@@ -1097,8 +1097,8 @@ journal in a periodically or continuously appearing medium.
 letter to the editor, editorial. [It also includes case study, annotations
 to judgments can be subsumed under letters (short communications)]]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Juniorprofessoren> <http://purl.org/dc/terms/description> "Juniorprofessoren sind Nachwuchswissenschaftler, die sich ohne
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Juniorprofessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "Juniorprofessoren sind Nachwuchswissenschaftler, die sich ohne
 Habilitationsverfahren zur Berufung auf eine Professur qualifizieren
 sollen. Die Stelle als Juniorprofessor ist auf maximal sechs Jahre
 befristet.
@@ -1106,8 +1106,8 @@ befristet.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitAutorenfunktion> <http://purl.org/dc/terms/description> "In Abgrenzung zu Autorengruppe haben die einzelnen Mitglieder einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitAutorenfunktion> <http://www.w3.org/2000/01/rdf-schema#comment> "In Abgrenzung zu Autorengruppe haben die einzelnen Mitglieder einer
 Körperschaft mit Autorenfunktion keine individuelle Autorenrolle.
 
 RDA-Bezeichnung: Geistiger Schöpfer (Körperschaft)
@@ -1121,8 +1121,8 @@ RDA name: Creator (Corporate body)
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitHerausgeberfunktion> <http://purl.org/dc/terms/description> "In Abgrenzung zu Herausgebergruppe haben die einzelnen Mitglieder einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitHerausgeberfunktion> <http://www.w3.org/2000/01/rdf-schema#comment> "In Abgrenzung zu Herausgebergruppe haben die einzelnen Mitglieder einer
 Körperschaft mit Herausgeberfunktion keine individuelle Herausgeberrolle.
 
 RDA-Bezeichnung: MItwirkender
@@ -1136,16 +1136,16 @@ RDA name: Contributor
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname> <http://purl.org/dc/terms/description> "Titel des wissenschaftlichen Treffens; ein Sammelband sowie
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname> <http://www.w3.org/2000/01/rdf-schema#comment> "Titel des wissenschaftlichen Treffens; ein Sammelband sowie
 Sammelbandbeitrag wird durch diesen Eintrag als Konferenzband bzw.
 Konferenzartikel erkennbar.
 
 Title of a scientific meeting; An edited book (Sammelband) or inbook with
 this attached to it is a proceedings and proceedings article, respectively.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzposter> <http://purl.org/dc/terms/description> "Ein Konferenzposter ist eine visuelle Präsentation wissenschaftlicher
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzposter> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Konferenzposter ist eine visuelle Präsentation wissenschaftlicher
 Ergebnisse, die als Poster auf einer Konferenz präsentiert und als solche
 bzw. als Kurzbeitrag im Proceedingsband oder separat veröffentlicht wurde
 und permanent verfügbar ist.
@@ -1156,8 +1156,8 @@ has been presented as a poster at a conference and is published as such or
 as short contribution in the proceedings or separately and is available
 there permanently.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Kooperationspartner> <http://purl.org/dc/terms/description> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Kooperationspartner> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
 Hochschule und einer außeruniversitären Forschungseinrichtung, einer
 Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
 (z.B. aus der Wirtschaft) oder eines Arbeitsvertrags bei einer
@@ -1165,16 +1165,16 @@ außeruniversitären Forschungseinrichtung, einer Fachhochschule, einer
 anderen Universität oder einer sonstigen Einrichtung promoviert wurden oder
 promovieren.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle> <http://purl.org/dc/terms/description> "Es wird angegeben (ja/nein), ob die berichtende Einrichtung ein Projekt
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle> <http://www.w3.org/2000/01/rdf-schema#comment> "Es wird angegeben (ja/nein), ob die berichtende Einrichtung ein Projekt
 unter Beteiligung mehrerer selbständiger Einrichtungen, bspw. ein
 Konsortialprojekt, koordiniert.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung> <http://purl.org/dc/terms/description> "Zu erfassen sind Einrichtungen.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Zu erfassen sind Einrichtungen.
 
 Aufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.
 Für ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC
@@ -1183,12 +1183,12 @@ Berkeley).
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LaenderDerBeteiligtenInstitutionen> <http://purl.org/dc/terms/description> "Anzugeben ist das Land der beteiligten ausländischen Institution (nicht das
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LaenderDerBeteiligtenInstitutionen> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist das Land der beteiligten ausländischen Institution (nicht das
 Bundesland bei inländischen beteiligten Institutionen).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LetterToTheEditor> <http://purl.org/dc/terms/description> "Zuschrift an die Redaktion.
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LetterToTheEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Zuschrift an die Redaktion.
 
 Englisch:
 Communication to the editor.
@@ -1196,13 +1196,13 @@ Communication to the editor.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Lokal> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Lokal> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#MeetingAbstract> <http://purl.org/dc/terms/description> "Ein Meeting Abstract ist ein kurzer Text, der eine Präsentation an einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#MeetingAbstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Meeting Abstract ist ein kurzer Text, der eine Präsentation an einer
 Konferenz zusammenfasst und entweder in einer wissenschaftlichen
 Zeitschrift oder in einem Konferenzband veröffentlicht wurde.
 
@@ -1211,16 +1211,16 @@ A Meeting Abstract is a short text that summarizes a presentation at a
 conference and was published either in a scientific journal or in a
 conference proceedings.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mischfinanzierung> <http://purl.org/dc/terms/description> "Eine Mischfinanzierung liegt vor, wenn die verwendeten Mittel aus mehreren
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mischfinanzierung> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Mischfinanzierung liegt vor, wenn die verwendeten Mittel aus mehreren
 der genannten Quellen stammen und sich der höchste Finanzierungsanteil
 (vgl. Be8) nicht ermitteln lässt.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber> <http://purl.org/dc/terms/description> "Für die Erhebung im Kerndatensatz werden keine einzelnen Mittelgeber
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "Für die Erhebung im Kerndatensatz werden keine einzelnen Mittelgeber
 aufgelistet, sondern die Drittmittel nach den angeführten
 Mittelgeberkategorien zusammengefasst.
 Erfolgt eine Förderung z.B. durch einen Projektträger des Bundes ist der
@@ -1233,8 +1233,8 @@ Eine Übersicht der Zuordnungen ist unter
 einsehbar.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Monographie> <http://purl.org/dc/terms/description> "Eine Monographie ist ein Buch, geschrieben von einem oder mehreren Autoren,
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Monographie> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Monographie ist ein Buch, geschrieben von einem oder mehreren Autoren,
 das sich einem spezifischen Thema widmet und dieses umfassend und unter
 Berücksichtigung der relevanten Forschungsergebnisse darstellt.
 [Dieser Publikationstyp enthält auch: Fach- und Lehrbuch,
@@ -1248,8 +1248,8 @@ research findings. [This publication type also comprises: reference and
 text books, maps, exhibition catalog and translation if the latter is to be
 seen as substantial research achievement]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle> <http://purl.org/dc/terms/description> "Name des Journals, der Reihe oder des Sammelbandes.
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Name des Journals, der Reihe oder des Sammelbandes.
 Der Name des Journals, der zeitschriftenähnlichen Reihe oder des
 Sammelbandes wird als Metadatum des Journalartikels bzw. des
 Sammelbandbeitrags angegeben. Fakultativ können Journalnamen und
@@ -1267,22 +1267,22 @@ edited book shall be entered as publication.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerWeiterenEinrichtung> <http://purl.org/dc/terms/description> "Sofern möglich: Aufschlüsselung für inländische Einrichtungen gemäß
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerWeiterenEinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Sofern möglich: Aufschlüsselung für inländische Einrichtungen gemäß
 DFG-Research Explorer. Für ausländische Einrichtungen ISO-Landescode (z.B.
 USA) und Name (z.B. UC Berkeley).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nebenberuflich> <http://purl.org/dc/terms/description> "Weitere Beschäftigung neben einer anderen hauptberuflichen Tätigkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nebenberuflich> <http://www.w3.org/2000/01/rdf-schema#comment> "Weitere Beschäftigung neben einer anderen hauptberuflichen Tätigkeit
 innerhalb oder
 außerhalb der Forschungseinrichtung. Die nebenberufliche Tätigkeit kann
 stundenweise von hauptberuflich Beschäftigten ausgeübt werden.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NeuerPublikationstyp> <http://purl.org/dc/terms/description> "Das Werk kann nicht einem der vorhanden Dokument- oder Publikationstypen
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NeuerPublikationstyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Werk kann nicht einem der vorhanden Dokument- oder Publikationstypen
 zugeordnet werden. In diesem Fall ist ein Vorschlag für einen neuen
 Dokument- oder Publikationstyp einzureichen. Dieser sollte eine klare und
 möglichst allgemeine Definition wie auch die Abgrenzung von ähnlichen
@@ -1294,46 +1294,46 @@ this case a suggestion for a new document type needs to be deposited. This
 suggestion should include a clear and comprehensive definition as well as
 clues for the discrimination against the existing document types.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert> <http://purl.org/dc/terms/description> "Für diejenigen Projekte, die aus Rechtsgründen nicht dokumentiert werden
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert> <http://www.w3.org/2000/01/rdf-schema#comment> "Für diejenigen Projekte, die aus Rechtsgründen nicht dokumentiert werden
 dürfen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertOeffentlicheMittelgeber> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertOeffentlicheMittelgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertPrivateMittelgeber> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertPrivateMittelgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung> <http://purl.org/dc/terms/description> "Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die
 Entscheidung über die jeweils anzugebeneden Daten liegt beim
 Betreiber/Koordinator.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OpenAccess> <http://purl.org/dc/terms/description> "\"Open Access\" bezeichnet die Bereitstellung wesentlicher Ressourcen für die
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OpenAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Open Access\" bezeichnet die Bereitstellung wesentlicher Ressourcen für die
 breite wissenschaftliche (und auch nicht-wissenschaftliche) Öffentlichkeit
 in Form von digitalen Datenbanken und zum Teil auch Bibliotheken.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OrdentlicheProfessoren> <http://purl.org/dc/terms/description> "An der Einrichtung vertraglich beschäftigte Professoren. Personen mit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OrdentlicheProfessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "An der Einrichtung vertraglich beschäftigte Professoren. Personen mit
 Dienst- / Berufsbezeichnungen, die unter \"Sonstige Professoren (Be88)\" oder
 \"Juniorprofessoren (Be29)\" aufgeführt sind, werden hier nicht erhoben.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit> <http://purl.org/dc/terms/description> "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende
 organisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird
 empfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen
 des DFG-Research Explorers zu verwenden. Davon abweichende, in
@@ -1346,8 +1346,8 @@ sind.
 Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
 überschneidungsfrei ab.
 
-Vgl. ausführlicher: Spezifikation Kapitel 3.2.3" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent> <http://purl.org/dc/terms/description> "Technisch einmalige erteilte Patente. Erteilungen für die gleiche Erfindung
+Vgl. ausführlicher: Spezifikation Kapitel 3.2.3"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent> <http://www.w3.org/2000/01/rdf-schema#comment> "Technisch einmalige erteilte Patente. Erteilungen für die gleiche Erfindung
 in zwei oder mehr Ländern werden nur einfach gezählt. Wenn ein technisch
 einmaliges erteiltes Patent im Vorjahr gezählt wurde, kann es nicht noch
 einmal aufgeführt werden.
@@ -1356,8 +1356,8 @@ Erfasst werden Patente mit Beteiligung der berichtenden Einrichtung,
 unabhängig von der Zahl möglicher weiterer externer Kooperationspartner.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed> <http://purl.org/dc/terms/description> "Anzugeben ist, ob die Publikation durch ein Redaktionskomitee oder im
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist, ob die Publikation durch ein Redaktionskomitee oder im
 Auftrag eines Redakteurs durch externe Fachkollegen inhaltlich begutachtet
 worden ist.
 
@@ -1376,8 +1376,8 @@ Grundlage für die Erfassung des Begutachtungswesens.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie> <http://purl.org/dc/terms/description> "Gliederung der Beschäftigten in vier Gruppen:
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie> <http://www.w3.org/2000/01/rdf-schema#comment> "Gliederung der Beschäftigten in vier Gruppen:
 - Wissenschaftliches und künstlerisches Personal
 - Wissenschaftsunterstützendes Personal
 - Verwaltungspersonal
@@ -1398,8 +1398,8 @@ gelten auch für die Ausdifferenzierungen.
 
 Eine Übersicht der Zuordnungen ist unter
 *http://www.kerndatensatz-forschung.de/version1/Konkordanz_Personalkategorie.pdf*
-einsehbar." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren> <http://purl.org/dc/terms/description> "Die Professoren (einschließlich Juniorprofessoren) nehmen die ihrer
+einsehbar."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Professoren (einschließlich Juniorprofessoren) nehmen die ihrer
 Einrichtung jeweils obliegenden Aufgaben in Wissenschaft und Kunst,
 Forschung und Lehre in ihren Fächern nach näherer Ausgestaltung ihres
 Dienstverhältnisses selbständig wahr.
@@ -1407,26 +1407,26 @@ Dienstverhältnisses selbständig wahr.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn> <http://purl.org/dc/terms/description> "Als Projektbeginn zählt das Jahr des Projektbeginns laut
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn> <http://www.w3.org/2000/01/rdf-schema#comment> "Als Projektbeginn zählt das Jahr des Projektbeginns laut
 Bewilligungsbescheid bzw. Vereinbarung mit dem Förderer. Liegt kein
 Startdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende> <http://purl.org/dc/terms/description> "Als Projektende zählt das Jahr des Projektendes laut Bewilligungsbescheid
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende> <http://www.w3.org/2000/01/rdf-schema#comment> "Als Projektende zählt das Jahr des Projektendes laut Bewilligungsbescheid
 bzw. Vereinbarung mit dem Förderer. Liegt kein Enddatum vor, kann das Jahr
 des letzten Mittelabrufs eingesetzt werden.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion> <http://purl.org/dc/terms/description> "Die Promotion dient als akademisches Examen dem Nachweis der Befähigung für
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Promotion dient als akademisches Examen dem Nachweis der Befähigung für
 Forschung in einem bestimmten Fach oder Fachgebiet. Die Zulassung zur
 Promotion setzt in der Regel einen Abschluss auf Master-Ebene, also von 300
 ECTS-Punkten oder mehr voraus. Promotionen umfassen die Abschlüsse: Dr.,
@@ -1434,8 +1434,8 @@ Ph. D.
 
 Zu erfassen ist, ob der Mitarbeiter promoviert wurde.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner> <http://purl.org/dc/terms/description> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
 Hochschule und einer außeruniversitären Forschungseinrichtung, einer
 Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
 (z.B. aus der Wirtschaft) oder eines Arbeitsvertrags bei einer
@@ -1443,8 +1443,8 @@ außeruniversitären Forschungseinrichtung, einer Fachhochschule, einer
 anderen Universität oder einer sonstigen Einrichtung promoviert wurden oder
 promovieren.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promoviert> <http://purl.org/dc/terms/description> "Die Promotion dient als akademisches Examen dem Nachweis der Befähigung für
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promoviert> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Promotion dient als akademisches Examen dem Nachweis der Befähigung für
 Forschung in einem bestimmten Fach oder Fachgebiet. Die Zulassung zur
 Promotion setzt in der Regel einen Abschluss auf Master-Ebene, also von 300
 ECTS-Punkten oder mehr voraus. Promotionen umfassen die Abschlüsse: Dr.,
@@ -1452,8 +1452,8 @@ Ph. D.
 
 Zu erfassen ist, ob der Mitarbeiter promoviert wurde.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation> <http://purl.org/dc/terms/description> "Eine wissenschaftliche Publikation ist ein manifestes und veröffentlichtes
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine wissenschaftliche Publikation ist ein manifestes und veröffentlichtes
 Produkt, das aus der Forschungsarbeit einer oder mehrerer Personen
 resultiert. Eine Publikation muss einer eigenständigen intellektuellen
 Leistung entsprechen; rein formale Zusammenstellungen sollen nicht als
@@ -1475,8 +1475,8 @@ Publications should be permanently available. Citable and published
 research data are also considered as publications.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp> <http://purl.org/dc/terms/description> "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie
 Erscheinungsweise und Quelle, z.B. in Journalartikel, Sammelbandbeitrag,
 Monographie u.a..
 
@@ -1484,12 +1484,12 @@ Englisch:
 Categorization of all publishing formats based on criteria such as
 publication and source, e.g. in journal articles, book chapters, monographs.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation> <http://purl.org/dc/terms/description> "Die Qualifikation der Beschäftigten wird aufgeschlüsselt nach Habilitation
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Qualifikation der Beschäftigten wird aufgeschlüsselt nach Habilitation
 und Promotion. Gezählt wird jeweils der höchste Abschluss.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift> <http://purl.org/dc/terms/description> "Qualifikationsschriften umfassen Dissertationen und Habilitationen. Es ist
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift> <http://www.w3.org/2000/01/rdf-schema#comment> "Qualifikationsschriften umfassen Dissertationen und Habilitationen. Es ist
 anzugeben ob es sich bei der Publikation um eine Qualifikationsschrift
 handelt. In diesem Fall ist die Art der Qualifikationsschrift (Dissertation
 oder Habilitation) anzugeben.
@@ -1503,16 +1503,16 @@ the type of qualification (habilitation or dissertation) must be specified.
 
 RDA name: Dissertation or thesis information
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren> <http://purl.org/dc/terms/description> "Anzahl an Qualifizierungsverfahren, die der meldenden Hochschule
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzahl an Qualifizierungsverfahren, die der meldenden Hochschule
 erfolgreich abgelegt wurden.
 
 Im Sinne des Kerndatensatz Forschung werden die Abschlüsse Promotion und
 Habilitation erfasst.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionDokumenttyp> <http://purl.org/dc/terms/description> "Eine Quellenedition ist die Publikation von geschichts- oder
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionDokumenttyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Quellenedition ist die Publikation von geschichts- oder
 kulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des
 Quelleneditors in Form eines Artikels.
 [Dieser Publikationstyp enthält auch: Wissenschaftliche Musikedition]
@@ -1522,8 +1522,8 @@ A scholarly edition of primary sources is the publication of historic or
 cultural sources with a substantial contribution of the source editor.
 [This publication type also contains: Academic Music Edition]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionPublikationstyp> <http://purl.org/dc/terms/description> "Eine Quellenedition ist die Publikation von geschichts- oder
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionPublikationstyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Quellenedition ist die Publikation von geschichts- oder
 kulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des
 Quelleneditors in Form eines Buches.
 [Dieser Publikationstyp enthält auch: Wissenschaftliche Musikedition]
@@ -1533,10 +1533,10 @@ A scholarly edition of primary sources is the publication of historic or
 cultural sources with a substantial contribution of the source editor.
 [This publication type also contains: Academic Music Edition]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ressource> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Review> <http://purl.org/dc/terms/description> "Ein Review ist ein Überblicksartikel, der die Summe von veröffentlichten
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ressource> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Review ist ein Überblicksartikel, der die Summe von veröffentlichten
 wissenschaftlichen Arbeiten zu einem Thema zusammenfasst; normalerweise von
 einer besonders qualifizierten Person geschrieben.
 
@@ -1544,16 +1544,16 @@ Englisch:
 A review is an evaluative account of a published scholarly work, usually
 written and signed by a qualified person.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Rezension> <http://purl.org/dc/terms/description> "Eine Rezension ist ein Artikel, der eine kritische Bewertung eines Werkes
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Rezension> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Rezension ist ein Artikel, der eine kritische Bewertung eines Werkes
 (manchmal auch mehrerer Werke) beinhaltet.
 
 Englisch:
 A review is a critical appraisal of an opus (sometimes more than just one
 book).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelband> <http://purl.org/dc/terms/description> "Ein Buch, das von einer oder mehreren Personen herausgegeben wurde. Es
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelband> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Buch, das von einer oder mehreren Personen herausgegeben wurde. Es
 enthält Beiträge in Form von Kapiteln oder Aufsätzen verschiedener Autoren
 (siehe Sammelbandbeitrag).
 [Dieser Publikationstyp enthält auch: Festschrift, Gesetzeskommentare
@@ -1568,8 +1568,8 @@ inbook).
 publications) and legal commentary (either loose-leaf collection or bound
 book), conference proceedings, exhibition catalog, maps]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelbandbeitrag> <http://purl.org/dc/terms/description> "Ein Sammelbandbeitrag ist ein Kapitel oder ein Abschnitt eines Sammelbandes
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelbandbeitrag> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Sammelbandbeitrag ist ein Kapitel oder ein Abschnitt eines Sammelbandes
 und wird mit diesem über Quelle (Pu143) verknüpft.
 
 [Dieser Publikationstyp enthält auch: Enzyklopädie-Artikel,
@@ -1583,22 +1583,22 @@ edited book by the Source (Pu143).
 [This publication type also includes: encyclopedia articles, legal
 commentary]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer> <http://purl.org/dc/terms/description> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
 mehrere Schöpfer, z.B. Autoren, haben, die alle aufzulisten sind.
 
 First and last name of the creator. A work may have two or more joint
 creators, e.g. authors, which have to be all listed.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername> <http://purl.org/dc/terms/description> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Vorname und Nachname der schöpfenden Person. Ein Werk kann einen oder
 mehrere Schöpfer, z.B. Autoren, haben, die alle aufzulisten sind.
 
 First and last name of the creator. A work may have two or more joint
 creators, e.g. authors, which have to be all listed.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp> <http://purl.org/dc/terms/description> "Im Sinne des Kerndatensatz Forschung wird die Autorrolle mit dem
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Sinne des Kerndatensatz Forschung wird die Autorrolle mit dem
 Schöpfertyp spezifiziert. Standard-Eintrag ist Autor (Pu52).
 
 RDA-Bezeichnung: Beziehungskennzeichnung
@@ -1612,20 +1612,20 @@ RDA name: Relationship designator
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seitenbereich> <http://purl.org/dc/terms/description> "Angabe der Anfangs- und Endseite der Publikation.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seitenbereich> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe der Anfangs- und Endseite der Publikation.
 
 The first and last page of a publication.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren> <http://purl.org/dc/terms/description> "Ein Seniorprofessor arbeitet mit vertraglich festgelegten Rechten und
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Seniorprofessor arbeitet mit vertraglich festgelegten Rechten und
 Pflichten im Forschungs- und Lehrbetrieb.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SharedAccess> <http://purl.org/dc/terms/description> "\"Shared Access\" bezeichnet den Zugang zu klassischen Großgeräten (wie z.B.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SharedAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Shared Access\" bezeichnet den Zugang zu klassischen Großgeräten (wie z.B.
 Teleskopanlagen) oder Forschungsplattformen (wie z.B. Speziallaboren), die
 für eine bestimmte wissenschaftliche Community relevant und für die
 Erfüllung ihrer Forschungsaufgaben entscheidend sind. Sie werden deshalb
@@ -1635,8 +1635,8 @@ Community geplant, errichtet und betrieben.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Software> <http://purl.org/dc/terms/description> "Software bezeichnet wissenschaftliche Computerprogramme mit einer
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Software> <http://www.w3.org/2000/01/rdf-schema#comment> "Software bezeichnet wissenschaftliche Computerprogramme mit einer
 dazugehörigen Dokumentation.
 [Der Publikationstyp umfasst auch Manuale.]
 
@@ -1645,37 +1645,37 @@ Software is a generic term for computer programs and their associated
 documentation, as opposed to data used as input and generated as output.
 [The publication type also comprises manuals]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sondermittel> <http://purl.org/dc/terms/description> "Sondermittel sind Mittel, die außerhalb des Grundmittelhaushalts vom Träger
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sondermittel> <http://www.w3.org/2000/01/rdf-schema#comment> "Sondermittel sind Mittel, die außerhalb des Grundmittelhaushalts vom Träger
 zur Verfügung gestellt werden und die nicht Drittmittel sind (z.B. Mittel
 aus dem VW-Vorab in Niedersachsen).
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeDrittmittelgeber> <http://purl.org/dc/terms/description> "Umfasst Mittel von Stiftungen, sonstige öffentliche Mittel (z. B.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeDrittmittelgeber> <http://www.w3.org/2000/01/rdf-schema#comment> "Umfasst Mittel von Stiftungen, sonstige öffentliche Mittel (z. B.
 Gemeinden, Gemeinde- und Zweckverbände, Bundesagentur für Arbeit),
 Hochschulfördergesellschaften aus dem Inland.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeInternationaleOrganisationen> <http://purl.org/dc/terms/description> "Z.B. European Science Foundation (ESF), United Nations Educational,
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeInternationaleOrganisationen> <http://www.w3.org/2000/01/rdf-schema#comment> "Z.B. European Science Foundation (ESF), United Nations Educational,
 Scientific and Cultural Organization (UNESCO), National Institute of Health
 (NIH), National Science Foundation (NSF)
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeKooperationspartner> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeKooperationspartner> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren> <http://purl.org/dc/terms/description> "Professoren, die den Kategorien Juniorprofessoren (falls nicht unter
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "Professoren, die den Kategorien Juniorprofessoren (falls nicht unter
 Juniorprofessoren (Be29) subsumiert), Stiftungsprofessoren,
 Vertretungsprofessoren / Lehrstuhlvertreter, Seniorprofessoren,
 Hauptberufliche Gastprofessoren zugeordnet sind.
@@ -1683,8 +1683,8 @@ Hauptberufliche Gastprofessoren zugeordnet sind.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigerTyp> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigerTyp> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Eine Übersicht von Beispielen für die einzelnen Typen ist unter
@@ -1692,8 +1692,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesPersonal> <http://purl.org/dc/terms/description> "Umfasst Personal, das nicht wissenschaftlich oder
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesPersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "Umfasst Personal, das nicht wissenschaftlich oder
 wissenschaftsunterstützend arbeitet und kein Verwaltungspersonal ist.
 
 Diese Kategorie lässt sich direkt aus Kategorien im Sinne der
@@ -1705,56 +1705,56 @@ Kategorie.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesWissenschaftlichesUndKuenstlerischesPersonal> <http://purl.org/dc/terms/description> "Umfasst Lehrkräfte für besondere Aufgaben sowie Assistenten und
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesWissenschaftlichesUndKuenstlerischesPersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "Umfasst Lehrkräfte für besondere Aufgaben sowie Assistenten und
 Dozenten.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprachcode> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprache> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Staatsangehoerigkeit> <http://purl.org/dc/terms/description> "Es wird unterschieden zwischen Inland und Ausland. Personen mit mehreren
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprachcode> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprache> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Staatsangehoerigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Es wird unterschieden zwischen Inland und Ausland. Personen mit mehreren
 Staatsangehörigkeiten, die sowohl dem deutschen als auch weiteren Staaten
 angehören, werden nur der Kategorie Inland zugeordnet.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet> <http://purl.org/dc/terms/description> "Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der Annahme
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der Annahme
 als Doktorand am Fachbereich / an der Fakultät zu bestimmen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag> <http://purl.org/dc/terms/description> "Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Beginn der Promotion ist mittels des Datums (Jahr, Monat) der
 Betreuungsvereinbarung oder des Arbeitsvertrages zu bestimmen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Stiftungsprofessoren> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Stiftungsprofessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm> <http://purl.org/dc/terms/description> "Aggregation über den Namen des Programms." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart> <http://purl.org/dc/terms/description> "Nicht erhoben werden geringfügig Beschäftigte mit weniger als 20 Stunden
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm> <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregation über den Namen des Programms."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart> <http://www.w3.org/2000/01/rdf-schema#comment> "Nicht erhoben werden geringfügig Beschäftigte mit weniger als 20 Stunden
 Arbeitszeit (Kurse, Einzelvorträge) im gesamten Berichtsjahr.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Teilzeit> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent> <http://purl.org/dc/terms/description> "Der Titel des Patentes aus der Anmeldung.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Teilzeit> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Titel des Patentes aus der Anmeldung.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt> <http://purl.org/dc/terms/description> "Anzugeben ist der Titel zum Zeitpunkt der Bewilligung.
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist der Titel zum Zeitpunkt der Bewilligung.
 
 Sofern ein Projekt vertraulich bleiben muss, ist es dem \"Mittelgeber\"
 \"Nicht erklärt\" zuzuordnen. In diesem Fall kann auch der Titel des Projekts
@@ -1763,30 +1763,30 @@ frei bleiben.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPromotionsprogramm> <http://purl.org/dc/terms/description> "Anzugeben ist der Titel des strukturierten Promotionsprogrammes.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPromotionsprogramm> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist der Titel des strukturierten Promotionsprogrammes.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation> <http://purl.org/dc/terms/description> "RDA-Bezeichnung: Haupttitel
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation> <http://www.w3.org/2000/01/rdf-schema#comment> "RDA-Bezeichnung: Haupttitel
 
 RDA name: Title proper
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Unbefristet> <http://purl.org/dc/terms/description> "Eine unbefristeter Vertrag liegt vor, wenn die Vertragslaufzeit in Monaten
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Unbefristet> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine unbefristeter Vertrag liegt vor, wenn die Vertragslaufzeit in Monaten
 (Be39) keinen Wert aufweist.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Universitaet> <http://purl.org/dc/terms/description> "Hochschulen werden als Universitäten erfasst, sobald Promotionsrecht
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Universitaet> <http://www.w3.org/2000/01/rdf-schema#comment> "Hochschulen werden als Universitäten erfasst, sobald Promotionsrecht
 vorliegt.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#UserAccess> <http://purl.org/dc/terms/description> "\"User Access\" bezieht sich auf einen geregelten Zugang zu Ressourcen
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#UserAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "\"User Access\" bezieht sich auf einen geregelten Zugang zu Ressourcen
 aufgrund von Bewerbung und Registrierung einzelner, qualifizierter
 Expertennutzer – oft auch aus verschiedenen disziplinären Zusammenhängen –,
 wie es beispielsweise bei Bioprobenbanken, Archiven oder
@@ -1795,18 +1795,18 @@ Spezialbibliotheken üblich ist.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlagsort> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlagsort> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsjahr> <http://purl.org/dc/terms/description> "Das Veröffentlichungsjahr bezieht sich bei Artikeln i.d.R. auf das Datum
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsjahr> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Veröffentlichungsjahr bezieht sich bei Artikeln i.d.R. auf das Datum
 der Paginierung; bei e-only-Veröffentlichungen auf das Datum der
 Online-Veröffentlichung mit einem Persistent Identifier. Bei allen anderen
 Formaten wird es anhand der Vorlage angegeben. Bei Publikationen, die
@@ -1830,19 +1830,19 @@ may differ.
 
 RDA name: Date of publication
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsnummer> <http://purl.org/dc/terms/description> "Die Veröffentlichungsnummer dient zur Recherche weiterer Informationen.
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Veröffentlichungsnummer dient zur Recherche weiterer Informationen.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verteilt> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verteilt> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten> <http://purl.org/dc/terms/description> "Angabe von Vertragsmonaten des aktuellen Vertrages.
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten> <http://www.w3.org/2000/01/rdf-schema#comment> "Angabe von Vertragsmonaten des aktuellen Vertrages.
 
 Bei Kopfzählung ist die Laufzeit des Vertrages mit dem größten
 Arbeitszeitanteil anzugeben. Bei gleichem Arbeitszeitanteil wird die
@@ -1850,8 +1850,8 @@ Vertragslaufzeit des Vertrages mit der längeren Laufzeit angegeben. Für das
 Kerndatum Vollzeitäquivalente erfolgt die Zuordnung des Beschäftigten bei
 mehreren Arbeitsverträgen nach Arbeitsvertrag.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vertretungsprofessoren> <http://purl.org/dc/terms/description> "Vertretungsprofessoren bzw. Lehrstuhlvertreter sind zeitlich befristet
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vertretungsprofessoren> <http://www.w3.org/2000/01/rdf-schema#comment> "Vertretungsprofessoren bzw. Lehrstuhlvertreter sind zeitlich befristet
 eingestellte Wissenschaftler, die üblicherweise semesterweise die
 Verwaltung einer Professur übernehmen.
 
@@ -1862,37 +1862,37 @@ hier nicht gezählt werden.
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verwaltungspersonal> <http://purl.org/dc/terms/description> "Hinweis: Das wissenschaftsnahe, das wissenschaftsunterstützende und das
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verwaltungspersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "Hinweis: Das wissenschaftsnahe, das wissenschaftsunterstützende und das
 Verwaltungspersonal entsprechen in Summe dem nichtwissenschaftlichen
 Personal bei Destatis.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Virtuell> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Virtuell> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vollzeit> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte> <http://purl.org/dc/terms/description> "Die Definition von wissenschaftlichen oder künstlerischen Hilfskräften
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vollzeit> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Definition von wissenschaftlichen oder künstlerischen Hilfskräften
 richtet sich nach den jeweiligen Landeshochschulgesetzen.
 
 Für den Kerndatensatz Forschung werden keine studentischen Hilfskräfte
 angegeben.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicherArtikel> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicherArtikel> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheUndKuenstlerischeMitarbeiter> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiter sind die den Fachbereichen, den
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheUndKuenstlerischeMitarbeiter> <http://www.w3.org/2000/01/rdf-schema#comment> "Wissenschaftliche Mitarbeiter sind die den Fachbereichen, den
 wissenschaftlichen Einrichtungen oder den Betriebseinheiten zugeordnete
 Beamte und Angestellte, denen wissenschaftliche Dienstleistungen obliegen.
 Zu den wissenschaftlichen Dienstleistungen gehört es auch, Studenten
@@ -1909,8 +1909,8 @@ mitgliedschaftsrechtlich den wissenschaftlichen Mitarbeitern gleichgestellt.
 
 Entsprechende Regelungen gelten für künstlerische Mitarbeiter.
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheVortragsfolien> <http://purl.org/dc/terms/description> "Vortragsfolien sind öffentlich zugängliche visuelle Darstellungen von
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheVortragsfolien> <http://www.w3.org/2000/01/rdf-schema#comment> "Vortragsfolien sind öffentlich zugängliche visuelle Darstellungen von
 mündlichen Beiträgen auf wissenschaftlichen Veranstaltungen.
 
 [z.B. auf slideshare.net veröffentlicht]
@@ -1921,8 +1921,8 @@ given at scientific events.
 
 [e.g. published on slideshare.net]
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]" @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftsunterstuetzendesPersonal> <http://purl.org/dc/terms/description> "Wissenschaftsunterstützendes Personal umfasst im Sinne des Kerndatensatz
+(Listenform)]"@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftsunterstuetzendesPersonal> <http://www.w3.org/2000/01/rdf-schema#comment> "Wissenschaftsunterstützendes Personal umfasst im Sinne des Kerndatensatz
 Forschung folgende Tätigkeiten:
 • interne wissenschaftlich-technische Unterstützungsleistungen, nicht
 direkt zuzuordnen
@@ -1956,8 +1956,8 @@ Eine Übersicht der Zuordnungen ist unter
 einsehbar.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Wissensressourcen> <http://purl.org/dc/terms/description> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Wissensressourcen> <http://www.w3.org/2000/01/rdf-schema#comment> "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Eine Übersicht von Beispielen für die einzelnen Typen ist unter
@@ -1965,8 +1965,8 @@ Eine Übersicht von Beispielen für die einzelnen Typen ist unter
 einsehbar.
 
 Hinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart> <http://purl.org/dc/terms/description> "Mehrfachnennungen möglich:
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart> <http://www.w3.org/2000/01/rdf-schema#comment> "Mehrfachnennungen möglich:
 A) User Access (z.B. über wissenschaftliches Antragsverfahren für externe
 Nutzer)
 B) Shared Access (z.B. über wissenschaftliche Kollaborationen mit der
@@ -1987,12 +1987,12 @@ Forschungsinfrastruktur eingetragen wird.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugriffsrechte> <http://purl.org/dc/terms/description> "Die Beschreibung der Zugangsrechte erfolgt entlang des „Access Rights
+angepasst."@de .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugriffsrechte> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Beschreibung der Zugangsrechte erfolgt entlang des „Access Rights
 Vocabulary“ der Confederation of Open Access Repositorires (COAR):
 *https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/access-rights-vocabulary/*
 [Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst." @de .
+angepasst."@de .

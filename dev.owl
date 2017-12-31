@@ -20,10 +20,10 @@
         <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -31,58 +31,63 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition -->
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition"/>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#pgbid -->
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#pgbid"/>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#mapping -->
 
     <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/hasVersion -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/modified -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
-    
+
 
 
     <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
-    
 
 
-    <!-- 
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -90,16 +95,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -107,7 +112,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatAnmelder -->
@@ -125,7 +130,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatAnmelder-001"/>
         <rdfs:label xml:lang="de">hat Anmelder</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatArt -->
@@ -137,7 +142,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatArt-001"/>
         <rdfs:label xml:lang="de">hat Art</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung -->
@@ -150,7 +155,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBefristung-001"/>
         <rdfs:label xml:lang="de">hat Befristung</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung -->
@@ -162,7 +167,7 @@
         <rdfs:comment>Beziehung zwischen Personen und Beschäftigung</rdfs:comment>
         <rdfs:label xml:lang="de">hat Beschäftigung</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber -->
@@ -174,7 +179,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBetreiber-001"/>
         <rdfs:label xml:lang="de">hat Betreiber</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetriebspersonal -->
@@ -186,7 +191,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBetriebspersonal-001"/>
         <rdfs:label xml:lang="de">hat Betriebspersonal</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung -->
@@ -198,7 +203,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBezeichnung-001"/>
         <rdfs:label xml:lang="de">hat Bezeichnung</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatDokumenttyp -->
@@ -211,7 +216,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatDokumenttyp-001"/>
         <rdfs:label xml:lang="de">hat Dokumenttyp</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder -->
@@ -223,7 +228,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatErfinder-001"/>
         <rdfs:label xml:lang="de">hat Erfinder</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErstbetreuer -->
@@ -235,7 +240,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatErstbetreuer-001"/>
         <rdfs:label xml:lang="de">hat Erstbetreuerin / Erstbetreuer</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFach -->
@@ -263,7 +268,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFach-001"/>
         <rdfs:label xml:lang="de">hat Fach</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFinanzierungsform -->
@@ -283,7 +288,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFinanzierungsform-001"/>
         <rdfs:label xml:lang="de">hat Finanzierungsform</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFormat -->
@@ -296,7 +301,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatFormat-001"/>
         <rdfs:label xml:lang="de">hat Format</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatForschungsfeld -->
@@ -323,7 +328,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatForschungsfeld-001"/>
         <rdfs:label xml:lang="de">hat Forschungsfeld</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatGemeinsameBerufung -->
@@ -335,7 +340,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatGemeinsameBerufung-001"/>
         <rdfs:label xml:lang="de">hat gemeinsame Berufung</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner -->
@@ -355,7 +360,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatKooperationspartner-001"/>
         <rdfs:label xml:lang="de">hat Kooperationspartner</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKoordinator -->
@@ -367,7 +372,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatKoordinator-001"/>
         <rdfs:label xml:lang="de">hat Koordinator</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber -->
@@ -380,7 +385,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatMittelgeber-001"/>
         <rdfs:label xml:lang="de">hat Mittelgeber</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung -->
@@ -392,7 +397,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatNutzung-001"/>
         <rdfs:label xml:lang="de">hat Nutzung</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit -->
@@ -421,7 +426,7 @@
         <rdfs:comment>Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten</rdfs:comment>
         <rdfs:label xml:lang="de">hat Organisationseinheit</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie -->
@@ -433,7 +438,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPersonalkategorie-001"/>
         <rdfs:label xml:lang="de">hat Personalkategorie</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikation -->
@@ -445,7 +450,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPublikation-001"/>
         <rdfs:label xml:lang="de">hat Publikation</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikationstyp -->
@@ -458,7 +463,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPublikationstyp-001"/>
         <rdfs:label xml:lang="de">hat Publikationstyp</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation -->
@@ -470,7 +475,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatQualifikation-001"/>
         <rdfs:label xml:lang="de">hat Qualifikation</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren -->
@@ -482,7 +487,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatQualifizierungsverfahren-001"/>
         <rdfs:label xml:lang="de">hat Qualifizierungsverfahren</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfer -->
@@ -496,7 +501,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSchoepfer-001"/>
         <rdfs:label xml:lang="de">hat Schöpfer</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp -->
@@ -509,7 +514,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSchoepfertyp-001"/>
         <rdfs:label xml:lang="de">hat Schöpfertyp</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSprecher -->
@@ -521,7 +526,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatSprecher-001"/>
         <rdfs:label xml:lang="de">hat Sprecher</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTaetigkeitsart -->
@@ -533,7 +538,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatTaetigkeitsart-001"/>
         <rdfs:label xml:lang="de">hat Tätigkeitsart</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTyp -->
@@ -545,7 +550,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatTyp-001"/>
         <rdfs:label xml:lang="de">hat Typ</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt -->
@@ -557,7 +562,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUebergeordnetesProjekt-001"/>
         <rdfs:label xml:lang="de">hat übergeordnetes Projekt</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit -->
@@ -572,7 +577,7 @@
         <rdfs:comment>Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau &quot;Gesamteinrichtung&quot; abgebildet werden.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Untereinheit</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch -->
@@ -595,7 +600,7 @@
         <rdfs:comment>Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen</rdfs:comment>
         <rdfs:label xml:lang="de">hat Unterstützung durch</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag -->
@@ -608,7 +613,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatVerlag-001"/>
         <rdfs:label xml:lang="de">hat Verlag</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatZugangsart -->
@@ -620,7 +625,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatZugangsart-001"/>
         <rdfs:label xml:lang="de">hat Zugangsart</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatAntragsteller -->
@@ -631,7 +636,7 @@
         <rdfs:comment xml:lang="de">hat Antragsteller</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatLeitthema -->
@@ -651,7 +656,7 @@
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">hat Leitthema</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatProjektleiter -->
@@ -662,7 +667,7 @@
         <rdfs:label xml:lang="de">hat Projektleiter</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/hasFundingAgency -->
@@ -676,7 +681,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">has funding agency</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/isFundingAgencyFor -->
@@ -687,7 +692,7 @@
         <rdfs:comment xml:lang="en">An object property linking a funding agency to an entity for which it provides funding.</rdfs:comment>
         <rdfs:label xml:lang="en">is funding agency for</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/isSupportedBy -->
@@ -698,7 +703,7 @@
         <rdfs:comment xml:lang="en">An object property linking something to an agent that provides funding or other support for it.</rdfs:comment>
         <rdfs:label xml:lang="en">is supported by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/supports -->
@@ -708,7 +713,7 @@
         <rdfs:comment xml:lang="en">An object property linking an agent to something that the agent supports by financial or other means.</rdfs:comment>
         <rdfs:label xml:lang="en">supports</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/hasPart -->
@@ -722,7 +727,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Has Part</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/isPartOf -->
@@ -735,10 +740,10 @@
         <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
         <rdfs:label xml:lang="de">ist Teil von</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -746,7 +751,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt -->
@@ -759,7 +764,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Abschlusszeitpunkt-001"/>
         <rdfs:label xml:lang="de">Abschlusszeitpunkt</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Altersgruppe -->
@@ -771,7 +776,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Altersgruppe-001"/>
         <rdfs:label xml:lang="de">Altersgruppe</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss -->
@@ -784,7 +789,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AltersgruppeBeiAbschluss-001"/>
         <rdfs:label xml:lang="de">Altersgruppe bei Abschluss</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlGenutzteStunden -->
@@ -796,7 +801,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlGenutzteStunden-001"/>
         <rdfs:label xml:lang="de">Anzahl genutzte Stunden</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzer -->
@@ -808,7 +813,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlNutzer-001"/>
         <rdfs:label xml:lang="de">Anzahl Nutzer</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzungszugriffe -->
@@ -820,7 +825,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AnzahlNutzungszugriffe-001"/>
         <rdfs:label xml:lang="de">Anzahl Nutzungszugriffe</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Band -->
@@ -833,7 +838,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Band-001"/>
         <rdfs:label xml:lang="de">Band</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur -->
@@ -845,7 +850,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BeschreibungDerForschungsinfrastruktur-001"/>
         <rdfs:label xml:lang="de">Beschreibung der Forschungsinfrastruktur</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung -->
@@ -967,7 +972,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Besoldung-001"/>
         <rdfs:label xml:lang="de">Besoldung</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeteiligteInstitutionen -->
@@ -979,7 +984,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BeteiligteInstitutionen-001"/>
         <rdfs:label xml:lang="de">Beteiligte Institutionen</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme -->
@@ -992,7 +997,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Bewilligungssumme-001"/>
         <rdfs:label xml:lang="de">Bewilligungssumme</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerForschungsinfrastruktur -->
@@ -1004,7 +1009,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BezeichnungDerForschungsinfrastruktur-001"/>
         <rdfs:label xml:lang="de">Bezeichnung der Forschungsinfrastruktur</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerProfessur -->
@@ -1016,7 +1021,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BezeichnungDerProfessur-001"/>
         <rdfs:label xml:lang="de">Bezeichnung der Professur</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung -->
@@ -1029,7 +1034,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#DatumDerPrioritaetsbegruendendenErstanmeldung-001"/>
         <rdfs:label xml:lang="de">Datum der prioritätsbegründenden Erstanmeldung</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen -->
@@ -1041,7 +1046,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmitteleinnahmen-001"/>
         <rdfs:label xml:lang="de">Drittmitteleinnahmen</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelertraege -->
@@ -1053,7 +1058,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmittelertraege-001"/>
         <rdfs:label xml:lang="de">Drittmittelerträge</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer -->
@@ -1066,7 +1071,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Foerderer-001"/>
         <rdfs:label xml:lang="de">Förderer</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenDrittmittelprojekt -->
@@ -1079,7 +1084,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FoerderkennzeichenDrittmittelprojekt-001"/>
         <rdfs:label xml:lang="de">Förderkennzeichen des Drittmittelprojekts</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation -->
@@ -1093,7 +1098,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FoerderkennzeichenPublikation-001"/>
         <rdfs:label xml:lang="de">Förderkennzeichen der Publikation</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht -->
@@ -1129,7 +1134,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Geschlecht-001"/>
         <rdfs:label xml:lang="de">Geschlecht</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Heft -->
@@ -1142,7 +1147,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Heft-001"/>
         <rdfs:label xml:lang="de">Heft</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname -->
@@ -1155,7 +1160,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Konferenzname-001"/>
         <rdfs:label xml:lang="de">Name der Konferenz</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Kooperationspartner -->
@@ -1167,7 +1172,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Kooperationspartner-001"/>
         <rdfs:label xml:lang="de">Kooperationspartner (bei kooperativer Promotion)</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle -->
@@ -1179,7 +1184,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Koordinationsrolle-001"/>
         <rdfs:label xml:lang="de">Koordinationsrolle (Einrichtung)</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung -->
@@ -1192,7 +1197,7 @@
         <rdfs:label xml:lang="de">Name der Sprechereinrichtung</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name des Konsortialführers</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LaenderDerBeteiligtenInstitutionen -->
@@ -1204,7 +1209,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#LaenderDerBeteiligtenInstitutionen-001"/>
         <rdfs:label xml:lang="de">Länder der beteiligten Institutionen</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name -->
@@ -1216,7 +1221,7 @@
         <rdfs:comment>Wesentliche Eigenschaft einer Person</rdfs:comment>
         <rdfs:label xml:lang="de">Name</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung -->
@@ -1228,7 +1233,7 @@
         <rdfs:label xml:lang="de">Name der Ausgründung</rdfs:label>
         <rdfs:label>Pa39</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit -->
@@ -1241,7 +1246,7 @@
         <rdfs:comment>Wesentliche Eigenschaft einer Organisationseinheit</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Organisationseinheit</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle -->
@@ -1253,7 +1258,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerQuelle-001"/>
         <rdfs:label xml:lang="de">Name der Quelle</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerWeiterenEinrichtung -->
@@ -1265,7 +1270,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerWeiterenEinrichtung-001"/>
         <rdfs:label xml:lang="de">Name der weiteren Einrichtung</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed -->
@@ -1279,7 +1284,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#PeerReviewed-001"/>
         <rdfs:label xml:lang="de">ist Peer Reviewed</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn -->
@@ -1293,7 +1298,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektbeginn-001"/>
         <rdfs:label xml:lang="de">Projektbeginn</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende -->
@@ -1307,7 +1312,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Projektende-001"/>
         <rdfs:label xml:lang="de">Projektende</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ressource -->
@@ -1352,7 +1357,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Ressource-001"/>
         <rdfs:label xml:lang="de">Ressource</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername -->
@@ -1365,7 +1370,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Schoepfername-001"/>
         <rdfs:label xml:lang="de">Name des Schöpfers</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seitenbereich -->
@@ -1378,7 +1383,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Seitenbereich-001"/>
         <rdfs:label xml:lang="de">Seitenbereich</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprachcode -->
@@ -1391,7 +1396,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sprachcode-001"/>
         <rdfs:label xml:lang="de">Sprachcode</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprache -->
@@ -1405,7 +1410,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sprache-001"/>
         <rdfs:label xml:lang="de">Sprache</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Staatsangehoerigkeit -->
@@ -1417,7 +1422,7 @@
         <Meta:inhaltlicheDefinition>Na58</Meta:inhaltlicheDefinition>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Staatsangehoerigkeit-001"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet -->
@@ -1429,7 +1434,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet-001"/>
         <rdfs:label xml:lang="de">Start der Promotion (nach Annahme am Fachbereich / an der Fakultät)</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag -->
@@ -1441,7 +1446,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag-001"/>
         <rdfs:label xml:lang="de">Start der Promotion (nach Betreuungsvereinbarung / Arbeitsvertrag)</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent -->
@@ -1454,7 +1459,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPatent-001"/>
         <rdfs:label xml:lang="de">Titel des Patents</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt -->
@@ -1468,7 +1473,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelProjekt-001"/>
         <rdfs:label xml:lang="de">Titel des Projekts</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPromotionsprogramm -->
@@ -1480,7 +1485,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPromotionsprogramm-001"/>
         <rdfs:label xml:lang="de">Titel des Promotionsprogramms</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation -->
@@ -1494,7 +1499,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#TitelPublikation-001"/>
         <rdfs:label xml:lang="de">Titel der Publikation</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlagsort -->
@@ -1506,7 +1511,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verlagsort-001"/>
         <rdfs:label xml:lang="de">Verlagsort</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsjahr -->
@@ -1520,7 +1525,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Veroeffentlichungsjahr-001"/>
         <rdfs:label xml:lang="de">Veröffentlichungsjahr</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsnummer -->
@@ -1532,7 +1537,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Veroeffentlichungsnummer-001"/>
         <rdfs:label xml:lang="de">Veröffentlichungsnummer</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten -->
@@ -1545,7 +1550,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#VertragslaufzeitInMonaten-001"/>
         <rdfs:label xml:lang="de">Vertragslaufzeit in Monaten</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugriffsrechte -->
@@ -1558,7 +1563,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Zugriffsrechte-001"/>
         <rdfs:label xml:lang="de">Zugriffsrechte</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPromotionsberechtigungAus -->
@@ -1570,7 +1575,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatPromotionsberechtigungAus-001"/>
         <rdfs:label xml:lang="de">hat Promotionsberechtigung aus</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz -->
@@ -1582,7 +1587,7 @@
         <mapping>Kurztitel</mapping>
         <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/history#TitelProjektKurz-001"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell -->
@@ -1595,7 +1600,7 @@
         <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/history#TitelProjektRedaktionell-001"/>
         <rdfs:label xml:lang="de">redaktioneller Titel</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/hasAcronym -->
@@ -1607,7 +1612,7 @@
         <rdfs:label xml:lang="de">Akronym</rdfs:label>
         <rdfs:label xml:lang="en">has acronym</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/description -->
@@ -1621,7 +1626,7 @@
         <rdfs:label xml:lang="de">Beschreibung</rdfs:label>
         <rdfs:label xml:lang="en">Description</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/identifier -->
@@ -1636,7 +1641,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/title -->
@@ -1650,10 +1655,10 @@
         <rdfs:label xml:lang="de">Titel</rdfs:label>
         <rdfs:label xml:lang="en">Title</rdfs:label>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -1661,7 +1666,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF -->
@@ -1672,7 +1677,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AUF-001"/>
         <rdfs:label xml:lang="de">AUF</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ArbeitspapierForschungsbericht -->
@@ -1683,7 +1688,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#ArbeitspapierForschungsbericht-001"/>
         <rdfs:label xml:lang="de">Arbeitspapier/Forschungsbericht</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel -->
@@ -1694,7 +1699,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Artikel-001"/>
         <rdfs:label xml:lang="de">Artikel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung -->
@@ -1704,7 +1709,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Ausgruendung-001"/>
         <rdfs:label xml:lang="de">Ausgründung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AusserplanmaessigeProfessoren -->
@@ -1715,7 +1720,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AusserplanmaessigeProfessoren-001"/>
         <rdfs:label xml:lang="de">Außerplanmäßige Professoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Autor -->
@@ -1727,7 +1732,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Schoepfertyp-001"/>
         <rdfs:label xml:lang="de">Autor</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet -->
@@ -1739,7 +1744,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Befristet-001"/>
         <rdfs:label xml:lang="de">Befristet</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung -->
@@ -1749,7 +1754,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Befristung-001"/>
         <rdfs:label xml:lang="de">Befristung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeitraegeInterviewsInNicht-wissenschaftlichenMedien -->
@@ -1760,7 +1765,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BeitraegeInterviewsInNicht-wissenschaftlichenMedien-001"/>
         <rdfs:label xml:lang="de">Beiträge bzw. Interviews in nicht-wissenschaftlichen Medien</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter -->
@@ -1771,7 +1776,7 @@
         <rdfs:comment>Personen, die in einem Beschäftigungsverhältnis sind.</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigte / Beschäftigter</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung -->
@@ -1781,7 +1786,7 @@
         <rdfs:comment>Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp -->
@@ -1792,7 +1797,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BibliographieDokumenttyp-001"/>
         <rdfs:label xml:lang="de">Bibliographie [Dokumenttyp]</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographiePublikationstyp -->
@@ -1803,7 +1808,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#BibliographiePublikationstyp-001"/>
         <rdfs:label xml:lang="de">Bibliographie [Publikationstyp]</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch -->
@@ -1814,7 +1819,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Publikationstyp-001"/>
         <rdfs:label xml:lang="de">Buch</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bund -->
@@ -1825,7 +1830,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Mittelgeber-001"/>
         <rdfs:label xml:lang="de">Bund</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bundeslaender -->
@@ -1836,7 +1841,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Bundeslaender-001"/>
         <rdfs:label xml:lang="de">Bundesländer</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DFG -->
@@ -1847,7 +1852,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Mittelgeber-001"/>
         <rdfs:label xml:lang="de">DFG</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Datensammlung -->
@@ -1858,7 +1863,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Datensammlung-001"/>
         <rdfs:label xml:lang="de">Datensammlung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dissertation -->
@@ -1869,7 +1874,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Dissertation-001"/>
         <rdfs:label xml:lang="de">Dissertation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp -->
@@ -1880,7 +1885,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Dokumenttyp-001"/>
         <rdfs:label xml:lang="de">Dokumenttyp</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittel -->
@@ -1892,7 +1897,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmittel-001"/>
         <rdfs:label xml:lang="de">Drittmittel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt -->
@@ -1903,7 +1908,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmittelprojekt-001"/>
         <rdfs:label xml:lang="de">Drittmittelprojekt</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EU -->
@@ -1914,7 +1919,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#EU-001"/>
         <rdfs:label xml:lang="de">EU</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Editorial -->
@@ -1925,7 +1930,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Editorial-001"/>
         <rdfs:label xml:lang="de">Editorial</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen -->
@@ -1936,7 +1941,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#EuUndSonstigeInternationaleOrganisationen-001"/>
         <rdfs:label xml:lang="de">EU und sonstige internationale Organisationen</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH -->
@@ -1947,7 +1952,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FH-001"/>
         <rdfs:label xml:lang="de">FH</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach -->
@@ -1961,7 +1966,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Fach-001"/>
         <rdfs:label xml:lang="de">Fach</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform -->
@@ -1972,7 +1977,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Finanzierungsform-001"/>
         <rdfs:label xml:lang="de">Finanzierungsform</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format -->
@@ -1983,7 +1988,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Format-001"/>
         <rdfs:label xml:lang="de">Format</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld -->
@@ -1997,7 +2002,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Forschungsfeld-001"/>
         <rdfs:label xml:lang="de">Forschungsfeld</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur -->
@@ -2007,7 +2012,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Forschungsinfrastruktur-001"/>
         <rdfs:label xml:lang="de">Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart -->
@@ -2017,7 +2022,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Forschungsinfrastrukturart-001"/>
         <rdfs:label xml:lang="de">Art der Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp -->
@@ -2027,7 +2032,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Forschungsinfrastrukturtyp-001"/>
         <rdfs:label xml:lang="de">Typ der Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung -->
@@ -2037,7 +2042,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GemeinsameBerufung-001"/>
         <rdfs:label xml:lang="de">Gemeinsame Berufung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GewerblicheWirtschaftUndSonstigePrivateBereiche -->
@@ -2048,7 +2053,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GewerblicheWirtschaftUndSonstigePrivateBereiche-001"/>
         <rdfs:label xml:lang="de">Gewerbliche Wirtschaft und sonstige private Bereiche</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrossgeraeteUndInstrumente -->
@@ -2059,7 +2064,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GrossgeraeteUndInstrumente-001"/>
         <rdfs:label xml:lang="de">Großgeräte und Instrumente</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrundmittelUndInstitutionelleMittel -->
@@ -2071,7 +2076,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GrundmittelUndInstitutionelleMittel-001"/>
         <rdfs:label xml:lang="de">Grundmittel und institutionelle Mittel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitAutorenfunktion -->
@@ -2083,7 +2088,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GruppeMitAutorenfunktion-001"/>
         <rdfs:label xml:lang="de">Gruppe mit Autorenfunktion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitHerausgeberfunktion -->
@@ -2095,7 +2100,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#GruppeMitHerausgeberfunktion-001"/>
         <rdfs:label xml:lang="de">Gruppe mit Herausgeberfunktion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitation -->
@@ -2107,7 +2112,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Habilitation-001"/>
         <rdfs:label xml:lang="de">Habilitation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitationsschrift -->
@@ -2118,7 +2123,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Habilitationsschrift-001"/>
         <rdfs:label xml:lang="de">Habilitationsschrift</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitiert -->
@@ -2129,7 +2134,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Habilitiert-001"/>
         <rdfs:label xml:lang="de">Habilitiert</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich -->
@@ -2140,7 +2145,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Hauptberuflich-001"/>
         <rdfs:label xml:lang="de">Hauptberuflich</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HauptberuflicheGastprofessoren -->
@@ -2151,7 +2156,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#HauptberuflicheGastprofessoren-001"/>
         <rdfs:label xml:lang="de">Hauptberufliche Gastprofessoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Herausgeber -->
@@ -2163,7 +2168,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Herausgeber-001"/>
         <rdfs:label xml:lang="de">Herausgeber</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgeberschaftEinesSonderheftsEinerZeitschrift -->
@@ -2174,7 +2179,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#HerausgeberschaftEinesSonderheftsEinerZeitschrift-001"/>
         <rdfs:label xml:lang="de">Herausgeberschaft eines Sonderhefts einer Zeitschrift</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgegebenesBuch -->
@@ -2185,7 +2190,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#HerausgegebenesBuch-001"/>
         <rdfs:label xml:lang="de">Herausgegebenes Buch</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#InformationsUndKommunikationsinfrastrukturen -->
@@ -2196,7 +2201,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#InformationsUndKommunikationsinfrastrukturen-001"/>
         <rdfs:label xml:lang="de">Informations- und Kommunikationsinfrastrukturen</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Journalartikel -->
@@ -2207,7 +2212,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Journalartikel-001"/>
         <rdfs:label xml:lang="de">Journalartikel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Juniorprofessoren -->
@@ -2218,7 +2223,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Juniorprofessoren-001"/>
         <rdfs:label xml:lang="de">Juniorprofessoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitAutorenfunktion -->
@@ -2230,7 +2235,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#KoerperschaftMitAutorenfunktion-001"/>
         <rdfs:label xml:lang="de">Körperschaft mit Autorenfunktion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitHerausgeberfunktion -->
@@ -2242,7 +2247,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#KoerperschaftMitHerausgeberfunktion-001"/>
         <rdfs:label xml:lang="de">Körperschaft mit Herausgeberfunktion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzposter -->
@@ -2253,7 +2258,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Konferenzposter-001"/>
         <rdfs:label xml:lang="de">Konferenzposter</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LetterToTheEditor -->
@@ -2264,7 +2269,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#LetterToTheEditor-001"/>
         <rdfs:label xml:lang="de">Letter to the Editor</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Lokal -->
@@ -2275,7 +2280,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Lokal-001"/>
         <rdfs:label xml:lang="de">Lokal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#MeetingAbstract -->
@@ -2286,7 +2291,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#MeetingAbstract-001"/>
         <rdfs:label xml:lang="de">Meeting Abstract</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mischfinanzierung -->
@@ -2298,7 +2303,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Mischfinanzierung-001"/>
         <rdfs:label xml:lang="de">Mischfinanzierung</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber -->
@@ -2308,7 +2313,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Mittelgeber-001"/>
         <rdfs:label xml:lang="de">Mittelgeber</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Monographie -->
@@ -2319,7 +2324,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Monographie-001"/>
         <rdfs:label xml:lang="de">Monographie</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nebenberuflich -->
@@ -2330,7 +2335,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Nebenberuflich-001"/>
         <rdfs:label xml:lang="de">Nebenberuflich</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NeuerPublikationstyp -->
@@ -2341,7 +2346,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NeuerPublikationstyp-001"/>
         <rdfs:label xml:lang="de">Neuer Publikations- oder Dokumenttyp</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert -->
@@ -2352,7 +2357,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NichtErklaert-001"/>
         <rdfs:label xml:lang="de">Nicht erklärt</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertOeffentlicheMittelgeber -->
@@ -2363,7 +2368,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NichtErklaertOeffentlicheMittelgeber-001"/>
         <rdfs:label xml:lang="de">Nicht erklärt (Öffentliche Mittelgeber)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertPrivateMittelgeber -->
@@ -2374,7 +2379,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NichtErklaertPrivateMittelgeber-001"/>
         <rdfs:label xml:lang="de">Nicht erklärt (Private Mittelgeber)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung -->
@@ -2384,7 +2389,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Nutzung-001"/>
         <rdfs:label xml:lang="de">Nutzung / Nutzungsintensität</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OpenAccess -->
@@ -2395,7 +2400,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#OpenAccess-001"/>
         <rdfs:label xml:lang="de">Open Access</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OrdentlicheProfessoren -->
@@ -2406,7 +2411,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#OrdentlicheProfessoren-001"/>
         <rdfs:label xml:lang="de">Ordentliche Professoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit -->
@@ -2420,7 +2425,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Organisationseinheit-001"/>
         <rdfs:label xml:lang="de">Organisationseinheit</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent -->
@@ -2431,7 +2436,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Patent-001"/>
         <rdfs:label xml:lang="de">Patent</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person -->
@@ -2441,7 +2446,7 @@
         <rdfs:comment>Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute</rdfs:comment>
         <rdfs:label xml:lang="de">Person</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie -->
@@ -2451,7 +2456,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Personalkategorie-001"/>
         <rdfs:label xml:lang="de">Personalkategorie</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren -->
@@ -2462,7 +2467,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Professoren-001"/>
         <rdfs:label xml:lang="de">Professoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung -->
@@ -2472,7 +2477,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Professorenbezeichnung-001"/>
         <rdfs:label xml:lang="de">Bezeichnung für Professoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion -->
@@ -2484,7 +2489,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Promotion-001"/>
         <rdfs:label xml:lang="de">Promotion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner -->
@@ -2494,7 +2499,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Promotionskooperationspartner-001"/>
         <rdfs:label xml:lang="de">Promotionskooperationspartner</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promoviert -->
@@ -2505,7 +2510,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Promoviert-001"/>
         <rdfs:label xml:lang="de">Promoviert</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation -->
@@ -2516,7 +2521,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Publikation-001"/>
         <rdfs:label xml:lang="de">Publikation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp -->
@@ -2527,7 +2532,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Publikationstyp-001"/>
         <rdfs:label xml:lang="de">Publikationstyp</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation -->
@@ -2537,7 +2542,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Qualifikation-001"/>
         <rdfs:label xml:lang="de">Qualifikation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift -->
@@ -2548,7 +2553,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Qualifikationsschrift-001"/>
         <rdfs:label xml:lang="de">Qualifikationsschrift</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren -->
@@ -2558,7 +2563,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Qualifizierungsverfahren-001"/>
         <rdfs:label xml:lang="de">Qualifizierungsverfahren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionDokumenttyp -->
@@ -2569,7 +2574,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#QuelleneditionDokumenttyp-001"/>
         <rdfs:label xml:lang="de">Quellenedition [Dokumenttyp]</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionPublikationstyp -->
@@ -2580,7 +2585,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#QuelleneditionPublikationstyp-001"/>
         <rdfs:label xml:lang="de">Quellenedition [Publikationstyp]</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Review -->
@@ -2591,7 +2596,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Review-001"/>
         <rdfs:label xml:lang="de">Review</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Rezension -->
@@ -2602,7 +2607,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Rezension-001"/>
         <rdfs:label xml:lang="de">Rezension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelband -->
@@ -2613,7 +2618,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sammelband-001"/>
         <rdfs:label xml:lang="de">Sammelband</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelbandbeitrag -->
@@ -2624,7 +2629,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sammelbandbeitrag-001"/>
         <rdfs:label xml:lang="de">Sammelbandbeitrag</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer -->
@@ -2635,7 +2640,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Schoepfer-001"/>
         <rdfs:label xml:lang="de">Schöpfer</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp -->
@@ -2646,7 +2651,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Schoepfertyp-001"/>
         <rdfs:label xml:lang="de">Schöpfertyp</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren -->
@@ -2657,7 +2662,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Seniorprofessoren-001"/>
         <rdfs:label xml:lang="de">Seniorprofessoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SharedAccess -->
@@ -2668,7 +2673,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SharedAccess-001"/>
         <rdfs:label xml:lang="de">Shared Access</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Software -->
@@ -2679,7 +2684,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Software-001"/>
         <rdfs:label xml:lang="de">Software</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sondermittel -->
@@ -2691,7 +2696,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sondermittel-001"/>
         <rdfs:label xml:lang="de">Sondermittel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeDrittmittelgeber -->
@@ -2702,7 +2707,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigeDrittmittelgeber-001"/>
         <rdfs:label xml:lang="de">Sonstige Drittmittelgeber</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeInternationaleOrganisationen -->
@@ -2713,7 +2718,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigeInternationaleOrganisationen-001"/>
         <rdfs:label xml:lang="de">Sonstige internationale Organisationen</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeKooperationspartner -->
@@ -2724,7 +2729,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigeKooperationspartner-001"/>
         <rdfs:label xml:lang="de">Sonstige Kooperationspartner</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren -->
@@ -2735,7 +2740,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigeProfessoren-001"/>
         <rdfs:label xml:lang="de">Sonstige Professoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigerTyp -->
@@ -2746,7 +2751,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigerTyp-001"/>
         <rdfs:label xml:lang="de">Sonstiger Typ</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesPersonal -->
@@ -2758,7 +2763,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigesPersonal-001"/>
         <rdfs:label xml:lang="de">Sonstiges Personal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesWissenschaftlichesUndKuenstlerischesPersonal -->
@@ -2769,7 +2774,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#SonstigesWissenschaftlichesUndKuenstlerischesPersonal-001"/>
         <rdfs:label xml:lang="de">Sonstiges wissenschaftliches und künstlerisches Personal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Stiftungsprofessoren -->
@@ -2780,7 +2785,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Stiftungsprofessoren-001"/>
         <rdfs:label xml:lang="de">Stiftungsprofessoren</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm -->
@@ -2792,7 +2797,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#StrukturiertesPromotionsprogramm-001"/>
         <rdfs:label xml:lang="de">Strukturiertes Promotionsprogramm</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart -->
@@ -2802,7 +2807,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Taetigkeitsart-001"/>
         <rdfs:label xml:lang="de">Tätigkeitsart</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Teilzeit -->
@@ -2813,7 +2818,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Teilzeit-001"/>
         <rdfs:label xml:lang="de">Teilzeit</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Unbefristet -->
@@ -2824,7 +2829,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Unbefristet-001"/>
         <rdfs:label xml:lang="de">Unbefristet</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Universitaet -->
@@ -2835,7 +2840,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Universitaet-001"/>
         <rdfs:label xml:lang="de">Universität</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#UserAccess -->
@@ -2846,7 +2851,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#UserAccess-001"/>
         <rdfs:label xml:lang="de">User Access</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag -->
@@ -2857,7 +2862,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verlag-001"/>
         <rdfs:label xml:lang="de">Verlag</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verteilt -->
@@ -2868,7 +2873,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verteilt-001"/>
         <rdfs:label xml:lang="de">Verteilt</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vertretungsprofessoren -->
@@ -2879,7 +2884,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Vertretungsprofessoren-001"/>
         <rdfs:label xml:lang="de">Vertretungsprofessoren / Lehrstuhlvertreter</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verwaltungspersonal -->
@@ -2890,7 +2895,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verwaltungspersonal-001"/>
         <rdfs:label xml:lang="de">Verwaltungspersonal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Virtuell -->
@@ -2901,7 +2906,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Virtuell-001"/>
         <rdfs:label xml:lang="de">Virtuell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vollzeit -->
@@ -2912,7 +2917,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Vollzeit-001"/>
         <rdfs:label xml:lang="de">Vollzeit</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte -->
@@ -2923,7 +2928,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlicheOderKuenstlerischeHilfskraefte-001"/>
         <rdfs:label xml:lang="de">Wissenschaftliche oder künstlerische Hilfskräfte</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheUndKuenstlerischeMitarbeiter -->
@@ -2934,7 +2939,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlicheUndKuenstlerischeMitarbeiter-001"/>
         <rdfs:label xml:lang="de">Wissenschaftliche und künstlerische Mitarbeiter</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheVortragsfolien -->
@@ -2945,7 +2950,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlicheVortragsfolien-001"/>
         <rdfs:label xml:lang="de">Wissenschaftliche Vortragsfolien</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicherArtikel -->
@@ -2956,7 +2961,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlicherArtikel-001"/>
         <rdfs:label xml:lang="de">Wissenschaftlicher Artikel</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal -->
@@ -2967,7 +2972,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlichesUndKuenstlerischesPersonal-001"/>
         <rdfs:label xml:lang="de">Wissenschaftliches und künstlerisches Personal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftsunterstuetzendesPersonal -->
@@ -2979,7 +2984,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftsunterstuetzendesPersonal-001"/>
         <rdfs:label xml:lang="de">Wissenschaftsunterstützendes Personal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Wissensressourcen -->
@@ -2990,7 +2995,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Wissensressourcen-001"/>
         <rdfs:label xml:lang="de">Wissensressourcen</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart -->
@@ -3000,7 +3005,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Zugangsart-001"/>
         <rdfs:label xml:lang="de">Art des Zugangs</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ePaper -->
@@ -3011,7 +3016,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#ePaper-001"/>
         <rdfs:label xml:lang="de">ePaper</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#Kooperationspartner -->
@@ -3021,7 +3026,7 @@
         <rdfs:label xml:lang="de">Kooperationspartner</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kooperationspartner-001"/>
     </owl:Class>
-    
+
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#Leitthema -->
@@ -3031,7 +3036,7 @@
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">Leitthema</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/cerif/frapo/FundingAgency -->
@@ -3042,7 +3047,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">funding agency</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Organization -->
