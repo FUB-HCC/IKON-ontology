@@ -15,8 +15,8 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.0"/>
-        <owl:imports rdf:resource="http://ontologies.mfn-berlin.de/dfg-fachsystematik/1.0.0"/>
         <owl:imports rdf:resource="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen"/>
+        <owl:imports rdf:resource="https://joetm.github.io/dfg-fachsystematik#version-1.0.0"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.0</owl:versionInfo>
         <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
