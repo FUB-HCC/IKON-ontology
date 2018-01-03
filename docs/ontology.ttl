@@ -132,7 +132,7 @@ angepasst."""@de ;
                                                                                                  rdfs:domain <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> ;
                                                                                                  rdfs:range <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> ;
                                                                                                  <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBeschaeftigung-001> ;
-                                                                                                 rdfs:comment "Beziehung zwischen Personen und Beschäftigung"^^xsd:string ;
+                                                                                                 rdfs:comment "Beziehung zwischen Personen und Beschäftigung"@de ;
                                                                                                  rdfs:label "hat Beschäftigung"@de .
 
 
@@ -487,7 +487,7 @@ Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
 überschneidungsfrei ab.
 
 Vgl. ausführlicher: Spezifikation Kapitel 3.2.3"""@de ,
-                                                                                                                    "Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten"^^xsd:string ;
+                                                                                                                    "Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten"@de ;
                                                                                                        rdfs:label "hat Organisationseinheit"@de .
 
 
@@ -741,7 +741,7 @@ angepasst."""@de ;
                                                                                                                                                                   "Dr138"^^xsd:string ,
                                                                                                                                                                   "Pa40"^^xsd:string ;
                                                                                                <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUntereinheit-001> ;
-                                                                                               rdfs:comment "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden."^^xsd:string ;
+                                                                                               rdfs:comment "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden."@de ;
                                                                                                rdfs:label "hat Untereinheit"@de .
 
 
@@ -758,7 +758,8 @@ angepasst."""@de ;
                                                                                                       <http://kerndatensatz-forschung.de/owl/Meta#pgbid> "dcterms.funding"^^xsd:string ,
                                                                                                                                                          "kds.funding.grantnumber"^^xsd:string ;
                                                                                                       <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUnterstuetzungDurch-001> ;
-                                                                                                      rdfs:comment """Eine Institution, die für die Publikation erbrachte Forschung
+                                                                                                      rdfs:comment "Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen"@de ,
+                                                                                                                   """Eine Institution, die für die Publikation erbrachte Forschung
 (mit-)finanziert hat. Falls vorhanden, sollen hier importierte
 Förderinformationen aus Publikationsdatenbanken angegeben werden.
 Nach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen
@@ -773,8 +774,7 @@ bibliometric databases shall be imported and inserted here.
 (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
-angepasst."""@de ,
-                                                                                                                   "Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen"^^xsd:string ;
+angepasst."""@de ;
                                                                                                       rdfs:label "hat Unterstützung durch"@de .
 
 
@@ -1472,7 +1472,7 @@ Bundesland bei inländischen beteiligten Institutionen).
                                                                                     rdfs:domain <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> ;
                                                                                     rdfs:range xsd:string ;
                                                                                     <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Name-001> ;
-                                                                                    rdfs:comment "Wesentliche Eigenschaft einer Person"^^xsd:string ;
+                                                                                    rdfs:comment "Wesentliche Eigenschaft einer Person"@de ;
                                                                                     rdfs:label "Name"@de .
 
 
@@ -1480,9 +1480,9 @@ Bundesland bei inländischen beteiligten Institutionen).
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> rdf:type owl:DatatypeProperty ;
                                                                                                 rdfs:domain <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung> ;
                                                                                                 rdfs:range xsd:string ;
+                                                                                                <http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition> "Pa39"^^xsd:string ;
                                                                                                 <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameAusgruendung-001> ;
-                                                                                                rdfs:label "Name der Ausgründung"@de ,
-                                                                                                           "Pa39"^^xsd:string .
+                                                                                                rdfs:label "Name der Ausgründung"@de .
 
 
 ###  http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit
@@ -1491,7 +1491,7 @@ Bundesland bei inländischen beteiligten Institutionen).
                                                                                                            rdfs:domain <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit> ;
                                                                                                            rdfs:range xsd:string ;
                                                                                                            <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerOrganisationseinheit-001> ;
-                                                                                                           rdfs:comment "Wesentliche Eigenschaft einer Organisationseinheit"^^xsd:string ;
+                                                                                                           rdfs:comment "Wesentliche Eigenschaft einer Organisationseinheit"@de ;
                                                                                                            rdfs:label "Name der Organisationseinheit"@de .
 
 
@@ -2208,14 +2208,14 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> rdf:type owl:Class ;
                                                                                               rdfs:subClassOf <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> ;
                                                                                               <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigter-001> ;
-                                                                                              rdfs:comment "Personen, die in einem Beschäftigungsverhältnis sind."^^xsd:string ;
+                                                                                              rdfs:comment "Personen, die in einem Beschäftigungsverhältnis sind."@de ;
                                                                                               rdfs:label "Beschäftigte / Beschäftigter"@de .
 
 
 ###  http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> rdf:type owl:Class ;
                                                                                               <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigung-001> ;
-                                                                                              rdfs:comment "Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)"^^xsd:string ;
+                                                                                              rdfs:comment "Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)"@de ;
                                                                                               rdfs:label "Beschäftigung"@de .
 
 
@@ -3286,7 +3286,7 @@ angepasst."""@de ;
 ###  http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> rdf:type owl:Class ;
                                                                                       <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Person-001> ;
-                                                                                      rdfs:comment "Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute"^^xsd:string ;
+                                                                                      rdfs:comment "Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute"@de ;
                                                                                       rdfs:label "Person"@de .
 
 
@@ -4242,9 +4242,9 @@ preprints.
 #################################################################
 
 :hatAntragsteller :mapping "Antragsteller"^^xsd:string ;
-                  rdfs:comment <http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001> ,
-                               "hat Antragsteller"@de ;
-                  rdfs:isDefinedBy : .
+                  <http://purl.org/dc/terms/hasVersion> <http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001> ;
+                  rdfs:isDefinedBy : ;
+                  rdfs:label "hat Antragsteller"@de .
 
 
 :hatProjektleiter :mapping "Projektleiter"^^xsd:string ;

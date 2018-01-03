@@ -1220,7 +1220,7 @@
     },
     "subClasses" : [ "8" ],
     "comment" : {
-      "undefined" : "Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute"
+      "de" : "Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute"
     },
     "attributes" : [ "external" ],
     "id" : "9"
@@ -2537,7 +2537,7 @@
       "IRI-based" : "Beschaeftigung"
     },
     "comment" : {
-      "undefined" : "Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)"
+      "de" : "Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)"
     },
     "attributes" : [ "external" ],
     "id" : "23"
@@ -3758,7 +3758,7 @@
       "IRI-based" : "Beschaeftigter"
     },
     "comment" : {
-      "undefined" : "Personen, die in einem Beschäftigungsverhältnis sind."
+      "de" : "Personen, die in einem Beschäftigungsverhältnis sind."
     },
     "attributes" : [ "external" ],
     "id" : "8",
@@ -6995,12 +6995,17 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na92",
+        "value" : "Pa35",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Dr121",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Na92",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -7012,11 +7017,6 @@
         "language" : "undefined",
         "value" : "Pu140",
         "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pa35",
-        "type" : "label"
       } ]
     },
     "label" : {
@@ -7025,8 +7025,7 @@
     },
     "domain" : "270",
     "comment" : {
-      "de" : "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende\norganisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird\nempfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen\ndes DFG-Research Explorers zu verwenden. Davon abweichende, in\nEinrichtungen etablierte, Bezeichnungen sind ebenfalls zulässig. Sie\nsollten im Sinne einer einheitlichen Benennung der DFG gemeldet werden.\n\nObjekte werden der Organisationseinheit zugeordnet mit der sie verbunden\nsind.\n\nDie Summe aller Organisationseinheiten einer Einrichtung bildet diese\nüberschneidungsfrei ab.\n\nVgl. ausführlicher: Spezifikation Kapitel 3.2.3",
-      "undefined" : "Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten"
+      "de" : "Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten"
     },
     "attributes" : [ "object", "external" ],
     "id" : "269"
@@ -7082,7 +7081,7 @@
     },
     "domain" : "9",
     "comment" : {
-      "undefined" : "Wesentliche Eigenschaft einer Person"
+      "de" : "Wesentliche Eigenschaft einer Person"
     },
     "attributes" : [ "datatype", "external" ],
     "id" : "273"
@@ -7114,7 +7113,7 @@
     },
     "domain" : "143",
     "comment" : {
-      "undefined" : "Wesentliche Eigenschaft einer Organisationseinheit"
+      "de" : "Wesentliche Eigenschaft einer Organisationseinheit"
     },
     "attributes" : [ "datatype", "external", "functional" ],
     "id" : "277"
@@ -7264,7 +7263,7 @@
     },
     "domain" : "8",
     "comment" : {
-      "undefined" : "Beziehung zwischen Personen und Beschäftigung"
+      "de" : "Beziehung zwischen Personen und Beschäftigung"
     },
     "attributes" : [ "object", "external" ],
     "id" : "316"
@@ -7423,12 +7422,17 @@
         "language" : "undefined",
         "value" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameAusgruendung-001",
         "type" : "iri"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pa39",
+        "type" : "label"
       } ]
     },
     "label" : {
       "de" : "Name der Ausgründung",
-      "IRI-based" : "NameAusgruendung",
-      "undefined" : "Pa39"
+      "IRI-based" : "NameAusgruendung"
     },
     "domain" : "271",
     "attributes" : [ "datatype", "external" ],
@@ -8156,23 +8160,23 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu86",
+        "value" : "Pu90",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu90",
+        "value" : "Pu86",
         "type" : "label"
       } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
-        "value" : "dcterms.funding",
+        "value" : "kds.funding.grantnumber",
         "type" : "label"
       }, {
         "identifier" : "pgbid",
         "language" : "undefined",
-        "value" : "kds.funding.grantnumber",
+        "value" : "dcterms.funding",
         "type" : "label"
       } ]
     },
@@ -8182,8 +8186,7 @@
     },
     "domain" : "89",
     "comment" : {
-      "de" : "Eine Institution, die für die Publikation erbrachte Forschung\n(mit-)finanziert hat. Falls vorhanden, sollen hier importierte\nFörderinformationen aus Publikationsdatenbanken angegeben werden.\nNach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen\nwird die Erfassung nach Fundref (\n*http://www.crossref.org/services/funder-registry/*) und/oder ISNI-Standard\n(im letzten Fall gemeinsam mit der ISNI-ID).\n\nEnglisch: An Institution, which has financially supported the research\nunderlying this publication. If available, funding information from\nbibliometric databases shall be imported and inserted here.\n[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst.",
-      "undefined" : "Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen"
+      "de" : "Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen"
     },
     "attributes" : [ "object", "external" ],
     "id" : "361"
@@ -8592,7 +8595,7 @@
     },
     "domain" : "143",
     "comment" : {
-      "undefined" : "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden."
+      "de" : "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden."
     },
     "attributes" : [ "object", "external" ],
     "id" : "379"

@@ -208,7 +208,7 @@ angepasst.</rdfs:comment>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung"/>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBeschaeftigung-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beziehung zwischen Personen und Beschäftigung</rdfs:comment>
+        <rdfs:comment xml:lang="de">Beziehung zwischen Personen und Beschäftigung</rdfs:comment>
         <rdfs:label xml:lang="de">hat Beschäftigung</rdfs:label>
     </owl:ObjectProperty>
     
@@ -642,7 +642,7 @@ Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
 überschneidungsfrei ab.
 
 Vgl. ausführlicher: Spezifikation Kapitel 3.2.3</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten</rdfs:comment>
+        <rdfs:comment xml:lang="de">Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten</rdfs:comment>
         <rdfs:label xml:lang="de">hat Organisationseinheit</rdfs:label>
     </owl:ObjectProperty>
     
@@ -944,7 +944,7 @@ angepasst.</rdfs:comment>
         <Meta:inhaltlicheDefinition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dr138</Meta:inhaltlicheDefinition>
         <Meta:inhaltlicheDefinition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa40</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUntereinheit-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau &quot;Gesamteinrichtung&quot; abgebildet werden.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau &quot;Gesamteinrichtung&quot; abgebildet werden.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Untereinheit</rdfs:label>
     </owl:ObjectProperty>
     
@@ -968,6 +968,7 @@ angepasst.</rdfs:comment>
         <Meta:pgbid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcterms.funding</Meta:pgbid>
         <Meta:pgbid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kds.funding.grantnumber</Meta:pgbid>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUnterstuetzungDurch-001"/>
+        <rdfs:comment xml:lang="de">Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen</rdfs:comment>
         <rdfs:comment xml:lang="de">Eine Institution, die für die Publikation erbrachte Forschung
 (mit-)finanziert hat. Falls vorhanden, sollen hier importierte
 Förderinformationen aus Publikationsdatenbanken angegeben werden.
@@ -984,7 +985,6 @@ bibliometric databases shall be imported and inserted here.
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternativ zu den direkten Eigenschaften Förderer (Pu86) und Förderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, worüber sich Förderer und Förderkennzeichen ableiten lassen</rdfs:comment>
         <rdfs:label xml:lang="de">hat Unterstützung durch</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1895,7 +1895,7 @@ Bundesland bei inländischen beteiligten Institutionen).
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Name-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wesentliche Eigenschaft einer Person</rdfs:comment>
+        <rdfs:comment xml:lang="de">Wesentliche Eigenschaft einer Person</rdfs:comment>
         <rdfs:label xml:lang="de">Name</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1907,9 +1907,9 @@ Bundesland bei inländischen beteiligten Institutionen).
     <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung">
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <Meta:inhaltlicheDefinition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa39</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameAusgruendung-001"/>
         <rdfs:label xml:lang="de">Name der Ausgründung</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa39</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1922,7 +1922,7 @@ Bundesland bei inländischen beteiligten Institutionen).
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerOrganisationseinheit-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wesentliche Eigenschaft einer Organisationseinheit</rdfs:comment>
+        <rdfs:comment xml:lang="de">Wesentliche Eigenschaft einer Organisationseinheit</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Organisationseinheit</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -2845,7 +2845,7 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter">
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigter-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personen, die in einem Beschäftigungsverhältnis sind.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Personen, die in einem Beschäftigungsverhältnis sind.</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigte / Beschäftigter</rdfs:label>
     </owl:Class>
     
@@ -2856,7 +2856,7 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung">
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigung-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)</rdfs:comment>
+        <rdfs:comment xml:lang="de">Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigung</rdfs:label>
     </owl:Class>
     
@@ -4163,7 +4163,7 @@ angepasst.</rdfs:comment>
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person">
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Person-001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute</rdfs:comment>
+        <rdfs:comment xml:lang="de">Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute</rdfs:comment>
         <rdfs:label xml:lang="de">Person</rdfs:label>
     </owl:Class>
     
@@ -5351,9 +5351,9 @@ preprints.
 
     <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#hatAntragsteller">
         <mapping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antragsteller</mapping>
-        <rdfs:comment rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001"/>
-        <rdfs:comment xml:lang="de">hat Antragsteller</rdfs:comment>
+        <terms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001"/>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:label xml:lang="de">hat Antragsteller</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#hatProjektleiter">
         <mapping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektleiter</mapping>

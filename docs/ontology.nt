@@ -97,7 +97,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://www.w3.org/2000/01/rdf-schema#range> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatBeschaeftigung-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://www.w3.org/2000/01/rdf-schema#comment> "Beziehung zwischen Personen und Besch\u00E4ftigung" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://www.w3.org/2000/01/rdf-schema#comment> "Beziehung zwischen Personen und Besch\u00E4ftigung"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung> <http://www.w3.org/2000/01/rdf-schema#label> "hat Besch\u00E4ftigung"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber
@@ -337,7 +337,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://ontologies.mfn-berlin.de/ikon#mapping> "Abteilung_MfN" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatOrganisationseinheit-001> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Anzugeben ist jeweils die kleinste, an der Forschungseinrichtung bestehende\norganisatorische Einheit, der Personal/Stellen zugeordnet ist/sind. Es wird\nempfohlen, bei der Benennung der Organisationseinheiten die Bezeichnungen\ndes DFG-Research Explorers zu verwenden. Davon abweichende, in\nEinrichtungen etablierte, Bezeichnungen sind ebenfalls zul\u00E4ssig. Sie\nsollten im Sinne einer einheitlichen Benennung der DFG gemeldet werden.\n\nObjekte werden der Organisationseinheit zugeordnet mit der sie verbunden\nsind.\n\nDie Summe aller Organisationseinheiten einer Einrichtung bildet diese\n\u00FCberschneidungsfrei ab.\n\nVgl. ausf\u00FChrlicher: Spezifikation Kapitel 3.2.3"@de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Zuordnung von Projekten, Programmen, Patenten, Ausgr\u00FCndungen, Publikationen zu Organisationseinheiten" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Zuordnung von Projekten, Programmen, Patenten, Ausgr\u00FCndungen, Publikationen zu Organisationseinheiten"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#label> "hat Organisationseinheit"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie
@@ -451,7 +451,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition> "Dr138" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition> "Pa40" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUntereinheit-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden." .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau \"Gesamteinrichtung\" abgebildet werden."@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit> <http://www.w3.org/2000/01/rdf-schema#label> "hat Untereinheit"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch
@@ -471,8 +471,8 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://kerndatensatz-forschung.de/owl/Meta#pgbid> "dcterms.funding" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://kerndatensatz-forschung.de/owl/Meta#pgbid> "kds.funding.grantnumber" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatUnterstuetzungDurch-001> .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternativ zu den direkten Eigenschaften F\u00F6rderer (Pu86) und F\u00F6rderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, wor\u00FCber sich F\u00F6rderer und F\u00F6rderkennzeichen ableiten lassen"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Institution, die f\u00FCr die Publikation erbrachte Forschung\n(mit-)finanziert hat. Falls vorhanden, sollen hier importierte\nF\u00F6rderinformationen aus Publikationsdatenbanken angegeben werden.\nNach M\u00F6glichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen\nwird die Erfassung nach Fundref (\n*http://www.crossref.org/services/funder-registry/*) und/oder ISNI-Standard\n(im letzten Fall gemeinsam mit der ISNI-ID).\n\nEnglisch: An Institution, which has financially supported the research\nunderlying this publication. If available, funding information from\nbibliometric databases shall be imported and inserted here.\n[Ausdifferenzierungm\u00F6glichkeit (Summenform) / Gruppierungsm\u00F6glichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der R\u00FCckmeldungen zur Beta-Version\nangepasst."@de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternativ zu den direkten Eigenschaften F\u00F6rderer (Pu86) und F\u00F6rderkennzeichen (Pu90), kann eine Verbindung zu Drittmittelprojekt bzw. Promotionsprogramm angegeben werden, wor\u00FCber sich F\u00F6rderer und F\u00F6rderkennzeichen ableiten lassen" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch> <http://www.w3.org/2000/01/rdf-schema#label> "hat Unterst\u00FCtzung durch"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag
@@ -896,16 +896,16 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Name-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Wesentliche Eigenschaft einer Person" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://www.w3.org/2000/01/rdf-schema#comment> "Wesentliche Eigenschaft einer Person"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition> "Pa39" .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameAusgruendung-001> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://www.w3.org/2000/01/rdf-schema#label> "Name der Ausgr\u00FCndung"@de .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung> <http://www.w3.org/2000/01/rdf-schema#label> "Pa39" .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -913,7 +913,7 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameDerOrganisationseinheit-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Wesentliche Eigenschaft einer Organisationseinheit" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#comment> "Wesentliche Eigenschaft einer Organisationseinheit"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit> <http://www.w3.org/2000/01/rdf-schema#label> "Name der Organisationseinheit"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle
@@ -1337,13 +1337,13 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigter-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://www.w3.org/2000/01/rdf-schema#comment> "Personen, die in einem Besch\u00E4ftigungsverh\u00E4ltnis sind." .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://www.w3.org/2000/01/rdf-schema#comment> "Personen, die in einem Besch\u00E4ftigungsverh\u00E4ltnis sind."@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter> <http://www.w3.org/2000/01/rdf-schema#label> "Besch\u00E4ftigte / Besch\u00E4ftigter"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Beschaeftigung-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> <http://www.w3.org/2000/01/rdf-schema#comment> "Konzept zur Darstellung der Eigenschaften, die mit einer Besch\u00E4ftigung zusammenh\u00E4ngen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> <http://www.w3.org/2000/01/rdf-schema#comment> "Konzept zur Darstellung der Eigenschaften, die mit einer Besch\u00E4ftigung zusammenh\u00E4ngen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung> <http://www.w3.org/2000/01/rdf-schema#label> "Besch\u00E4ftigung"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp
@@ -1825,7 +1825,7 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> <http://purl.org/dc/terms/hasVersion> <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Person-001> .
-<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Zusammenfassendes Konzept f\u00FCr die Darstellung aller personenbezogenen Eigenschaften und Attribute" .
+<http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Zusammenfassendes Konzept f\u00FCr die Darstellung aller personenbezogenen Eigenschaften und Attribute"@de .
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@de .
 # 
 # http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie
@@ -2279,9 +2279,9 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # 
 <http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://ontologies.mfn-berlin.de/ikon#mapping> "Antragsteller" .
-<http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://www.w3.org/2000/01/rdf-schema#comment> <http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001> .
-<http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://www.w3.org/2000/01/rdf-schema#comment> "hat Antragsteller"@de .
+<http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://purl.org/dc/terms/hasVersion> <http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001> .
 <http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.mfn-berlin.de/ikon#> .
+<http://ontologies.mfn-berlin.de/ikon#hatAntragsteller> <http://www.w3.org/2000/01/rdf-schema#label> "hat Antragsteller"@de .
 # 
 <http://ontologies.mfn-berlin.de/ikon#hatProjektleiter> <http://ontologies.mfn-berlin.de/ikon#mapping> "Projektleiter" .
 <http://ontologies.mfn-berlin.de/ikon#hatProjektleiter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.mfn-berlin.de/ikon#> .
