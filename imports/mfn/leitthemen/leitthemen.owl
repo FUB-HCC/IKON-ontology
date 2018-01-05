@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen#"
-     xml:base="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/mfn/leitthemen/leitthemen.owl#"
+     xml:base="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/mfn/leitthemen/leitthemen.owl"
      xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen">
+    <owl:Ontology>
         <rdfs:comment xml:lang="de">MfN Leitthemen</rdfs:comment>
     </owl:Ontology>
     
