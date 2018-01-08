@@ -5,13 +5,20 @@ IKON Ontology
 | ------------- |:----------------------------------------------:|
 | dev.owl       | Development version of ontology (with imports) |
 | prod.owl      | Production version of ontology                 |
-| docs/         | Documentation of ontology                      |
+| docs/         | Documentation of production ontology           |
+
+
+Associated Ontologies
+---------------------
+
+* [DFG Fachsystematik](https://joetm.github.io/dfg-fachsystematik/index-en.html)
+* [Getty TGN]()
+
 
 Viewing the Documentation
 -------------------------
 
-Online:
-https://fub-hcc.github.io/IKON-ontology/index-en.html
+Online: [https://fub-hcc.github.io/IKON-ontology/index-en.html](https://fub-hcc.github.io/IKON-ontology/index-en.html)
 
 Locally:
 ```
