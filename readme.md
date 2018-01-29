@@ -31,6 +31,7 @@ Includes concepts from:
 * [FOAF](http://xmlns.com/foaf/0.1/)
 * [FRAPO](http://purl.org/cerif/frapo/)
 * [SemWeb Vocab Status Ontology](http://www.w3.org/2003/06/sw-vocab-status/ns#)
+* [SKOS Core](http://www.w3.org/2004/02/skos/core)
 
 
 Viewing the Documentation

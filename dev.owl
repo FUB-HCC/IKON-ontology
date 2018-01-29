@@ -14,10 +14,15 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
+        <dcterms:title xml:lang="en">IKON Ontology</dcterms:title>
+        <dcterms:title xml:lang="de">IKON Ontologie</dcterms:title>
+        <dcterms:description xml:lang="en">An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History.</dcterms:description>
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.0"/>
+        <!--
+            fix this later
         <owl:imports rdf:resource="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen"/>
+        -->
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.0</owl:versionInfo>
-        <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
     </owl:Ontology>
     
@@ -5112,6 +5117,47 @@ preprints.
         <rdfs:label xml:lang="en">Organization</rdfs:label>
         <vs:term_status>stable</vs:term_status>
     </owl:Class>
+
+
+
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#note">
+    <rdfs:label xml:lang="en">note</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <skos:definition xml:lang="en">A general note, for any purpose.</skos:definition>
+    <skos:scopeNote xml:lang="en">This property may be used directly, or as a super-property for more specific note types.</skos:scopeNote>
+    <!-- S16 -->
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <!-- For non-OWL aware applications -->
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+    <rdfs:label xml:lang="en">scope note</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <skos:definition xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</skos:definition>
+    <!-- S16 -->
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <!-- S17 -->
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    <!-- For non-OWL aware applications -->
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#example">
+    <rdfs:label xml:lang="en">example</rdfs:label>
+    <rdfs:label xml:lang="de">Beispiel</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
+    <!-- S16 -->
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <!-- S17 -->
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    <!-- For non-OWL aware applications -->
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+
+
+
 </rdf:RDF>
 
 
