@@ -38,3 +38,6 @@ deploy:
 	git add -A
 	git commit
 	git push
+
+reason:
+	java -jar ./bin/HermiT/HermiT.jar --prettyPrint --no-prefixes --consistency dev.owl
