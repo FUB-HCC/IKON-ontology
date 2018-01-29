@@ -51,3 +51,6 @@ Building the Documentation
 `make docs`
 
 Requires widoco .jar file, e.g. ../tools/WIDOCO/jar/widoco-1.4.1-jar-with-dependencies.jar
+
+See [Makefile](https://github.com/FUB-HCC/IKON-ontology/blob/master/Makefile) for more commands.
+
