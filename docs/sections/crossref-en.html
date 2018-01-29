@@ -1377,11 +1377,15 @@ angepasst.</span>
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle">Koordinationsrolle (Einrichtung)</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung">Name der Sprechereinrichtung</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#precedingWork"
+               title="http://ontologies.mfn-berlin.de/ikon#precedingWork">Preceding project</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn">Projektbeginn</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende">Projektende</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#succeedingProject"
+               title="http://ontologies.mfn-berlin.de/ikon#succeedingProject">Succeeding project</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt">Titel des Projekts</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber">hat Mittelgeber</a>
@@ -1395,7 +1399,11 @@ angepasst.</span>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt"
+            <a href="#precedingWork"
+               title="http://ontologies.mfn-berlin.de/ikon#precedingWork">Preceding project</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#succeedingProject"
+               title="http://ontologies.mfn-berlin.de/ikon#succeedingProject">Succeeding project</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt"
                title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt">hat übergeordnetes Projekt</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -4900,6 +4908,22 @@ angepasst.</span>
          <a href="#http://purl.org/cerif/frapo/isSupportedBy" title="http://purl.org/cerif/frapo/isSupportedBy">is supported by</a>
       </li>
       <li>
+         <a href="#precedingWork"
+            title="http://ontologies.mfn-berlin.de/ikon#precedingWork">Preceding project</a>
+      </li>
+      <li>
+         <a href="#http://d-nb.info/standards/elementset/gnd#predecessor"
+            title="http://d-nb.info/standards/elementset/gnd#predecessor">Predecessor</a>
+      </li>
+      <li>
+         <a href="#succeedingProject"
+            title="http://ontologies.mfn-berlin.de/ikon#succeedingProject">Succeeding project</a>
+      </li>
+      <li>
+         <a href="#http://d-nb.info/standards/elementset/gnd#successor"
+            title="http://d-nb.info/standards/elementset/gnd#successor">Successor</a>
+      </li>
+      <li>
          <a href="#http://purl.org/cerif/frapo/supports" title="http://purl.org/cerif/frapo/supports">supports</a>
       </li>
    </ul>
@@ -4926,6 +4950,7 @@ angepasst.</span>
                <a href="#http://purl.org/cerif/frapo/isSupportedBy" title="http://purl.org/cerif/frapo/isSupportedBy">is supported by</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
+            <dd/>
             <dt>has range</dt>
             <dd>
                <a href="#http://purl.org/cerif/frapo/FundingAgency" title="http://purl.org/cerif/frapo/FundingAgency">funding agency</a>
@@ -6364,6 +6389,7 @@ angepasst.</span>
                <a href="#http://purl.org/cerif/frapo/supports" title="http://purl.org/cerif/frapo/supports">supports</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
+            <dd/>
             <dt>has domain</dt>
             <dd>
                <a href="#http://purl.org/cerif/frapo/FundingAgency" title="http://purl.org/cerif/frapo/FundingAgency">funding agency</a>
@@ -6424,6 +6450,163 @@ angepasst.</span>
             <dt>is inverse of</dt>
             <dd>
                <a href="#http://purl.org/cerif/frapo/supports" title="http://purl.org/cerif/frapo/supports">supports</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="precedingWork">
+      <h3>Preceding project<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.mfn-berlin.de/ikon#precedingWork</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://d-nb.info/standards/elementset/gnd#">http://d-nb.info/standards/elementset/gnd#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://d-nb.info/standards/elementset/gnd#predecessor"
+                  title="http://d-nb.info/standards/elementset/gnd#predecessor">Predecessor</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dd/>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"
+                  title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt">Drittmittelprojekt</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"
+                  title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt">Drittmittelprojekt</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#succeedingProject"
+                  title="http://ontologies.mfn-berlin.de/ikon#succeedingProject">Succeeding project</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://d-nb.info/standards/elementset/gnd#predecessor">
+      <h3>Predecessor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://d-nb.info/standards/elementset/gnd#predecessor</p>
+      <div class="comment">
+         <span class="markdown">A corporate body or a work being the predecessor of another corporate body or work</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://d-nb.info/standards/elementset/gnd#">http://d-nb.info/standards/elementset/gnd#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#precedingWork"
+                  title="http://ontologies.mfn-berlin.de/ikon#precedingWork">Preceding project</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://d-nb.info/standards/elementset/gnd#successor"
+                  title="http://d-nb.info/standards/elementset/gnd#successor">Successor</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="succeedingProject">
+      <h3>Succeeding project<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.mfn-berlin.de/ikon#succeedingProject</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://d-nb.info/standards/elementset/gnd#">http://d-nb.info/standards/elementset/gnd#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://d-nb.info/standards/elementset/gnd#successor"
+                  title="http://d-nb.info/standards/elementset/gnd#successor">Successor</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dd/>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"
+                  title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt">Drittmittelprojekt</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"
+                  title="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt">Drittmittelprojekt</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#precedingWork"
+                  title="http://ontologies.mfn-berlin.de/ikon#precedingWork">Preceding project</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://d-nb.info/standards/elementset/gnd#successor">
+      <h3>Successor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://d-nb.info/standards/elementset/gnd#successor</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://d-nb.info/standards/elementset/gnd#">http://d-nb.info/standards/elementset/gnd#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#succeedingProject"
+                  title="http://ontologies.mfn-berlin.de/ikon#succeedingProject">Succeeding project</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://d-nb.info/standards/elementset/gnd#predecessor"
+                  title="http://d-nb.info/standards/elementset/gnd#predecessor">Predecessor</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>

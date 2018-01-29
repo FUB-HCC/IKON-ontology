@@ -16,17 +16,14 @@
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.0"/>
         <owl:imports rdf:resource="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen"/>
-        <!--
-        <owl:imports rdf:resource="https://joetm.github.io/dfg-fachsystematik#version-1.0.0"/>
-        -->
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.0</owl:versionInfo>
         <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -34,64 +31,64 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition -->
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition"/>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#pgbid -->
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#pgbid"/>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#mapping -->
 
     <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping"/>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-
+    
 
 
     <!-- http://purl.org/dc/terms/hasVersion -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
-
+    
 
 
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
-
+    
 
 
     <!-- http://purl.org/dc/terms/modified -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
-
+    
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-
+    
 
 
     <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -99,16 +96,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -116,7 +113,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
+
+    <!-- http://d-nb.info/standards/elementset/gnd#predecessor -->
+
+    <owl:ObjectProperty rdf:about="http://d-nb.info/standards/elementset/gnd#predecessor">
+        <owl:inverseOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">A corporate body or a work being the predecessor of another corporate body or work</rdfs:comment>
+        <rdfs:comment xml:lang="de">Eine Körperschaft oder ein Werk, das der Vorgänger einer anderen Körperschaft oder eines anderen Werks ist</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="en">Predecessor</rdfs:label>
+        <rdfs:label xml:lang="de">Vorgänger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://d-nb.info/standards/elementset/gnd#successor -->
+
+    <owl:ObjectProperty rdf:about="http://d-nb.info/standards/elementset/gnd#successor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="de">Nachfolger</rdfs:label>
+        <rdfs:label xml:lang="en">Successor</rdfs:label>
+    </owl:ObjectProperty>
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatAnmelder -->
@@ -134,7 +156,7 @@
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#hatAnmelder-001"/>
         <rdfs:label xml:lang="de">hat Anmelder</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatArt -->
@@ -165,7 +187,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Art</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung -->
@@ -194,7 +216,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Befristung</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung -->
@@ -206,7 +228,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">Beziehung zwischen Personen und Beschäftigung</rdfs:comment>
         <rdfs:label xml:lang="de">hat Beschäftigung</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber -->
@@ -232,7 +254,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Betreiber</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetriebspersonal -->
@@ -249,7 +271,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Betriebspersonal</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung -->
@@ -263,7 +285,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Bezeichnung</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatDokumenttyp -->
@@ -289,7 +311,7 @@ RDA name: Nature of the content
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Dokumenttyp</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder -->
@@ -306,7 +328,7 @@ Freitextfeld.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Erfinder</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErstbetreuer -->
@@ -325,7 +347,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Erstbetreuerin / Erstbetreuer</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFach -->
@@ -370,7 +392,7 @@ Aktualisierung der Daten im Kerndatensatz ist nicht vorgesehen.
 Vgl. ausführlicher: Spezifikation Kapitel 3.2.3</rdfs:comment>
         <rdfs:label xml:lang="de">hat Fach</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFinanzierungsform -->
@@ -400,7 +422,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Finanzierungsform</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatFormat -->
@@ -415,7 +437,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Format</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatForschungsfeld -->
@@ -453,7 +475,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Forschungsfeld</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatGemeinsameBerufung -->
@@ -474,7 +496,7 @@ Forschungseinrichtungen&quot; der Gemeinsamen Wissenschaftskonferenz
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat gemeinsame Berufung</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner -->
@@ -503,7 +525,7 @@ promovieren.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Kooperationspartner</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKoordinator -->
@@ -534,7 +556,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Koordinator</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber -->
@@ -561,7 +583,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Mittelgeber</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung -->
@@ -581,7 +603,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Nutzung</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit -->
@@ -624,7 +646,7 @@ Vgl. ausführlicher: Spezifikation Kapitel 3.2.3</rdfs:comment>
         <rdfs:comment xml:lang="de">Zuordnung von Projekten, Programmen, Patenten, Ausgründungen, Publikationen zu Organisationseinheiten</rdfs:comment>
         <rdfs:label xml:lang="de">hat Organisationseinheit</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPersonalkategorie -->
@@ -658,7 +680,7 @@ Eine Übersicht der Zuordnungen ist unter
 einsehbar.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Personalkategorie</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikation -->
@@ -694,7 +716,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Publikation</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPublikationstyp -->
@@ -716,7 +738,7 @@ publication and source, e.g. in journal articles, book chapters, monographs.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Publikationstyp</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation -->
@@ -732,7 +754,7 @@ und Promotion. Gezählt wird jeweils der höchste Abschluss.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Qualifikation</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren -->
@@ -752,7 +774,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Qualifizierungsverfahren</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfer -->
@@ -773,7 +795,7 @@ creators, e.g. authors, which have to be all listed.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">hat Schöpfer</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp -->
@@ -801,7 +823,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Schöpfertyp</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSprecher -->
@@ -819,7 +841,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Sprecher</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTaetigkeitsart -->
@@ -838,7 +860,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Tätigkeitsart</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatTyp -->
@@ -874,7 +896,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Typ</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUebergeordnetesProjekt -->
@@ -899,7 +921,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat übergeordnetes Projekt</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit -->
@@ -914,7 +936,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">Zur Darstellung hierarchischer Strukturen von Organisationseinheiten. Damit kann auch das Aggregationsniveau &quot;Gesamteinrichtung&quot; abgebildet werden.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Untereinheit</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUnterstuetzungDurch -->
@@ -953,7 +975,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Unterstützung durch</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag -->
@@ -971,7 +993,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Verlag</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatZugangsart -->
@@ -1005,7 +1027,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Zugangsart</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatAntragsteller -->
@@ -1016,7 +1038,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">hat Antragsteller</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatLeitthema -->
@@ -1036,7 +1058,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">hat Leitthema</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#hatProjektleiter -->
@@ -1047,7 +1069,36 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Projektleiter</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001"/>
     </owl:ObjectProperty>
+    
 
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#precedingWork -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#precedingWork">
+        <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#predecessor"/>
+        <owl:inverseOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#succeedingProject"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="en">Preceding project</rdfs:label>
+        <rdfs:label xml:lang="de">Vorheriges Projekt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#succeedingProject -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#succeedingProject">
+        <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="de">Nachfolgendes Projekt</rdfs:label>
+        <rdfs:label xml:lang="en">Succeeding project</rdfs:label>
+    </owl:ObjectProperty>
+    
 
 
     <!-- http://purl.org/cerif/frapo/hasFundingAgency -->
@@ -1061,7 +1112,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">has funding agency</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/cerif/frapo/isFundingAgencyFor -->
@@ -1072,7 +1123,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="en">An object property linking a funding agency to an entity for which it provides funding.</rdfs:comment>
         <rdfs:label xml:lang="en">is funding agency for</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/cerif/frapo/isSupportedBy -->
@@ -1083,7 +1134,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="en">An object property linking something to an agent that provides funding or other support for it.</rdfs:comment>
         <rdfs:label xml:lang="en">is supported by</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/cerif/frapo/supports -->
@@ -1093,7 +1144,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="en">An object property linking an agent to something that the agent supports by financial or other means.</rdfs:comment>
         <rdfs:label xml:lang="en">supports</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/hasPart -->
@@ -1107,7 +1158,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Has Part</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/isPartOf -->
@@ -1120,10 +1171,10 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
         <rdfs:label xml:lang="de">ist Teil von</rdfs:label>
     </owl:ObjectProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -1131,7 +1182,7 @@ angepasst.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt -->
@@ -1148,7 +1199,7 @@ das Kalenderjahr und optional der Monat der letzten Prüfungsleistung.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Abschlusszeitpunkt</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Altersgruppe -->
@@ -1173,7 +1224,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Altersgruppe</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss -->
@@ -1199,7 +1250,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Altersgruppe bei Abschluss</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlGenutzteStunden -->
@@ -1217,7 +1268,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Anzahl genutzte Stunden</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzer -->
@@ -1237,7 +1288,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Anzahl Nutzer</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AnzahlNutzungszugriffe -->
@@ -1256,7 +1307,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Anzahl Nutzungszugriffe</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Band -->
@@ -1277,7 +1328,7 @@ Issue 2.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Band</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur -->
@@ -1296,7 +1347,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Beschreibung der Forschungsinfrastruktur</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Besoldung -->
@@ -1423,7 +1474,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Besoldung</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeteiligteInstitutionen -->
@@ -1445,7 +1496,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Beteiligte Institutionen</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bewilligungssumme -->
@@ -1462,7 +1513,7 @@ und Umsatzsteuer).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bewilligungssumme</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerForschungsinfrastruktur -->
@@ -1483,7 +1534,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Bezeichnung der Forschungsinfrastruktur</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BezeichnungDerProfessur -->
@@ -1497,7 +1548,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bezeichnung der Professur</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DatumDerPrioritaetsbegruendendenErstanmeldung -->
@@ -1521,7 +1572,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Datum der prioritätsbegründenden Erstanmeldung</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen -->
@@ -1562,7 +1613,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Drittmitteleinnahmen</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelertraege -->
@@ -1603,7 +1654,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Drittmittelerträge</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer -->
@@ -1632,7 +1683,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Förderer</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenDrittmittelprojekt -->
@@ -1657,7 +1708,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Förderkennzeichen des Drittmittelprojekts</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FoerderkennzeichenPublikation -->
@@ -1677,7 +1728,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Förderkennzeichen der Publikation</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Geschlecht -->
@@ -1716,7 +1767,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Geschlecht</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Heft -->
@@ -1736,7 +1787,7 @@ A single instance of periodical literature such as a journal, e.g. Volume
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Heft</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname -->
@@ -1757,7 +1808,7 @@ this attached to it is a proceedings and proceedings article, respectively.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Konferenz</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Kooperationspartner -->
@@ -1778,7 +1829,7 @@ promovieren.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Kooperationspartner (bei kooperativer Promotion)</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Koordinationsrolle -->
@@ -1798,7 +1849,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Koordinationsrolle (Einrichtung)</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoordinatorEinrichtung -->
@@ -1821,7 +1872,7 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Sprechereinrichtung</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name des Konsortialführers</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LaenderDerBeteiligtenInstitutionen -->
@@ -1837,7 +1888,7 @@ Bundesland bei inländischen beteiligten Institutionen).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Länder der beteiligten Institutionen</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name -->
@@ -1849,7 +1900,7 @@ Bundesland bei inländischen beteiligten Institutionen).
         <rdfs:comment xml:lang="de">Wesentliche Eigenschaft einer Person</rdfs:comment>
         <rdfs:label xml:lang="de">Name</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameAusgruendung -->
@@ -1861,7 +1912,7 @@ Bundesland bei inländischen beteiligten Institutionen).
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#NameAusgruendung-001"/>
         <rdfs:label xml:lang="de">Name der Ausgründung</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerOrganisationseinheit -->
@@ -1874,7 +1925,7 @@ Bundesland bei inländischen beteiligten Institutionen).
         <rdfs:comment xml:lang="de">Wesentliche Eigenschaft einer Organisationseinheit</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Organisationseinheit</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle -->
@@ -1905,7 +1956,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Name der Quelle</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerWeiterenEinrichtung -->
@@ -1925,7 +1976,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Name der weiteren Einrichtung</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed -->
@@ -1959,7 +2010,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">ist Peer Reviewed</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektbeginn -->
@@ -1981,7 +2032,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Projektbeginn</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Projektende -->
@@ -2003,7 +2054,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Projektende</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ressource -->
@@ -2050,7 +2101,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Ressource</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername -->
@@ -2070,7 +2121,7 @@ creators, e.g. authors, which have to be all listed.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Name des Schöpfers</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seitenbereich -->
@@ -2088,7 +2139,7 @@ The first and last page of a publication.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Seitenbereich</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprachcode -->
@@ -2103,7 +2154,7 @@ The first and last page of a publication.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Sprachcode</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sprache -->
@@ -2119,7 +2170,7 @@ The first and last page of a publication.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Sprache</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Staatsangehoerigkeit -->
@@ -2139,7 +2190,7 @@ angehören, werden nur der Kategorie Inland zugeordnet.
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachAnnahmeAmFachbereichAnDerFakultaet -->
@@ -2155,7 +2206,7 @@ als Doktorand am Fachbereich / an der Fakultät zu bestimmen.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Start der Promotion (nach Annahme am Fachbereich / an der Fakultät)</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StartDerPromotionNachBetreuungsvereinbarungArbeitsvertrag -->
@@ -2174,7 +2225,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Start der Promotion (nach Betreuungsvereinbarung / Arbeitsvertrag)</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPatent -->
@@ -2190,7 +2241,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Titel des Patents</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt -->
@@ -2214,7 +2265,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Titel des Projekts</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPromotionsprogramm -->
@@ -2229,7 +2280,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Titel des Promotionsprogramms</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation -->
@@ -2248,7 +2299,7 @@ RDA name: Title proper
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Titel der Publikation</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlagsort -->
@@ -2265,7 +2316,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Verlagsort</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsjahr -->
@@ -2304,7 +2355,7 @@ RDA name: Date of publication
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Veröffentlichungsjahr</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Veroeffentlichungsnummer -->
@@ -2322,7 +2373,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Veröffentlichungsnummer</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten -->
@@ -2344,7 +2395,7 @@ mehreren Arbeitsverträgen nach Arbeitsvertrag.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Vertragslaufzeit in Monaten</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugriffsrechte -->
@@ -2365,7 +2416,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Zugriffsrechte</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatPromotionsberechtigungAus -->
@@ -2388,7 +2439,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">hat Promotionsberechtigung aus</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz -->
@@ -2400,7 +2451,7 @@ angepasst.</rdfs:comment>
         <mapping>Kurztitel</mapping>
         <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/history#TitelProjektKurz-001"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell -->
@@ -2413,7 +2464,7 @@ angepasst.</rdfs:comment>
         <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/history#TitelProjektRedaktionell-001"/>
         <rdfs:label xml:lang="de">redaktioneller Titel</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://purl.org/cerif/frapo/hasAcronym -->
@@ -2425,7 +2476,7 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Akronym</rdfs:label>
         <rdfs:label xml:lang="en">has acronym</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/description -->
@@ -2439,7 +2490,7 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Beschreibung</rdfs:label>
         <rdfs:label xml:lang="en">Description</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/identifier -->
@@ -2454,7 +2505,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://purl.org/dc/terms/title -->
@@ -2468,10 +2519,10 @@ angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Titel</rdfs:label>
         <rdfs:label xml:lang="en">Title</rdfs:label>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -2479,7 +2530,7 @@ angepasst.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF -->
@@ -2499,7 +2550,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">AUF</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ArbeitspapierForschungsbericht -->
@@ -2523,7 +2574,7 @@ final reports of public institutions, scientific expertise and resources].
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Arbeitspapier/Forschungsbericht</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Artikel -->
@@ -2545,7 +2596,7 @@ published in a book or journal.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Artikel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung -->
@@ -2562,7 +2613,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Ausgründung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AusserplanmaessigeProfessoren -->
@@ -2578,7 +2629,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Außerplanmäßige Professoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Autor -->
@@ -2608,7 +2659,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Autor</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristet -->
@@ -2627,7 +2678,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Befristet</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung -->
@@ -2653,7 +2704,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Befristung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeitraegeInterviewsInNicht-wissenschaftlichenMedien -->
@@ -2677,7 +2728,7 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Beiträge bzw. Interviews in nicht-wissenschaftlichen Medien</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigter -->
@@ -2688,7 +2739,7 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
         <rdfs:comment xml:lang="de">Personen, die in einem Beschäftigungsverhältnis sind.</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigte / Beschäftigter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung -->
@@ -2698,7 +2749,7 @@ media (e.g. newspaper, non-academic periodicals, blogs, radio, or TV).
         <rdfs:comment xml:lang="de">Konzept zur Darstellung der Eigenschaften, die mit einer Beschäftigung zusammenhängen (z.B. Befristung, Dauer, Voll/Teilzeit, etc.)</rdfs:comment>
         <rdfs:label xml:lang="de">Beschäftigung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographieDokumenttyp -->
@@ -2718,7 +2769,7 @@ article. It may contain commentaries / annotations.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bibliographie [Dokumenttyp]</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BibliographiePublikationstyp -->
@@ -2738,7 +2789,7 @@ The entries may be commented /annotated.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bibliographie [Publikationstyp]</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Buch -->
@@ -2751,7 +2802,7 @@ The entries may be commented /annotated.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Buch</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bund -->
@@ -2768,7 +2819,7 @@ Studenten).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bund</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Bundeslaender -->
@@ -2783,7 +2834,7 @@ von anderen Bundesländern und deren nachgeordneten Behörden).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bundesländer</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#DFG -->
@@ -2801,7 +2852,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">DFG</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Datensammlung -->
@@ -2833,7 +2884,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Datensammlung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dissertation -->
@@ -2852,7 +2903,7 @@ doctorate (PhD) degree.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Dissertation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp -->
@@ -2876,7 +2927,7 @@ RDA name: Nature of the content
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Dokumenttyp</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittel -->
@@ -2912,7 +2963,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Drittmittel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt -->
@@ -2924,7 +2975,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">Aggregation über den Titel des Projektes.</rdfs:comment>
         <rdfs:label xml:lang="de">Drittmittelprojekt</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EU -->
@@ -2944,7 +2995,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">EU</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Editorial -->
@@ -2963,7 +3014,7 @@ represents the opinion of the editor / editorial board.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Editorial</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#EuUndSonstigeInternationaleOrganisationen -->
@@ -2979,7 +3030,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">EU und sonstige internationale Organisationen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH -->
@@ -2997,7 +3048,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">FH</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach -->
@@ -3028,7 +3079,7 @@ Aktualisierung der Daten im Kerndatensatz ist nicht vorgesehen.
 Vgl. ausführlicher: Spezifikation Kapitel 3.2.3</rdfs:comment>
         <rdfs:label xml:lang="de">Fach</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform -->
@@ -3049,7 +3100,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Finanzierungsform</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format -->
@@ -3062,7 +3113,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Format</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld -->
@@ -3087,7 +3138,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Forschungsfeld</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur -->
@@ -3110,7 +3161,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart -->
@@ -3139,7 +3190,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Art der Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp -->
@@ -3173,7 +3224,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Typ der Forschungsinfrastruktur</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung -->
@@ -3192,7 +3243,7 @@ Forschungseinrichtungen&quot; der Gemeinsamen Wissenschaftskonferenz
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Gemeinsame Berufung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GewerblicheWirtschaftUndSonstigePrivateBereiche -->
@@ -3212,7 +3263,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Gewerbliche Wirtschaft und sonstige private Bereiche</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrossgeraeteUndInstrumente -->
@@ -3232,7 +3283,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Großgeräte und Instrumente</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GrundmittelUndInstitutionelleMittel -->
@@ -3255,7 +3306,7 @@ institutionellen Mittel (Bund/Länder).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Grundmittel und institutionelle Mittel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitAutorenfunktion -->
@@ -3278,7 +3329,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Gruppe mit Autorenfunktion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GruppeMitHerausgeberfunktion -->
@@ -3305,7 +3356,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Gruppe mit Herausgeberfunktion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitation -->
@@ -3326,7 +3377,7 @@ Zu erfassen ist, ob sich der Mitarbeiter habilitierte.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Habilitation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitationsschrift -->
@@ -3344,7 +3395,7 @@ A habilitation is a scientific work needed for receiving the Venia legendi.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Habilitationsschrift</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Habilitiert -->
@@ -3364,7 +3415,7 @@ Zu erfassen ist, ob sich der Mitarbeiter habilitierte.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Habilitiert</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Hauptberuflich -->
@@ -3379,7 +3430,7 @@ Regelarbeitszeit oder auch Teilzeitbeschäftigung.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Hauptberuflich</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HauptberuflicheGastprofessoren -->
@@ -3395,7 +3446,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Hauptberufliche Gastprofessoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Herausgeber -->
@@ -3428,7 +3479,7 @@ RDA name: Contributor
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Herausgeber</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgeberschaftEinesSonderheftsEinerZeitschrift -->
@@ -3448,7 +3499,7 @@ contributions from different authors about a specific topic or a conference.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Herausgeberschaft eines Sonderhefts einer Zeitschrift</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HerausgegebenesBuch -->
@@ -3469,7 +3520,7 @@ conference proceedings.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Herausgegebenes Buch</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#InformationsUndKommunikationsinfrastrukturen -->
@@ -3489,7 +3540,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Informations- und Kommunikationsinfrastrukturen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Journalartikel -->
@@ -3519,7 +3570,7 @@ to judgments can be subsumed under letters (short communications)]]
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Journalartikel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Juniorprofessoren -->
@@ -3539,7 +3590,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Juniorprofessoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitAutorenfunktion -->
@@ -3566,7 +3617,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Körperschaft mit Autorenfunktion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#KoerperschaftMitHerausgeberfunktion -->
@@ -3593,7 +3644,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Körperschaft mit Herausgeberfunktion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzposter -->
@@ -3616,7 +3667,7 @@ there permanently.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Konferenzposter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#LetterToTheEditor -->
@@ -3636,7 +3687,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Letter to the Editor</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Lokal -->
@@ -3652,7 +3703,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Lokal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#MeetingAbstract -->
@@ -3673,7 +3724,7 @@ conference proceedings.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Meeting Abstract</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mischfinanzierung -->
@@ -3693,7 +3744,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Mischfinanzierung</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber -->
@@ -3717,7 +3768,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Mittelgeber</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Monographie -->
@@ -3743,7 +3794,7 @@ seen as substantial research achievement]
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Monographie</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nebenberuflich -->
@@ -3760,7 +3811,7 @@ stundenweise von hauptberuflich Beschäftigten ausgeübt werden.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Nebenberuflich</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NeuerPublikationstyp -->
@@ -3784,7 +3835,7 @@ clues for the discrimination against the existing document types.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Neuer Publikations- oder Dokumenttyp</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaert -->
@@ -3802,7 +3853,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertOeffentlicheMittelgeber -->
@@ -3818,7 +3869,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt (Öffentliche Mittelgeber)</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NichtErklaertPrivateMittelgeber -->
@@ -3834,7 +3885,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt (Private Mittelgeber)</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung -->
@@ -3852,7 +3903,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nutzung / Nutzungsintensität</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OpenAccess -->
@@ -3871,7 +3922,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Open Access</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#OrdentlicheProfessoren -->
@@ -3887,7 +3938,7 @@ Dienst- / Berufsbezeichnungen, die unter &quot;Sonstige Professoren (Be88)&quot;
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Ordentliche Professoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit -->
@@ -3915,7 +3966,7 @@ Die Summe aller Organisationseinheiten einer Einrichtung bildet diese
 Vgl. ausführlicher: Spezifikation Kapitel 3.2.3</rdfs:comment>
         <rdfs:label xml:lang="de">Organisationseinheit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent -->
@@ -3936,7 +3987,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Patent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person -->
@@ -3946,7 +3997,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">Zusammenfassendes Konzept für die Darstellung aller personenbezogenen Eigenschaften und Attribute</rdfs:comment>
         <rdfs:label xml:lang="de">Person</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie -->
@@ -3978,7 +4029,7 @@ Eine Übersicht der Zuordnungen ist unter
 einsehbar.</rdfs:comment>
         <rdfs:label xml:lang="de">Personalkategorie</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professoren -->
@@ -3998,7 +4049,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Professoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung -->
@@ -4010,7 +4061,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bezeichnung für Professoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotion -->
@@ -4031,7 +4082,7 @@ Zu erfassen ist, ob der Mitarbeiter promoviert wurde.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Promotion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner -->
@@ -4050,7 +4101,7 @@ promovieren.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Promotionskooperationspartner</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promoviert -->
@@ -4070,7 +4121,7 @@ Zu erfassen ist, ob der Mitarbeiter promoviert wurde.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Promoviert</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation -->
@@ -4104,7 +4155,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Publikation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp -->
@@ -4124,7 +4175,7 @@ publication and source, e.g. in journal articles, book chapters, monographs.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Publikationstyp</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation -->
@@ -4138,7 +4189,7 @@ und Promotion. Gezählt wird jeweils der höchste Abschluss.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Qualifikation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikationsschrift -->
@@ -4164,7 +4215,7 @@ RDA name: Dissertation or thesis information
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Qualifikationsschrift</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren -->
@@ -4182,7 +4233,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Qualifizierungsverfahren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionDokumenttyp -->
@@ -4204,7 +4255,7 @@ cultural sources with a substantial contribution of the source editor.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Quellenedition [Dokumenttyp]</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#QuelleneditionPublikationstyp -->
@@ -4226,7 +4277,7 @@ cultural sources with a substantial contribution of the source editor.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Quellenedition [Publikationstyp]</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Review -->
@@ -4246,7 +4297,7 @@ written and signed by a qualified person.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Review</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Rezension -->
@@ -4265,7 +4316,7 @@ book).
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Rezension</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelband -->
@@ -4292,7 +4343,7 @@ book), conference proceedings, exhibition catalog, maps]
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Sammelband</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sammelbandbeitrag -->
@@ -4318,7 +4369,7 @@ commentary]
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Sammelbandbeitrag</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer -->
@@ -4336,7 +4387,7 @@ creators, e.g. authors, which have to be all listed.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Schöpfer</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp -->
@@ -4362,7 +4413,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Schöpfertyp</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren -->
@@ -4380,7 +4431,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Seniorprofessoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SharedAccess -->
@@ -4402,7 +4453,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Shared Access</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Software -->
@@ -4423,7 +4474,7 @@ documentation, as opposed to data used as input and generated as output.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Software</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Sondermittel -->
@@ -4443,7 +4494,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sondermittel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeDrittmittelgeber -->
@@ -4462,7 +4513,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstige Drittmittelgeber</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeInternationaleOrganisationen -->
@@ -4481,7 +4532,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstige internationale Organisationen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeKooperationspartner -->
@@ -4497,7 +4548,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstige Kooperationspartner</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigeProfessoren -->
@@ -4517,7 +4568,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstige Professoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigerTyp -->
@@ -4537,7 +4588,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstiger Typ</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesPersonal -->
@@ -4562,7 +4613,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstiges Personal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#SonstigesWissenschaftlichesUndKuenstlerischesPersonal -->
@@ -4580,7 +4631,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonstiges wissenschaftliches und künstlerisches Personal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Stiftungsprofessoren -->
@@ -4596,7 +4647,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Stiftungsprofessoren</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm -->
@@ -4609,7 +4660,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">Aggregation über den Namen des Programms.</rdfs:comment>
         <rdfs:label xml:lang="de">Strukturiertes Promotionsprogramm</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart -->
@@ -4626,7 +4677,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Tätigkeitsart</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Teilzeit -->
@@ -4639,7 +4690,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Teilzeit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Unbefristet -->
@@ -4657,7 +4708,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Unbefristet</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Universitaet -->
@@ -4675,7 +4726,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Universität</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#UserAccess -->
@@ -4696,7 +4747,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">User Access</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag -->
@@ -4712,7 +4763,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Verlag</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verteilt -->
@@ -4728,7 +4779,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Verteilt</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vertretungsprofessoren -->
@@ -4751,7 +4802,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Vertretungsprofessoren / Lehrstuhlvertreter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verwaltungspersonal -->
@@ -4770,7 +4821,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Verwaltungspersonal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Virtuell -->
@@ -4786,7 +4837,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Virtuell</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Vollzeit -->
@@ -4799,7 +4850,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Vollzeit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte -->
@@ -4817,7 +4868,7 @@ angegeben.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftliche oder künstlerische Hilfskräfte</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheUndKuenstlerischeMitarbeiter -->
@@ -4846,7 +4897,7 @@ Entsprechende Regelungen gelten für künstlerische Mitarbeiter.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftliche und künstlerische Mitarbeiter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicheVortragsfolien -->
@@ -4869,7 +4920,7 @@ given at scientific events.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftliche Vortragsfolien</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlicherArtikel -->
@@ -4885,7 +4936,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftlicher Artikel</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal -->
@@ -4898,7 +4949,7 @@ angepasst.</rdfs:comment>
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftliches und künstlerisches Personal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#WissenschaftsunterstuetzendesPersonal -->
@@ -4945,7 +4996,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Wissenschaftsunterstützendes Personal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Wissensressourcen -->
@@ -4965,7 +5016,7 @@ Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Wissensressourcen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart -->
@@ -4997,7 +5048,7 @@ Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Art des Zugangs</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#ePaper -->
@@ -5018,7 +5069,7 @@ preprints.
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">ePaper</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#Kooperationspartner -->
@@ -5028,7 +5079,7 @@ preprints.
         <rdfs:label xml:lang="de">Kooperationspartner</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kooperationspartner-001"/>
     </owl:Class>
-
+    
 
 
     <!-- http://ontologies.mfn-berlin.de/ikon#Leitthema -->
@@ -5038,7 +5089,7 @@ preprints.
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">Leitthema</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/cerif/frapo/FundingAgency -->
@@ -5049,7 +5100,7 @@ preprints.
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">funding agency</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://xmlns.com/foaf/0.1/Organization -->
@@ -5065,4 +5116,5 @@ preprints.
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -12,7 +12,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
-        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.0"/>
         <rdfs:comment xml:lang="de">MfN Leitthemen</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonas Oppenlaender</rdfs:isDefinedBy>
         <rdfs:label xml:lang="de">IKON Ontologie</rdfs:label>
@@ -117,6 +116,33 @@
      -->
 
 
+    
+
+
+    <!-- http://d-nb.info/standards/elementset/gnd#predecessor -->
+
+
+    <owl:ObjectProperty rdf:about="http://d-nb.info/standards/elementset/gnd#predecessor">
+        <owl:inverseOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">A corporate body or a work being the predecessor of another corporate body or work</rdfs:comment>
+        <rdfs:comment xml:lang="de">Eine Körperschaft oder ein Werk, das der Vorgänger einer anderen Körperschaft oder eines anderen Werks ist</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="en">Predecessor</rdfs:label>
+        <rdfs:label xml:lang="de">Vorgänger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://d-nb.info/standards/elementset/gnd#successor -->
+
+
+    <owl:ObjectProperty rdf:about="http://d-nb.info/standards/elementset/gnd#successor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="de">Nachfolger</rdfs:label>
+        <rdfs:label xml:lang="en">Successor</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1065,11 +1091,57 @@ angepasst.</rdfs:comment>
     
 
 
+    <!-- http://ontologies.mfn-berlin.de/ikon#precedingWork -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#precedingWork">
+        <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#predecessor"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#succeedingProject"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="en">Preceding project</rdfs:label>
+        <rdfs:label xml:lang="de">Vorheriges Projekt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#succeedingProject -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#succeedingProject">
+        <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://d-nb.info/standards/elementset/gnd#predecessor"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
+        <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
+        <rdfs:label xml:lang="de">Nachfolgendes Projekt</rdfs:label>
+        <rdfs:label xml:lang="en">Succeeding project</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/cerif/frapo/hasFundingAgency -->
 
 
     <owl:ObjectProperty rdf:about="http://purl.org/cerif/frapo/hasFundingAgency">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/cerif/frapo/isSupportedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.org/cerif/frapo/supports"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
         <owl:inverseOf rdf:resource="http://purl.org/cerif/frapo/isFundingAgencyFor"/>
         <rdfs:range rdf:resource="http://purl.org/cerif/frapo/FundingAgency"/>
         <mapping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projektträger</mapping>
@@ -1085,6 +1157,11 @@ angepasst.</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://purl.org/cerif/frapo/isFundingAgencyFor">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/cerif/frapo/supports"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.org/cerif/frapo/isSupportedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
         <rdfs:domain rdf:resource="http://purl.org/cerif/frapo/FundingAgency"/>
         <rdfs:comment xml:lang="en">An object property linking a funding agency to an entity for which it provides funding.</rdfs:comment>
         <rdfs:label xml:lang="en">is funding agency for</rdfs:label>

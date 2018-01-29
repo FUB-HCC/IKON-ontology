@@ -7,11 +7,12 @@
     <uri id="Imports Wizard Entry" name="http://ontologies.mfn-berlin.de/dfg-fachsystematik/1.0.0" uri="https://raw.githubusercontent.com/joetm/dfg-fachsystematik/master/dfg-fachsystematik.owl"/>
     <uri id="User Entered Import Resolution" name="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Meta/version1" uri="http:/www.kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/kdsf-meta.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="duplicate:http://ontologies.mfn-berlin.de/ikon" uri="dev.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="duplicate:http://ontologies.mfn-berlin.de/ikon" uri="prod.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/mfn/leitthemen/leitthemen.owl" uri="imports/mfn/leitthemen/leitthemen.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="https://raw.githubusercontent.com/joetm/dfg-fachsystematik/master/dfg-fachsystematik.owl" uri="imports/dfg-fachsystematik/dfg-fachsystematik.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="shadowed:http://ontologies.mfn-berlin.de/ikon" uri="docs/ontology.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1515135816438" name="shadowed:https://raw.githubusercontent.com/joetm/dfg-fachsystematik/master/dfg-fachsystematik.owl" uri="imports/dfg-fachsystematik/docs/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="http://d-nb.info/standards/elementset/gnd#" uri="imports/gnd/gnd2018-01-16.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen" uri="imports/mfn/leitthemen/leitthemen.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="duplicate:http://ontologies.mfn-berlin.de/ikon" uri="dev.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="duplicate:http://ontologies.mfn-berlin.de/ikon" uri="prod.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="https://raw.githubusercontent.com/joetm/dfg-fachsystematik/master/dfg-fachsystematik.owl" uri="imports/dfg/fachsystematik/dfg-fachsystematik.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="shadowed:http://ontologies.mfn-berlin.de/ikon" uri="docs/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1517234859438" name="shadowed:https://raw.githubusercontent.com/joetm/dfg-fachsystematik/master/dfg-fachsystematik.owl" uri="imports/dfg/fachsystematik/docs/ontology.xml"/>
     </group>
 </catalog>
