@@ -7,10 +7,8 @@
 @base <http://ontologies.mfn-berlin.de/ikon> .
 
 <http://ontologies.mfn-berlin.de/ikon> rdf:type owl:Ontology ;
-                                        rdfs:comment "MfN Leitthemen"@de ;
                                         rdfs:isDefinedBy "Jonas Oppenlaender"^^xsd:string ;
-                                        rdfs:label "IKON Ontologie"@de ;
-                                        owl:versionInfo "1.2.0"^^xsd:string .
+                                        owl:versionInfo "1.2.1"^^xsd:string .
 
 #################################################################
 #    Annotation properties
@@ -46,6 +44,17 @@
 
 ###  http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> rdf:type owl:AnnotationProperty ;
+                                                rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
+                                                rdfs:label "scope note"@en ;
+                                                <http://www.w3.org/2004/02/skos/core#definition> "A note that helps to clarify the meaning and/or the use of a concept."@en .
 
 
 #################################################################
@@ -940,6 +949,20 @@ angepasst."""@de ;
                                     rdfs:isDefinedBy "http://purl.org/dc/terms/"^^xsd:string ;
                                     rdfs:label "Is Part Of"@en ,
                                                "ist Teil von"@de .
+
+
+###  http://www.w3.org/2004/02/skos/core#mappingRelation
+<http://www.w3.org/2004/02/skos/core#mappingRelation> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#semanticRelation> ;
+                                                      rdfs:comment "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."@en ;
+                                                      rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
+                                                      rdfs:label "is in mapping relation with"@en ,
+                                                                 "mapping"@de ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "Relates two concepts coming, by convention, from different schemes, and that have comparable meanings"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#semanticRelation
+<http://www.w3.org/2004/02/skos/core#semanticRelation> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -2003,6 +2026,17 @@ angepasst."""@de ;
                                                     "has acronym"@en .
 
 
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:DatatypeProperty ;
+                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
+                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                       rdfs:comment "An account of the resource."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                       rdfs:label "Beschreibung"@de ,
+                                                  "Description"@en .
+
+
 ###  http://purl.org/dc/terms/identifier
 <http://purl.org/dc/terms/identifier> rdf:type owl:DatatypeProperty ,
                                                owl:FunctionalProperty ;
@@ -2015,72 +2049,20 @@ angepasst."""@de ;
                                       rdfs:label "Identifier"@en .
 
 
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:DatatypeProperty ;
+                                 <http://purl.org/dc/terms/hasVersion> "http://dublincore.org/usage/terms/history/#titleT-002"^^xsd:string ;
+                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:string ;
+                                 <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:string ;
+                                 rdfs:comment "A name given to the resource."@en ;
+                                 rdfs:isDefinedBy "http://purl.org/dc/terms/"^^xsd:string ;
+                                 rdfs:label "Titel"@de ,
+                                            "Title"@en .
+
+
 #################################################################
 #    Classes
 #################################################################
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Biodiversitätsdynamik‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Biodiversitätsdynamik‎> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf :Leitthema ;
-                                                                                               <http://purl.org/dc/elements/1.1/description> "Unser Ziel ist es, die Prozesse, die zur Biodiversitätsveränderung in der Erdgeschichte und heute führten und führen, sowie deren ökologische und evolutive Auswirkungen aufzuklären und zu verfolgen. Dazu werden Diversitätsveränderungen untersucht – in Raum und Zeit sowie auf verschiedenen Ebenen der belebten Welt. Im Mittelpunkt steht die Bedeutung von biotischen und abiotischen Faktoren als Steuerungsmechanismen der Biodiversität, von der Ebene der Art bis zur Lebensgemeinschaft. Das Leitthema verknüpft in einzigartiger Weise Paläontologie und Biologie, integriert verschiedene andere Leitthemen und liefert Forschungsergebnisse z. B. für die Beurteilung der gegenwärtigen Biodiversitätskrise. Erkenntnisse aus der Phylogenie, der funktionellen Morphologie, der Evolutions- und Populationsgenetik, sowie der Ökologie werden hier zusammengebracht."@de ;
-                                                                                               rdfs:label "Biodiversitätsdynamik‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Dynamische_Informations-_und_Wissensintegration‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Dynamische_Informations-_und_Wissensintegration‎> rdf:type owl:Class ;
-                                                                                                                         rdfs:subClassOf :Leitthema ;
-                                                                                                                         <http://purl.org/dc/elements/1.1/description> "Naturkundemuseen sind zentrale Orte, um weltweit gesammeltes Wissen über Bio- und Geowissenschaften zu bewahren, dessen Qualität und Aktualität laufend zu sichern und es für alle zugänglich zu machen. Der Bedarf an entsprechenden Informationsinfrastrukturen ist riesig – beispielsweise für Evolutionsforschung, Biodiversitätsentdeckung, Biodiversitätsdynamik, ökologische Modellierung, Klimaforschung, Bürgerwissenschaften und Kommunikation mit der Gesellschaft. Erforderlich sind virtuelle Forschungsplattformen, die semantische Informationen, Medien- und Objekt-Referenzdatenbanken und geeignete algorithmische und menschlich-kollaborative Prozesse kombinieren. Als dynamische Plattformen tragen sie Informationen zusammen, ermöglichen Qualität und dynamisches Wissensmanagement und bieten globalen Zugang zu Wissen für breite Gesellschaftsschichten."@de ;
-                                                                                                                         rdfs:label "Dynamische Informations- und Wissensintegration‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Evolutionäre_Morphologie‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Evolutionäre_Morphologie‎> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf :Leitthema ;
-                                                                                                  <http://purl.org/dc/elements/1.1/description> "Ziel ist es, die Mechanismen zu erforschen, die die Etablierung bestimmter Baupläne und Organsysteme über lange Zeiträume in der Erdgeschichte ermöglichten, ebenso wie das Verständnis der Hemmnisse, die dabei wirken. Besonders die Verknüpfung von Daten früherer Lebewesen mit denen heutiger Tiere ist ein herausragendes Merkmal der Forschung am Museum für Naturkunde Berlin. Dies spiegelt sich in dem Methodenspektrum wider, das moderne bildgebende Verfahren, phylogenetische Analysen und Methoden der evolutionären Entwicklungsbiologie miteinander verknüpft. Die Erkennung von Eigenschaften, die für die Evolution besonders wichtig sind, spielt dabei eine zentrale Rolle. Sie stellt einen zentralen Anknüpfungspunkt zu anderen Leitthemen des Museums dar, insbesondere zur Biodiversitätsdynamik und zur Genomik der Artbildung. Daraus leitet sich der spezielle Fokus des Museums auf Nicht-Modell-Organismen ab, die speziell zur Erforschung relevanter Merkmalskomplexe ausgewählt werden."@de ;
-                                                                                                  rdfs:label "Evolutionäre Morphologie‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Genomik_der_Artbildung‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Genomik_der_Artbildung‎> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf :Leitthema ;
-                                                                                                <http://purl.org/dc/elements/1.1/description> "Biologische Artenvielfalt entsteht, wenn sich aus Populationen einer Art getrennte Arten entwickeln. Während wir die ökologischen Mechanismen der Artbildung vergleichsweise gut verstehen, wissen wir nahezu nichts über die genetischen Grundlagen, die zur Entstehung von neuen Arten führen. So stellt sich z. B. die Frage, ob sich nur wenige Gene oder einzelne Genombereiche während der Artbildung differenzieren, oder ob es zu einer generellen Differenzierung kommt, die das gesamte Genom betrifft. Neue Methoden der Hochdurchsatzsequenzierung von DNA eröffnen hierzu neue Forschungsansätze und Einblicke, die vor wenigen Jahren noch unvorstellbar waren. Dadurch rücken auch Artengruppen ins Blickfeld, die von besonderem evolutionsbiologischen Interesse sind, die aber nicht zu den sogenannten Modellorganismen gehören, die üblicherweise untersucht werden."@de ;
-                                                                                                rdfs:label "Genomik der Artbildung‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Impakt-_und_Meteoritenforschung‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Impakt-_und_Meteoritenforschung‎> rdf:type owl:Class ;
-                                                                                                         rdfs:subClassOf :Leitthema ;
-                                                                                                         <http://purl.org/dc/elements/1.1/description> "Die Entstehung und Entwicklung der Erde und des Lebens wurden maßgeblich durch Kollisionen und Einschläge (Impakte) kosmischer Körper geprägt. Die Frühgeschichte unseres Planetensystems kann anhand von Meteoriten erforscht werden. Kraterstrukturen auf der Erde und den Oberflächen anderer Planeten ermöglichen, das Bombardement aus dem All zu rekonstruieren, das vermutlich die Entstehung und Entwicklung von Lithosphären, Atmosphären und Biosphäre entscheidend beeinflusst hat. Physiko-chemische Prozesse während eines Einschlages können durch die Analyse von Probenmaterial studiert werden. Einschlagprozesse und deren Folgen für die Umwelt können durch Laborexperimente und numerische Computermodelle besser verstanden werden. Dabei müssen die mikro- und kleinskaligen, durch Stoßwellen hervorgerufenen Veränderungen von Mineralen mit jenen großskaligen Prozessen verknüpft werden, die zur Bildung von Impaktkratern und -becken führen."@de ;
-                                                                                                         rdfs:label "Impakt- und Meteoritenforschung‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Integrative_Biodiversitätsentdeckung‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Integrative_Biodiversitätsentdeckung‎> rdf:type owl:Class ;
-                                                                                                              rdfs:subClassOf :Leitthema ;
-                                                                                                              <http://purl.org/dc/elements/1.1/description> "Bisher sind nur knapp 1,9 Millionen Arten von Lebewesen bekannt, das entspricht ca. 20 % der tatsächlich existierenden Arten. Eine moderne, global ausgerichtete Biodiversitätsforschung strebt jedoch eine möglichst vollständige Erfassung aller Lebewesen an, um die Vielfalt des Lebens zu verstehen, sie zu schützen und ihr Potenzial zu nutzen, um konkrete Ansätze und Lösungen für globale gesellschaftliche Probleme wie z. B. Welternährung, nachhaltige Energieversorgung, Umweltverschmutzung und Gesundheitsfürsorge abzuleiten. Die Forschung am Museum zielt darauf ab, koordinierte Information über die Biodiversität in Berlin, Deutschland und weltweit zu liefern. Dafür werden die Objekte und Objektdaten in den eigenen Sammlungen erfasst und erforscht. Methoden, Services und Tools zur Erfassung und Bestimmung von Biodiversität für Wissenschaftler und Nicht-Wissenschaftler werden entwickelt und zur Verfügung gestellt."@de ;
-                                                                                                              rdfs:label "Integrative Biodiversitätsentdeckung‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Sammlungen_als_globale_wissenschaftliche_Forschungsinfrastruktur‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Sammlungen_als_globale_wissenschaftliche_Forschungsinfrastruktur‎> rdf:type owl:Class ;
-                                                                                                                                          rdfs:subClassOf :Leitthema ;
-                                                                                                                                          <http://purl.org/dc/elements/1.1/description> "Das Museum für Naturkunde Berlin besitzt 30 Millionen Sammlungsobjekte als zentrale Forschungsinfrastruktur. Diese Sammlungen sollen als wissenschaftliche Infrastruktur zu exzellenten, barrierefrei nutzbaren, integrierten Sammlungen von hoher Relevanz fortentwickelt werden. Größte Herausforderungen und langfristige Kernaufgaben sind dabei: I) die grundsätzliche Verbesserung der Sammlungsunterbringung, verbunden mit der Entwicklung eines effizienten Managements und einer adäquaten Personalstruktur und II) die umfassende Erschließung der Sammlungen als Grundlage für ihre Inwertsetzung in Forschung, Bildung, Kultur, innovativen Produkten und Technologien. Vernetzung und Transfer sind dabei zentrale Faktoren, um neue Nutzungen und Nutzergruppen zu erschließen. Dafür steht das Projekt DCOLL."@de ;
-                                                                                                                                          rdfs:label "Sammlungen als globale wissenschaftliche Forschungsinfrastruktur‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Wissenskommunikation_und_Partizipation_in_Theorie_und_Praxis‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Wissenskommunikation_und_Partizipation_in_Theorie_und_Praxis‎> rdf:type owl:Class ;
-                                                                                                                                      rdfs:subClassOf :Leitthema ;
-                                                                                                                                      <http://purl.org/dc/elements/1.1/description> "Hier wird das Museum für Naturkunde Berlin selbst zum Untersuchungsobjekt: Wie erfüllt es seine Aufgabe an der Schnittstelle von Wissenschaft, Politik und Gesellschaft und wie sollte es sie erfüllen? Dabei werden die historischen, kulturellen und politischen Zusammenhänge einbezogen. Es wird untersucht, mit welchen Methoden wissenschaftliche Inhalte erfolgreich an unterschiedliche Zielgruppen vermittelt und im Dialog mit verschiedenen gesellschaftlichen Akteuren entwickelt und kommuniziert werden können. Dabei werden auch die damit verbundenen Prozesse der Integration und Partizipation entlang des gesamten Erkenntnisprozesses betrachtet. Das Museum stellt sich der Frage, wieviel Partizipation seitens der Forschung zugelassen werden kann, wie die Beteiligung von gesellschaftlichen Akteuren am wissenschaftlichen Prozess organisiert sein sollte und wie die Rückkopplung ins wissenschaftliche System funktioniert."@de ;
-                                                                                                                                      rdfs:label "Wissenskommunikation und Partizipation in Theorie und Praxis‎"@de .
-
-
-###  http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Wissenstransfer‎
-<http://ikon.test.code.naturkundemuseum.berlin/fp/Kategorie:Leitthemen/Wissenstransfer‎> rdf:type owl:Class ;
-                                                                                         rdfs:subClassOf :Leitthema ;
-                                                                                         <http://purl.org/dc/elements/1.1/description> "Wissenschaftlicher Austausch, Bildung und Vermittlung gehören zu den Kernaufgaben eines Forschungsmuseums. Das Leitthema ‚Wissenstransfer‘ geht darüber hinaus und betrachtet Forschungsprozesse, Forschungsergebnisse und weitere Museumsleistungen, die sich außerhalb des Museums weiter nutzen lassen könnten, beispielsweise in fachfremden Disziplinen, in der Bildung oder in wirtschaftlichen oder kulturellen Anwendungsfeldern. Aus den Forschungsprojekten heraus wird dies in der Regel nicht gemacht. Eine Übersicht über sämtliche Museumsleistungen ist in Arbeit, Prozesse für einen effektiveren Transfer werden entwickelt. Die verschiedenen Museumsleistungen können auf diese Weise breiter als bisher, aktiv und gezielt in Wissenschaft, Gesellschaft, Bildung, Kultur, Wirtschaft und Politik eingebracht werden. Die Museumsarbeit wird nachhaltiger, nutzbarer, sichtbarer und relevanter für die Gesellschaft."@de ;
-                                                                                         rdfs:label "Wissenstransfer‎"@de .
-
 
 ###  http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF
 <http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AUF> rdf:type owl:Class ;
@@ -4287,6 +4269,17 @@ preprints.
 
 
 #################################################################
+#    Individuals
+#################################################################
+
+###  http://ontologies.mfn-berlin.de/ikon
+<http://ontologies.mfn-berlin.de/ikon> rdf:type owl:NamedIndividual ;
+                                       <http://purl.org/dc/terms/description> "An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History."@en ;
+                                       <http://purl.org/dc/terms/title> "IKON Ontologie"@de ,
+                                                                        "IKON Ontology"@en .
+
+
+#################################################################
 #    Annotations
 #################################################################
 
@@ -4302,22 +4295,16 @@ preprints.
                   owl:versionInfo <http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001> .
 
 
-<http://purl.org/dc/terms/description> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
-                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                       rdfs:comment "An account of the resource."@en ;
-                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                       rdfs:label "Beschreibung"@de ,
-                                                  "Description"@en .
+<http://www.w3.org/2004/02/skos/core#example> rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
+                                              rdfs:label "Beispiel"@de ,
+                                                         "example"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "An example of the use of a concept."@en .
 
 
-<http://purl.org/dc/terms/title> <http://purl.org/dc/terms/hasVersion> "http://dublincore.org/usage/terms/history/#titleT-002"^^xsd:string ;
-                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:string ;
-                                 <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:string ;
-                                 rdfs:comment "A name given to the resource."@en ;
-                                 rdfs:isDefinedBy "http://purl.org/dc/terms/"^^xsd:string ;
-                                 rdfs:label "Titel"@de ,
-                                            "Title"@en .
+<http://www.w3.org/2004/02/skos/core#note> rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
+                                           rdfs:label "note"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#definition> "A general note, for any purpose."@en ;
+                                           <http://www.w3.org/2004/02/skos/core#scopeNote> "This property may be used directly, or as a super-property for more specific note types."@en .
 
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
