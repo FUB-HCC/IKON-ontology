@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 from rdflib import Graph, URIRef
 from rdflib.namespace import RDF, OWL
@@ -6,6 +8,15 @@ import csv
 import os
 import glob
 from xlsxwriter.workbook import Workbook
+
+
+
+outputName = "masterlist"
+
+# -------------------------------------------
+
+csvfileName = "./%s.csv" % outputName
+xlsfileName = "./%s.xlsx" % outputName
 
 
 # kdfs = URIRef("http://ontologies.mfn-berlin.de/ikon")
@@ -37,20 +48,25 @@ qres = g.query(
     """)
 
 
-with open('masterlist.csv', 'wb') as csvfile:
+
+
+with open(csvfileName, 'wb') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
     writer.writerow(['Subject', 'Type', 'Parent', 'Version', 'Description', 'Domain', 'Range', 'Status', 'Notizen'])
     for row in qres:
         writer.writerow([unicode(r).encode("utf-8") for r in row])
 
 
-# # write in Excel format
-# workbook = Workbook('masterlist.xlsx')
-# worksheet = workbook.add_worksheet()
-# with open('masterlist.csv', 'rt', encoding='utf8') as f:
-#     reader = csv.reader(f)
-#     for r, row in enumerate(reader):
-#         for c, col in enumerate(row):
-#             worksheet.write(r, c, col)
+# write Excel file
+with Workbook(xlsfileName) as workbook:
+	worksheet = workbook.add_worksheet()
+	# with open(csvfile, 'rt', encoding='utf8') as f:
+	with open(csvfileName, 'rt') as f:
+	    reader = csv.reader(f)
+	    for r, row in enumerate(reader):
+	        for c, col in enumerate(row):
+	            worksheet.write(r, c, col)
 # workbook.close()
+
+
 
