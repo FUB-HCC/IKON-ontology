@@ -46,4 +46,3 @@ masterlist:
 	rapper ./prod.owl -o ntriples > ./masterlist/prod.n3
 	# --explain
 	arq --results=csv --data=./masterlist/prod.n3 --query=./masterlist/query.rq > ./masterlist/masterlist.csv
-	# Now run cd ./masterlist/ && source ./venv/bin/activate && ./create.py
