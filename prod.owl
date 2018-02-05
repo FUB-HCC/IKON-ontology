@@ -13,7 +13,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.1</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.2"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
     </owl:Ontology>
     
@@ -1050,6 +1051,7 @@ angepasst.</rdfs:comment>
         <rdfs:range rdf:resource="http://ontologies.mfn-berlin.de/ikon#Leitthema"/>
         <mapping>Leitthema</mapping>
         <terms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLeitthema-001"/>
+        <rdfs:comment>stable</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">hat Leitthema</rdfs:label>
     </owl:ObjectProperty>
@@ -2054,6 +2056,7 @@ Startdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden.
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Projektbeginn</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:DatatypeProperty>
     
 
@@ -2076,6 +2079,7 @@ des letzten Mittelabrufs eingesetzt werden.
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Projektende</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:DatatypeProperty>
     
 
@@ -2498,6 +2502,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="en">A data property linking an entity to an acronym used to identify it, based on its full name or title.  For example, this ontology has the full name &apos;Funding, Research Administration and Projects Ontology&apos; and the acronym &apos;FRAPO&apos;.</rdfs:comment>
         <rdfs:label xml:lang="de">Akronym</rdfs:label>
         <rdfs:label xml:lang="en">has acronym</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:DatatypeProperty>
     
 
@@ -2527,6 +2532,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:DatatypeProperty>
     
 
@@ -2541,6 +2547,7 @@ angepasst.</rdfs:comment>
         <rdfs:isDefinedBy>http://purl.org/dc/terms/</rdfs:isDefinedBy>
         <rdfs:label xml:lang="de">Titel</rdfs:label>
         <rdfs:label xml:lang="en">Title</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:DatatypeProperty>
     
 
@@ -5111,6 +5118,7 @@ preprints.
         <terms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Leitthema-001"/>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">Leitthema</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
     </owl:Class>
     
 
@@ -5174,6 +5182,7 @@ preprints.
         <mapping>Antragsteller</mapping>
     </rdf:Description>
     <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#hatProjektleiter">
+        <rdfs:comment>stable</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
         <rdfs:label xml:lang="de">hat Projektleiter</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001"/>
