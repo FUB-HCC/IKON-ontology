@@ -1,13 +1,12 @@
-
-abstract=
-ontologyTitle=
-ontologyPrefix=[Ontology NS Prefix]
+abstract=IKON ontology
+ontologyTitle=IKON ontology
+ontologyPrefix=ikon
 ontologyNamespaceURI=http://ontologies.mfn-berlin.de/ikon
-ontologyName=[Ontology Name]
-thisVersionURI=null
-latestVersionURI=
-previousVersionURI=
-dateOfRelease=
+ontologyName=IKON
+thisVersionURI=http://ontologies.mfn-berlin.de/ikon/1.2.2
+latestVersionURI=http://ontologies.mfn-berlin.de/ikon/1.2.2
+previousVersionURI=http://ontologies.mfn-berlin.de/ikon/1.2.1
+dateOfRelease=2018-02-12
 ontologyRevisionNumber=1.2.2
 licenseURI=null
 licenseName=null

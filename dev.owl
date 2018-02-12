@@ -47,20 +47,45 @@
 
     <!-- http://ontologies.mfn-berlin.de/ikon#mapping -->
 
-    <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping"/>
-    
+    <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping">
+        <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#mapping-001" />
+        <skos:definition xml:lang="en">A mapping relation between fields on the Wiki and this ontology.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon" />
+        <rdfs:label xml:lang="en">Mapping</rdfs:label>
+        <rdfs:label xml:lang="de">Mapping</rdfs:label>
+    </owl:AnnotationProperty>
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#description-006" />
+        <rdfs:comment xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</rdfs:comment>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:modified>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/" />
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <skos:definition xml:lang="en">An account of the resource.</skos:definition>
+    </owl:AnnotationProperty>
+   
 
 
     <!-- http://purl.org/dc/terms/hasVersion -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
-    
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion">
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#hasVersion-003" />
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:modified>
+        <skos:definition xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/" />
+        <rdfs:label xml:lang="en">Has Version</rdfs:label>
+        <!--
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation" />
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation" />
+        -->
+        <skos:note xml:lang="en">This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.</skos:note>
+    </owl:AnnotationProperty>
 
 
     <!-- http://purl.org/dc/terms/issued -->
@@ -83,8 +108,13 @@
 
     <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
-    
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">
+        <rdfs:label xml:lang="en">term status</rdfs:label>
+        <rdfs:label xml:lang="de">Status des Begriffs</rdfs:label>
+        <skos:definition xml:lang="en">the status of a vocabulary term, expressed as a short symbolic string; known values include 'unstable','testing', 'stable' and 'archaic'</skos:definition>
+        <vs:term_status>unstable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2003/06/sw-vocab-status/ns#" />
+    </owl:AnnotationProperty>
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
@@ -1162,6 +1192,7 @@ access).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
         <rdfs:label xml:lang="de">Vorgängerprojekt</rdfs:label>
         <rdfs:label xml:lang="en">preceding project</rdfs:label>
+        <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#precedingWork-001" />
     </owl:ObjectProperty>
     
 
@@ -1176,6 +1207,7 @@ access).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
         <rdfs:label xml:lang="de">Nachfolgendes Projekt</rdfs:label>
         <rdfs:label xml:lang="en">succeeding project</rdfs:label>
+        <dcterms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#succeedingProject-001" />
     </owl:ObjectProperty>
     
 

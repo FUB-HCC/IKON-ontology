@@ -710,13 +710,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Gruppe von natürlichen Personen, in der jeder Autor seine\nAutorenrechte behält, dadurch unterschieden von Körperschaften.",
+        "language" : "en",
+        "value" : "A group of natural persons, in which each author still retains its\ncopyrights, thereby distinguished from corporations.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A group of natural persons, in which each author still retains its\ncopyrights, thereby distinguished from corporations.",
+        "language" : "de",
+        "value" : "Eine Gruppe von natürlichen Personen, in der jeder Autor seine\nAutorenrechte behält, dadurch unterschieden von Körperschaften.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -755,13 +755,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A monograph is a book written by a single or multiple authors dedicated to\na specific topic, which it portrays comprehensively, including all relevant\nresearch findings. [This publication type also comprises: reference and\ntext books, maps, exhibition catalog and translation if the latter is to be\nseen as substantial research achievement]",
+        "language" : "de",
+        "value" : "Eine Monographie ist ein Buch, geschrieben von einem oder mehreren Autoren,\ndas sich einem spezifischen Thema widmet und dieses umfassend und unter\nBerücksichtigung der relevanten Forschungsergebnisse darstellt.\n[Dieser Publikationstyp enthält auch: Fach- und Lehrbuch,\nAusstellungskatalog, Karten, Übersetzung (wenn die Übersetzung eine\nsubstanzielle Forschungsleistung darstellt.)]",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Monographie ist ein Buch, geschrieben von einem oder mehreren Autoren,\ndas sich einem spezifischen Thema widmet und dieses umfassend und unter\nBerücksichtigung der relevanten Forschungsergebnisse darstellt.\n[Dieser Publikationstyp enthält auch: Fach- und Lehrbuch,\nAusstellungskatalog, Karten, Übersetzung (wenn die Übersetzung eine\nsubstanzielle Forschungsleistung darstellt.)]",
+        "language" : "en",
+        "value" : "A monograph is a book written by a single or multiple authors dedicated to\na specific topic, which it portrays comprehensively, including all relevant\nresearch findings. [This publication type also comprises: reference and\ntext books, maps, exhibition catalog and translation if the latter is to be\nseen as substantial research achievement]",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -1020,12 +1020,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Dr30",
+        "value" : "Dr2a",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Dr2a",
+        "value" : "Dr30",
         "type" : "label"
       } ]
     },
@@ -1274,7 +1274,7 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu141",
+        "value" : "Be77",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -1284,17 +1284,17 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Dr124",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be77",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
         "value" : "Pa36",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu141",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Dr124",
         "type" : "label"
       } ]
     },
@@ -1860,13 +1860,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A conference poster is a visual presentation of scientific findings that\nhas been presented as a poster at a conference and is published as such or\nas short contribution in the proceedings or separately and is available\nthere permanently.",
+        "language" : "de",
+        "value" : "Ein Konferenzposter ist eine visuelle Präsentation wissenschaftlicher\nErgebnisse, die als Poster auf einer Konferenz präsentiert und als solche\nbzw. als Kurzbeitrag im Proceedingsband oder separat veröffentlicht wurde\nund permanent verfügbar ist.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Ein Konferenzposter ist eine visuelle Präsentation wissenschaftlicher\nErgebnisse, die als Poster auf einer Konferenz präsentiert und als solche\nbzw. als Kurzbeitrag im Proceedingsband oder separat veröffentlicht wurde\nund permanent verfügbar ist.",
+        "language" : "en",
+        "value" : "A conference poster is a visual presentation of scientific findings that\nhas been presented as a poster at a conference and is published as such or\nas short contribution in the proceedings or separately and is available\nthere permanently.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -2214,13 +2214,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Durch den Herausgeber oder im Auftrag des Herausgebers verfasster Text, der\ndie Meinung der Redaktion /des Herausgebergremiums widergibt.",
+        "language" : "en",
+        "value" : "A text which is written by or on behalf of the editor or publisher, which\nrepresents the opinion of the editor / editorial board.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A text which is written by or on behalf of the editor or publisher, which\nrepresents the opinion of the editor / editorial board.",
+        "language" : "de",
+        "value" : "Durch den Herausgeber oder im Auftrag des Herausgebers verfasster Text, der\ndie Meinung der Redaktion /des Herausgebergremiums widergibt.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -2253,13 +2253,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Vortragsfolien sind öffentlich zugängliche visuelle Darstellungen von\nmündlichen Beiträgen auf wissenschaftlichen Veranstaltungen.\n\n[z.B. auf slideshare.net veröffentlicht]",
+        "language" : "en",
+        "value" : "Slides are publicly available visual representations of oral contributions\ngiven at scientific events.\n\n[e.g. published on slideshare.net]",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Slides are publicly available visual representations of oral contributions\ngiven at scientific events.\n\n[e.g. published on slideshare.net]",
+        "language" : "de",
+        "value" : "Vortragsfolien sind öffentlich zugängliche visuelle Darstellungen von\nmündlichen Beiträgen auf wissenschaftlichen Veranstaltungen.\n\n[z.B. auf slideshare.net veröffentlicht]",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -2527,13 +2527,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Das Werk kann nicht einem der vorhanden Dokument- oder Publikationstypen\nzugeordnet werden. In diesem Fall ist ein Vorschlag für einen neuen\nDokument- oder Publikationstyp einzureichen. Dieser sollte eine klare und\nmöglichst allgemeine Definition wie auch die Abgrenzung von ähnlichen\nbereits vorliegenden Dokument- oder Publikationstypen enthalten.",
+        "language" : "en",
+        "value" : "The work cannot be attributed to one of the available publication types. In\nthis case a suggestion for a new document type needs to be deposited. This\nsuggestion should include a clear and comprehensive definition as well as\nclues for the discrimination against the existing document types.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "The work cannot be attributed to one of the available publication types. In\nthis case a suggestion for a new document type needs to be deposited. This\nsuggestion should include a clear and comprehensive definition as well as\nclues for the discrimination against the existing document types.",
+        "language" : "de",
+        "value" : "Das Werk kann nicht einem der vorhanden Dokument- oder Publikationstypen\nzugeordnet werden. In diesem Fall ist ein Vorschlag für einen neuen\nDokument- oder Publikationstyp einzureichen. Dieser sollte eine klare und\nmöglichst allgemeine Definition wie auch die Abgrenzung von ähnlichen\nbereits vorliegenden Dokument- oder Publikationstypen enthalten.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -2626,17 +2626,17 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
+        "value" : "Na2",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
         "value" : "Pa1",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Dr28",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Na2",
         "type" : "label"
       } ]
     },
@@ -2860,13 +2860,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Habilitation ist eine\nwissenschaftliche Arbeit für den Erwerb der universitären Lehrbefähigung.",
+        "language" : "en",
+        "value" : "A habilitation is a scientific work needed for receiving the Venia legendi.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A habilitation is a scientific work needed for receiving the Venia legendi.",
+        "language" : "de",
+        "value" : "Eine Habilitation ist eine\nwissenschaftliche Arbeit für den Erwerb der universitären Lehrbefähigung.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -3067,13 +3067,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Quellenedition ist die Publikation von geschichts- oder\nkulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des\nQuelleneditors in Form eines Artikels.",
+        "language" : "en",
+        "value" : "A scholarly edition of primary sources is the publication of historic or\ncultural sources with a substantial contribution of the source editor.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A scholarly edition of primary sources is the publication of historic or\ncultural sources with a substantial contribution of the source editor.",
+        "language" : "de",
+        "value" : "Eine Quellenedition ist die Publikation von geschichts- oder\nkulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des\nQuelleneditors in Form eines Artikels.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -3325,13 +3325,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "An ePaper is a scientific article that is published in a scientific\nrepository or database e.g. arXiv.org. This category also includes\npreprints.",
+        "language" : "de",
+        "value" : "Ein ePaper ist ein wissenschaftlicher Artikel, der in einem\nwissenschaftlichen Repositorium, z.B. arXiv.org, oder einer Datenbank\nveröffentlicht wird. Die Kategorie schließt auch Preprints ein.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Ein ePaper ist ein wissenschaftlicher Artikel, der in einem\nwissenschaftlichen Repositorium, z.B. arXiv.org, oder einer Datenbank\nveröffentlicht wird. Die Kategorie schließt auch Preprints ein.",
+        "language" : "en",
+        "value" : "An ePaper is a scientific article that is published in a scientific\nrepository or database e.g. arXiv.org. This category also includes\npreprints.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -3557,13 +3557,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Quellenedition ist die Publikation von geschichts- oder\nkulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des\nQuelleneditors in Form eines Buches.\n[Dieser Publikationstyp enthält auch: Wissenschaftliche Musikedition]",
+        "language" : "en",
+        "value" : "A scholarly edition of primary sources is the publication of historic or\ncultural sources with a substantial contribution of the source editor.\n[This publication type also contains: Academic Music Edition]",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A scholarly edition of primary sources is the publication of historic or\ncultural sources with a substantial contribution of the source editor.\n[This publication type also contains: Academic Music Edition]",
+        "language" : "de",
+        "value" : "Eine Quellenedition ist die Publikation von geschichts- oder\nkulturwissenschaftlichen Quellen mit einem substanziellen Beitrag des\nQuelleneditors in Form eines Buches.\n[Dieser Publikationstyp enthält auch: Wissenschaftliche Musikedition]",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -3596,13 +3596,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Ein Sonderheft einer Zeitschrift, das von einer oder mehreren Personen\nherausgegeben wurde. Es enthält Beiträge in Aufsätzen verschiedener Autoren\nzu einem spezifischen Thema oder einer Konferenz.",
+        "language" : "en",
+        "value" : "A special issue of a journal edited by one or more persons. It contains\ncontributions from different authors about a specific topic or a conference.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A special issue of a journal edited by one or more persons. It contains\ncontributions from different authors about a specific topic or a conference.",
+        "language" : "de",
+        "value" : "Ein Sonderheft einer Zeitschrift, das von einer oder mehreren Personen\nherausgegeben wurde. Es enthält Beiträge in Aufsätzen verschiedener Autoren\nzu einem spezifischen Thema oder einer Konferenz.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -3719,7 +3719,7 @@
       "IRI-based" : "Nutzung"
     },
     "comment" : {
-      "de" : "Die Ausdifferenzierungen dieses Datums verstehen sich als Alternativen. Die\nEntscheidung über die jeweils anzugebeneden Daten liegt beim\nBetreiber/Koordinator."
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
     "attributes" : [ "external" ],
     "id" : "77"
@@ -3838,12 +3838,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be14",
+        "value" : "Na30",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na30",
+        "value" : "Be14",
         "type" : "label"
       } ]
     },
@@ -3936,16 +3936,16 @@
         "value" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Format-001",
         "type" : "iri"
       } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu87",
-        "type" : "label"
-      } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "dcterms.format",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu87",
         "type" : "label"
       } ]
     },
@@ -3978,12 +3978,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pa2",
+        "value" : "Pa25",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pa25",
+        "value" : "Pa2",
         "type" : "label"
       } ]
     },
@@ -4071,13 +4071,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "An article is a self-contained contribution to a defined theme / one\nquestion, created by one or more authors, along with other contributions\npublished in a book or journal.",
+        "language" : "de",
+        "value" : "Ein Artikel ist ein abgeschlossener unselbstständiger Beitrag zu einem\nabgegrenzten Thema / einer Fragestellung, erstellt durch ein oder mehrere\nAutoren, der zusammen mit anderen Beiträgen z.B. in einem Buch oder einer\nZeitschrift veröffentlicht wurde.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Ein Artikel ist ein abgeschlossener unselbstständiger Beitrag zu einem\nabgegrenzten Thema / einer Fragestellung, erstellt durch ein oder mehrere\nAutoren, der zusammen mit anderen Beiträgen z.B. in einem Buch oder einer\nZeitschrift veröffentlicht wurde.",
+        "language" : "en",
+        "value" : "An article is a self-contained contribution to a defined theme / one\nquestion, created by one or more authors, along with other contributions\npublished in a book or journal.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -4134,16 +4134,16 @@
         "value" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Verlag-001",
         "type" : "iri"
       } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu67",
-        "type" : "label"
-      } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "dcterms.publisher",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu67",
         "type" : "label"
       } ]
     },
@@ -4420,16 +4420,16 @@
         "value" : "In contrast to author group, the individual members of a corporation with\nauthor function have no individual author role.\n\nRDA name: Creator (Corporate body)",
         "type" : "label"
       } ],
-      "pgbid" : [ {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "kds.creator.author.CorporateName",
-        "type" : "label"
-      } ],
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Pu59",
+        "type" : "label"
+      } ],
+      "pgbid" : [ {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "kds.creator.author.CorporateName",
         "type" : "label"
       } ]
     },
@@ -4438,7 +4438,7 @@
       "IRI-based" : "KoerperschaftMitAutorenfunktion"
     },
     "comment" : {
-      "de" : "In Abgrenzung zu Autorengruppe haben die einzelnen Mitglieder einer\nKörperschaft mit Autorenfunktion keine individuelle Autorenrolle.\n\nRDA-Bezeichnung: Geistiger Schöpfer (Körperschaft)"
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates\nangepasst."
     },
     "attributes" : [ "external" ],
     "id" : "23",
@@ -4456,24 +4456,24 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine wissenschaftliche Publikation ist ein manifestes und veröffentlichtes\nProdukt, das aus der Forschungsarbeit einer oder mehrerer Personen\nresultiert. Eine Publikation muss einer eigenständigen intellektuellen\nLeistung entsprechen; rein formale Zusammenstellungen sollen nicht als\nwissenschaftliche Publikationen gelten. Wissenschaftliche Publikationen\nrichten sich zumeist an Forschungskollegen; Berücksichtigung sollen aber\nauch Formate finden, in denen wissenschaftliche Resultate an eine breitere\nÖffentlichkeit vermittelt werden. Publikationen sollen dauerhaft verfügbar\nsein. Auch zitierfähige, veröffentlichte Forschungsdaten gelten als\nPublikation.",
+        "language" : "en",
+        "value" : "A scientific publication is a recorded and published product resulting from\nthe research of one or more persons. A publication must correspond to an\nindependent intellectual achievement; purely formal compilations should not\nbe regarded as scientific publications. Scientific publications are\ndirected mostly to research colleagues, but formats in which scientific\nresults are communicated to a wider public, should also be considered.\nPublications should be permanently available. Citable and published\nresearch data are also considered as publications.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A scientific publication is a recorded and published product resulting from\nthe research of one or more persons. A publication must correspond to an\nindependent intellectual achievement; purely formal compilations should not\nbe regarded as scientific publications. Scientific publications are\ndirected mostly to research colleagues, but formats in which scientific\nresults are communicated to a wider public, should also be considered.\nPublications should be permanently available. Citable and published\nresearch data are also considered as publications.",
+        "language" : "de",
+        "value" : "Eine wissenschaftliche Publikation ist ein manifestes und veröffentlichtes\nProdukt, das aus der Forschungsarbeit einer oder mehrerer Personen\nresultiert. Eine Publikation muss einer eigenständigen intellektuellen\nLeistung entsprechen; rein formale Zusammenstellungen sollen nicht als\nwissenschaftliche Publikationen gelten. Wissenschaftliche Publikationen\nrichten sich zumeist an Forschungskollegen; Berücksichtigung sollen aber\nauch Formate finden, in denen wissenschaftliche Resultate an eine breitere\nÖffentlichkeit vermittelt werden. Publikationen sollen dauerhaft verfügbar\nsein. Auch zitierfähige, veröffentlichte Forschungsdaten gelten als\nPublikation.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu1",
+        "value" : "Pu4a",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu4a",
+        "value" : "Pu1",
         "type" : "label"
       } ]
     },
@@ -4768,7 +4768,7 @@
       "IRI-based" : "Bundeslaender"
     },
     "comment" : {
-      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
+      "de" : "von Ländern (ohne Mittel vom Träger der Hochschule, d. h. Landesministerien\nvon anderen Bundesländern und deren nachgeordneten Behörden)."
     },
     "attributes" : [ "external" ],
     "id" : "63",
@@ -4915,7 +4915,7 @@
       "IRI-based" : "KoerperschaftMitHerausgeberfunktion"
     },
     "comment" : {
-      "de" : "In Abgrenzung zu Herausgebergruppe haben die einzelnen Mitglieder einer\nKörperschaft mit Herausgeberfunktion keine individuelle Herausgeberrolle.\n\nRDA-Bezeichnung: MItwirkender"
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates\nangepasst."
     },
     "attributes" : [ "external" ],
     "id" : "13",
@@ -4933,13 +4933,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Categorization of all publishing formats based on criteria such as\npublication and source, e.g. in journal articles, book chapters, monographs.",
+        "language" : "de",
+        "value" : "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie\nErscheinungsweise und Quelle, z.B. in Journalartikel, Sammelbandbeitrag,\nMonographie u.a..",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Kategorisierung aller Publikationsformate anhand von Eigenschaften wie\nErscheinungsweise und Quelle, z.B. in Journalartikel, Sammelbandbeitrag,\nMonographie u.a..",
+        "language" : "en",
+        "value" : "Categorization of all publishing formats based on criteria such as\npublication and source, e.g. in journal articles, book chapters, monographs.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -4979,17 +4979,7 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Dr121",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
         "value" : "Pa35",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be75",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -4999,7 +4989,17 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
+        "value" : "Dr121",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
         "value" : "Pu140",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be75",
         "type" : "label"
       } ]
     },
@@ -5076,12 +5076,12 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na6",
+        "value" : "Na3",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na3",
+        "value" : "Na6",
         "type" : "label"
       } ]
     },
@@ -5222,13 +5222,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A bibliography is a systematic list of publications, published as an\narticle. It may contain commentaries / annotations.",
+        "language" : "de",
+        "value" : "Eine Bibliographie ist ein systematisches Verzeichnis von\nLiteraturnachweisen in Form eines Artikels. Sie kann Kommentare /\nAnnotationen enthalten.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine Bibliographie ist ein systematisches Verzeichnis von\nLiteraturnachweisen in Form eines Artikels. Sie kann Kommentare /\nAnnotationen enthalten.",
+        "language" : "en",
+        "value" : "A bibliography is a systematic list of publications, published as an\narticle. It may contain commentaries / annotations.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -5319,37 +5319,37 @@
   }, {
     "instances" : 0,
     "union" : [ "300", "25", "95", "214", "69", "273" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "382"
   }, {
     "instances" : 0,
     "union" : [ "25", "214" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "375"
   }, {
     "instances" : 0,
     "union" : [ "300", "25", "95", "214", "69", "273" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "326"
   }, {
     "instances" : 0,
     "union" : [ "121", "79" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "364"
   }, {
     "instances" : 0,
     "union" : [ "300", "25", "95", "214", "69", "273" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "272"
   }, {
     "instances" : 0,
     "union" : [ "214", "69" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "361"
   }, {
     "instances" : 0,
     "union" : [ "69", "148" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "357"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -5423,7 +5423,7 @@
   }, {
     "instances" : 0,
     "union" : [ "148", "46" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "301"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Seniorprofessoren",
@@ -6098,17 +6098,17 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "3"
   }, {
     "range" : "8",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "6"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
@@ -6146,27 +6146,27 @@
   }, {
     "range" : "8",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "range" : "8",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
     "range" : "8",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
     "range" : "8",
     "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "20"
   }, {
     "range" : "8",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBefristung",
@@ -6200,42 +6200,42 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde im Zuge der \"Abnahmesitzung\" des Beirates\nangepasst."
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "functional", "external", "object" ],
     "id" : "24"
   }, {
     "range" : "31",
     "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "29"
   }, {
     "range" : "2",
     "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
     "range" : "36",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "34"
   }, {
     "range" : "39",
     "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "37"
   }, {
     "range" : "39",
     "domain" : "41",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "40"
   }, {
     "range" : "39",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#VertragslaufzeitInMonaten",
@@ -6269,27 +6269,27 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "47"
   }, {
     "range" : "52",
     "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "50"
   }, {
     "range" : "52",
     "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
     "range" : "52",
     "domain" : "56",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "55"
   }, {
     "range" : "31",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfername",
@@ -6367,9 +6367,9 @@
     },
     "domain" : "69",
     "comment" : {
-      "de" : "Als Projektende zählt das Jahr des Projektendes laut Bewilligungsbescheid\nbzw. Vereinbarung mit dem Förderer. Liegt kein Enddatum vor, kann das Jahr\ndes letzten Mittelabrufs eingesetzt werden."
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "68"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Abschlusszeitpunkt",
@@ -6458,12 +6458,12 @@
     },
     "superproperty" : [ "82" ],
     "domain" : "69",
-    "attributes" : [ "transitive", "object" ],
+    "attributes" : [ "object", "transitive" ],
     "id" : "80"
   }, {
     "range" : "36",
     "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "88"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBezeichnung",
@@ -6507,15 +6507,21 @@
         "value" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Ressource-001",
         "type" : "iri"
       } ],
+      "pgbid" : [ {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "kds.type.resource",
+        "type" : "label"
+      } ],
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu102",
+        "value" : "Pu109",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu108",
+        "value" : "Pu102",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -6525,18 +6531,12 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu106",
+        "value" : "Pu108",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu109",
-        "type" : "label"
-      } ],
-      "pgbid" : [ {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "kds.type.resource",
+        "value" : "Pu106",
         "type" : "label"
       } ]
     },
@@ -6564,17 +6564,7 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be93",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be96",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be98",
+        "value" : "Be99",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -6584,37 +6574,12 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be97",
+        "value" : "Be98",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be44",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be91",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be90",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be42",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be64",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Be43",
+        "value" : "Be100",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -6634,12 +6599,47 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be99",
+        "value" : "Be97",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be100",
+        "value" : "Be42",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be90",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be96",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be43",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be91",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be93",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be64",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Be44",
         "type" : "label"
       } ]
     },
@@ -6651,7 +6651,7 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "97"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifizierungsverfahren",
@@ -6776,9 +6776,9 @@
     },
     "domain" : "69",
     "comment" : {
-      "de" : "Als Projektbeginn zählt das Jahr des Projektbeginns laut\nBewilligungsbescheid bzw. Vereinbarung mit dem Förderer. Liegt kein\nStartdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden."
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "108"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
@@ -6843,12 +6843,12 @@
   }, {
     "range" : "28",
     "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "114"
   }, {
     "range" : "28",
     "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "116"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatSchoepfertyp",
@@ -6872,16 +6872,16 @@
         "value" : "For the purposes of the core research data set the author role is to be\nspecified with the metadatum creator type. Standard entry is Author (Pu52).\n\nRDA name: Relationship designator",
         "type" : "label"
       } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu55",
-        "type" : "label"
-      } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "kds.creator",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu55",
         "type" : "label"
       } ]
     },
@@ -6898,12 +6898,12 @@
   }, {
     "range" : "121",
     "domain" : "120",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "119"
   }, {
     "range" : "121",
     "domain" : "123",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "122"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatQualifikation",
@@ -6942,57 +6942,57 @@
   }, {
     "range" : "93",
     "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
     "range" : "93",
     "domain" : "129",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "128"
   }, {
     "range" : "93",
     "domain" : "92",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "131"
   }, {
     "range" : "93",
     "domain" : "130",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "132"
   }, {
     "range" : "28",
     "domain" : "134",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
     "range" : "28",
     "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "135"
   }, {
     "range" : "138",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "136"
   }, {
     "range" : "138",
     "domain" : "140",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "139"
   }, {
     "range" : "138",
     "domain" : "142",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "141"
   }, {
     "range" : "138",
     "domain" : "144",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
     "range" : "138",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "145"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBetreiber",
@@ -7031,57 +7031,57 @@
   }, {
     "range" : "138",
     "domain" : "150",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
     "range" : "138",
     "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "151"
   }, {
     "range" : "138",
     "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "152"
   }, {
     "range" : "138",
     "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "153"
   }, {
     "range" : "138",
     "domain" : "156",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
     "range" : "72",
     "domain" : "158",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "157"
   }, {
     "range" : "72",
     "domain" : "160",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "159"
   }, {
     "range" : "72",
     "domain" : "162",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
     "range" : "165",
     "domain" : "164",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "163"
   }, {
     "range" : "165",
     "domain" : "107",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "166"
   }, {
     "range" : "138",
     "domain" : "168",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
     "iri" : "http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz",
@@ -7172,57 +7172,57 @@
   }, {
     "range" : "180",
     "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
     "range" : "180",
     "domain" : "182",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
     "range" : "72",
     "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "183"
   }, {
     "range" : "72",
     "domain" : "185",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
     "range" : "15",
     "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "186"
   }, {
     "range" : "180",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
     "range" : "180",
     "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
     "range" : "180",
     "domain" : "192",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "191"
   }, {
     "range" : "180",
     "domain" : "194",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "193"
   }, {
     "range" : "180",
     "domain" : "196",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "195"
   }, {
     "range" : "180",
     "domain" : "198",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "197"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatMittelgeber",
@@ -7267,17 +7267,17 @@
   }, {
     "range" : "74",
     "domain" : "203",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
     "range" : "74",
     "domain" : "205",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   }, {
     "range" : "15",
     "domain" : "207",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "206"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#PeerReviewed",
@@ -7293,12 +7293,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu150",
+        "value" : "Pu104",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu104",
+        "value" : "Pu150",
         "type" : "label"
       } ],
       "pgbid" : [ {
@@ -7330,16 +7330,16 @@
         "value" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sprachcode-001",
         "type" : "iri"
       } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu95",
-        "type" : "label"
-      } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "kds.language.iso",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu95",
         "type" : "label"
       } ]
     },
@@ -7488,16 +7488,16 @@
         "value" : "Ein Identifier für eine Reihe von zusammengehörigen Bestandteiles eines\nPeriodikas, z.B. Volume 103, Issue 2.\n\nEnglisch:\nA bibliographic identifier for a sequence of periodicals, e.g. Volume 103,\nIssue 2.",
         "type" : "label"
       } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu123",
-        "type" : "label"
-      } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "kds.format.volume",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu123",
         "type" : "label"
       } ]
     },
@@ -7549,7 +7549,7 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "231"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatNutzung",
@@ -7696,7 +7696,7 @@
     },
     "domain" : "69",
     "comment" : {
-      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
+      "de" : "Zu erfassen sind Einrichtungen.\n\nAufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.\nFür ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC\nBerkeley)."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "255"
@@ -7743,22 +7743,22 @@
   }, {
     "range" : "59",
     "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "263"
   }, {
     "range" : "59",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "264"
   }, {
     "range" : "59",
     "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "265"
   }, {
     "range" : "59",
     "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "266"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatVerlag",
@@ -7797,7 +7797,7 @@
   }, {
     "range" : "59",
     "domain" : "60",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "270"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatOrganisationseinheit",
@@ -7825,7 +7825,7 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be75",
+        "value" : "Pa35",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -7840,12 +7840,12 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pa35",
+        "value" : "Pu140",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu140",
+        "value" : "Be75",
         "type" : "label"
       } ]
     },
@@ -7872,13 +7872,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A single instance of periodical literature such as a journal, e.g. Volume\n103, Issue 2.",
+        "language" : "de",
+        "value" : "Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.",
+        "language" : "en",
+        "value" : "A single instance of periodical literature such as a journal, e.g. Volume\n103, Issue 2.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -7952,7 +7952,7 @@
       "IRI-based" : "NameDerOrganisationseinheit"
     },
     "domain" : "148",
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "278"
   }, {
     "iri" : "http://purl.org/dc/terms/description",
@@ -8028,37 +8028,37 @@
   }, {
     "range" : "30",
     "domain" : "288",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "287"
   }, {
     "range" : "129",
     "domain" : "290",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "289"
   }, {
     "range" : "30",
     "domain" : "176",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "291"
   }, {
     "range" : "30",
     "domain" : "293",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "292"
   }, {
     "range" : "129",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "294"
   }, {
     "range" : "129",
     "domain" : "296",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "295"
   }, {
     "range" : "129",
     "domain" : "177",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "297"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatAnmelder",
@@ -8127,42 +8127,42 @@
   }, {
     "range" : "107",
     "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
     "range" : "107",
     "domain" : "305",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "304"
   }, {
     "range" : "26",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "306"
   }, {
     "range" : "26",
     "domain" : "282",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "307"
   }, {
     "range" : "83",
     "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "308"
   }, {
     "range" : "83",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "309"
   }, {
     "range" : "125",
     "domain" : "311",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "310"
   }, {
     "range" : "125",
     "domain" : "313",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "312"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatBeschaeftigung",
@@ -8192,17 +8192,17 @@
   }, {
     "range" : "83",
     "domain" : "85",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "315"
   }, {
     "range" : "83",
     "domain" : "84",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "316"
   }, {
     "range" : "105",
     "domain" : "199",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "318"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelPublikation",
@@ -8226,16 +8226,16 @@
         "value" : "RDA name: Title proper",
         "type" : "label"
       } ],
-      "pgbid" : [ {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "dcterms.title",
-        "type" : "label"
-      } ],
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Pu5",
+        "type" : "label"
+      } ],
+      "pgbid" : [ {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "dcterms.title",
         "type" : "label"
       } ]
     },
@@ -8247,27 +8247,27 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "319"
   }, {
     "range" : "59",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "320"
   }, {
     "range" : "59",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "321"
   }, {
     "range" : "105",
     "domain" : "104",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "322"
   }, {
     "range" : "105",
     "domain" : "175",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "323"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#BeschreibungDerForschungsinfrastruktur",
@@ -8323,12 +8323,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu141",
+        "value" : "Be77",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be77",
+        "value" : "Pu141",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -8474,24 +8474,24 @@
     },
     "domain" : "214",
     "comment" : {
-      "de" : "Anzugeben ist das Land der beteiligten ausländischen Institution (nicht das\nBundesland bei inländischen beteiligten Institutionen)."
+      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "330"
   }, {
     "range" : "30",
     "domain" : "332",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "331"
   }, {
     "range" : "30",
     "domain" : "334",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "333"
   }, {
     "range" : "30",
     "domain" : "336",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "335"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#AltersgruppeBeiAbschluss",
@@ -8592,7 +8592,7 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "339"
   }, {
     "iri" : "http://ontologies.mfn-berlin.de/ikon#succeedingProject",
@@ -8613,7 +8613,7 @@
     },
     "superproperty" : [ "340" ],
     "domain" : "69",
-    "attributes" : [ "transitive", "object" ],
+    "attributes" : [ "object", "transitive" ],
     "id" : "81"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#NameDerQuelle",
@@ -8737,7 +8737,7 @@
     },
     "domain" : "10",
     "subproperty" : [ "81" ],
-    "attributes" : [ "external", "transitive", "object" ],
+    "attributes" : [ "external", "object", "transitive" ],
     "id" : "340"
   }, {
     "iri" : "http://purl.org/cerif/frapo/supports",
@@ -8815,7 +8815,7 @@
       "en" : "Identifier"
     },
     "domain" : "10",
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "345"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt",
@@ -8824,13 +8824,13 @@
     "annotations" : {
       "mapping" : [ {
         "identifier" : "mapping",
-        "language" : "de",
-        "value" : "TitelDE",
+        "language" : "en",
+        "value" : "TitelEN",
         "type" : "label"
       }, {
         "identifier" : "mapping",
-        "language" : "en",
-        "value" : "TitelEN",
+        "language" : "de",
+        "value" : "TitelDE",
         "type" : "label"
       } ],
       "hasVersion" : [ {
@@ -8975,7 +8975,7 @@
     },
     "domain" : "214",
     "comment" : {
-      "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
+      "de" : "Umfasst nationale und internationale Institutionen. Die Angabe erfolgt nach\nSchlüsselliste (wenn verfügbar).\nAufschlüsselung für inländische Einrichtungen gemäß DFG-Research Explorer.\nFür ausländische Einrichtungen ISO-Landescode (z.B. USA) und Name (z.B. UC\nBerkeley)."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "351"
@@ -9003,7 +9003,7 @@
     },
     "domain" : "69",
     "comment" : {
-      "de" : "Kerndatum gemäß der Drittmitteldefinition für die Hochschulfinanzstatistik\nvon Destatis (H203/32137100-5) zu erfassen durch Forschungseinrichtungen\nmit kaufmännischem Rechnungswesen:\n\nDrittmittelerträge sind Erträge, die zur Förderung von Forschung und\nEntwicklung sowie des wissenschaftlichen Nachwuchses und der Lehre\nzusätzlich zum regulären Forschungseinrichtungshaushalt (Grundausstattung)\nvon öffentlichen oder privaten Stellen eingeworben werden. Drittmittel\nkönnen der Forschungseinrichtung selbst, einer ihrer Untereinrichtungen\n(z.B. Fakultäten, Fachbereiche, Institute) oder einzelnen Wissenschaftlern\nzur Verfügung gestellt werden.\n\nEs werden grundsätzlich nur solche Mittel erfasst, die in die\nForschungseinrichtungshaushalte eingestellt bzw. die von der\nForschungseinrichtung auf Verwahrkonten verwaltet werden.\n\nDrittmittel werden ohne Umsatzsteuer erfasst. Bei einer Mischfinanzierung\nin Kooperationen werden die an der jeweiligen Einrichtung eingeworbenen\nMittel prozentual zugeordnet. Im Sinne einer dopplungsfreien Erhebung sind\nweitergereichte Mittel nicht mitzuzählen.\n\nDrittmittelerträge werden einschließlich Programmpauschalen / Overheads\nausgewiesen."
+      "de" : "Diese Angabe versteht sich als Alternative zu Dr1a. Nur eines der beiden\nKerndaten ist zu erfassen.\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "352"
@@ -9067,7 +9067,7 @@
     "comment" : {
       "undefined" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]"
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "354"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Konferenzname",
@@ -9082,13 +9082,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Title of a scientific meeting; An edited book (Sammelband) or inbook with\nthis attached to it is a proceedings and proceedings article, respectively.",
+        "language" : "de",
+        "value" : "Titel des wissenschaftlichen Treffens; ein Sammelband sowie\nSammelbandbeitrag wird durch diesen Eintrag als Konferenzband bzw.\nKonferenzartikel erkennbar.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Titel des wissenschaftlichen Treffens; ein Sammelband sowie\nSammelbandbeitrag wird durch diesen Eintrag als Konferenzband bzw.\nKonferenzartikel erkennbar.",
+        "language" : "en",
+        "value" : "Title of a scientific meeting; An edited book (Sammelband) or inbook with\nthis attached to it is a proceedings and proceedings article, respectively.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -9203,7 +9203,7 @@
     },
     "domain" : "147",
     "comment" : {
-      "de" : "Hinweis: Die Art des Zugangs ist nicht optional, wenn eine\nForschungsinfrastruktur eingetragen wird.\n[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
+      "de" : "Mehrfachnennungen möglich:\nA) User Access (z.B. über wissenschaftliches Antragsverfahren für externe\nNutzer)\nB) Shared Access (z.B. über wissenschaftliche Kollaborationen mit der\nBetreibereinrichtung)\nC) Open Access (Freier Zugang zu bspw. Wissensressourcen)\n\nWird eine FI auf verschiedenen Wegen zur Nutzung angeboten (bspw. lokal und\nvirtuell) so sind zwei Meldungen erforderlich. So kann z.B. eine physische\nSammlung 'lokal' und ihr Digitalisat in Form einer Datenbank 'virtuell'\ngenutzt werden. Weiterhin sind je nach Verortung einer FI in der verlinkten\nMatrix unterschiedliche Angaben zu Nutzung/Auslastung sinnvoll (bspw.\nUnterscheidung der Angaben für lokal + User Access und virtuellen + open\naccess)."
     },
     "attributes" : [ "external", "object" ],
     "id" : "359"
@@ -9220,24 +9220,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "An Institution, which has financially supported the research\nunderlying this publication. If available, funding information from\nbibliometric databases shall be imported and inserted here.",
-        "type" : "label"
-      }, {
-        "identifier" : "definition",
         "language" : "de",
         "value" : "Eine Institution, die für die Publikation erbrachte Forschung\n(mit-)finanziert hat. Falls vorhanden, sollen hier importierte\nFörderinformationen aus Publikationsdatenbanken angegeben werden.\nNach Möglichkeit zu erfassen, z.B. wenn in Publikation angegeben. Empfohlen\nwird die Erfassung nach Fundref (\n*http://www.crossref.org/services/funder-registry/*) und/oder ISNI-Standard\n(im letzten Fall gemeinsam mit der ISNI-ID).",
         "type" : "label"
-      } ],
-      "pgbid" : [ {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "kds.funding.grantnumber",
-        "type" : "label"
       }, {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "dcterms.funding",
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An Institution, which has financially supported the research\nunderlying this publication. If available, funding information from\nbibliometric databases shall be imported and inserted here.",
         "type" : "label"
       } ],
       "inhaltlicheDefinition" : [ {
@@ -9249,6 +9238,17 @@
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Pu86",
+        "type" : "label"
+      } ],
+      "pgbid" : [ {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "dcterms.funding",
+        "type" : "label"
+      }, {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "kds.funding.grantnumber",
         "type" : "label"
       } ]
     },
@@ -9294,7 +9294,7 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]\n\nHinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version\nangepasst."
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "362"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatKooperationspartner",
@@ -9377,25 +9377,25 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "de",
-        "value" : "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach\nvorwiegend inhaltlichen Kriterien in die folgenden Formate: Editorial,\nLetter to the Editor, Forschungsartikel, Review, Bibliographie, Rezension,\nQuellenedition und Meeting Abstract.\nRDA-Bezeichnung: Art des Inhalts",
-        "type" : "label"
-      }, {
-        "identifier" : "definition",
         "language" : "en",
         "value" : "Subcategorization of articles predominantly with regard to content:\nEditorial, letter to the editor, research article, review, bibliography,\nreview, source edition and meeting abstract.\nRDA name: Nature of the content",
         "type" : "label"
-      } ],
-      "inhaltlicheDefinition" : [ {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pu101",
+      }, {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Unterkategorisierung von unselbstständigen Werken (Artikeln) nach\nvorwiegend inhaltlichen Kriterien in die folgenden Formate: Editorial,\nLetter to the Editor, Forschungsartikel, Review, Bibliographie, Rezension,\nQuellenedition und Meeting Abstract.\nRDA-Bezeichnung: Art des Inhalts",
         "type" : "label"
       } ],
       "pgbid" : [ {
         "identifier" : "pgbid",
         "language" : "undefined",
         "value" : "kds.type.document",
+        "type" : "label"
+      } ],
+      "inhaltlicheDefinition" : [ {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu101",
         "type" : "label"
       } ]
     },
@@ -9669,12 +9669,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be8",
+        "value" : "Na14",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na14",
+        "value" : "Be8",
         "type" : "label"
       } ]
     },
@@ -9719,7 +9719,7 @@
     },
     "domain" : "10",
     "subproperty" : [ "80" ],
-    "attributes" : [ "external", "transitive", "object" ],
+    "attributes" : [ "external", "object", "transitive" ],
     "id" : "82"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatUntereinheit",
@@ -9799,12 +9799,12 @@
   }, {
     "range" : "121",
     "domain" : "269",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "378"
   }, {
     "range" : "121",
     "domain" : "317",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "379"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmitteleinnahmen",
@@ -9860,7 +9860,7 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu138",
+        "value" : "Na2",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
@@ -9870,17 +9870,17 @@
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na2",
+        "value" : "Pa1",
+        "type" : "label"
+      }, {
+        "identifier" : "inhaltlicheDefinition",
+        "language" : "undefined",
+        "value" : "Pu138",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Dr28",
-        "type" : "label"
-      }, {
-        "identifier" : "inhaltlicheDefinition",
-        "language" : "undefined",
-        "value" : "Pa1",
         "type" : "label"
       } ]
     },
@@ -9911,12 +9911,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu2",
+        "value" : "Pu149",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Pu149",
+        "value" : "Pu2",
         "type" : "label"
       } ],
       "pgbid" : [ {
@@ -10108,12 +10108,12 @@
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Be7",
+        "value" : "Na7",
         "type" : "label"
       }, {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
-        "value" : "Na7",
+        "value" : "Be7",
         "type" : "label"
       } ]
     },
@@ -10125,12 +10125,12 @@
     "comment" : {
       "de" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]"
     },
-    "attributes" : [ "external", "datatype", "functional" ],
+    "attributes" : [ "functional", "external", "datatype" ],
     "id" : "388"
   }, {
     "range" : "282",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "389"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#hatErfinder",
@@ -10318,16 +10318,16 @@
         "value" : "[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit\n(Listenform)]",
         "type" : "label"
       } ],
-      "pgbid" : [ {
-        "identifier" : "pgbid",
-        "language" : "undefined",
-        "value" : "dcterms.format",
-        "type" : "label"
-      } ],
       "inhaltlicheDefinition" : [ {
         "identifier" : "inhaltlicheDefinition",
         "language" : "undefined",
         "value" : "Pu87",
+        "type" : "label"
+      } ],
+      "pgbid" : [ {
+        "identifier" : "pgbid",
+        "language" : "undefined",
+        "value" : "dcterms.format",
         "type" : "label"
       } ]
     },
