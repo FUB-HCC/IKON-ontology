@@ -61,10 +61,9 @@ qres = g.query(
            ?s rdfs:label ?label .
            FILTER (lang(?label) = "de")
        }
-       
+       FILTER (!isBlank(?s))
    }
    """)
-
 
 
 
@@ -73,6 +72,7 @@ with open(csvfileName, 'w') as csvfile:
     writer.writerow(['Subject', 'Type', 'Parent', 'Label', 'Definition', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
     for row in qres:
         writer.writerow([r if r is not None else '' for r in row])
+
 
 
 # write Excel file
@@ -85,3 +85,4 @@ with open(csvfileName, 'w') as csvfile:
 # 			for c, col in enumerate(row):
 #                worksheet.write(r, c, col)
 # workbook.close()
+
