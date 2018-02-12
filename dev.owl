@@ -2928,7 +2928,7 @@ Annotationen enthalten.</skos:definition>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bibliographie [Publikationstyp]</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Bibliography</rdfs:label>
         <skos:definition xml:lang="en">A bibliography is a systematic list of publications published as a book.
 The entries may be commented /annotated.</skos:definition>
         <skos:definition xml:lang="de">Eine Bibliographie ist ein systematisches Verzeichnis von
@@ -2960,7 +2960,7 @@ enthalten.</skos:definition>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bund</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Federal government</rdfs:label>
         <skos:definition xml:lang="de">Mittel des Bundes, d. h. der Bundesministerien und deren nachgeordneten
 Behörden (ohne Überlastprogramm, dem Graduierten- und
 Bundesausbildungsförderungsgesetz sowie für die sonstige Förderung von
@@ -2980,7 +2980,7 @@ Studenten).</skos:definition>
         <rdfs:comment xml:lang="de">von Ländern (ohne Mittel vom Träger der Hochschule, d. h. Landesministerien
 von anderen Bundesländern und deren nachgeordneten Behörden).</rdfs:comment>
         <rdfs:label xml:lang="de">Bundesländer</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Federal states</rdfs:label>
     </owl:Class>
     
 
@@ -3175,8 +3175,8 @@ die Meinung der Redaktion /des Herausgebergremiums widergibt.</skos:definition>
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">EU and other international organizations</rdfs:label>
         <rdfs:label xml:lang="de">EU und sonstige internationale Organisationen</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
     </owl:Class>
     
 
@@ -3282,8 +3282,8 @@ Spezifikation).
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Field of research</rdfs:label>
         <rdfs:label xml:lang="de">Forschungsfeld</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="de">Ein Forschungsfeld umfasst eine Menge von Forschungsaktivitäten, die sich
 problemorientiert mit einem thematisch abgrenzbaren Gegenstandsbereich, der
 quer zu Disziplinen liegt, beschreiben lassen. Ein Forschungsfeld sollte
@@ -3301,7 +3301,7 @@ Kerndatensatzes entspricht.</skos:definition>
         <rdfs:comment xml:lang="de">Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Forschungsinfrastruktur</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Research infrastructure</rdfs:label>
         <skos:definition xml:lang="de">Definitionen im Bereich Forschungsinfrastrukturen durch Arbeitsgruppe der
 außeruniversitären Forschungseinrichtungen erarbeitet:
 
@@ -3410,8 +3410,8 @@ Forschungseinrichtungen&quot; der Gemeinsamen Wissenschaftskonferenz
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Commercial and other private sectors</rdfs:label>
         <rdfs:label xml:lang="de">Gewerbliche Wirtschaft und sonstige private Bereiche</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="de">Von der gewerblichen Wirtschaft und sonstigen privaten Bereichen für
 Forschungszwecke (ohne Einnahmen für Materialprüfungen u. dgl., aus
 Veröffentlichungen, Gebühren, aus wirtschaftlicher Tätigkeit und aus
@@ -3597,8 +3597,8 @@ Regelarbeitszeit oder auch Teilzeitbeschäftigung.</skos:definition>
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Full-time visiting professors</rdfs:label>
         <rdfs:label xml:lang="de">Hauptberufliche Gastprofessoren</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
     </owl:Class>
     
 
@@ -3644,7 +3644,7 @@ RDA-Bezeichnung: MItwirkender</skos:definition>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Herausgeberschaft eines Sonderhefts einer Zeitschrift</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Publisher of a special issue of a journal</rdfs:label>
         <skos:definition xml:lang="en">A special issue of a journal edited by one or more persons. It contains
 contributions from different authors about a specific topic or a conference.</skos:definition>
         <skos:definition xml:lang="de">Ein Sonderheft einer Zeitschrift, das von einer oder mehreren Personen
@@ -3760,8 +3760,8 @@ RDA-Bezeichnung: Geistiger Schöpfer (Körperschaft)</rdfs:comment>
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Corporate body with author function</rdfs:label>
         <rdfs:label xml:lang="de">Körperschaft mit Autorenfunktion</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="en">In contrast to author group, the individual members of a corporation with
 author function have no individual author role.
 
@@ -3786,8 +3786,8 @@ RDA-Bezeichnung: MItwirkender</rdfs:comment>
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Corporate body with publishing function</rdfs:label>
         <rdfs:label xml:lang="de">Körperschaft mit Herausgeberfunktion</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="en">In contrast to editor group, the individual members of a corporation with
 editor function have no individual author role.
 
@@ -3971,7 +3971,7 @@ stundenweise von hauptberuflich Beschäftigten ausgeübt werden.</skos:definitio
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Neuer Publikations- oder Dokumenttyp</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">New publication or document type</rdfs:label>
         <skos:definition xml:lang="de">Das Werk kann nicht einem der vorhanden Dokument- oder Publikationstypen
 zugeordnet werden. In diesem Fall ist ein Vorschlag für einen neuen
 Dokument- oder Publikationstyp einzureichen. Dieser sollte eine klare und
@@ -3997,7 +3997,7 @@ clues for the discrimination against the existing document types.</skos:definiti
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Not disclosed</rdfs:label>
         <skos:definition xml:lang="de">Für diejenigen Projekte, die aus Rechtsgründen nicht dokumentiert werden
 dürfen.</skos:definition>
     </owl:Class>
@@ -4015,7 +4015,7 @@ dürfen.</skos:definition>
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt (Öffentliche Mittelgeber)</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Not disclosed (public funding)</rdfs:label>
     </owl:Class>
     
 
@@ -4032,7 +4032,7 @@ angepasst.</rdfs:comment>
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Nicht erklärt (Private Mittelgeber)</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Not disclosed (private funding)</rdfs:label>
     </owl:Class>
     
 
@@ -4199,7 +4199,7 @@ einsehbar.</skos:definition>
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Professoren</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Professors</rdfs:label>
         <skos:definition xml:lang="de">Die Professoren (einschließlich Juniorprofessoren) nehmen die ihrer
 Einrichtung jeweils obliegenden Aufgaben in Wissenschaft und Kunst,
 Forschung und Lehre in ihren Fächern nach näherer Ausgestaltung ihres
@@ -4215,7 +4215,7 @@ Dienstverhältnisses selbständig wahr.</skos:definition>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Professorenbezeichnung-001"/>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Bezeichnung für Professoren</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Designation for professors</rdfs:label>
     </owl:Class>
     
 
@@ -4421,8 +4421,8 @@ Quelleneditors in Form eines Artikels.</skos:definition>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#QuelleneditionPublikationstyp-001"/>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
+        <rdfs:label xml:lang="en">Editions of source materials</rdfs:label>
         <rdfs:label xml:lang="de">Quellenedition [Publikationstyp]</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="en">A scholarly edition of primary sources is the publication of historic or
 cultural sources with a substantial contribution of the source editor.
 [This publication type also contains: Academic Music Edition]</skos:definition>
@@ -4479,8 +4479,8 @@ book).</skos:definition>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Sammelband-001"/>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
+        <rdfs:label xml:lang="en">Anthology</rdfs:label>
         <rdfs:label xml:lang="de">Sammelband</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="en">A book that has been edited by one or more persons. It contains
 contributions by different authors in chapters or essays/articles (see
 inbook).
@@ -4658,8 +4658,8 @@ aus dem VW-Vorab in Niedersachsen).</skos:definition>
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Other third party funder</rdfs:label>
         <rdfs:label xml:lang="de">Sonstige Drittmittelgeber</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="de">Umfasst Mittel von Stiftungen, sonstige öffentliche Mittel (z. B.
 Gemeinden, Gemeinde- und Zweckverbände, Bundesagentur für Arbeit),
 Hochschulfördergesellschaften aus dem Inland.</skos:definition>
@@ -4678,8 +4678,8 @@ Hochschulfördergesellschaften aus dem Inland.</skos:definition>
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Other international organizations</rdfs:label>
         <rdfs:label xml:lang="de">Sonstige internationale Organisationen</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="de">Z.B. European Science Foundation (ESF), United Nations Educational,
 Scientific and Cultural Organization (UNESCO), National Institute of Health
 (NIH), National Science Foundation (NSF)</skos:definition>
@@ -4781,8 +4781,8 @@ Kategorie.</skos:definition>
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="en">Other scientific and artistic staff</rdfs:label>
         <rdfs:label xml:lang="de">Sonstiges wissenschaftliches und künstlerisches Personal</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
         <skos:definition xml:lang="de">Umfasst Lehrkräfte für besondere Aufgaben sowie Assistenten und
 Dozenten.</skos:definition>
     </owl:Class>
@@ -4920,7 +4920,7 @@ Spezialbibliotheken üblich ist.</skos:definition>
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
-        <rdfs:label xml:lang="en">???????</rdfs:label>
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
         <rdfs:label xml:lang="de">Verlag</rdfs:label>
     </owl:Class>
     
@@ -4953,7 +4953,7 @@ angepasst.</rdfs:comment>
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Substitute professors</rdfs:label>
         <rdfs:label xml:lang="de">Vertretungsprofessoren / Lehrstuhlvertreter</rdfs:label>
         <skos:definition xml:lang="de">Vertretungsprofessoren bzw. Lehrstuhlvertreter sind zeitlich befristet
 eingestellte Wissenschaftler, die üblicherweise semesterweise die
@@ -5028,7 +5028,7 @@ Für den Kerndatensatz Forschung werden keine studentischen Hilfskräfte
 angegeben.</rdfs:comment>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Scientific and artistic student assistants</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaftliche oder künstlerische Hilfskräfte</rdfs:label>
     </owl:Class>
     
@@ -5042,7 +5042,7 @@ angegeben.</rdfs:comment>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlicheUndKuenstlerischeMitarbeiter-001"/>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Scientific and artistic assistants</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaftliche und künstlerische Mitarbeiter</rdfs:label>
         <skos:definition xml:lang="de">Wissenschaftliche Mitarbeiter sind die den Fachbereichen, den
 wissenschaftlichen Einrichtungen oder den Betriebseinheiten zugeordnete
@@ -5109,7 +5109,7 @@ angepasst.</rdfs:comment>
         <Meta:inhaltlicheDefinition>Be68</Meta:inhaltlicheDefinition>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftlichesUndKuenstlerischesPersonal-001"/>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Scientific and artistic staff</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaftliches und künstlerisches Personal</rdfs:label>
     </owl:Class>
     
@@ -5124,7 +5124,7 @@ angepasst.</rdfs:comment>
         <dcterms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#WissenschaftsunterstuetzendesPersonal-001"/>
         <rdfs:comment xml:lang="de">Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Science supporting staff</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaftsunterstützendes Personal</rdfs:label>
         <skos:definition xml:lang="de">Wissenschaftsunterstützendes Personal umfasst im Sinne des Kerndatensatz
 Forschung folgende Tätigkeiten:
