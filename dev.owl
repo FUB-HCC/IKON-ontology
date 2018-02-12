@@ -15,6 +15,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
+        <dcterms:title xml:lang="en">IKON Ontology</dcterms:title>
+        <dcterms:title xml:lang="de">IKON Ontologie</dcterms:title>
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.2"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
@@ -92,6 +94,10 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
     
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
 
 
     <!-- http://purl.org/dc/terms/modified -->
