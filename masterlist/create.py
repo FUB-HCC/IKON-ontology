@@ -32,7 +32,7 @@ header = []
 
 qres = g.query(
    """
-   SELECT DISTINCT ?s ?type ?parent ?label ?description ?domain ?range ?version ?status ?notes
+   SELECT DISTINCT ?s ?type ?parent ?label ?definition ?domain ?range ?version ?status ?notes
    WHERE {
        ?s a ?type .
        
@@ -40,7 +40,7 @@ qres = g.query(
            ?s terms:hasVersion ?version .
        }
        OPTIONAL {
-           ?s rdfs:comment ?description .
+           ?s skos:definition ?definition .
        }
        OPTIONAL {
            ?s rdfs:range ?range .
@@ -70,7 +70,7 @@ qres = g.query(
 
 with open(csvfileName, 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    writer.writerow(['Subject', 'Type', 'Parent', 'Label', 'Description', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
+    writer.writerow(['Subject', 'Type', 'Parent', 'Label', 'Definition', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
     for row in qres:
         writer.writerow([r if r is not None else '' for r in row])
 
