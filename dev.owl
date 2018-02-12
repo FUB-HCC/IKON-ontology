@@ -1237,7 +1237,7 @@ access).</rdfs:comment>
     <owl:ObjectProperty rdf:about="http://purl.org/cerif/frapo/isFundingAgencyFor">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/cerif/frapo/supports"/>
         <rdfs:domain rdf:resource="http://purl.org/cerif/frapo/FundingAgency"/>
-        <rdfs:label xml:lang="de">TODO</rdfs:label>
+        <rdfs:label xml:lang="de">ist Mittelgeber für</rdfs:label>
         <rdfs:label xml:lang="en">is funding agency for</rdfs:label>
         <skos:definition xml:lang="en">An object property linking a funding agency to an entity for which it provides funding.</skos:definition>
     </owl:ObjectProperty>
@@ -1259,7 +1259,7 @@ access).</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://purl.org/cerif/frapo/supports">
         <rdfs:comment xml:lang="en">This property is not intended for use to describe mechanical or physical support, as in &apos;The plinth supports the statue&apos;.</rdfs:comment>
-        <rdfs:label xml:lang="de">TODO</rdfs:label>
+        <rdfs:label xml:lang="de">unterstützt</rdfs:label>
         <rdfs:label xml:lang="en">supports</rdfs:label>
         <skos:definition xml:lang="en">An object property linking an agent to something that the agent supports by financial or other means.</skos:definition>
     </owl:ObjectProperty>
@@ -1448,7 +1448,7 @@ individuelle Nutzer oder Ausleihvorgänge.</rdfs:comment>
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Anzahl Nutzungszugriffe</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Number of usage accesses</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1715,7 +1715,7 @@ der DFG entsprechen und ggf. durch die dort verwendete ID ergänzt werden (
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="de">Datum der prioritätsbegründenden Erstanmeldung</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Date of the first application</rdfs:label>
         <skos:definition xml:lang="de">Die Zuordnung einer Patentanmeldung zu einer Zeitperiode erfolgt anhand des
 Anmeldetages.
 
@@ -1803,7 +1803,7 @@ weitergereichte Mittel nicht mitzuzählen.
 Drittmittelerträge werden einschließlich Programmpauschalen / Overheads
 ausgewiesen.</rdfs:comment>
         <rdfs:label xml:lang="de">Drittmittelerträge</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Third-party funding income</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1936,7 +1936,7 @@ angepasst.</rdfs:comment>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Heft</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Issue</rdfs:label>
         <skos:definition xml:lang="en">A single instance of periodical literature such as a journal, e.g. Volume
 103, Issue 2.</skos:definition>
         <skos:definition xml:lang="de">Eine einzelne Entität eines Journals; Beispiel Volume 103 Issue 2.</skos:definition>
@@ -1975,7 +1975,7 @@ this attached to it is a proceedings and proceedings article, respectively.</sko
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Kooperationspartner (bei kooperativer Promotion)</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Cooperation partner (in cooperative doctorate)</rdfs:label>
         <skos:definition xml:lang="de">Angabe, ob Personen auf der Grundlage einer Kooperation zwischen der
 Hochschule und einer außeruniversitären Forschungseinrichtung, einer
 Fachhochschule, einer anderen Universität oder einer sonstigen Einrichtung
@@ -2044,7 +2044,7 @@ Bundesland bei inländischen beteiligten Institutionen).</rdfs:comment>
         <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
 (Listenform)]</rdfs:comment>
         <rdfs:label xml:lang="de">Länder der beteiligten Institutionen</rdfs:label>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">Countries of participating institutions</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2613,7 +2613,7 @@ angepasst.</rdfs:comment>
 Promotionsberechtigungen aus mehreren Ländern, die sowohl in Deutschland
 als auch weiteren Ländern erworben wurden, werden nur der Kategorie Inland
 zugeordnet.</rdfs:comment>
-        <rdfs:label xml:lang="en">TODO</rdfs:label>
+        <rdfs:label xml:lang="en">has doctorate entitlement from</rdfs:label>
         <rdfs:label xml:lang="de">hat Promotionsberechtigung aus</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3868,7 +3868,7 @@ und permanent verfügbar ist.</skos:definition>
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
         <rdfs:label xml:lang="en">Letter to the Editor</rdfs:label>
-        <rdfs:label xml:lang="de">TODO</rdfs:label>
+        <rdfs:label xml:lang="de">Leserbrief</rdfs:label>
         <skos:definition xml:lang="en">Communication to the editor.</skos:definition>
         <skos:definition xml:lang="de">Zuschrift an die Redaktion.</skos:definition>
     </owl:Class>
@@ -5301,7 +5301,7 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">Funding agency</rdfs:label>
-        <rdfs:label xml:lang="de">TODO</rdfs:label>
+        <rdfs:label xml:lang="de">Förderagentur</rdfs:label>
         <skos:definition xml:lang="en">An organization that provides funding for projects or resources, often in the form of grants awarded on the basis of competitive application.</skos:definition>
     </owl:Class>
     
