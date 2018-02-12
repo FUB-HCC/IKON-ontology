@@ -76,13 +76,12 @@ with open(csvfileName, 'w') as csvfile:
 
 
 # write Excel file
-#with Workbook(xlsfileName) as workbook:
-#	worksheet = workbook.add_worksheet()
-#	# with open(csvfile, 'rt', encoding='utf8') as f:
-#	with open(csvfileName, 'rt') as f:
-#		reader = csv.reader(f)
-#		for r, row in enumerate(reader):
-#			for c, col in enumerate(row):
-#               worksheet.write(r, c, col)
-#
+# with Workbook(xlsfileName) as workbook:
+# 	worksheet = workbook.add_worksheet()
+# #	# with open(csvfile, 'rt', encoding='utf8') as f:
+# 	with open(csvfileName, 'rt') as f:
+# 		reader = csv.reader(f)
+# 		for r, row in enumerate(reader):
+# 			for c, col in enumerate(row):
+#                worksheet.write(r, c, col)
 # workbook.close()

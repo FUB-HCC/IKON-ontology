@@ -1,1 +1,3 @@
-venv/
+venv
+BAK
+__pycache__
