@@ -26,7 +26,7 @@ g.parse('../prod.owl')
 print('prod.owl contains %s triples' % len(g))
 
 rows = []
-header = []
+header = ['Subject', 'Type', 'Parent', 'Label', 'Definition', 'Domain', 'Range', 'Version', 'Status', 'Notizen']
 
 # einige Attribute in der prod.owl heißen anders als gegeben ()
 
@@ -69,20 +69,23 @@ qres = g.query(
 
 with open(csvfileName, 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    writer.writerow(['Subject', 'Type', 'Parent', 'Label', 'Definition', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
+    writer.writerow(header)
     for row in qres:
-        writer.writerow([r if r is not None else '' for r in row])
+        writer.writerow(r if r is not None else '' for r in row)
 
 
 
 # write Excel file
-# with Workbook(xlsfileName) as workbook:
-# 	worksheet = workbook.add_worksheet()
-# #	# with open(csvfile, 'rt', encoding='utf8') as f:
-# 	with open(csvfileName, 'rt') as f:
-# 		reader = csv.reader(f)
-# 		for r, row in enumerate(reader):
-# 			for c, col in enumerate(row):
-#                worksheet.write(r, c, col)
-# workbook.close()
+with Workbook(xlsfileName) as workbook:
+    worksheet = workbook.add_worksheet()
+    worksheet.autofilter(0,0,0,len(header)-1)
+    #define column header style
+    header_style = workbook.add_format({'bold': True, 'bg_color':'yellow' })
+    for i, column in enumerate(header):
+        worksheet.write(0,i,column, header_style)
+    for i, row in enumerate(qres):
+        for j, column in enumerate(row):
+            worksheet.write(i+1, j, column)
+
+workbook.close()
 
