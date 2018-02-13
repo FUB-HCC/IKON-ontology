@@ -11,13 +11,14 @@
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dnb="http://d-nb.info/standards/elementset/gnd#"
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.2"/>
-        <dct:title xml:lang="en">IKON Ontology</dct:title>
         <dct:title xml:lang="de">IKON Ontologie</dct:title>
+        <dct:title xml:lang="en">IKON Ontology</dct:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
     </owl:Ontology>
@@ -39,11 +40,6 @@
 
     <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition"/>
     
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title" />
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#pgbid -->
@@ -102,6 +98,14 @@
     <!-- http://purl.org/dc/terms/modified -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -2693,17 +2697,7 @@ zugeordnet.</rdfs:comment>
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <dct:hasVersion>http://dublincore.org/usage/terms/history/#titleT-002</dct:hasVersion>
-        <dct:issued>2008-01-14</dct:issued>
-        <dct:modified>2010-10-11</dct:modified>
-        <rdfs:isDefinedBy>http://purl.org/dc/terms/</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="de">Titel</rdfs:label>
-        <rdfs:label xml:lang="en">Title</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <skos:definition xml:lang="en">A name given to the resource.</skos:definition>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -5334,8 +5328,6 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
 
     <owl:NamedIndividual rdf:about="http://ontologies.mfn-berlin.de/ikon">
         <dct:description xml:lang="en">An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History.</dct:description>
-        <dct:title xml:lang="de">IKON Ontologie</dct:title>
-        <dct:title xml:lang="en">IKON Ontology</dct:title>
     </owl:NamedIndividual>
     
 
@@ -5348,61 +5340,22 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:label xml:lang="de">Titel</rdfs:label>
+        <dct:modified>2010-10-11</dct:modified>
+        <dct:hasVersion>http://dublincore.org/usage/terms/history/#titleT-002</dct:hasVersion>
+        <dct:issued>2008-01-14</dct:issued>
+        <vs:term_status>stable</vs:term_status>
+        <skos:definition xml:lang="en">A name given to the resource.</skos:definition>
+        <rdfs:isDefinedBy>http://purl.org/dc/terms/</rdfs:isDefinedBy>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
         <rdfs:comment xml:lang="en">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</rdfs:comment>
         <skos:definition xml:lang="en">Relates two concepts coming, by convention, from different schemes, and that have comparable meanings</skos:definition>
         <rdfs:label xml:lang="de">mapping</rdfs:label>
         <rdfs:label xml:lang="en">is in mapping relation with</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Befristung"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Beschaeftigung"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Dokumenttyp"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Finanzierungsform"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Format"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsfeld"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturart"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastrukturtyp"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#GemeinsameBerufung"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Mittelgeber"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Nutzung"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Patent"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Personalkategorie"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Professorenbezeichnung"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikation"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Publikationstyp"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifikation"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Qualifizierungsverfahren"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfer"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Schoepfertyp"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#StrukturiertesPromotionsprogramm"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Verlag"/>
-            <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Zugangsart"/>
-            <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#Kooperationspartner"/>
-            <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#Leitthema"/>
-            <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
