@@ -6,6 +6,8 @@ from rdflib import Graph, URIRef
 from rdflib.namespace import RDF, OWL
 import csv
 
+import re
+
 import os
 import glob
 from xlsxwriter.workbook import Workbook
@@ -30,46 +32,62 @@ header = []
 
 # einige Attribute in der prod.owl heißen anders als gegeben ()
 
-qres = g.query(
-   """
-   SELECT DISTINCT ?s ?type ?parent ?label ?definition ?domain ?range ?version ?status ?notes
-   WHERE {
-       ?s a ?type .
+
+#    prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+#    prefix meta: <http://kerndatensatz-forschung.de/owl/Meta#>
+#    prefix dct: <http://purl.org/dc/terms/>
+#    prefix owl: <http://www.w3.org/2002/07/owl#>
+#    prefix status: <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+#    prefix skos: <http://www.w3.org/2004/02/skos/core#>
+#    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+#    prefix dce: <http://purl.org/dc/elements/1.1/>
+qres = g.query("""
+    SELECT DISTINCT ?subject ?type ?parent ?labelDE ?labelEN ?definitionDE ?definitionEN ?domain ?range ?version ?status ?notes
+    WHERE {
+       ?subject a ?type .
        
        OPTIONAL {
-           ?s terms:hasVersion ?version .
+           ?subject terms:hasVersion ?version .
        }
        OPTIONAL {
-           ?s skos:definition ?definition .
+           ?subject skos:definition ?definitionDE .
+           FILTER (lang(?definitionDE) = "de")
        }
        OPTIONAL {
-           ?s rdfs:range ?range .
+           ?subject skos:definition ?definitionEN .
+           FILTER (lang(?definitionEN) = "en")
        }
        OPTIONAL {
-           ?s rdfs:domain ?domain .
+           ?subject rdfs:range ?range .
        }
        OPTIONAL {
-           ?s skos:scopeNote ?notes
+           ?subject rdfs:domain ?domain .
        }
        OPTIONAL {
-           ?s ns:term_status ?status .
+           ?subject skos:scopeNote ?notes
        }
        OPTIONAL {
-           ?s rdfs:subClassOf ?parent .
+           ?subject ns:term_status ?status .
        }
        OPTIONAL {
-           ?s rdfs:label ?label .
-           FILTER (lang(?label) = "de")
+           ?subject rdfs:subClassOf ?parent .
        }
-       FILTER (!isBlank(?s))
-   }
-   """)
-
+       OPTIONAL {
+           ?subject rdfs:label ?labelDE .
+           FILTER (lang(?labelDE) = "de")
+       }
+       OPTIONAL {
+           ?subject rdfs:label ?labelEN .
+           FILTER (lang(?labelEN) = "en")
+       }
+       FILTER (!isBlank(?subject))
+    }
+""")
 
 
 with open(csvfileName, 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    writer.writerow(['Subject', 'Type', 'Parent', 'Label', 'Definition', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
+    writer.writerow(['Subject', 'Type', 'Parent', 'Label (DE)', 'Label (EN)', 'Definition (DE)', 'Definition (EN)', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
     for row in qres:
         writer.writerow([r if r is not None else '' for r in row])
 

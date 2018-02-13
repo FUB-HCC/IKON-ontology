@@ -7,34 +7,34 @@ prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix dce: <http://purl.org/dc/elements/1.1/>
 
-SELECT DISTINCT ?s ?type ?parent ?label ?definition ?domain ?range ?version ?status ?notes
+SELECT DISTINCT ?subject ?type ?parent ?label ?definition ?domain ?range ?version ?status ?notes
 WHERE {
-   ?s a ?type .
+   ?subject a ?type .
    
    OPTIONAL {
-       ?s terms:hasVersion ?version .
+       ?subject terms:hasVersion ?version .
    }
    OPTIONAL {
-       ?s skos:definition ?definition .
+       ?subject skos:definition ?definition .
    }
    OPTIONAL {
-       ?s rdfs:range ?range .
+       ?subject rdfs:range ?range .
    }
    OPTIONAL {
-       ?s rdfs:domain ?domain .
+       ?subject rdfs:domain ?domain .
    }
    OPTIONAL {
-       ?s skos:scopeNote ?notes
+       ?subject skos:scopeNote ?notes
    }
    OPTIONAL {
-       ?s ns:term_status ?status .
+       ?subject ns:term_status ?status .
    }
    OPTIONAL {
-       ?s rdfs:subClassOf ?parent .
+       ?subject rdfs:subClassOf ?parent .
    }
    OPTIONAL {
-       ?s rdfs:label ?label .
+       ?subject rdfs:label ?label .
        FILTER (lang(?label) = "de")
    }
-   FILTER (!isBlank(?s))
+   FILTER (!isBlank(?subject))
 }
