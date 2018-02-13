@@ -28,6 +28,8 @@ g.parse('../prod.owl')
 print('prod.owl contains %s triples' % len(g))
 
 
+header = ['Subject', 'Type', 'Parent', 'Label (DE)', 'Label (EN)', 'Definition (DE)', 'Definition (EN)', 'Domain', 'Range', 'Version', 'Status', 'Notizen']
+
 # einige Attribute in der prod.owl heißen anders als gegeben ()
 
 
@@ -85,7 +87,7 @@ qres = g.query("""
 
 with open(csvfileName, 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-    writer.writerow(['Subject', 'Type', 'Parent', 'Label (DE)', 'Label (EN)', 'Definition (DE)', 'Definition (EN)', 'Domain', 'Range', 'Version', 'Status', 'Notizen'])
+    writer.writerow(header)
     for row in qres:
         writer.writerow(r if r is not None else '' for r in row)
 
