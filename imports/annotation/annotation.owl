@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontologies.mfn-berlin.de/ikon/annotation#"
+     xml:base="http://ontologies.mfn-berlin.de/ikon/annotation"
+     xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon/annotation">
+        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/annotation/1.0.0"/>
+        <dct:title xml:lang="de">Annotationen</dct:title>
+        <dct:title xml:lang="en">Annotations</dct:title>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
+        <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
+        <dc:description xml:lang="en">Shared annotations.</dc:description>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition -->
+
+    <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition"/>
+    
+
+
+    <!-- http://kerndatensatz-forschung.de/owl/Meta#pgbid -->
+
+    <owl:AnnotationProperty rdf:about="http://kerndatensatz-forschung.de/owl/Meta#pgbid"/>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#mapping -->
+
+    <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping">
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#mapping-001"/>
+        <rdfs:label xml:lang="de">Mapping</rdfs:label>
+        <rdfs:label xml:lang="en">Mapping</rdfs:label>
+        <skos:definition xml:lang="en">A mapping relation between fields on the Wiki and this ontology.</skos:definition>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <dct:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#description-006"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dct:modified>
+        <rdfs:comment xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <skos:definition xml:lang="en">An account of the resource.</skos:definition>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \&quot;DCMI Metadata Terms\&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion">
+        <dct:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#hasVersion-003"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dct:modified>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Has Version</rdfs:label>
+        <skos:definition xml:lang="en">A related resource that is a version, edition, or adaptation of the described resource.</skos:definition>
+        <skos:note xml:lang="en">This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.</skos:note>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+        <rdfs:label xml:lang="de">Status des Begriffs</rdfs:label>
+        <rdfs:label xml:lang="en">term status</rdfs:label>
+        <vs:term_status>unstable</vs:term_status>
+        <skos:definition xml:lang="en">the status of a vocabulary term, expressed as a short symbolic string; known values include &apos;unstable&apos;,&apos;testing&apos;, &apos;stable&apos; and &apos;archaic&apos;</skos:definition>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="de">Definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <skos:definition xml:lang="en">A statement or formal explanation of the meaning of a concept.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="de">Beispiel</rdfs:label>
+        <rdfs:label xml:lang="en">example</rdfs:label>
+        <skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">note</rdfs:label>
+        <skos:definition xml:lang="en">A general note, for any purpose.</skos:definition>
+        <skos:scopeNote xml:lang="en">This property may be used directly, or as a super-property for more specific note types.</skos:scopeNote>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">scope note</rdfs:label>
+        <skos:definition xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+</rdf:RDF>
