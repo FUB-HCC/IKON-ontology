@@ -37,7 +37,7 @@ Includes concepts from:
 Viewing the Documentation
 -------------------------
 
-Online: [https://fub-hcc.github.io/IKON-ontology/index-en.html](https://fub-hcc.github.io/IKON-ontology/index-en.html)
+Online: [https://fub-hcc.github.io/IKON-ontology/docs/index-en.html](https://fub-hcc.github.io/IKON-ontology/docs/index-en.html)
 
 Locally:
 ```
