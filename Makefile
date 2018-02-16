@@ -50,6 +50,7 @@ reason:
 	java -jar ./bin/HermiT/HermiT.jar --prettyPrint --no-prefixes --consistency dev.owl
 
 masterlist:
-	rapper ./prod.owl -o ntriples > ./masterlist/prod.n3
+	# rapper ./prod.owl -o ntriples > ./masterlist/prod.n3
 	# --explain
-	arq --results=csv --data=./masterlist/prod.n3 --query=./masterlist/query.rq > ./masterlist/masterlist.csv
+	# arq --results=csv --data=./masterlist/prod.n3 --query=./masterlist/query.rq > ./masterlist/masterlist.csv
+	./masterlist/create.py

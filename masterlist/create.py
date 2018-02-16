@@ -16,14 +16,16 @@ outputName = "masterlist"
 
 # -------------------------------------------
 
-csvfileName = "./%s.csv" % outputName
-xlsfileName = "./%s.xlsx" % outputName
+masterlistPath = os.path.dirname(os.path.abspath(__file__))
+
+csvfileName = os.path.join(masterlistPath, "%s.csv"  % outputName)
+xlsfileName = os.path.join(masterlistPath, "%s.xlsx" % outputName)
 
 # kdfs = URIRef("http://ontologies.mfn-berlin.de/ikon")
 
 g = Graph()
 # g.load('https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/prod.owl')
-g.parse('../prod.owl')
+g.parse(os.path.join(masterlistPath, '../', 'prod.owl'))
 
 print('prod.owl contains %s triples' % len(g))
 
