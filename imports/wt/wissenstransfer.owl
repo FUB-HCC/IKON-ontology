@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontologies.mfn-berlin.de/ikon/wissenstransfer#"
-     xml:base="http://ontologies.mfn-berlin.de/ikon/wissenstransfer"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#"
+     xml:base="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:frapo="http://purl.org/cerif/frapo/"
@@ -16,8 +16,8 @@
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon/wissenstransfer">
-        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/wissenstransfer#1.0.0"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl">
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#1.0.0"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
         <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
         <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
