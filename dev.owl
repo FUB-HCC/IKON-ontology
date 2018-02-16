@@ -20,6 +20,7 @@
         <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.2"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/annotation/annotation.owl#1.0.0"/>
+        <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#1.0.0"/>
         <dct:title xml:lang="de">IKON Ontologie</dct:title>
         <dct:title xml:lang="en">IKON Ontology</dct:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
