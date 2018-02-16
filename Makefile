@@ -21,12 +21,14 @@ docs-fresh: clean-docs
 	java -jar ../tools/WIDOCO/jar/widoco-1.4.1-jar-with-dependencies.jar -ontFile ./prod.owl -outFolder ./docs -getOntologyMetadata -oops -rewriteAll -saveConfig ./widocoConfigFile -includeImportedOntologies -htaccess -webVowl -licensius
 	cp src/docs/sections/* ./docs/sections
 	cp ./readme.md ./docs/readme.md
+	cp ./docs/index-en.html ./docs/index.html
 
 docs-refresh:
 	# subsequent builds
 	java -jar ../tools/WIDOCO/jar/widoco-1.4.1-jar-with-dependencies.jar -ontFile ./prod.owl -outFolder ./docs -getOntologyMetadata -oops -rewriteAll -confFile ./widocoConfigFile -includeImportedOntologies -htaccess -webVowl -licensius -crossRef
 	cp src/docs/sections/* ./docs/sections
 	cp ./readme.md ./docs/readme.md
+	cp ./docs/index-en.html ./docs/index.html
 
 docs-rebuild: docs-fresh
 	# produce ontology documentation
