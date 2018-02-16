@@ -12,7 +12,7 @@
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/annotation/annotation.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/annotation/annotation.owl/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/annotation/annotation.owl#1.0.0"/>
         <dct:title xml:lang="de">Annotationen</dct:title>
         <dct:title xml:lang="en">Annotations</dct:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
@@ -30,6 +30,7 @@
      -->
 
     
+
 
 
     <!-- http://kerndatensatz-forschung.de/owl/Meta#inhaltlicheDefinition -->
@@ -175,5 +176,6 @@
         <skos:definition xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
     </owl:AnnotationProperty>
-    
+
+
 </rdf:RDF>
