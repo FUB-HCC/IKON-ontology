@@ -1,4 +1,4 @@
-.PHONY: docs tests masterlist
+.PHONY: docs tests masterlist prod deploy check
 
 default:
 	##
@@ -9,6 +9,8 @@ default:
 	##   make docs-fresh	build the documentation from scratch
 	##   make docs-refresh	build only the variable part of the documentation
 	##   make clean-docs	remove docs
+	##   make check  		check satisfyability
+	##   make prod  		produce the production ontology from dev.owl
 	##   make deploy		push to github
 	##
 
@@ -40,17 +42,14 @@ clean-docs:
 	# remove ontology documentation
 	rm -rf docs/
 
+check:
+	java -jar ./bin/HermiT/HermiT.jar --no-prefixes --no-prefixes --consistency dev.owl
+
 deploy:
 	# push to github
 	git add -A
 	git commit
 	git push
 
-reason:
-	java -jar ./bin/HermiT/HermiT.jar --prettyPrint --no-prefixes --consistency dev.owl
-
 masterlist:
-	# rapper ./prod.owl -o ntriples > ./masterlist/prod.n3
-	# --explain
-	# arq --results=csv --data=./masterlist/prod.n3 --query=./masterlist/query.rq > ./masterlist/masterlist.csv
 	./masterlist/create.py
