@@ -18,6 +18,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl">
         <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#1.0.0"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/annotation/annotation.owl#1.0.0"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
         <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
         <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
