@@ -25,13 +25,13 @@ Associated Ontologies
 Includes concepts from:
 -----------------------
 
-* [Dublin Core Elements](http://purl.org/dc/elements/1.1/)
-* [Dublin Core Terms](http://purl.org/dc/terms/)
-* [GND Ontology](https://d-nb.info/standards/elementset/gnd#)
-* [FOAF](http://xmlns.com/foaf/0.1/)
-* [FRAPO](http://purl.org/cerif/frapo/)
+* [Dublin Core Elements](http://purl.org/dc/elements/1.1/) - Dublin Core Metadata Initiative (DCMI)
+* [Dublin Core Terms](http://purl.org/dc/terms/) - Dublin Core Metadata Initiative (DCMI)
+* [Integrated Authority File (GND)](https://d-nb.info/standards/elementset/gnd#) - Deutsche Nationalbibliothek
+* [Friend of a Friend (FOAF)](http://xmlns.com/foaf/0.1/)
+* [Funding, Research Administration and Projects Ontology (FRAPO)](http://purl.org/cerif/frapo)
 * [SemWeb Vocab Status Ontology](http://www.w3.org/2003/06/sw-vocab-status/ns#)
-* [SKOS Core](http://www.w3.org/2004/02/skos/core)
+* [Simple Knowledge Organization System (Core)](http://www.w3.org/2004/02/skos/core)
 
 
 Viewing the Documentation
