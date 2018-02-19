@@ -1,3 +1,6 @@
 [submodule "imports/dfg/fachsystematik"]
 	path = imports/dfg/fachsystematik
 	url = https://github.com/joetm/dfg-fachsystematik.git
+[submodule "bin/owlapi"]
+	path = bin/owlapi
+	url = https://github.com/owlcs/releases.git
