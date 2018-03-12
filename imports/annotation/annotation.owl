@@ -84,6 +84,9 @@
     </owl:AnnotationProperty>
     
 
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
 
     <!-- http://purl.org/dc/terms/issued -->
 
