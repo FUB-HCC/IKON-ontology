@@ -23,26 +23,11 @@
         <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
         <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
-        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at a Museum of Natural History.</dc:description>
+        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at a research institution.</dc:description>
     </owl:Ontology>
     
 
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/dc/terms/hasVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
-    
+   
 
 
     <!-- 
