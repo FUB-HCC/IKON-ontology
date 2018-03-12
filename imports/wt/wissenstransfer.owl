@@ -14,6 +14,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:dnb="http://d-nb.info/standards/elementset/gnd#"
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:wt="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl">
@@ -23,11 +24,87 @@
         <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
         <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
-        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at a research institution.</dc:description>
+        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at a Museum of Natural History.</dc:description>
     </owl:Ontology>
     
 
-   
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit">
+        <rdfs:label xml:lang="de">hat Einheit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld">
+        <rdfs:label xml:lang="de">hat Handlungsfeld</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich">
+        <rdfs:label xml:lang="de">hat Wirkungsbereich</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWissenstransferaktivität -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWissenstransferaktivität">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="de">hat Wissenstransferaktivität</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppe -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppe">
+        <rdfs:label xml:lang="de">hat Zielgruppe</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppenart -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppenart">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="de">hat Zielgruppenart</rdfs:label>
+    </owl:ObjectProperty>
+    
 
 
     <!-- 
@@ -41,51 +118,187 @@
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Anwenden -->
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Anwenden -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Anwenden">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Handlungsfeld"/>
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Anwenden">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Anwenden-001"/>
         <rdfs:label xml:lang="de">Anwenden</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Beraten -->
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Beraten -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Beraten">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Handlungsfeld"/>
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Beraten">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Beraten-001"/>
         <rdfs:label xml:lang="de">Beraten</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Handlungsfeld -->
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Direkt -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Handlungsfeld">
-        <owl:disjointWith rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Direkt">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Direkt-001"/>
+        <rdfs:label xml:lang="de">Direkt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit">
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Einheit-001"/>
+        <rdfs:label xml:lang="de">Einheit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Gesellschaft -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Gesellschaft">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Gesellschaft-001"/>
+        <rdfs:label xml:lang="de">Gesellschaft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld">
+        <owl:disjointWith rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Handlungsfeld-001"/>
         <rdfs:label xml:lang="de">Handlungsfeld</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Kommunizieren -->
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Indirekt -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Kommunizieren">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Handlungsfeld"/>
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Indirekt">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Indirekt-001"/>
+        <rdfs:label xml:lang="de">Indirekt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Individuum -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Individuum">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Individuum-001"/>
+        <rdfs:label xml:lang="de">Individuum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Institution -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Institution">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Institution-001"/>
+        <rdfs:label xml:lang="de">Institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kommunizieren -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kommunizieren">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kommunizieren-001"/>
         <rdfs:label xml:lang="de">Kommunizieren</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet -->
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kultur -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet">
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kultur">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kultur-001"/>
+        <rdfs:label xml:lang="de">Kultur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unternehmen -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unternehmen">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unternehmen-001"/>
+        <rdfs:label xml:lang="de">Unternehmen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unterzielgruppe-001"/>
+        <rdfs:label xml:lang="de">Unterzielgruppe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich">
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wirkungsbereich-001"/>
+        <rdfs:label xml:lang="de">Wirkungsbereich</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirtschaft -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirtschaft">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wirtschaft-001"/>
+        <rdfs:label xml:lang="de">Wirtschaft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenschaft -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenschaft">
+        <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenschaft-001"/>
+        <rdfs:label xml:lang="de">Wissenschaft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet">
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenstransferaktivitaet-001"/>
         <rdfs:label xml:lang="de">Wissenstransferaktivität</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe">
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppe-001"/>
+        <rdfs:label xml:lang="de">Zielgruppe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart -->
+
+    <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart">
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppenart-001"/>
+        <rdfs:label xml:lang="de">Zielgruppenart</rdfs:label>
     </owl:Class>
     
 
@@ -104,7 +317,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Auftragsarbeit -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Auftragsarbeit">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Auftragsarbeit</rdfs:label>
     </owl:NamedIndividual>
     
@@ -113,7 +326,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Auftragsforschung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Auftragsforschung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Auftragsforschung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -122,7 +335,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Ausstellung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Ausstellung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Ausstellung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -131,7 +344,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Beratung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Beratung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Beratung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -140,7 +353,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Bildungsprogramm -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Bildungsprogramm">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Bildungsprogramm</rdfs:label>
     </owl:NamedIndividual>
     
@@ -149,7 +362,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#DialogPartizipation -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#DialogPartizipation">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Dialog/Partizipation</rdfs:label>
     </owl:NamedIndividual>
     
@@ -158,7 +371,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Dokumentation -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Dokumentation">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Dokumentation</rdfs:label>
     </owl:NamedIndividual>
     
@@ -167,7 +380,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Empfehlung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Empfehlung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Empfehlung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -176,7 +389,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Filmarbeit -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Filmarbeit">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Filmarbeit</rdfs:label>
     </owl:NamedIndividual>
     
@@ -185,7 +398,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Forschung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Forschung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Forschung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -194,7 +407,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Fuehrung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Fuehrung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Führung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -203,7 +416,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Gremium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Gremium">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Gremium</rdfs:label>
     </owl:NamedIndividual>
     
@@ -212,7 +425,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Gutachten -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Gutachten">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Gutachten</rdfs:label>
     </owl:NamedIndividual>
     
@@ -221,7 +434,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Interview -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Interview">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Interview</rdfs:label>
     </owl:NamedIndividual>
     
@@ -230,7 +443,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#KooperationNationalparkverwaltungUnteresOdertal -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#KooperationNationalparkverwaltungUnteresOdertal">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Kooperation mit Nationalparkverwaltung Unteres Odertal</rdfs:label>
     </owl:NamedIndividual>
     
@@ -239,7 +452,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Kooperationsprojekt -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Kooperationsprojekt">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Kooperationsprojekt</rdfs:label>
     </owl:NamedIndividual>
     
@@ -248,7 +461,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Laborgeraete-Test -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Laborgeraete-Test">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Laborgeräte-Test</rdfs:label>
     </owl:NamedIndividual>
     
@@ -257,7 +470,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Lehre -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Lehre">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
     </owl:NamedIndividual>
     
 
@@ -265,7 +478,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Lizensierung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Lizensierung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Lizensierung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -274,7 +487,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Machbarkeitsstudie -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Machbarkeitsstudie">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Machbarkeitsstudie</rdfs:label>
     </owl:NamedIndividual>
     
@@ -283,7 +496,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Medienbeitrag -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Medienbeitrag">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Medienbeitrag</rdfs:label>
     </owl:NamedIndividual>
     
@@ -292,7 +505,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Oeffentlichkeitsarbeit -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Oeffentlichkeitsarbeit">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Öffentlichkeitsarbeit</rdfs:label>
     </owl:NamedIndividual>
     
@@ -301,7 +514,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Personaltransfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Personaltransfer">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Personaltransfer</rdfs:label>
     </owl:NamedIndividual>
     
@@ -310,7 +523,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Praktikantenbetreuung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Praktikantenbetreuung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Praktikantenbetreuung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -319,7 +532,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Presse -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Presse">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Presse</rdfs:label>
     </owl:NamedIndividual>
     
@@ -328,7 +541,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Produktentwicklung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Produktentwicklung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Produktentwicklung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -337,7 +550,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Publikation -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Publikation">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Publikation</rdfs:label>
     </owl:NamedIndividual>
     
@@ -346,7 +559,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Repository -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Repository">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Repository</rdfs:label>
     </owl:NamedIndividual>
     
@@ -355,7 +568,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Schulung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Schulung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Schulung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -364,7 +577,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Veranstaltung -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Veranstaltung">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Veranstaltung</rdfs:label>
     </owl:NamedIndividual>
     
@@ -373,7 +586,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Vortrag -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Vortrag">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Vortrag</rdfs:label>
     </owl:NamedIndividual>
     
@@ -382,7 +595,7 @@
     <!-- https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Workshop -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FUB-HCC/IKON-ontology/master/imports/wt/wissenstransfer.owl#Workshop">
-        <rdf:type rdf:resource="http://ontologies.mfn-berlin.de/ikon#Wissenstransferaktivitaet"/>
+        <rdf:type rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">Workshop</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
