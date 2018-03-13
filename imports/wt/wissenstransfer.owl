@@ -62,7 +62,6 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <rdfs:label xml:lang="de">hat Einheit</rdfs:label>
@@ -73,7 +72,6 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <rdfs:label xml:lang="de">hat Handlungsfeld</rdfs:label>
@@ -84,7 +82,6 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe"/>
         <rdfs:label xml:lang="de">hat Unterzielgruppe</rdfs:label>
@@ -95,8 +92,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <rdfs:label xml:lang="de">hat Wirkungsbereich</rdfs:label>
     </owl:ObjectProperty>
@@ -106,7 +102,6 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWissenstransferaktivität -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWissenstransferaktivität">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">hat Wissenstransferaktivität</rdfs:label>
@@ -117,7 +112,6 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppenart -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppenart">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
         <rdfs:label xml:lang="de">hat Zielgruppenart</rdfs:label>
