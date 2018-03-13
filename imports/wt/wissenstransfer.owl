@@ -13,6 +13,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:dnb="http://d-nb.info/standards/elementset/gnd#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:wt="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -60,6 +61,8 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit">
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <rdfs:label xml:lang="de">hat Einheit</rdfs:label>
     </owl:ObjectProperty>
     
@@ -68,7 +71,19 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld">
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <rdfs:label xml:lang="de">hat Handlungsfeld</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe">
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe"/>
+        <rdfs:label xml:lang="de">hat Unterzielgruppe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -76,6 +91,8 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich">
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <rdfs:label xml:lang="de">hat Wirkungsbereich</rdfs:label>
     </owl:ObjectProperty>
     
@@ -85,15 +102,9 @@
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWissenstransferaktivität">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:label xml:lang="de">hat Wissenstransferaktivität</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppe -->
-
-    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppe">
-        <rdfs:label xml:lang="de">hat Zielgruppe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -102,6 +113,8 @@
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZielgruppenart">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
+        <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
         <rdfs:label xml:lang="de">hat Zielgruppenart</rdfs:label>
     </owl:ObjectProperty>
     
