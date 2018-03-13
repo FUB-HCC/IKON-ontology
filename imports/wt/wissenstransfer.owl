@@ -24,8 +24,9 @@
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
         <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
         <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
+        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at research organisations.</dc:description>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
-        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at a Museum of Natural History.</dc:description>
+        <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
     </owl:Ontology>
     
 
@@ -61,6 +62,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEinheit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <rdfs:label xml:lang="de">hat Einheit</rdfs:label>
@@ -71,6 +73,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatHandlungsfeld">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <rdfs:label xml:lang="de">hat Handlungsfeld</rdfs:label>
@@ -81,6 +84,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatUnterzielgruppe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe"/>
         <rdfs:label xml:lang="de">hat Unterzielgruppe</rdfs:label>
@@ -91,6 +95,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich -->
 
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatWirkungsbereich">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <rdfs:label xml:lang="de">hat Wirkungsbereich</rdfs:label>
@@ -137,6 +142,7 @@
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Anwenden-001"/>
         <rdfs:label xml:lang="de">Anwenden</rdfs:label>
+        <rdfs:label xml:lang="en">Application</rdfs:label>
     </owl:Class>
     
 
@@ -147,6 +153,7 @@
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Beraten-001"/>
         <rdfs:label xml:lang="de">Beraten</rdfs:label>
+        <rdfs:label xml:lang="en">Consulting</rdfs:label>
     </owl:Class>
     
 
@@ -156,6 +163,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Direkt">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Direkt-001"/>
+        <rdfs:label xml:lang="en">Direct</rdfs:label>
         <rdfs:label xml:lang="de">Direkt</rdfs:label>
     </owl:Class>
     
@@ -166,6 +174,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit">
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Einheit-001"/>
         <rdfs:label xml:lang="de">Einheit</rdfs:label>
+        <rdfs:label xml:lang="en">Unit</rdfs:label>
     </owl:Class>
     
 
@@ -176,6 +185,7 @@
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Gesellschaft-001"/>
         <rdfs:label xml:lang="de">Gesellschaft</rdfs:label>
+        <rdfs:label xml:lang="en">Society</rdfs:label>
     </owl:Class>
     
 
@@ -185,6 +195,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld">
         <owl:disjointWith rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Handlungsfeld-001"/>
+        <rdfs:label xml:lang="en">Area of application</rdfs:label>
         <rdfs:label xml:lang="de">Handlungsfeld</rdfs:label>
     </owl:Class>
     
@@ -195,6 +206,8 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Indirekt">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Indirekt-001"/>
+        <rdfs:comment xml:lang="de">Vermittler</rdfs:comment>
+        <rdfs:label xml:lang="en">Indirect</rdfs:label>
         <rdfs:label xml:lang="de">Indirekt</rdfs:label>
     </owl:Class>
     
@@ -205,6 +218,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Individuum">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Individuum-001"/>
+        <rdfs:label xml:lang="en">Individual</rdfs:label>
         <rdfs:label xml:lang="de">Individuum</rdfs:label>
     </owl:Class>
     
@@ -216,6 +230,7 @@
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Institution-001"/>
         <rdfs:label xml:lang="de">Institution</rdfs:label>
+        <rdfs:label xml:lang="en">Institution</rdfs:label>
     </owl:Class>
     
 
@@ -225,6 +240,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kommunizieren">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kommunizieren-001"/>
+        <rdfs:label xml:lang="en">Communication</rdfs:label>
         <rdfs:label xml:lang="de">Kommunizieren</rdfs:label>
     </owl:Class>
     
@@ -235,6 +251,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kultur">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kultur-001"/>
+        <rdfs:label xml:lang="en">Culture</rdfs:label>
         <rdfs:label xml:lang="de">Kultur</rdfs:label>
     </owl:Class>
     
@@ -245,6 +262,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unternehmen">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Einheit"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unternehmen-001"/>
+        <rdfs:label xml:lang="en">Company</rdfs:label>
         <rdfs:label xml:lang="de">Unternehmen</rdfs:label>
     </owl:Class>
     
@@ -255,6 +273,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Unterzielgruppe">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unterzielgruppe-001"/>
+        <rdfs:label xml:lang="en">Sub-group of audience</rdfs:label>
         <rdfs:label xml:lang="de">Unterzielgruppe</rdfs:label>
     </owl:Class>
     
@@ -274,6 +293,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirtschaft">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wirtschaft-001"/>
+        <rdfs:label xml:lang="en">Economy</rdfs:label>
         <rdfs:label xml:lang="de">Wirtschaft</rdfs:label>
     </owl:Class>
     
@@ -284,6 +304,7 @@
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenschaft">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wirkungsbereich"/>
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenschaft-001"/>
+        <rdfs:label xml:lang="en">Science</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaft</rdfs:label>
     </owl:Class>
     
@@ -293,6 +314,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet">
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenstransferaktivitaet-001"/>
+        <rdfs:label xml:lang="en">Knowledge transfer activity</rdfs:label>
         <rdfs:label xml:lang="de">Wissenstransferaktivität</rdfs:label>
     </owl:Class>
     
@@ -302,6 +324,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppe">
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppe-001"/>
+        <rdfs:label xml:lang="en">Target audience</rdfs:label>
         <rdfs:label xml:lang="de">Zielgruppe</rdfs:label>
     </owl:Class>
     
@@ -311,6 +334,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Zielgruppenart">
         <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppenart-001"/>
+        <rdfs:label xml:lang="en">Type of target audience</rdfs:label>
         <rdfs:label xml:lang="de">Zielgruppenart</rdfs:label>
     </owl:Class>
     
