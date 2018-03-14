@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://TEMPdomain.com#"
-     xml:base="http://TEMPdomain.com"
+<rdf:RDF xmlns="htttp://dummydomain.com#"
+     xml:base="htttp://dummydomain.com"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -14,8 +14,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://TEMPdomain.com">
-        <owl:versionIRI rdf:resource="http://TEMPdomain.com/0.0.0"/>
+    <owl:Ontology rdf:about="htttp://dummydomain.com">
+        <owl:versionIRI rdf:resource="htttp://dummydomain.com/0.0.0"/>
         <vann:preferredNamespacePrefix xml:lang="en">sio</vann:preferredNamespacePrefix>
         <dc:description xml:lang="en">Shared annotations.</dc:description>
         <terms:title xml:lang="de">IKON Ontologie</terms:title>
@@ -1363,6 +1363,33 @@ access).</rdfs:comment>
         <rdfs:label xml:lang="en">Current project</rdfs:label>
         <ns:term_status>testing</ns:term_status>
         <skos:definition xml:lang="en">A current project this person works on.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depiction">
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:comment xml:lang="en">A depiction of some thing.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">depiction</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicts -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depicts">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A thing depicted in this representation.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">depicts</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
     </owl:ObjectProperty>
     
 
@@ -2964,6 +2991,8 @@ Zeitschrift veröffentlicht wurde.</skos:definition>
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Ausgruendung">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
         <Meta:inhaltlicheDefinition>Pa39</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Ausgruendung-001"/>
         <rdfs:comment xml:lang="de">Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
@@ -3333,6 +3362,8 @@ finanzierten Personen nicht in die Erhebung einbezogen.</skos:definition>
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
         <Meta:inhaltlicheDefinition>Dr2a</Meta:inhaltlicheDefinition>
         <Meta:inhaltlicheDefinition>Dr30</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Drittmittelprojekt-001"/>
@@ -5564,6 +5595,8 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
 
     <owl:Class rdf:about="http://purl.org/cerif/frapo/FundingAgency">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/cerif/frapo/"/>
         <rdfs:label xml:lang="en">Funding agency</rdfs:label>
         <rdfs:label xml:lang="de">Förderagentur</rdfs:label>
@@ -5575,6 +5608,33 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:comment xml:lang="en">A document.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Document</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:comment xml:lang="en">An image.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
     
 
 
