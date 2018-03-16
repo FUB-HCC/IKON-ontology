@@ -1049,6 +1049,7 @@ access).</rdfs:comment>
         <rdfs:label xml:lang="de">hat Projektleiter</rdfs:label>
         <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001"/>
     </owl:ObjectProperty>
+
     
 
 
@@ -2131,8 +2132,7 @@ on request of an editor.</rdfs:comment>
         <rdfs:comment xml:lang="de">Als Projektbeginn zählt das Jahr des Projektbeginns laut
 Bewilligungsbescheid bzw. Vereinbarung mit dem Förderer. Liegt kein
 Startdatum vor, kann das Jahr des ersten Mittelabrufs eingesetzt werden.</rdfs:comment>
-        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
@@ -3196,7 +3196,24 @@ angepasst.</rdfs:comment>
         <skos:definition xml:lang="de">Angabe, ob die Personen ober eine Kooperation mit einer Fachhochschule
 promoviert haben oder promovieren.</skos:definition>
     </owl:Class>
-    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon#Topic -->
+
+    <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#FH">
+        <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner"/>
+        <Meta:inhaltlicheDefinition>Na93</Meta:inhaltlicheDefinition>
+        <dct:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#FH-001"/>
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
+(Listenform)]
+
+Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
+angepasst.</rdfs:comment>
+        <rdfs:label xml:lang="de">FH</rdfs:label>
+        <rdfs:label xml:lang="en">Technical college</rdfs:label>
+        <skos:definition xml:lang="de">Angabe, ob die Personen ober eine Kooperation mit einer Fachhochschule
+promoviert haben oder promovieren.</skos:definition>
+    </owl:Class>
 
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Fach -->

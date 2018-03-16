@@ -22,11 +22,10 @@
         <owl:versionIRI rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/annotation/annotation.owl#1.0.0"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
-        <dct:title xml:lang="de">Wissenstransfer-Ontologie</dct:title>
-        <dct:title xml:lang="en">Knowledge Transfer Ontology</dct:title>
-        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the knowledge transfer activities at research organisations.</dc:description>
+        <dct:title xml:lang="de">Zielgruppen-Ontologie</dct:title>
+        <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of external stakeholder groups of knowledge transfer activities at research organisations.</dc:description>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
-        <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
+        <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Ziegruppen von Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
     </owl:Ontology>
     
 
