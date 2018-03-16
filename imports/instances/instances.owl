@@ -26,7 +26,42 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB1 -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB1">
+        <rdfs:label xml:lang="de">Fachbereich 1</rdfs:label>
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+    </owl:NamedIndividual>
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB2 -->
+
+    <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB2">
+        <rdfs:label xml:lang="de">Fachbereich 2</rdfs:label>
+        <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+    </owl:NamedIndividual>
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB3 -->
+
+    <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB3">
+        <rdfs:label xml:lang="de">Fachbereich 3</rdfs:label>
+        <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+    </owl:NamedIndividual>
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB4 -->
+
+    <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB4">
+        <rdfs:label xml:lang="de">Fachbereich 4</rdfs:label>
+        <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+    </owl:NamedIndividual>
+
+
+    <!-- EXAMPLES -->
+
+    <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#GenomElection">
+        <rdfs:label xml:lang="de">GenomElection</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#NeFo">
+        <rdfs:label xml:lang="de">NeFo</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
     </owl:NamedIndividual>
 
 
