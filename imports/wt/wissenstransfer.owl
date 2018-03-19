@@ -57,6 +57,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatKontaktperson-001"/>
         <rdfs:label xml:lang="de">hat Kontaktperson</rdfs:label>
     </owl:ObjectProperty>
     
@@ -67,6 +68,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#gehoertzuInitivative">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Initiative"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#gehoertzuInitiative-001"/>
         <rdfs:label xml:lang="de">gehört zu Initivative</rdfs:label>
     </owl:ObjectProperty>
     
@@ -77,6 +79,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#gehoertzuOrganisation">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#gehoertzuOrganisation-001"/>
         <rdfs:label xml:lang="de">gehört zu Organisation</rdfs:label>
     </owl:ObjectProperty>
     
@@ -87,6 +90,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#gehoertzuOrganisationseinheit">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#gehoertzuOrganisationseinheit-001"/>
         <rdfs:label xml:lang="de">gehört zu Organisationseinheit</rdfs:label>
     </owl:ObjectProperty>
     
@@ -97,6 +101,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#gehoertzuProjekt">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#gehoertzuProjekt-001"/>
         <rdfs:label xml:lang="de">gehört zu Projekt</rdfs:label>
     </owl:ObjectProperty>
     
@@ -107,6 +112,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatEffekt">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Effekt"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatEffekt-001"/>
         <rdfs:label xml:lang="de">hat Effekt</rdfs:label>
     </owl:ObjectProperty>
     
@@ -117,6 +123,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatErfolgsdeterminante">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Erfolgsdeterminante"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatErfolgsdeterminante-001"/>
         <rdfs:label xml:lang="de">hat Erfolgsdeterminante</rdfs:label>
     </owl:ObjectProperty>
     
@@ -127,6 +134,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatFormat">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Format"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatFormat-001"/>
         <rdfs:label xml:lang="de">hat Format</rdfs:label>
     </owl:ObjectProperty>
     
@@ -144,6 +152,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Handlungsfeld"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatHandlungsfeld-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Handlungsfeld</rdfs:label>
     </owl:ObjectProperty>
@@ -155,6 +164,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatInitiator">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Initiator"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatInitiator-001"/>
         <rdfs:label xml:lang="de">hat Initiator</rdfs:label>
     </owl:ObjectProperty>
     
@@ -165,6 +175,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatKanal">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Kanal"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatKanal-001"/>
         <rdfs:label xml:lang="de">hat Kanal</rdfs:label>
     </owl:ObjectProperty>
     
@@ -175,7 +186,27 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatKooperationspartner">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="http://ontologies.mfn-berlin.de/ikon#Kooperationspartner"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatKooperationspartner-001"/>
         <rdfs:label xml:lang="de">hat Kooperationspartner</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatLeiter -->
+
+    <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatLeiter">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
+                    <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Project"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLeitung-001"/>
+        <rdfs:label xml:lang="de">hat Leitung</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -185,6 +216,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatThema">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Thema"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatThema-001"/>
         <rdfs:label xml:lang="de">hat Thema</rdfs:label>
     </owl:ObjectProperty>
     
@@ -195,6 +227,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#hatZiel">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Ziel"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatZiel-001"/>
         <rdfs:label xml:lang="de">hat Ziel</rdfs:label>
     </owl:ObjectProperty>
     
@@ -205,6 +238,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#hatEinheit">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Einheit"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatEinheit-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Einheit</rdfs:label>
     </owl:ObjectProperty>
@@ -216,6 +250,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#hatUnterzielgruppe">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Unterzielgruppe"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatUnterzielgruppe-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Unterzielgruppe</rdfs:label>
     </owl:ObjectProperty>
@@ -227,6 +262,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#hatWirkungsbereich">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Wirkungsbereich"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatWirkungsbereich-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Wirkungsbereich</rdfs:label>
     </owl:ObjectProperty>
@@ -238,6 +274,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#hatZielgruppe">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#Wissenstransferaktivitaet"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppe"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatZielgruppe-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Zielgruppe</rdfs:label>
     </owl:ObjectProperty>
@@ -249,6 +286,7 @@
     <owl:ObjectProperty rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#hatZielgruppenart">
         <rdfs:domain rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppe"/>
         <rdfs:range rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zg/zielgruppen.owl#Zielgruppenart"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatZielgruppenart-001"/>
         <rdfs:comment xml:lang="de">Teil der Zielgruppenterminologie</rdfs:comment>
         <rdfs:label xml:lang="de">hat Zielgruppenart</rdfs:label>
     </owl:ObjectProperty>
