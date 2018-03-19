@@ -1,53 +1,48 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#"
      xml:base="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl"
-     xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl">
         <owl:versionIRI rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#1.0.0"/>
         <dct:title xml:lang="de">Instanzen</dct:title>
         <dct:title xml:lang="en">Instances</dct:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
-        <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
         <dc:description xml:lang="en">Shared instances.</dc:description>
     </owl:Ontology>
     
 
-
-
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB1 -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB1">
-        <rdfs:label xml:lang="de">Fachbereich 1</rdfs:label>
+        <dct:title xml:lang="de">Forschungsbereich 1</dct:title>
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
     </owl:NamedIndividual>
 
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB2 -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB2">
-        <rdfs:label xml:lang="de">Fachbereich 2</rdfs:label>
+        <dct:title xml:lang="de">Forschungsbereich 2</dct:title>
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
     </owl:NamedIndividual>
 
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB3 -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB3">
-        <rdfs:label xml:lang="de">Fachbereich 3</rdfs:label>
+        <dct:title xml:lang="de">Forschungsbereich 3</dct:title>
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
     </owl:NamedIndividual>
 
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB4 -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#FB4">
-        <rdfs:label xml:lang="de">Fachbereich 4</rdfs:label>
+        <dct:title xml:lang="de">Forschungsbereich 4</dct:title>
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
     </owl:NamedIndividual>
 
@@ -55,15 +50,23 @@
     <!-- EXAMPLES -->
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#GenomElection">
-        <rdfs:label xml:lang="de">GenomElection</rdfs:label>
+        <dct:title xml:lang="de">GenomElection</dct:title>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/instances/instances.owl#NeFo">
-        <rdfs:label xml:lang="de">NeFo</rdfs:label>
+        <dct:title xml:lang="de">NeFo</dct:title>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
     </owl:NamedIndividual>
 
+    <!-- http://mfn.de/id/person/mueller-johannes-prof-dr -->
 
+    <owl:NamedIndividual rdf:about="http://mfn.de/id/person/mueller-johannes-prof-dr">
+        <rdf:type rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+        <foaf:firstName xml:lang="de">Johannes</foaf:firstName>
+        <foaf:firstName xml:lang="en">Johannes</foaf:firstName>
+        <foaf:lastName xml:lang="en">Mueller</foaf:lastName>
+        <foaf:lastName xml:lang="de">Müller</foaf:lastName>
+    </owl:NamedIndividual>
 
 </rdf:RDF>

@@ -6,6 +6,7 @@
      xmlns:frapo="http://purl.org/cerif/frapo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:time="http://www.w3.org/2006/time#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dfg-fachsystematik="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#"
      xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
@@ -24,8 +25,8 @@
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#1.0.0"/>
         <vann:preferredNamespacePrefix xml:lang="en">sio</vann:preferredNamespacePrefix>
-        <dct:title xml:lang="de">IKON Ontologie</dct:title>
-        <dct:title xml:lang="en">IKON Ontology</dct:title>
+        <dc:title xml:lang="de">IKON Ontologie</dc:title>
+        <dc:title xml:lang="en">IKON Ontology</dc:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
         <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History.</dc:description>
@@ -1754,6 +1755,20 @@ ausgewiesen.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
+<!--
+    <owl:ObjectProperty rdf:about="http://www.grid.ac/ontology/hasWikidataID">
+        <rdfs:domain rdf:resource="http://www.grid.ac/ontology/Organisation"/>
+        <rdfs:range rdf:resource="http://www.wikidata.org/ontology#Item"/>
+        <rdfs:comment xml:lang="en">Links the  organisation to a wikidata entity. See https://www.wikidata.org</rdfs:comment>
+        <rdfs:label xml:lang="en">hasWikidataId</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="http://www.grid.ac/ontology/wikipediaPage">
+        <rdfs:domain rdf:resource="http://www.grid.ac/ontology/Organisation"/>
+        <rdfs:comment xml:lang="en">The Wikipedia page corresponding to this organisation</rdfs:comment>
+        <rdfs:label xml:lang="en">wikipediaPage</rdfs:label>
+    </owl:DatatypeProperty>
+-->
+
 
     <!-- http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Foerderer -->
 
@@ -2605,6 +2620,22 @@ zugeordnet.</rdfs:comment>
         <skos:definition xml:lang="en">A data property linking an entity to an acronym used to identify it, based on its full name or title.  For example, this ontology has the full name &apos;Funding, Research Administration and Projects Ontology&apos; and the acronym &apos;FRAPO&apos;.</skos:definition>
     </owl:DatatypeProperty>
     
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:label xml:lang="de">Titel</rdfs:label>
+        <dct:modified>2010-10-11</dct:modified>
+        <dct:hasVersion>http://dublincore.org/usage/terms/history/#titleT-002</dct:hasVersion>
+        <dct:issued>2008-01-14</dct:issued>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition xml:lang="en">A name given to the resource.</skos:definition>
+        <rdfs:isDefinedBy>http://purl.org/dc/terms/</rdfs:isDefinedBy>
+    </owl:DatatypeProperty>
 
 
     <!-- http://purl.org/dc/terms/description -->
