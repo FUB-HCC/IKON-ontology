@@ -1312,6 +1312,20 @@ access).</rdfs:comment>
     </owl:ObjectProperty>
     
 
+    <!-- http://xmlns.com/foaf/0.1/topic_interest -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic_interest">
+	    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	    <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">topic interest</rdfs:label>
+        <rdfs:label xml:lang="de">ist interessiert an Thema</rdfs:label>
+        <rdfs:comment xml:lang="en">A thing of interest to this person.</rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <skos:definition xml:lang="en">A topic that an agent is interested in.</skos:definition>
+    </owl:ObjectProperty>
+
+
 
     <!-- http://xmlns.com/foaf/0.1/pastProject -->
 
@@ -2764,7 +2778,6 @@ zugeordnet.</rdfs:comment>
     <!-- http://www.w3.org/2006/vcard/ns#hasNickname -->
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasNickname">
-        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
@@ -2774,9 +2787,8 @@ zugeordnet.</rdfs:comment>
     <!-- http://xmlns.com/foaf/0.1/firstName -->
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
-        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
         <rdfs:comment xml:lang="en">The first name of a person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label xml:lang="en">First name</rdfs:label>
@@ -2788,9 +2800,8 @@ zugeordnet.</rdfs:comment>
     <!-- http://xmlns.com/foaf/0.1/lastName -->
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
-        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
         <rdfs:comment xml:lang="en">The last name of a person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label xml:lang="en">Last name</rdfs:label>
@@ -2803,7 +2814,7 @@ zugeordnet.</rdfs:comment>
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/title">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
         <rdfs:comment xml:lang="en">Title (Mr, Mrs, Ms, Dr. etc)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label xml:lang="en">Academic title</rdfs:label>

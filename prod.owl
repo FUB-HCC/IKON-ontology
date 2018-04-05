@@ -1365,6 +1365,29 @@ access).</rdfs:comment>
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+        <rdfs:comment xml:lang="en">To specify the electronic mail address for communication with the object</rdfs:comment>
+        <rdfs:label xml:lang="en">has email</rdfs:label>
+        <rdfs:label xml:lang="de">hat Email</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasTelephone -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasTelephone">
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+        <rdfs:comment xml:lang="en">To specify the telephone number for telephony communication with the object</rdfs:comment>
+        <rdfs:label xml:lang="en">has telephone</rdfs:label>
+        <rdfs:label xml:lang="de">hat Telefonnummer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/currentProject -->
 
     <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/currentProject">
@@ -1406,17 +1429,22 @@ access).</rdfs:comment>
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/mbox -->
+    <!-- http://xmlns.com/foaf/0.1/img -->
 
-    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:comment xml:lang="en">A 
-personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &apos;static inverse functional property&apos;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</rdfs:comment>
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/img">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:comment>An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one&apos;s photo on a homepage).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <rdfs:label xml:lang="en">personal mailbox</rdfs:label>
-        <ns:term_status>stable</ns:term_status>
+        <rdfs:label xml:lang="de">hat Bild</rdfs:label>
+        <rdfs:label xml:lang="en">image</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
     </owl:ObjectProperty>
     
 
@@ -1431,6 +1459,21 @@ personal mailbox, ie. an Internet mailbox associated with exactly one owner, the
         <rdfs:label xml:lang="de">Vergangenes Projekt</rdfs:label>
         <ns:term_status>testing</ns:term_status>
         <skos:definition xml:lang="en">A project this person has previously worked on.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/topic_interest -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic_interest">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A thing of interest to this person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="de">ist interessiert an Thema</rdfs:label>
+        <rdfs:label xml:lang="en">topic interest</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+        <skos:definition xml:lang="en">A topic that an agent is interested in.</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -2984,6 +3027,34 @@ zugeordnet.</rdfs:comment>
     
 
 
+    <!-- http://ontologies.mfn-berlin.de/ikon#middleName -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#middleName">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">The middle name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:label xml:lang="en">Middle name</rdfs:label>
+        <rdfs:label xml:lang="de">Zweiter Vorname</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon##hatLebenslauf -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon##hatLebenslauf">
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <terms:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLebenslauf-001"/>
+        <rdfs:comment xml:lang="de">Der Lebenslauf einer Person in Textform.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Curriculum Vitae</rdfs:label>
+        <rdfs:label xml:lang="de">hat Lebenslauf</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://purl.org/cerif/frapo/hasAcronym -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/cerif/frapo/hasAcronym">
@@ -3042,6 +3113,18 @@ zugeordnet.</rdfs:comment>
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#hasNickname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasNickname">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">Used to support property parameters for the nickname data property</rdfs:comment>
+        <rdfs:label xml:lang="en">has nickname</rdfs:label>
+        <rdfs:label xml:lang="de">hat Spitzname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/firstName -->
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
@@ -3063,6 +3146,20 @@ zugeordnet.</rdfs:comment>
         <rdfs:comment xml:lang="en">The last name of a person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label xml:lang="en">Last name</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/title">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">Title (Mr, Mrs, Ms, Dr. etc)</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Academic title</rdfs:label>
+        <rdfs:label xml:lang="de">Akademischer Titel</rdfs:label>
         <ns:term_status>testing</ns:term_status>
     </owl:DatatypeProperty>
     
@@ -3126,8 +3223,7 @@ zugeordnet.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner"/>
         <Meta:inhaltlicheDefinition>Na94</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AUF-001"/>
-        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
@@ -5274,8 +5370,7 @@ angepasst.</rdfs:comment>
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart">
         <Meta:inhaltlicheDefinition>Be32</Meta:inhaltlicheDefinition>
         <terms:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Taetigkeitsart-001"/>
-        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
@@ -5792,6 +5887,17 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     
 
 
+    <!-- http://ontologies.mfn-berlin.de/ikon#WorkPhone -->
+
+    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#WorkPhone">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+        <rdfs:label xml:lang="de">Arbeit</rdfs:label>
+        <rdfs:label xml:lang="en">Work</rdfs:label>
+        <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Work-001"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/cerif/frapo/FundingAgency -->
 
     <owl:Class rdf:about="http://purl.org/cerif/frapo/FundingAgency">
@@ -5802,6 +5908,43 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
         <rdfs:label xml:lang="en">Funding agency</rdfs:label>
         <rdfs:label xml:lang="de">Förderagentur</rdfs:label>
         <skos:definition xml:lang="en">An organization that provides funding for projects or resources, often in the form of grants awarded on the basis of competitive application.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Cell -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Cell">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+        <rdfs:comment xml:lang="en">Also called mobile telephone</rdfs:comment>
+        <rdfs:comment xml:lang="de">Mobiltelefon</rdfs:comment>
+        <rdfs:label xml:lang="en">Cell</rdfs:label>
+        <rdfs:label xml:lang="de">Mobil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Email -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Email"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Fax -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Fax">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+        <rdfs:label xml:lang="de">Fax</rdfs:label>
+        <rdfs:label xml:lang="en">Fax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#TelephoneType -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#TelephoneType">
+        <rdfs:comment xml:lang="en">Used for telephone type codes. The URI of the telephone type code must be used as the value for the Telephone Type.</rdfs:comment>
+        <rdfs:label xml:lang="en">Phone</rdfs:label>
     </owl:Class>
     
 
@@ -10237,6 +10380,10 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
         <rdfs:label xml:lang="en">example</rdfs:label>
         <rdfs:label xml:lang="de">Beispiel</rdfs:label>
         <skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasValue">
+        <rdfs:comment xml:lang="en">Used to indicate the resource value of an object property that requires property parameters</rdfs:comment>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/phone">
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
