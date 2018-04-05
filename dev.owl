@@ -7,6 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
      xmlns:dfg-fachsystematik="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#"
      xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
      xmlns:Basis="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#"
@@ -1188,6 +1189,26 @@ access).</rdfs:comment>
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+        <rdfs:comment xml:lang="en">To specify the electronic mail address for communication with the object</rdfs:comment>
+        <rdfs:label xml:lang="en">has email</rdfs:label>
+        <rdfs:label xml:lang="de">hat Email</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasNickname -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasNickname">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/currentProject -->
 
     <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/currentProject">
@@ -1229,17 +1250,17 @@ access).</rdfs:comment>
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/mbox -->
+    <!-- http://xmlns.com/foaf/0.1/img -->
 
-    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:comment xml:lang="en">A 
-personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &apos;static inverse functional property&apos;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</rdfs:comment>
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/img">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:comment>An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one&apos;s photo on a homepage).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <rdfs:label xml:lang="en">personal mailbox</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
+        <rdfs:label xml:lang="de">hat Bild</rdfs:label>
+        <rdfs:label xml:lang="en">image</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
     </owl:ObjectProperty>
     
 
@@ -2599,6 +2620,34 @@ zugeordnet.</rdfs:comment>
     
 
 
+    <!-- http://ontologies.mfn-berlin.de/ikon#middleName -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#middleName">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">The middle name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:label xml:lang="en">Middle name</rdfs:label>
+        <rdfs:label xml:lang="de">Zweiter Vorname</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologies.mfn-berlin.de/ikon##hatLebenslauf -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon##hatLebenslauf">
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLebenslauf-001"/>
+        <rdfs:comment xml:lang="de">Der Lebenslauf einer Person in Textform.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Curriculum Vitae</rdfs:label>
+        <rdfs:label xml:lang="de">hat Lebenslauf</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://purl.org/cerif/frapo/hasAcronym -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/cerif/frapo/hasAcronym">
@@ -2665,9 +2714,19 @@ zugeordnet.</rdfs:comment>
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#hasNickname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasNickname">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/firstName -->
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment xml:lang="en">The first name of a person.</rdfs:comment>
@@ -2681,11 +2740,26 @@ zugeordnet.</rdfs:comment>
     <!-- http://xmlns.com/foaf/0.1/lastName -->
 
     <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
+        <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment xml:lang="en">The last name of a person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label xml:lang="en">Last name</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/title">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">Title (Mr, Mrs, Ms, Dr. etc)</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Academic title</rdfs:label>
+        <rdfs:label xml:lang="de">Akademischer Titel</rdfs:label>
         <vs:term_status>testing</vs:term_status>
     </owl:DatatypeProperty>
     
@@ -2708,8 +2782,7 @@ zugeordnet.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner"/>
         <Meta:inhaltlicheDefinition>Na94</Meta:inhaltlicheDefinition>
         <dct:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#AUF-001"/>
-        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]
 
 Hinweis: Definition wurde im Zuge der &quot;Abnahmesitzung&quot; des Beirates
 angepasst.</rdfs:comment>
@@ -4848,8 +4921,7 @@ angepasst.</rdfs:comment>
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Taetigkeitsart">
         <Meta:inhaltlicheDefinition>Be32</Meta:inhaltlicheDefinition>
         <dct:hasVersion rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis/version1#Taetigkeitsart-001"/>
-        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit
-(Listenform)]
+        <rdfs:comment xml:lang="de">[Ausdifferenzierungmöglichkeit (Summenform) / Gruppierungsmöglichkeit (Listenform)]
 
 Hinweis: Definition wurde aufgrund der Rückmeldungen zur Beta-Version
 angepasst.</rdfs:comment>
@@ -5387,6 +5459,12 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     
 
 
+    <!-- http://www.w3.org/2006/vcard/ns#Email -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Email"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
@@ -5462,6 +5540,22 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     <!-- http://ontologies.mfn-berlin.de/ikon -->
 
     <owl:NamedIndividual rdf:about="http://ontologies.mfn-berlin.de/ikon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasNickname">
+        <rdfs:comment xml:lang="en">Used to support property parameters for the nickname data property</rdfs:comment>
+        <rdfs:label xml:lang="de">hat Spitzname</rdfs:label>
+        <rdfs:label xml:lang="en">has nickname</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
