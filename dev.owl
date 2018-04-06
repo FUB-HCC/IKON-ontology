@@ -21,14 +21,14 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
-        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.2.2"/>
+        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.3.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/annotation/annotation.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#1.0.0"/>
-        <vann:preferredNamespacePrefix xml:lang="en">sio</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix xml:lang="en">ikon</vann:preferredNamespacePrefix>
         <dc:title xml:lang="en">IKON Ontology</dc:title>
         <dc:title xml:lang="de">IKON Ontologie</dc:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.3.0</owl:versionInfo>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
         <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History.</dc:description>
     </owl:Ontology>

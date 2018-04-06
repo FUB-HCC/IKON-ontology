@@ -16,7 +16,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
-        <vann:preferredNamespacePrefix xml:lang="en">sio</vann:preferredNamespacePrefix>
+        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.3.0"/>
         <dc:description xml:lang="en">Shared annotations.</dc:description>
         <dc:title xml:lang="en">IKON Ontology</dc:title>
         <dc:description xml:lang="en">Shared instances.</dc:description>
@@ -25,10 +25,11 @@
         <dc:title xml:lang="de">IKON Ontologie</dc:title>
         <terms:title xml:lang="de">Instanzen</terms:title>
         <dc:description xml:lang="en">An RDF vocabulary for describing the knowledge transfer activities at research organisations.</dc:description>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.3.0</owl:versionInfo>
         <rdfs:label xml:lang="de">DFG Fachsystematik</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</owl:versionInfo>
         <terms:title xml:lang="de">Annotationen</terms:title>
         <rdfs:isDefinedBy>Jonas Oppenlaender</rdfs:isDefinedBy>
+        <vann:preferredNamespacePrefix xml:lang="en">ikon</vann:preferredNamespacePrefix>
         <terms:title xml:lang="en">Instances</terms:title>
         <dc:description xml:lang="en">An RDF vocabulary for describing the basic structure of the research projects and activities at a Museum of Natural History.</dc:description>
         <terms:title xml:lang="en">Annotations</terms:title>
