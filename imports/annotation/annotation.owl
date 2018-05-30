@@ -45,10 +45,10 @@
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#mapping -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#mapping -->
 
-    <owl:AnnotationProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#mapping">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#mapping-001"/>
+    <owl:AnnotationProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#mapping">
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#mapping-001"/>
         <rdfs:label xml:lang="de">Mapping</rdfs:label>
         <rdfs:label xml:lang="en">Mapping</rdfs:label>
         <skos:definition xml:lang="en">A mapping relation between fields on the Wiki and this ontology.</skos:definition>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontologies.mfn-berlin.de/ikon#"
-     xml:base="http://ontologies.mfn-berlin.de/ikon"
+<rdf:RDF xmlns="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"
+     xml:base="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon"
      xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:frapo="http://purl.org/cerif/frapo/"
@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
      xmlns:dfg-fachsystematik="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#"
-     xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
+     xmlns:ikon="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"
      xmlns:Basis="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -20,8 +20,8 @@
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://ontologies.mfn-berlin.de/ikon">
-        <owl:versionIRI rdf:resource="http://ontologies.mfn-berlin.de/ikon/1.3.0"/>
+    <owl:Ontology rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon">
+        <owl:versionIRI rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/annotation/annotation.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/wt/wissenstransfer.owl#1.0.0"/>
         <owl:imports rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/dfg/fachsystematik/dfg-fachsystematik.owl#1.0.0"/>
@@ -469,7 +469,7 @@ Forschungseinrichtungen&quot; der Gemeinsamen Wissenschaftskonferenz
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Promotionskooperationspartner"/>
-                    <rdf:Description rdf:about="http://ontologies.mfn-berlin.de/ikon#Kooperationspartner"/>
+                    <rdf:Description rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Kooperationspartner"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -1010,14 +1010,14 @@ access).</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#hatAntragsteller -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatAntragsteller -->
 
-    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#hatAntragsteller">
+    <owl:ObjectProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatAntragsteller">
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
         <mapping>Antragsteller</mapping>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatAntragsteller-001"/>
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#hatAntragsteller-001"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">has Applicant</rdfs:label>
         <rdfs:label xml:lang="de">hat Antragsteller</rdfs:label>
     </owl:ObjectProperty>
@@ -1063,13 +1063,13 @@ access).</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType" />
     </owl:Class>
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#WorkPhone -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#WorkPhone -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#WorkPhone">
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#WorkPhone">
         <rdfs:label xml:lang="en">Work</rdfs:label>
         <rdfs:label xml:lang="de">Arbeit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType" />
-        <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Work-001" />
+        <owl:versionInfo rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Work-001" />
     </owl:Class>
 
     <!-- http://www.w3.org/2006/vcard/ns#hasValue -->
@@ -1081,9 +1081,9 @@ access).</rdfs:comment>
 
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#hatLeitthema -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatLeitthema -->
 
-    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#hatLeitthema">
+    <owl:ObjectProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatLeitthema">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -1092,41 +1092,41 @@ access).</rdfs:comment>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://ontologies.mfn-berlin.de/ikon#Leitthema"/>
+        <rdfs:range rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Leitthema"/>
         <mapping>Leitthema</mapping>
         <rdfs:comment>stable</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">has Guiding Theme</rdfs:label>
         <rdfs:label xml:lang="de">hat Leitthema</rdfs:label>
-        <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLeitthema-001"/>
+        <owl:versionInfo rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#hatLeitthema-001"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#hatProjektleiter -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatProjektleiter -->
 
-    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#hatProjektleiter">
+    <owl:ObjectProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#hatProjektleiter">
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
         <mapping>Projektleiter</mapping>
         <rdfs:comment>stable</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">has Project Manager</rdfs:label>
         <rdfs:label xml:lang="de">hat Projektleiter</rdfs:label>
-        <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatProjektleiter-001"/>
+        <owl:versionInfo rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#hatProjektleiter-001"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#precedingWork -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#precedingWork -->
 
-    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#precedingWork">
+    <owl:ObjectProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#precedingWork">
         <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#predecessor"/>
-        <owl:inverseOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#succeedingProject"/>
+        <owl:inverseOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#succeedingProject"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#precedingWork-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#precedingWork-001"/>
         <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
         <rdfs:label xml:lang="de">Vorgängerprojekt</rdfs:label>
         <rdfs:label xml:lang="en">preceding project</rdfs:label>
@@ -1134,14 +1134,14 @@ access).</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#succeedingProject -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#succeedingProject -->
 
-    <owl:ObjectProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#succeedingProject">
+    <owl:ObjectProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#succeedingProject">
         <rdfs:subPropertyOf rdf:resource="http://d-nb.info/standards/elementset/gnd#successor"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#succeedingProject-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#succeedingProject-001"/>
         <rdfs:isDefinedBy rdf:resource="http://d-nb.info/standards/elementset/gnd#"/>
         <rdfs:label xml:lang="de">Nachfolgendes Projekt</rdfs:label>
         <rdfs:label xml:lang="en">succeeding project</rdfs:label>
@@ -2655,9 +2655,9 @@ zugeordnet.</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#TitelProjektKurz -->
 
-    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#TitelProjektKurz">
+    <owl:DatatypeProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#TitelProjektKurz">
         <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -2668,9 +2668,9 @@ zugeordnet.</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#TitelProjektRedaktionell -->
 
-    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#TitelProjektRedaktionell">
+    <owl:DatatypeProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#TitelProjektRedaktionell">
         <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -2682,14 +2682,14 @@ zugeordnet.</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#middleName -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#middleName -->
 
-    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon#middleName">
+    <owl:DatatypeProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#middleName">
         <rdfs:subPropertyOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Name"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment xml:lang="en">The middle name of a person.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Middle name</rdfs:label>
         <rdfs:label xml:lang="de">Zweiter Vorname</rdfs:label>
         <vs:term_status>testing</vs:term_status>
@@ -2697,12 +2697,12 @@ zugeordnet.</rdfs:comment>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon##hatLebenslauf -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon##hatLebenslauf -->
 
-    <owl:DatatypeProperty rdf:about="http://ontologies.mfn-berlin.de/ikon##hatLebenslauf">
+    <owl:DatatypeProperty rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon##hatLebenslauf">
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#hatLebenslauf-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#hatLebenslauf-001"/>
         <rdfs:comment xml:lang="de">Der Lebenslauf einer Person in Textform.</rdfs:comment>
         <rdfs:label xml:lang="en">has Curriculum Vitae</rdfs:label>
         <rdfs:label xml:lang="de">hat Lebenslauf</rdfs:label>
@@ -5389,20 +5389,20 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Co-Leitung -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Co-Leitung -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Co-Leitung">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Co-Leitung-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Co-Leitung">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Co-Leitung-001"/>
         <rdfs:label xml:lang="de">Co-Leitung</rdfs:label>
         <rdfs:label xml:lang="en">Deputy Head</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Forschungsbereich -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Forschungsbereich -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Forschungsbereich">
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Forschungsbereich">
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Organisationseinheit"/>
         <rdfs:label xml:lang="de">Forschungsbereich</rdfs:label>
         <rdfs:label xml:lang="en">Science Programme</rdfs:label>
@@ -5410,96 +5410,96 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Generaldirektor -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Generaldirektor -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Generaldirektor">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Generaldirektor-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Generaldirektor">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Generaldirektor-001"/>
         <rdfs:label xml:lang="en">General Director</rdfs:label>
         <rdfs:label xml:lang="de">Generaldirektor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Geschaeftsfuehrer -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Geschaeftsfuehrer -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Geschaeftsfuehrer">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Geschaeftsfuehrer-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Geschaeftsfuehrer">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Geschaeftsfuehrer-001"/>
         <rdfs:label xml:lang="de">Geschäftsführer</rdfs:label>
         <rdfs:label xml:lang="en">Managing Director</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Kooperationspartner -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Kooperationspartner -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Kooperationspartner">
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Kooperationspartner">
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Cooperation partner</rdfs:label>
         <rdfs:label xml:lang="de">Kooperationspartner</rdfs:label>
-        <owl:versionInfo rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kooperationspartner-001"/>
+        <owl:versionInfo rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Kooperationspartner-001"/>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Leitthema -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Leitthema -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Leitthema">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Leitthema-001"/>
-        <rdfs:isDefinedBy rdf:resource="http://ontologies.mfn-berlin.de/ikon#"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Leitthema">
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Leitthema-001"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Guiding theme</rdfs:label>
         <rdfs:label xml:lang="de">Leitthema</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Leitung -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Leitung -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Leitung">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Leitung-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Leitung">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Leitung-001"/>
         <rdfs:label xml:lang="en">Head</rdfs:label>
         <rdfs:label xml:lang="de">Leitung</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Organisationsrolle -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Organisationsrolle-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle">
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Organisationsrolle-001"/>
         <rdfs:label xml:lang="de">Organisationsrolle</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Programmbereich -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Programmbereich -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Programmbereich">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Programmbereich-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Programmbereich">
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Programmbereich-001"/>
         <rdfs:label xml:lang="de">Programmbereich</rdfs:label>
         <rdfs:label xml:lang="en">Science Theme</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Sekretariat -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Sekretariat -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Sekretariat">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Sekretariat-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Sekretariat">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Sekretariat-001"/>
         <rdfs:label xml:lang="en">Secretariat</rdfs:label>
         <rdfs:label xml:lang="de">Sekretariat</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon#Stellvertreter -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Stellvertreter -->
 
-    <owl:Class rdf:about="http://ontologies.mfn-berlin.de/ikon#Stellvertreter">
-        <rdfs:subClassOf rdf:resource="http://ontologies.mfn-berlin.de/ikon#Organisationsrolle"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Stellvertreter-001"/>
+    <owl:Class rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Stellvertreter">
+        <rdfs:subClassOf rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Organisationsrolle"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Stellvertreter-001"/>
         <rdfs:label xml:lang="en">Deputy</rdfs:label>
         <rdfs:label xml:lang="de">Stellvertreter</rdfs:label>
     </owl:Class>
@@ -5596,9 +5596,9 @@ veröffentlicht wird. Die Kategorie schließt auch Preprints ein.</skos:definiti
     
 
 
-    <!-- http://ontologies.mfn-berlin.de/ikon -->
+    <!-- http://ikon.code.naturkundemuseum.berlin/ontologies/ikon -->
 
-    <owl:NamedIndividual rdf:about="http://ontologies.mfn-berlin.de/ikon"/>
+    <owl:NamedIndividual rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon"/>
     
 
 

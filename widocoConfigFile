@@ -1,14 +1,14 @@
 
-abstract=
+abstract=Shared instances.
 ontologyTitle=IKON Ontology
 ontologyPrefix=ikon
-ontologyNamespaceURI=http://ontologies.mfn-berlin.de/ikon
-ontologyName=IKON Ontology
-thisVersionURI=http://ontologies.mfn-berlin.de/ikon/1.2.2
+ontologyNamespaceURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon
+ontologyName=DFG Fachsystematik
+thisVersionURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0
 latestVersionURI=
 previousVersionURI=
 dateOfRelease=
-ontologyRevisionNumber=1.2.2
+ontologyRevisionNumber=1.3.0
 licenseURI=null
 licenseName=null
 licenseIconURL=null

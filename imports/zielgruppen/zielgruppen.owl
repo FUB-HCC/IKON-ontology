@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ikon="http://ontologies.mfn-berlin.de/ikon#"
+     xmlns:ikon="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"
      xmlns:Basis="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -133,7 +133,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Anwenden">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Handlungsfeld"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Anwenden-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Anwenden-001"/>
         <rdfs:label xml:lang="de">Anwenden</rdfs:label>
         <rdfs:label xml:lang="en">Application</rdfs:label>
     </owl:Class>
@@ -144,7 +144,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Beraten">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Handlungsfeld"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Beraten-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Beraten-001"/>
         <rdfs:label xml:lang="de">Beraten</rdfs:label>
         <rdfs:label xml:lang="en">Consulting</rdfs:label>
     </owl:Class>
@@ -155,7 +155,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Direkt">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppenart"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Direkt-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Direkt-001"/>
         <rdfs:label xml:lang="en">Direct</rdfs:label>
         <rdfs:label xml:lang="de">Direkt</rdfs:label>
     </owl:Class>
@@ -165,7 +165,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Einheit -->
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Einheit">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Einheit-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Einheit-001"/>
         <rdfs:label xml:lang="de">Einheit/Ebene</rdfs:label>
         <rdfs:label xml:lang="en">Unit</rdfs:label>
     </owl:Class>
@@ -176,7 +176,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Gesellschaft">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Gesellschaft-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Gesellschaft-001"/>
         <rdfs:label xml:lang="de">Gesellschaft</rdfs:label>
         <rdfs:label xml:lang="en">Society</rdfs:label>
     </owl:Class>
@@ -187,7 +187,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Handlungsfeld">
         <owl:disjointWith rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wissenstransferaktivitaet"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Handlungsfeld-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Handlungsfeld-001"/>
         <rdfs:label xml:lang="en">Area of application</rdfs:label>
         <rdfs:label xml:lang="de">Handlungsfeld</rdfs:label>
     </owl:Class>
@@ -198,7 +198,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Indirekt">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppenart"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Indirekt-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Indirekt-001"/>
         <rdfs:comment xml:lang="de">Vermittler</rdfs:comment>
         <rdfs:label xml:lang="en">Indirect</rdfs:label>
         <rdfs:label xml:lang="de">Indirekt</rdfs:label>
@@ -210,7 +210,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Individuum">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Einheit"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Individuum-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Individuum-001"/>
         <rdfs:label xml:lang="en">Individual</rdfs:label>
         <rdfs:label xml:lang="de">Individuum</rdfs:label>
     </owl:Class>
@@ -221,7 +221,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Institution">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Einheit"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Institution-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Institution-001"/>
         <rdfs:label xml:lang="de">Institution</rdfs:label>
         <rdfs:label xml:lang="en">Institution</rdfs:label>
     </owl:Class>
@@ -232,7 +232,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Kommunizieren">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Handlungsfeld"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kommunizieren-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Kommunizieren-001"/>
         <rdfs:label xml:lang="en">Communication</rdfs:label>
         <rdfs:label xml:lang="de">Kommunizieren</rdfs:label>
     </owl:Class>
@@ -243,7 +243,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Kultur">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Kultur-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Kultur-001"/>
         <rdfs:label xml:lang="en">Culture</rdfs:label>
         <rdfs:label xml:lang="de">Kultur</rdfs:label>
     </owl:Class>
@@ -254,7 +254,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Unternehmen">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Einheit"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unternehmen-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Unternehmen-001"/>
         <rdfs:label xml:lang="en">Company</rdfs:label>
         <rdfs:label xml:lang="de">Unternehmen</rdfs:label>
     </owl:Class>
@@ -265,7 +265,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Unterzielgruppe">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppe"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Unterzielgruppe-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Unterzielgruppe-001"/>
         <rdfs:label xml:lang="en">Sub-group of audience</rdfs:label>
         <rdfs:label xml:lang="de">Unterzielgruppe</rdfs:label>
     </owl:Class>
@@ -275,7 +275,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich -->
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wirkungsbereich-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Wirkungsbereich-001"/>
         <rdfs:label xml:lang="de">Wirkungsbereich</rdfs:label>
     </owl:Class>
     
@@ -285,7 +285,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirtschaft">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wirtschaft-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Wirtschaft-001"/>
         <rdfs:label xml:lang="en">Economy</rdfs:label>
         <rdfs:label xml:lang="de">Wirtschaft</rdfs:label>
     </owl:Class>
@@ -296,7 +296,7 @@
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wissenschaft">
         <rdfs:subClassOf rdf:resource="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wirkungsbereich"/>
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenschaft-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Wissenschaft-001"/>
         <rdfs:label xml:lang="en">Science</rdfs:label>
         <rdfs:label xml:lang="de">Wissenschaft</rdfs:label>
     </owl:Class>
@@ -306,7 +306,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wissenstransferaktivitaet -->
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Wissenstransferaktivitaet">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Wissenstransferaktivitaet-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Wissenstransferaktivitaet-001"/>
         <rdfs:label xml:lang="en">Knowledge transfer activity</rdfs:label>
         <rdfs:label xml:lang="de">Wissenstransferaktivität</rdfs:label>
     </owl:Class>
@@ -316,7 +316,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppe -->
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppe">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppe-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Zielgruppe-001"/>
         <rdfs:label xml:lang="en">Target audience</rdfs:label>
         <rdfs:label xml:lang="de">Zielgruppe</rdfs:label>
     </owl:Class>
@@ -326,7 +326,7 @@
     <!-- https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppenart -->
 
     <owl:Class rdf:about="https://fub-hcc.github.io/IKON-ontology/imports/zielgruppen/zielgruppen.owl#Zielgruppenart">
-        <dct:hasVersion rdf:resource="http://ontologies.mfn-berlin.de/ikon/history#Zielgruppenart-001"/>
+        <dct:hasVersion rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/history#Zielgruppenart-001"/>
         <rdfs:label xml:lang="en">Type of target audience</rdfs:label>
         <rdfs:label xml:lang="de">Zielgruppenart</rdfs:label>
     </owl:Class>
