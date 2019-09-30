@@ -1,21 +1,21 @@
 
-abstract=Shared instances.
-ontologyTitle=IKON Ontology
+abstract=A RDF vocabulary for describing knowledge transfer activities at research organisations.
+ontologyTitle=IKON Ontology, semantic MediaWiki fork
 ontologyPrefix=ikon
 ontologyNamespaceURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon
-ontologyName=DFG Fachsystematik
-thisVersionURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0
+ontologyName=IKON Ontology, semantic MediaWiki fork
+thisVersionURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0
 latestVersionURI=
 previousVersionURI=
 dateOfRelease=
-ontologyRevisionNumber=1.3.0
+ontologyRevisionNumber=2.0
 licenseURI=null
 licenseName=null
 licenseIconURL=null
 citeAs=
 DOI=
 status=Ontology Specification Draft
-backwardsCompatibleWith=
+backwardsCompatibleWith=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0
 publisher=null
 publisherURI=null
 publisherInstitution=null
