@@ -24,6 +24,11 @@
         "language" : "undefined",
         "value" : "Jonas Oppenlaender, Freie Universität Berlin",
         "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Human-Centered Computing Lab (HCC.lab), Freie Universität Berlin",
+        "type" : "label"
       } ],
       "preferredNamespacePrefix" : [ {
         "identifier" : "preferredNamespacePrefix",
@@ -2056,7 +2061,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },
@@ -2138,7 +2143,7 @@
     "comment" : {
       "de" : "Allgemeinverständliche Beschreibung der Haupttätigkeiten in der Forschungsinfrastruktur: In Verben vermitteln, was hier gemacht wird, zu welchen Forschungsaspekten die Arbeit beiträgt."
     },
-    "attributes" : [ "object", "external", "functional" ],
+    "attributes" : [ "external", "object", "functional" ],
     "id" : "17"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -2149,7 +2154,7 @@
     },
     "domain" : "21",
     "subproperty" : [ "22" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "20"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HatMittelgeber",
@@ -2215,7 +2220,7 @@
     "comment" : {
       "de" : "Allgemeinverständliche Beschreibung der Haupttätigkeiten in der Forschungsinfrastruktur: In Verben vermitteln, was hier gemacht wird, zu welchen Forschungsaspekten die Arbeit beiträgt."
     },
-    "attributes" : [ "object", "external", "functional" ],
+    "attributes" : [ "external", "object", "functional" ],
     "id" : "30"
   }, {
     "range" : "1",
@@ -2347,7 +2352,7 @@
     },
     "superproperty" : [ "20" ],
     "domain" : "15",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "22"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Statusmeldung",
@@ -2357,7 +2362,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },
@@ -2420,7 +2425,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },
@@ -2478,7 +2483,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },
@@ -2512,7 +2517,7 @@
     "label" : {
       "de" : "Thema",
       "IRI-based" : "hasSubjectArea",
-      "en-us" : "has subject area"
+      "en-us" : "has file"
     },
     "domain" : "15",
     "attributes" : [ "datatype", "external" ],
@@ -2553,7 +2558,7 @@
     "comment" : {
       "de" : "\n      Forschungsbereich und Abteilung des Museums\n    "
     },
-    "attributes" : [ "object", "external", "functional" ],
+    "attributes" : [ "external", "object", "functional" ],
     "id" : "80"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#KurzBeschreibungDerForschungsinfrastruktur",
@@ -2611,7 +2616,7 @@
       "en-us" : "has project"
     },
     "domain" : "15",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "86"
   }, {
     "iri" : "http://vivoweb.org/ontology/core/ikon#HatArbeitsfeld",
@@ -2623,7 +2628,7 @@
       "en" : "In-house work area"
     },
     "domain" : "15",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "87"
   }, {
     "iri" : "http://d-nb.info/standards/elementset/gnd#successor",
@@ -2634,7 +2639,7 @@
     },
     "domain" : "90",
     "subproperty" : [ "91" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "89"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt",
@@ -2926,7 +2931,7 @@
       "en-us" : "has in-house project"
     },
     "domain" : "15",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "135"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#sector",
@@ -3133,7 +3138,7 @@
     "comment" : {
       "de" : "\n      Interne Projektnummer des übergeordneten Projekts\n    "
     },
-    "attributes" : [ "object", "external", "functional" ],
+    "attributes" : [ "external", "object", "functional" ],
     "id" : "154"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HatAnsprechpartner2",
@@ -3168,7 +3173,7 @@
       "en-us" : "has thesis project"
     },
     "domain" : "15",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "156"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Status",
@@ -3178,7 +3183,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },
@@ -3502,7 +3507,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#",
+        "value" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#",
         "type" : "iri"
       } ]
     },

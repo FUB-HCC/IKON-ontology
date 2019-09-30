@@ -14,13 +14,14 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon">
-        <owl:versionIRI rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0"/>
+        <owl:versionIRI rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/2.0"/>
         <dc:description xml:lang="en">A RDF vocabulary for describing knowledge transfer activities at research organisations.</dc:description>
         <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
         <dc:title xml:lang="de">IKON Ontologie</dc:title>
         <dc:title xml:lang="en">IKON Ontology</dc:title>
         <vann:preferredNamespacePrefix xml:lang="en">ikon</vann:preferredNamespacePrefix>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alvaro Ortiz-Troncoso, Museum für Naturkunde Berlin</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human-Centered Computing Lab (HCC.lab), Freie Universität Berlin</rdfs:isDefinedBy>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonas Oppenlaender, Freie Universität Berlin</rdfs:isDefinedBy>
         <owl:backwardCompatibleWith rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
@@ -883,7 +884,7 @@
         <rdfs:comment xml:lang="de">
       Meldungen werden nur in den Bearbeitungsstatus „Überarbeiten“ und „Freigegeben“ angezeigt.
     </rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Meldung</rdfs:label>
         <rdfs:label xml:lang="en">Message</rdfs:label>
     </owl:DatatypeProperty>
@@ -2020,7 +2021,7 @@
 
     <rdf:Description rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Abbildung">
         <rdfs:comment xml:lang="de">Auswahlfeld für eine zuvor hochgeladene Bilddatei</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Abbildung</rdfs:label>
         <rdfs:label xml:lang="en">Depiction</rdfs:label>
     </rdf:Description>
@@ -2046,19 +2047,19 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Beschriftung">
         <rdfs:comment xml:lang="de">Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. </rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Beschriftung der Abbildung</rdfs:label>
         <rdfs:label xml:lang="en">Caption of the image</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#ForschungsinfrastrukturAbbildung">
         <rdfs:comment xml:lang="de">Auswahlfeld für eine zuvor hochgeladene Bilddatei</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Abbildung</rdfs:label>
         <rdfs:label xml:lang="en">Depiction</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#ForschungsinfrastrukturAbbildungBeschriftung">
         <rdfs:comment xml:lang="de">Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. </rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Beschriftung der Abbildung</rdfs:label>
         <rdfs:label xml:lang="en">Caption of the image</rdfs:label>
     </rdf:Description>
@@ -2136,7 +2137,7 @@
     ;[[Erlaubt Wert::Freigegeben]] (Überprüft)
     :Der Artikel wurde freigegeben. Der Name der freigebenden Person und das Datum werden in der Statusmeldung angegeben.
     </rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="de">Status</rdfs:label>
         <rdfs:label xml:lang="en">Status</rdfs:label>
     </rdf:Description>

@@ -21,9 +21,10 @@
       <dc:description xml:lang="en">A RDF vocabulary for describing knowledge transfer activities at research organisations.</dc:description>
       <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
       <rdfs:isDefinedBy>Jonas Oppenlaender, Freie Universität Berlin</rdfs:isDefinedBy>
+      <rdfs:isDefinedBy>Human-Centered Computing Lab (HCC.lab), Freie Universität Berlin</rdfs:isDefinedBy>
       <rdfs:isDefinedBy>Alvaro Ortiz-Troncoso, Museum für Naturkunde Berlin</rdfs:isDefinedBy>
       <vann:preferredNamespacePrefix xml:lang="en">ikon</vann:preferredNamespacePrefix>
-      <owl:versionIRI rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0"/>
+      <owl:versionIRI rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/2.0"/>
       <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
       <owl:backwardCompatibleWith rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0"/>
     </owl:Ontology>
@@ -51,7 +52,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Tätigkeit"/>
         <rdfs:range rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#StatusLevel"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Status</rdfs:label>
         <rdfs:label xml:lang="de">Status</rdfs:label>
         <rdfs:comment xml:lang="de">Der Bearbeitungsstatus im Redaktionssystem.
@@ -72,7 +73,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Tätigkeit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Message</rdfs:label>
         <rdfs:label xml:lang="de">Meldung</rdfs:label>
         <rdfs:comment xml:lang="de">
@@ -407,7 +408,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Tätigkeit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#String"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Depiction</rdfs:label>
         <rdfs:label xml:lang="de">Abbildung</rdfs:label>
         <rdfs:comment xml:lang="de">Auswahlfeld für eine zuvor hochgeladene Bilddatei</rdfs:comment>
@@ -419,7 +420,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Tätigkeit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#String"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Caption of the image</rdfs:label>
         <rdfs:label xml:lang="de">Beschriftung der Abbildung</rdfs:label>
         <rdfs:comment xml:lang="de">Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. </rdfs:comment>
@@ -964,7 +965,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#String"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Depiction</rdfs:label>
         <rdfs:label xml:lang="de">Abbildung</rdfs:label>
         <rdfs:comment xml:lang="de">Auswahlfeld für eine zuvor hochgeladene Bilddatei</rdfs:comment>
@@ -976,7 +977,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#Forschungsinfrastruktur"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#String"/>
-        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"/>
+        <rdfs:isDefinedBy rdf:resource="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#"/>
         <rdfs:label xml:lang="en">Caption of the image</rdfs:label>
         <rdfs:label xml:lang="de">Beschriftung der Abbildung</rdfs:label>
         <rdfs:comment xml:lang="de">Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. </rdfs:comment>

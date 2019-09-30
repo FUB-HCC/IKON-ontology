@@ -7,13 +7,14 @@
 @base <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> .
 
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> rdf:type owl:Ontology ;
-                                                            owl:versionIRI <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0> ;
+                                                            owl:versionIRI <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/2.0> ;
                                                             <http://purl.org/dc/elements/1.1/description> "A RDF vocabulary for describing knowledge transfer activities at research organisations."@en ,
                                                                                                           "RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen."@de ;
                                                             <http://purl.org/dc/elements/1.1/title> "IKON Ontologie"@de ,
                                                                                                     "IKON Ontology"@en ;
                                                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "ikon"@en ;
                                                             rdfs:isDefinedBy "Alvaro Ortiz-Troncoso, Museum für Naturkunde Berlin"^^xsd:string ,
+                                                                             "Human-Centered Computing Lab (HCC.lab), Freie Universität Berlin"^^xsd:string ,
                                                                              "Jonas Oppenlaender, Freie Universität Berlin"^^xsd:string ;
                                                             owl:backwardCompatibleWith <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0> ;
                                                             owl:versionInfo "2.0"^^xsd:string .
@@ -556,7 +557,7 @@ xsd:date rdf:type rdfs:Datatype .
                rdfs:comment """
       Meldungen werden nur in den Bearbeitungsstatus „Überarbeiten“ und „Freigegeben“ angezeigt.
     """@de ;
-               rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+               rdfs:isDefinedBy : ;
                rdfs:label "Meldung"@de ,
                           "Message"@en .
 
@@ -1313,7 +1314,7 @@ xsd:String rdf:type owl:Class .
 #################################################################
 
 :Abbildung rdfs:comment "Auswahlfeld für eine zuvor hochgeladene Bilddatei"@de ;
-           rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+           rdfs:isDefinedBy : ;
            rdfs:label "Abbildung"@de ,
                       "Depiction"@en .
 
@@ -1339,19 +1340,19 @@ xsd:String rdf:type owl:Class .
 
 
 :Beschriftung rdfs:comment "Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. "@de ;
-              rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+              rdfs:isDefinedBy : ;
               rdfs:label "Beschriftung der Abbildung"@de ,
                          "Caption of the image"@en .
 
 
 :ForschungsinfrastrukturAbbildung rdfs:comment "Auswahlfeld für eine zuvor hochgeladene Bilddatei"@de ;
-                                  rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+                                  rdfs:isDefinedBy : ;
                                   rdfs:label "Abbildung"@de ,
                                              "Depiction"@en .
 
 
 :ForschungsinfrastrukturAbbildungBeschriftung rdfs:comment "Grundsätzlich gilt, dass jede verwendete Abbildung zu erläutern / zu beschreiben ist. "@de ;
-                                              rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+                                              rdfs:isDefinedBy : ;
                                               rdfs:label "Beschriftung der Abbildung"@de ,
                                                          "Caption of the image"@en .
 
@@ -1429,7 +1430,7 @@ xsd:String rdf:type owl:Class .
     ;[[Erlaubt Wert::Freigegeben]] (Überprüft)
     :Der Artikel wurde freigegeben. Der Name der freigebenden Person und das Datum werden in der Statusmeldung angegeben.
     """@de ;
-        rdfs:isDefinedBy <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#> ;
+        rdfs:isDefinedBy : ;
         rdfs:label "Status"@de ,
                    "Status"@en .
 
