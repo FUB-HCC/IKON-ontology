@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw#"
-    xml:base="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw"
+<rdf:RDF xmlns="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon"
+    xml:base="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon"
     xmlns:Meta="http://kerndatensatz-forschung.de/owl/Meta#"
     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -16,8 +16,8 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ikon.code.naturkundemuseum.berlin/ontologies/ikon">
-      <dc:title xml:lang="en">IKON Ontology, semantic MediaWiki fork</dc:title>
-      <dc:title xml:lang="de">IKON Ontologie, Fork für Sematic MediWiki</dc:title>
+      <dc:title xml:lang="en">IKON Ontology</dc:title>
+      <dc:title xml:lang="de">IKON Ontologie</dc:title>
       <dc:description xml:lang="en">A RDF vocabulary for describing knowledge transfer activities at research organisations.</dc:description>
       <dc:description xml:lang="de">RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen.</dc:description>
       <rdfs:isDefinedBy>Jonas Oppenlaender, Freie Universität Berlin</rdfs:isDefinedBy>

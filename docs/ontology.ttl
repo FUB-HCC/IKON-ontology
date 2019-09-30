@@ -10,12 +10,11 @@
                                                             owl:versionIRI <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0> ;
                                                             <http://purl.org/dc/elements/1.1/description> "A RDF vocabulary for describing knowledge transfer activities at research organisations."@en ,
                                                                                                           "RDF Vokabular zur Beschreibung der Wissenstransferaktivitäten in Forschungsorganisationen."@de ;
-                                                            <http://purl.org/dc/elements/1.1/title> "IKON Ontologie, Fork für Sematic MediWiki"@de ,
-                                                                                                    "IKON Ontology, semantic MediaWiki fork"@en ;
+                                                            <http://purl.org/dc/elements/1.1/title> "IKON Ontologie"@de ,
+                                                                                                    "IKON Ontology"@en ;
                                                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "ikon"@en ;
                                                             rdfs:isDefinedBy "Alvaro Ortiz-Troncoso, Museum für Naturkunde Berlin"^^xsd:string ,
-                                                                             "Jonas Oppenlaender, Freie Universität Berlin"^^xsd:string ,
-                                                                             "Nicolo Knapp, Freie Universität Berlin"^^xsd:string ;
+                                                                             "Jonas Oppenlaender, Freie Universität Berlin"^^xsd:string ;
                                                             owl:backwardCompatibleWith <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0> ;
                                                             owl:versionInfo "2.0"^^xsd:string .
 

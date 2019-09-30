@@ -2,12 +2,11 @@
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2002/07/owl#versionIRI> <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0> .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/description> "A RDF vocabulary for describing knowledge transfer activities at research organisations."@en .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/description> "RDF Vokabular zur Beschreibung der Wissenstransferaktivit\u00E4ten in Forschungsorganisationen."@de .
-<http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/title> "IKON Ontologie, Fork f\u00FCr Sematic MediWiki"@de .
-<http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/title> "IKON Ontology, semantic MediaWiki fork"@en .
+<http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/title> "IKON Ontologie"@de .
+<http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/dc/elements/1.1/title> "IKON Ontology"@en .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ikon"@en .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Alvaro Ortiz-Troncoso, Museum f\u00FCr Naturkunde Berlin" .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Jonas Oppenlaender, Freie Universit\u00E4t Berlin" .
-<http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Nicolo Knapp, Freie Universit\u00E4t Berlin" .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/1.3.0> .
 <http://ikon.code.naturkundemuseum.berlin/ontologies/ikon> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
 # 

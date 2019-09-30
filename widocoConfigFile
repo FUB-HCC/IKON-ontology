@@ -1,9 +1,9 @@
 
 abstract=A RDF vocabulary for describing knowledge transfer activities at research organisations.
-ontologyTitle=IKON Ontology, semantic MediaWiki fork
+ontologyTitle=IKON Ontology
 ontologyPrefix=ikon
 ontologyNamespaceURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon
-ontologyName=IKON Ontology, semantic MediaWiki fork
+ontologyName=IKON Ontology
 thisVersionURI=http://ikon.code.naturkundemuseum.berlin/ontologies/ikon/smw-2.0
 latestVersionURI=
 previousVersionURI=

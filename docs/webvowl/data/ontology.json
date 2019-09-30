@@ -4,8 +4,8 @@
     "languages" : [ "de", "en-us", "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis", "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://vivoweb.org/ontology/core", "http://vivoweb.org/ontology/core/ikon", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://d-nb.info/standards/elementset/gnd" ],
     "title" : {
-      "de" : "IKON Ontologie, Fork für Sematic MediWiki",
-      "en" : "IKON Ontology, semantic MediaWiki fork"
+      "de" : "IKON Ontologie",
+      "en" : "IKON Ontology"
     },
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon",
     "version" : "2.0",
@@ -18,11 +18,6 @@
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "Alvaro Ortiz-Troncoso, Museum für Naturkunde Berlin",
-        "type" : "label"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Nicolo Knapp, Freie Universität Berlin",
         "type" : "label"
       }, {
         "identifier" : "isDefinedBy",
@@ -45,12 +40,12 @@
       "title" : [ {
         "identifier" : "title",
         "language" : "de",
-        "value" : "IKON Ontologie, Fork für Sematic MediWiki",
+        "value" : "IKON Ontologie",
         "type" : "label"
       }, {
         "identifier" : "title",
         "language" : "en",
-        "value" : "IKON Ontology, semantic MediaWiki fork",
+        "value" : "IKON Ontology",
         "type" : "label"
       } ],
       "backwardCompatibleWith" : [ {
@@ -2143,7 +2138,7 @@
     "comment" : {
       "de" : "Allgemeinverständliche Beschreibung der Haupttätigkeiten in der Forschungsinfrastruktur: In Verben vermitteln, was hier gemacht wird, zu welchen Forschungsaspekten die Arbeit beiträgt."
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "17"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -2154,7 +2149,7 @@
     },
     "domain" : "21",
     "subproperty" : [ "22" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "20"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HatMittelgeber",
@@ -2220,7 +2215,7 @@
     "comment" : {
       "de" : "Allgemeinverständliche Beschreibung der Haupttätigkeiten in der Forschungsinfrastruktur: In Verben vermitteln, was hier gemacht wird, zu welchen Forschungsaspekten die Arbeit beiträgt."
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "30"
   }, {
     "range" : "1",
@@ -2352,7 +2347,7 @@
     },
     "superproperty" : [ "20" ],
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "22"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Statusmeldung",
@@ -2517,7 +2512,7 @@
     "label" : {
       "de" : "Thema",
       "IRI-based" : "hasSubjectArea",
-      "en-us" : "has file"
+      "en-us" : "has subject area"
     },
     "domain" : "15",
     "attributes" : [ "datatype", "external" ],
@@ -2558,7 +2553,7 @@
     "comment" : {
       "de" : "\n      Forschungsbereich und Abteilung des Museums\n    "
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "80"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#KurzBeschreibungDerForschungsinfrastruktur",
@@ -2616,7 +2611,7 @@
       "en-us" : "has project"
     },
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "86"
   }, {
     "iri" : "http://vivoweb.org/ontology/core/ikon#HatArbeitsfeld",
@@ -2628,7 +2623,7 @@
       "en" : "In-house work area"
     },
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "87"
   }, {
     "iri" : "http://d-nb.info/standards/elementset/gnd#successor",
@@ -2639,7 +2634,7 @@
     },
     "domain" : "90",
     "subproperty" : [ "91" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "89"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#TitelProjekt",
@@ -2931,7 +2926,7 @@
       "en-us" : "has in-house project"
     },
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "135"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#sector",
@@ -3138,7 +3133,7 @@
     "comment" : {
       "de" : "\n      Interne Projektnummer des übergeordneten Projekts\n    "
     },
-    "attributes" : [ "external", "object", "functional" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "154"
   }, {
     "iri" : "http://kerndatensatz-forschung.de/version1/technisches_datenmodell/owl/Basis#HatAnsprechpartner2",
@@ -3173,7 +3168,7 @@
       "en-us" : "has thesis project"
     },
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "156"
   }, {
     "iri" : "http://ikon.code.naturkundemuseum.berlin/ontologies/ikon#Status",
